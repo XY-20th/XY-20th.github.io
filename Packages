@@ -3988,6 +3988,24 @@ Icon: https://axs66.github.io/repo/icon/vitreux.png
 Name: Vitreux 液态玻璃
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/vitreux/js.json
 
+Package: com.nan.bindfs
+Version: 0.7.3
+Architecture: iphoneos-arm64
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/com.nan.bindfs_0.7.3_iphoneos-arm64.deb
+Size: 59480
+MD5sum: ace8bb859fe511e0475d4d74b420880c
+SHA1: 3777b502f0b69ab44f51f54122952138cd9d3efe
+SHA256: 802858c8109416a1581d19e2ff3cbf8e4ded70222dc58117f724d0c9e792ea6a
+Section: Tweaks
+Description: bindfs 挂载工具
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+Name: mount_bindfs
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+
 Package: com.necromancy.tweak
 Version: 1.2.6
 Architecture: iphoneos-arm64
@@ -9268,10 +9286,10 @@ Maintainer: ylr
 Installed-Size: 204
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: debs/com.ylr.abcslim_1.5.5_iphoneos-arm64.deb
-Size: 18566
-MD5sum: 692177055bbc544c7edeca32b22e7634
-SHA1: 3e868c897c3bf5f0b036636eebe618ef6328a9aa
-SHA256: 1544ed503b4878955f55d66b9761d444a6ab0bf44752fa3f9cf22356f7ca31b3
+Size: 17826
+MD5sum: ac0179cd67a582c14cfb10b48b8aaf30
+SHA1: 2eec42914f08dfdb193268519a999a18b5f9459c
+SHA256: 8bec2746d354cff4f4725e7b30aa51115204ca49d69b812a5f396407e432a1bd
 Section: Tweaks
 Description: 农业银行 11.3.0 专用
  仅保留去开屏和屏蔽越狱/Frida 等环境检测；仅供娱乐效果，如有传播请马上卸载！
