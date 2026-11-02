@@ -14,6 +14,40 @@ Description: Troll your speed, but jailbroken.
 Author: Lessica <82flex@gmail.com>
 Name: TrollSpeed JB
 
+Package: cn.dao.relaxin.cocoatop
+Version: 2.3.3
+Architecture: iphoneos-arm64e
+Maintainer: SXX, Domo
+Installed-Size: 936
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject, cn.zqbb.cocoatop64.relaxin
+Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Filename: debs/cn.dao.relaxin.cocoatop_2.3.3_iphoneos-arm64e.deb
+Size: 243858
+MD5sum: ab409d00bda636a5f0dcb778a55e694a
+SHA1: 30966060e399ebf776ff2c844775976983edc94a
+SHA256: 52ef729253cbbe211082f30f55d7516991a569c26de7ca2d975007197f9fc0ad
+Section: Tweaks
+Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI微调+更新图标等。
+Author: Domo, SXX
+Name: CocoaTop64 中文版(Relaxin)
+
+Package: cn.dao.relaxin.cocoatop
+Version: 2.3.3.1
+Architecture: iphoneos-arm64e
+Maintainer: SXX, Domo
+Installed-Size: 936
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject, cn.zqbb.cocoatop64.relaxin
+Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Filename: debs/cn.dao.relaxin.cocoatop_2.3.3.1_iphoneos-arm64e.deb
+Size: 265294
+MD5sum: 425caf7c04ecaf843dbcdaac595e8d06
+SHA1: c7074af9ad064aab639f54625971ac855419ecf4
+SHA256: fe6f798cc0fbccf35764c9f8e2737979554d171cdfb81e4be33f03b4ac938b29
+Section: Tweaks
+Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI微调+更新图标等。
+Author: Domo, SXX
+Name: CocoaTop64 中文版(Relaxin)
+
 Package: cn.fkj233.watchfix
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -111,6 +145,38 @@ Section: Tweaks
 Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Author: 来了老弟 X: h_h_x_t
 Name: 截图标记-rootless
+
+Package: cn.llld.cocoatop
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.cocoatop_0.0.2_iphoneos-arm64.deb
+Size: 19364
+MD5sum: 24b8e6d2e40d2c40ec1dc4a904d6f96a
+SHA1: b0299b224938ce35824f2e73582253168cff0dee
+SHA256: 9c7ef471b8c687bf3f2764fe69c133a6bb05368a0c4243b6fa8ddabcccb64e18
+Section: Tweaks
+Description: CocoaTop汉化插件，适配官版和真皮4个修改版
+Author: 来了老弟
+Name: CocoaTop (汉化插件)
+
+Package: cn.llld.cocoatop
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.cocoatop_0.0.3_iphoneos-arm64.deb
+Size: 19380
+MD5sum: 48ae85dd5eaf422c704e10f92a28ac60
+SHA1: 6c6257c36c798fa72b1d5695ee9f57d0c5f121bc
+SHA256: 72c8d4e15a9cf53f3977e84589472dcf0ca6eb973ca096244e8f48e80f103d10
+Section: Tweaks
+Description: CocoaTop汉化插件，适配官版、真皮4个修改版、真皮Relaxin版。
+Author: 来了老弟
+Name: CocoaTop (汉化插件)
 
 Package: cn.llld.notes-fix
 Version: 1.0.4-1+debug
@@ -4262,10 +4328,10 @@ Maintainer: Nets
 Installed-Size: 1688
 Depends: firmware (>= 14.0)
 Filename: debs/com.netskao.injectipa_1.5-7_iphoneos-arm64.deb
-Size: 478230
-MD5sum: daa0a1a5f399bf59982c7f85c229851c
-SHA1: 075e53fbbc388b1d102855204fcda8f8ccfe8260
-SHA256: bb37b2c8a530ee46cd021ed2c4d8b484159e022e54de39fe0369ad285f3c8faf
+Size: 417840
+MD5sum: a8daf88db3b03e99c612ea9229807e89
+SHA1: ea1cad8490b65128fd3425686eac84374524ccd4
+SHA256: 3f7d1f50810d844b433d505b681d3e1c4a19292896b5eca38b348157a5f8d849
 Section: Tweaks
 Description: InjectIPA Tool
 Author: Netskao
@@ -10907,6 +10973,23 @@ Section: Tweaks
 Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
 Author: 𝙓
 Name: NTQQ_AntiRecall
+
+Package: ru.domo.cocoatop64
+Version: 2.2.4-2
+Architecture: iphoneos-arm64e
+Maintainer: Ash
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: debs/ru.domo.cocoatop64_2.2.4-2_iphoneos-arm64e.deb
+Size: 262204
+MD5sum: 8e6249a1032e5eea68cc46d3d7e22528
+SHA1: aa688e84413e3ade0cce7fc53648a59fef9c9d1c
+SHA256: 985b12d720c87559aee898529d3a4291ec8bceac65d3c6e36ca0f9b3ece53213
+Section: Tweaks
+Description: 完美版。
+Author: Domo <domo@rambler.ru>
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
+Name: CocoaTop64
 
 Package: xhs.x
 Version: 1.2.0
