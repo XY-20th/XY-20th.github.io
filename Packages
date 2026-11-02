@@ -10255,6 +10255,25 @@ Description: 禁止开屏广告、秒过激励广告
 Author: Zuner
 Name: LunaNoAd
 
+Package: com.zuotian.dock3d
+Version: 0.02
+Architecture: iphoneos-arm64
+Maintainer: ZuoTian
+Installed-Size: 484
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.taoxi.dock3d
+Replaces: com.taoxi.dock3d
+Filename: debs/com.zuotian.dock3d_0.02_iphoneos-arm64.deb
+Size: 134600
+MD5sum: 99434b5a8f973a0b30a5205fbc82202f
+SHA1: 301c4563952c76cae9cb13644b9db3a25cf87b82
+SHA256: 5853aa7966e36d4f65172ca2c596d3856f46bf111bacae84d45365be39dfc2ae
+Section: Tweaks
+Description: Dock 3D 透视轮播页 - 在 Dock 上左右滑动显示 3D 图标轮播，点击图标直接打开对应 App
+Author: ZuoTian
+Icon: https://i.imgs.ovh/2026/10/29/1bcdc35faf788788df8b6bd000125309.png
+Name: Dock3D
+
 Package: fanqiefn
 Version: 2.0.0
 Architecture: iphoneos-arm64
@@ -10608,10 +10627,10 @@ Maintainer: Junhong
 Installed-Size: 5052
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: debs/hongguofn_2.2.0_iphoneos-arm64.deb
-Size: 2486024
-MD5sum: e1c1101519f35b5ccfcf3004733818f0
-SHA1: 7503ca0359652f14880f0a6893d41a12f14d51ea
-SHA256: 2eaf005c37e20561a9649ae0bd2dcdf2a508636d22f80c8a332aea1d7b56a242
+Size: 2197328
+MD5sum: fdc215d65e38d5a148d07b811c53ead7
+SHA1: ad4be7442dec56260cec222486f982e2dc782df0
+SHA256: faa0b5f9ecfc3d3d87da2bcff793f3e9153a833e1e3a411039fa5608725442a4
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
