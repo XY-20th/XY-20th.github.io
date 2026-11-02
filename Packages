@@ -249,6 +249,60 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
 Name: Hello BundleID（免授权）
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
 
+Package: cn.zqbb.hello.jailport
+Version: 1.0.3-1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 1296
+Depends: firmware (>= 15.0), apt, dpkg, coreutils, tar
+Filename: debs/cn.zqbb.hello.jailport_1.0.3-1_iphoneos-arm64e.deb
+Size: 519590
+MD5sum: 7f1f4a2a2513599694a925f30eebe42d
+SHA1: e09c8361d73159cd6c60048de34ce72197678041
+SHA256: b221c9d39642d788d3bb770097d4bd774e0b0cf4aa89edff1b6482d02a63ac78
+Section: Tweaks
+Description: 越狱插件、依赖与文件的可视化备份和恢复
+Author: zqbb
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.jailport.png
+Name: HelloJailPort
+Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.hello.jailport
+
+Package: cn.zqbb.hello.jailport
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 1468
+Depends: firmware (>= 15.0), apt, dpkg, coreutils, tar
+Filename: debs/cn.zqbb.hello.jailport_1.0.5_iphoneos-arm64e.deb
+Size: 581124
+MD5sum: 234dfbe0a0d32f1218a8a610a0d17733
+SHA1: fdfb15919a274dec9e2110473b4d04461e576a25
+SHA256: ae137fab12bf03237a2a773a749af3567923efb75098e4fb6a7de741f7a5581d
+Section: Tweaks
+Description: 越狱插件、依赖与文件的可视化备份和恢复
+Author: zqbb
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.jailport.png
+Name: HelloJailPort
+Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.hello.jailport
+
+Package: cn.zqbb.hello.jailport
+Version: 1.0.6
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 1520
+Depends: firmware (>= 15.0), apt, dpkg, coreutils, tar
+Filename: debs/cn.zqbb.hello.jailport_1.0.6_iphoneos-arm64e.deb
+Size: 589010
+MD5sum: a5db2cbe6922e3ffec101b3b96a385de
+SHA1: d43b94467c51bb6d8a5a8ef68e5d0097d3d53c38
+SHA256: c8aa1b745c80930990d306ec4b4f4a7c3db56f309a6f13d02d727ee0e719fad9
+Section: Tweaks
+Description: 越狱插件、依赖与文件的可视化备份和恢复
+Author: zqbb
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.jailport.png
+Name: HelloJailPort
+Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.hello.jailport
+
 Package: cn.zqbb.hello.keyboard.ai
 Version: 6.6.6-3
 Architecture: iphoneos-arm64e
@@ -3995,10 +4049,10 @@ Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
 Depends: firmware (>> 14.0), preferenceloader
 Conflicts: mobilesubstrate (= 999)
 Filename: debs/com.nan.bindfs_0.7.3_iphoneos-arm64.deb
-Size: 59480
-MD5sum: ace8bb859fe511e0475d4d74b420880c
-SHA1: 3777b502f0b69ab44f51f54122952138cd9d3efe
-SHA256: 802858c8109416a1581d19e2ff3cbf8e4ded70222dc58117f724d0c9e792ea6a
+Size: 53480
+MD5sum: af736e2771e3a1f32302596125dcc140
+SHA1: 84f23b10312ae9388cec6a56d2bdb7fc8ca8ca33
+SHA256: f6703557b5ae89bb46387de75002fd871c41f2986206dd478120f58ab39d5bdc
 Section: Tweaks
 Description: bindfs 挂载工具
 Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
