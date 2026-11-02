@@ -39,10 +39,10 @@ Installed-Size: 936
 Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject, cn.zqbb.cocoatop64.relaxin
 Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
 Filename: debs/cn.dao.relaxin.cocoatop_2.3.3.1_iphoneos-arm64e.deb
-Size: 265294
-MD5sum: 425caf7c04ecaf843dbcdaac595e8d06
-SHA1: c7074af9ad064aab639f54625971ac855419ecf4
-SHA256: fe6f798cc0fbccf35764c9f8e2737979554d171cdfb81e4be33f03b4ac938b29
+Size: 243830
+MD5sum: d7b86bb1c0e3bc80fa8d156eb3cff44b
+SHA1: 7cdfd0e8032765aee190065210926b98bbf69f2e
+SHA256: 3dd6512aab08107dc50234ca9b5ab2eb8ed0b3c2e18be3e18cd000186e478250
 Section: Tweaks
 Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI微调+更新图标等。
 Author: Domo, SXX
@@ -3600,6 +3600,21 @@ Section: Tweaks
 Description: KAlert popup tweak
 Author: tanxiaolin
 Name: KAlert
+
+Package: com.lessica.camover
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/com.lessica.camover_0.0.1_iphoneos-arm64e.deb
+Size: 4320
+MD5sum: a3f13c06dba2038577004f0ba719408b
+SHA1: 1623c431b25ae55331fe5022f7696663398a4ef9
+SHA256: a68de82e40ca7513237529ac378371bbcf33a88a79208481fa95dbce2bfec7b4
+Section: Tweaks
+Description: 隐藏系统相机上下方的半透明黑色蒙层。
+Author: Lessica
+Name: CamOver
 
 Package: com.level3tjg.sposifyfix
 Version: 0.0.6
