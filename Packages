@@ -2484,6 +2484,22 @@ Description: 点击AppStore帐户页面左上角图标快速切换账号。
 Author: subdiox
 Name: StoreSwitcher2(rootless)
 
+Package: com.dd.adblock
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: DD
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.dd.adblock_1.0.0_iphoneos-arm64.deb
+Size: 14432
+MD5sum: 1a21464779ec3ad3525d07bab3624a39
+SHA1: 27dcff76f283fbe062f9df529009318afd0031ee
+SHA256: 3ae3b4464c22905c7b79cf3ae1458fa6c9e49d55fd78efa0bb3cf8fa7e3a3986
+Section: Tweaks
+Description: DD微信广告屏蔽（提取 dyilb 用巨魔注入器注入到微信即可）
+Author: DD
+Name: DD广告助手
+
 Package: com.duo.themelab
 Version: 1.6.1
 Architecture: iphoneos-arm64
@@ -2527,10 +2543,10 @@ Depends: firmware (>= 14.0)
 Conflicts: com.chengguang.douyin
 Replaces: com.chengguang.douyin
 Filename: debs/com.dy778.douyin_1.0-1_iphoneos-arm64.deb
-Size: 419330
-MD5sum: 92cbfd594775527cb695e228d4b78c04
-SHA1: 440faf1ee6c89a0b3d128118c4ebf0df4b6be7f5
-SHA256: 23726f1efe6f9f50960b242b090906582b69d74e95438f03bc6a0fcf81095fcd
+Size: 359618
+MD5sum: e024824738445e191bbea65e0e887c21
+SHA1: 7b8f8a12c988a1eaeaeae9fdfc38b836adbe6131
+SHA256: 11d3a25b1668cba95cdab48253def260c62b2ac0c6db66672f236568d4243ba7
 Section: Tweaks
 Description: DY778 · 消息留存、编辑历史、福袋助手、时间标签与播放增强。已在抖音 39.9.0 测试。
 Author: DY778
@@ -4173,6 +4189,23 @@ Size: 172652
 MD5sum: e5f3459eb054352fcf3f1a8569b1e7dd
 SHA1: a0a562564670ced2a00fa6882df3a0b6cfef5ef5
 SHA256: 5f074e8c2dd3fa5ec4e95255c2314144a69553e6274ac4eb93bab43eb7c60111
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Name: PrefNest
+
+Package: com.mlgm.prefnest
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/com.mlgm.prefnest_1.2.3_iphoneos-arm64.deb
+Size: 173566
+MD5sum: 5422aa416b3300203e00a22b8cf78bfc
+SHA1: 5b8b24e67d38aaff361812c61f686287cb5bacaa
+SHA256: f0f768d3957d5db9ce9a7efbe15d7c5dde88e922124f3223eea7025e902ec91c
 Section: Tweaks
 Description: 整理设置首页，集中收纳越狱插件。
 Author: mlgm
