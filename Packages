@@ -2518,6 +2518,24 @@ Icon: https://i.imgur.com/C5MLSXo.png
 Name: Infuse Plus
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/icons/main/infuseplus.json
 
+Package: com.dy778.douyin
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: DY778
+Installed-Size: 1184
+Depends: firmware (>= 14.0)
+Conflicts: com.chengguang.douyin
+Replaces: com.chengguang.douyin
+Filename: debs/com.dy778.douyin_1.0-1_iphoneos-arm64.deb
+Size: 419330
+MD5sum: 92cbfd594775527cb695e228d4b78c04
+SHA1: 440faf1ee6c89a0b3d128118c4ebf0df4b6be7f5
+SHA256: 23726f1efe6f9f50960b242b090906582b69d74e95438f03bc6a0fcf81095fcd
+Section: Tweaks
+Description: DY778 · 消息留存、编辑历史、福袋助手、时间标签与播放增强。已在抖音 39.9.0 测试。
+Author: DY778
+Name: DY778
+
 Package: com.evgeniy.hotspotvpn
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -10264,10 +10282,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.taoxi.dock3d
 Replaces: com.taoxi.dock3d
 Filename: debs/com.zuotian.dock3d_0.0.3_iphoneos-arm64.deb
-Size: 145232
-MD5sum: 9fcc101ceaf7766966c3195a82616cf0
-SHA1: 54eec2448346b806c871356d04205c4de6488d41
-SHA256: 160eae51e5f6f8ea0c0a4a057e5aacd5dc3e78493b6a8157d1610032d6c0126b
+Size: 140220
+MD5sum: 94520b8aa2a89f25496c7a8c8cee35c1
+SHA1: 13bcd826048d587d6c320c29d92add29037fc29c
+SHA256: 70f773175272765fa2472a67f889387fa883598f13bfecd7f6a285c5847fc7f4
 Section: Tweaks
 Description: Dock 3D 透视轮播页 - 在 Dock 上左右滑动显示 3D 图标轮播，点击图标直接打开对应 App
 Author: ZuoTian
