@@ -30,22 +30,44 @@ jobs:
       - name: Repair only changed deb (Clear xattr + fix permission)
         if: steps.getchanged.outputs.changed_debs != ''
         run: |
-          for deb in ${{ steps.getchanged.outputs.changed_debs }}; do
+          while IFS= read -r deb; do
+            [[ -z "$deb" ]] && continue
             if [ -f "$deb" ]; then
-              # 清除mac扩展属性，新增这一行！
+              echo "===== 正在处理：$deb ====="
+
+              # 清除 macOS 扩展属性
               setfattr --remove-all "$deb" 2>/dev/null || true
+
               tmp=$(mktemp -d)
-              fakeroot dpkg-deb -R "$deb" "$tmp"
+
+              # 拆包；失败则跳过该包，继续处理下一个
+              fakeroot dpkg-deb -R "$deb" "$tmp" || {
+                echo "❌ $deb 解析失败，跳过此包"
+                rm -rf "$tmp"
+                continue
+              }
+
+              # 修复 DEBIAN 权限
               chmod 755 "$tmp/DEBIAN"
               chmod 644 "$tmp/DEBIAN/control"
               [ -f "$tmp/DEBIAN/preinst" ] && chmod 755 "$tmp/DEBIAN/preinst"
               [ -f "$tmp/DEBIAN/postinst" ] && chmod 755 "$tmp/DEBIAN/postinst"
               [ -f "$tmp/DEBIAN/prerm" ] && chmod 755 "$tmp/DEBIAN/prerm"
               [ -f "$tmp/DEBIAN/postrm" ] && chmod 755 "$tmp/DEBIAN/postrm"
-              fakeroot dpkg-deb -b "$tmp" "$deb"
+
+              # 重新打包
+              fakeroot dpkg-deb -b "$tmp" "$deb" || {
+                echo "❌ $deb 重新打包失败，跳过此包"
+                rm -rf "$tmp"
+                continue
+              }
+
               rm -rf "$tmp"
+              echo "✅ $deb 处理完成"
+            else
+              echo "⚠️ 文件不存在：$deb，跳过"
             fi
-          done
+          done <<< "${{ steps.getchanged.outputs.changed_debs }}"
 
       - name: Generate Packages
         run: |
