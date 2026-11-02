@@ -3607,10 +3607,10 @@ Architecture: iphoneos-arm64e
 Maintainer: Lessica <82flex@gmail.com>
 Depends: mobilesubstrate
 Filename: debs/com.lessica.camover_0.0.1_iphoneos-arm64e.deb
-Size: 4320
-MD5sum: a3f13c06dba2038577004f0ba719408b
-SHA1: 1623c431b25ae55331fe5022f7696663398a4ef9
-SHA256: a68de82e40ca7513237529ac378371bbcf33a88a79208481fa95dbce2bfec7b4
+Size: 4296
+MD5sum: 3bcc135ec3a471ebb53988867806d373
+SHA1: 54ad6547a4e64446110446c2f518448be0d5ba2e
+SHA256: 70c4068c9c5d792bdf2c4659d9f69be39ce07638f1024defe5855a42db6ae2dc
 Section: Tweaks
 Description: 隐藏系统相机上下方的半透明黑色蒙层。
 Author: Lessica
@@ -10594,6 +10594,24 @@ Size: 2029140
 MD5sum: 7cc27e207727e22fb1ae5c94814d0224
 SHA1: 082cba57abbeda2d37f3bf61012f7a709cc4a3c3
 SHA256: de31f861e8330d7f95110ee4943c4563c233ba20955372c7325159e8bd4a6a2e
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Author: Junhong
+Name: 红果净化
+
+Package: hongguofn
+Version: 2.2.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 5052
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/hongguofn_2.2.0_iphoneos-arm64.deb
+Size: 2486024
+MD5sum: e1c1101519f35b5ccfcf3004733818f0
+SHA1: 7503ca0359652f14880f0a6893d41a12f14d51ea
+SHA256: 2eaf005c37e20561a9649ae0bd2dcdf2a508636d22f80c8a332aea1d7b56a242
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
