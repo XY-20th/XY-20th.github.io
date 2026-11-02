@@ -2319,6 +2319,22 @@ Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide)
 Author: colorblack
 Name: youdaoyunbiji-NoAd
 
+Package: com.crctdd.sharingx
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.sharingx_0.0.3_iphoneos-arm64.deb
+Size: 12984
+MD5sum: aef4d6a1cc78abed2fb9ea44db4d2477
+SHA1: f2ade132a09f58283afea602463eddba7b3994d7
+SHA256: 8a425992cfa22a86507da4d9a816ea961874f1c16fb43c46825a4407b86caab0
+Section: Tweaks
+Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
+Author: crctdd
+Name: SharingX
+
 Package: com.dao.appdata
 Version: 9.9.9
 Architecture: iphoneos-arm64
@@ -10495,10 +10511,10 @@ Maintainer: Junhong
 Installed-Size: 1008
 Depends: firmware (>= 15.0), mobilesubstrate, dpkg
 Filename: debs/im.mjh.doleo.roothide_1.0.2_iphoneos-arm64e.deb
-Size: 268526
-MD5sum: 2c77b72fda8d76ffe02056a2cc0b0c52
-SHA1: f9dfc76a25ddc4200dd096fcf684f9b3a34b5c3e
-SHA256: 8ee7f984146a0b23546253bb90bb67a958898658b053fb9159016feed39a718d
+Size: 234822
+MD5sum: 2bbeaacb7162d13385d6791124d05111
+SHA1: 83ddfc70d8a67caf4e4fcbfa434dc382436feb04
+SHA256: 3ca6436fb42238c11086ec2206fe2cd04f3ec1c4d0c6bb56574111bc01a89f5f
 Section: Tweaks
 Homepage: https://doleo.goforit.si/
 Description: Sileo 的 DEB 下载与本地仓库工具。
