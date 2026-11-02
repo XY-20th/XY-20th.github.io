@@ -2326,10 +2326,10 @@ Maintainer: crctdd
 Installed-Size: 204
 Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 18.0)
 Filename: debs/com.crctdd.sharingx_0.0.3_iphoneos-arm64.deb
-Size: 12984
-MD5sum: aef4d6a1cc78abed2fb9ea44db4d2477
-SHA1: f2ade132a09f58283afea602463eddba7b3994d7
-SHA256: 8a425992cfa22a86507da4d9a816ea961874f1c16fb43c46825a4407b86caab0
+Size: 11902
+MD5sum: 56bf49f4d69e11231dbc81a42022f006
+SHA1: 657f83bccd79566ef1378f6bc573709cdd9a2e6b
+SHA256: 74470168bf3b38537d7108b5054cf78fb780d7c9c1be846fe1b2581a69e0dc90
 Section: Tweaks
 Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
 Author: crctdd
@@ -4122,6 +4122,23 @@ Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
 Name: mount_bindfs
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 
+Package: com.nan.injectipa
+Version: 1.4-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 15.0)
+Conflicts: netskao.injectipa-rootless
+Provides: netskao.injectipa-rootless (=1.4-4)
+Filename: debs/com.nan.injectipa_1.4-4_iphoneos-arm64.deb
+Size: 963136
+MD5sum: 02ddfcba09e8177b198e11a024bac306
+SHA1: 075dd4151eeaa918af89e97a4de4865de21e541a
+SHA256: 2b407e0b93862cf7267cbee5f74b5e84f8214d15887f8a2c4722e41cf8a206b0
+Section: Tweaks
+Description: injectipa 是一款命令行一键注入dylib 到 ipa 工具。用法: injectipa ipa 路径 dylib 路径 (如有多个 dylib 依次填写在末尾即可), 其它参数执行 injectipa 查看即可, 注入完成后的 IPA 需要签名使用
+Author: Netskao
+Name: injectipa
+
 Package: com.necromancy.tweak
 Version: 1.2.6
 Architecture: iphoneos-arm64
@@ -4237,6 +4254,23 @@ Description: ImgPlay Crack
 Author: Netskao
 Name: ImgPlay Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.imgplaycrack
+
+Package: com.netskao.injectipa
+Version: 1.5-7
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1688
+Depends: firmware (>= 14.0)
+Filename: debs/com.netskao.injectipa_1.5-7_iphoneos-arm64.deb
+Size: 478230
+MD5sum: daa0a1a5f399bf59982c7f85c229851c
+SHA1: 075e53fbbc388b1d102855204fcda8f8ccfe8260
+SHA256: bb37b2c8a530ee46cd021ed2c4d8b484159e022e54de39fe0369ad285f3c8faf
+Section: Tweaks
+Description: InjectIPA Tool
+Author: Netskao
+Name: injectipa
+Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.injectipa
 
 Package: com.netskao.qqnotiavatar
 Version: 1.2-3
