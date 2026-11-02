@@ -10256,6 +10256,25 @@ Author: Zuner
 Name: LunaNoAd
 
 Package: com.zuotian.dock3d
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: ZuoTian
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.taoxi.dock3d
+Replaces: com.taoxi.dock3d
+Filename: debs/com.zuotian.dock3d_0.0.3_iphoneos-arm64.deb
+Size: 145232
+MD5sum: 9fcc101ceaf7766966c3195a82616cf0
+SHA1: 54eec2448346b806c871356d04205c4de6488d41
+SHA256: 160eae51e5f6f8ea0c0a4a057e5aacd5dc3e78493b6a8157d1610032d6c0126b
+Section: Tweaks
+Description: Dock 3D 透视轮播页 - 在 Dock 上左右滑动显示 3D 图标轮播，点击图标直接打开对应 App
+Author: ZuoTian
+Icon: https://i.imgs.ovh/2026/10/29/1bcdc35faf788788df8b6bd000125309.png
+Name: Dock3D
+
+Package: com.zuotian.dock3d
 Version: 0.02
 Architecture: iphoneos-arm64
 Maintainer: ZuoTian
@@ -10264,10 +10283,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.taoxi.dock3d
 Replaces: com.taoxi.dock3d
 Filename: debs/com.zuotian.dock3d_0.02_iphoneos-arm64.deb
-Size: 134600
-MD5sum: 99434b5a8f973a0b30a5205fbc82202f
-SHA1: 301c4563952c76cae9cb13644b9db3a25cf87b82
-SHA256: 5853aa7966e36d4f65172ca2c596d3856f46bf111bacae84d45365be39dfc2ae
+Size: 130894
+MD5sum: 4621f4b9248d1793dde4055a97ed44ad
+SHA1: 691febe53537a5e780fda6a8881bbbe03d015d4b
+SHA256: 506509baf9ae6396b036cfb3275eabe1625462bb71a3d0df98ded05c12036efe
 Section: Tweaks
 Description: Dock 3D 透视轮播页 - 在 Dock 上左右滑动显示 3D 图标轮播，点击图标直接打开对应 App
 Author: ZuoTian
