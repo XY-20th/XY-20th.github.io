@@ -104,7 +104,7 @@ Architecture: iphoneos-arm64
 Maintainer: 来了老弟 X: h_h_x_t
 Installed-Size: 112
 Depends: mobilesubstrate
-Filename: debs/单排截图标记（功能少几个）-arm64.deb
+Filename: debs/cn.llld.biaoji_1.2_iphoneos-arm64.deb
 Size: 19232
 MD5sum: cd6564c0cf4fe516398adbd059eb8a3e
 SHA1: a763c2e566dd4f800bad842aabad8b9a16e9bc53
@@ -120,7 +120,7 @@ Architecture: iphoneos-arm64
 Maintainer: 来了老弟 X: h_h_x_t
 Installed-Size: 112
 Depends: mobilesubstrate
-Filename: debs/cn.llld.biaoji_1.2_iphoneos-arm64.deb
+Filename: debs/单排截图标记（功能少几个）-arm64.deb
 Size: 19232
 MD5sum: cd6564c0cf4fe516398adbd059eb8a3e
 SHA1: a763c2e566dd4f800bad842aabad8b9a16e9bc53
@@ -1357,7 +1357,7 @@ Architecture: iphoneos-arm64
 Maintainer: 冰蓝
 Installed-Size: 772
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/binglan.灵动岛背景_1.0.7-arm64.deb
+Filename: debs/binglan.dynamicfx_1.0.7-arm64.deb
 Size: 73168
 MD5sum: c98336dfe8dec7902e2cb19b9d4ab9c3
 SHA1: 09cfc11fc1753466dd0a190cd34ca4a86a783c19
@@ -1373,7 +1373,7 @@ Architecture: iphoneos-arm64
 Maintainer: 冰蓝
 Installed-Size: 772
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/binglan.dynamicfx_1.0.7-arm64.deb
+Filename: debs/binglan.灵动岛背景_1.0.7-arm64.deb
 Size: 73168
 MD5sum: c98336dfe8dec7902e2cb19b9d4ab9c3
 SHA1: 09cfc11fc1753466dd0a190cd34ca4a86a783c19
@@ -2784,108 +2784,13 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 3112
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#14-arm64.deb
-Size: 678058
-MD5sum: ac73cdea0ea2052046daaa6f1ca3d252
-SHA1: e1b5667f0d89f8b583f8055fcb9776af0f7807c9
-SHA256: 397f384f4128c3ebefba1ab3aaab30678c3f81c7e53c3131a82ebafe8ff0dfb2
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 3372
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.3-0_iphoneos-arm64.deb
-Size: 743086
-MD5sum: 40df297740bd43a98eb599a838735c9c
-SHA1: 997a2e27bd175d2026315150e8a3639c627ccc72
-SHA256: 5a5474bf1051ab020a2dad6fa62f6e0d1c25d035ca4746fb50a5dd05dfdc2b8a
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 3064
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#13-arm64.deb
-Size: 679096
-MD5sum: 1ebb1ed3c21c4e1110487f739510dc6d
-SHA1: d0afeefc5563652ead5386447df0e32f20fb192a
-SHA256: cd4f59ca98eb301a890456d318970e833df999790155a177b2305cb37663aa47
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
 Installed-Size: 3028
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0_11-arm64.deb
+Filename: debs/huami.dyyy_2.3-0#11-arm64.deb
 Size: 659522
 MD5sum: 41d24d2ff41cae26962b6fd968348177
 SHA1: d4f837e38511e2697a893c44a6498148bbfe29ee
 SHA256: 4fbc08022544df65e76e358db90906a8d92232a0d8a84743ab4806a65c94c899
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 3048
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#12-arm64.deb
-Size: 672552
-MD5sum: b6ab6c035dc86a725c13ffdbe2b9dd2a
-SHA1: e94f2454817daf817996c9b57468b2d9fb2d8557
-SHA256: aa5fc511ff0b0bfa0ce2f40b7a260f5ea0680c66819943197cc0ab7a2a95e23c
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 2964
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#7-arm64.deb
-Size: 651002
-MD5sum: 3e799b1a93f9d138044a890e14a78fc8
-SHA1: fa3c35d15924fea0d869a7609b3f38fd584326f6
-SHA256: b3b4594c3a6340c558bdb4bf8abc5d7b34dcd9150e87e52ddfe6128e593011d9
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -2917,6 +2822,82 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
+Installed-Size: 3064
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.3-0#13-arm64.deb
+Size: 679096
+MD5sum: 1ebb1ed3c21c4e1110487f739510dc6d
+SHA1: d0afeefc5563652ead5386447df0e32f20fb192a
+SHA256: cd4f59ca98eb301a890456d318970e833df999790155a177b2305cb37663aa47
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2832
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.3-0#4-arm64.deb
+Size: 620702
+MD5sum: 0b16ee9b9ebfc0d0843c0f794708000f
+SHA1: 3c72f7d9ca7051f7647bf44ca07bf30da24df6ba
+SHA256: 455c784819a827fbb194dfd7f9396eb231317a660d503f5efd970d37449d3b1e
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 3048
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.3-0#12-arm64.deb
+Size: 672552
+MD5sum: b6ab6c035dc86a725c13ffdbe2b9dd2a
+SHA1: e94f2454817daf817996c9b57468b2d9fb2d8557
+SHA256: aa5fc511ff0b0bfa0ce2f40b7a260f5ea0680c66819943197cc0ab7a2a95e23c
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 3372
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.3-0_iphoneos-arm64.deb
+Size: 743086
+MD5sum: 40df297740bd43a98eb599a838735c9c
+SHA1: 997a2e27bd175d2026315150e8a3639c627ccc72
+SHA256: 5a5474bf1051ab020a2dad6fa62f6e0d1c25d035ca4746fb50a5dd05dfdc2b8a
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
 Installed-Size: 2980
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/huami.dyyy_2.3-0#10-arm64.deb
@@ -2936,9 +2917,66 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
+Installed-Size: 2964
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.3-0#7-arm64.deb
+Size: 651002
+MD5sum: 3e799b1a93f9d138044a890e14a78fc8
+SHA1: fa3c35d15924fea0d869a7609b3f38fd584326f6
+SHA256: b3b4594c3a6340c558bdb4bf8abc5d7b34dcd9150e87e52ddfe6128e593011d9
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2980
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.3-0#9-arm64.deb
+Size: 652372
+MD5sum: 2538435e34424860458231d0f8ec3930
+SHA1: 70ea59c6c1f72c31729de58ffa384f6c7d25ab56
+SHA256: d1602d7abd9b0db49282b25eafa5affeb7a20f8739a489aad2a4848055ba516a
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2980
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.3-0#8-arm64.deb
+Size: 649702
+MD5sum: bb2459d4b2b15080fcdc071a8704deee
+SHA1: 6a1f781816671b3da9de32cc05369068527882d7
+SHA256: e50235ca075aae4be91b1fe3fbf286f2db7e5183a833952c6d1d90e6a673d05d
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
 Installed-Size: 3028
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#11-arm64.deb
+Filename: debs/huami.dyyy_2.3-0_11-arm64.deb
 Size: 659522
 MD5sum: 41d24d2ff41cae26962b6fd968348177
 SHA1: d4f837e38511e2697a893c44a6498148bbfe29ee
@@ -2974,51 +3012,13 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2980
+Installed-Size: 3112
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#8-arm64.deb
-Size: 649702
-MD5sum: bb2459d4b2b15080fcdc071a8704deee
-SHA1: 6a1f781816671b3da9de32cc05369068527882d7
-SHA256: e50235ca075aae4be91b1fe3fbf286f2db7e5183a833952c6d1d90e6a673d05d
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 2832
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#4-arm64.deb
-Size: 620702
-MD5sum: 0b16ee9b9ebfc0d0843c0f794708000f
-SHA1: 3c72f7d9ca7051f7647bf44ca07bf30da24df6ba
-SHA256: 455c784819a827fbb194dfd7f9396eb231317a660d503f5efd970d37449d3b1e
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 2980
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#9-arm64.deb
-Size: 652372
-MD5sum: 2538435e34424860458231d0f8ec3930
-SHA1: 70ea59c6c1f72c31729de58ffa384f6c7d25ab56
-SHA256: d1602d7abd9b0db49282b25eafa5affeb7a20f8739a489aad2a4848055ba516a
+Filename: debs/huami.dyyy_2.3-0#14-arm64.deb
+Size: 678058
+MD5sum: ac73cdea0ea2052046daaa6f1ca3d252
+SHA1: e1b5667f0d89f8b583f8055fcb9776af0f7807c9
+SHA256: 397f384f4128c3ebefba1ab3aaab30678c3f81c7e53c3131a82ebafe8ff0dfb2
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -9696,7 +9696,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -9711,7 +9711,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -10392,23 +10392,6 @@ Description: Dock 3D 透视轮播页 - 在 Dock 上左右滑动显示 3D 图标�
 Author: ZuoTian
 Icon: https://i.imgs.ovh/2026/10/29/1bcdc35faf788788df8b6bd000125309.png
 Name: Dock3D
-
-Package: dev.apelin.appstoreupdateblock
-Version: 0.1.1
-Architecture: iphoneos-arm64
-Maintainer: 白白白
-Installed-Size: 239
-Depends: firmware (>= 16.0), mobilesubstrate
-Filename: debs/dev.apelin.appstoreupdateblock_0.1.1_iphoneos-arm64.deb
-Size: 20246
-MD5sum: afa27eb81cd89913ece0fa303ca51ae1
-SHA1: 38394dffd1fdafabf4c94fa0479c4fa1b054197b
-SHA256: 0d9ce5e848ede600c8f1a19eb03f7b98b4766a4568e78d526901b4012834f4e7
-Section: Tweaks
-Description: 在 App Store 里按应用屏蔽更新，被屏蔽的应用不再出现在更新列表，也不会被一次全部更新。
-Author: 白白白
-Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
-Name: App Store 更新屏蔽
 
 Package: fanqiefn
 Version: 2.0.0
