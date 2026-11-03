@@ -48,17 +48,18 @@ jobs:
             fi
           done <<< "$TARGET_DEBS"
 
-      - name: Generate Packages index
+      - name: Generate Packages index & print warnings
         run: |
-          fakeroot dpkg-scanpackages --multiversion debs /dev/null > Packages.raw
+          fakeroot dpkg-scanpackages --multiversion debs /dev/null > Packages.raw 2> scan-warning.log
+          cat scan-warning.log
           sed -E 's/^Section:.*$/Section: Tweaks/' Packages.raw > Packages
           zstd -f Packages -o Packages.zst
-          rm -f Packages.raw
+          rm -f Packages.raw scan-warning.log
 
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add debs/*.deb Packages Packages.zst
+          git add debs Packages Packages.zst
           git commit -m "Auto rebuild repo index" || echo "No changes to commit"
           git push origin master || echo "Push conflict, skip"
