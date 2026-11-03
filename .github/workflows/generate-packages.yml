@@ -18,40 +18,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y dpkg-dev zstd fakeroot attr
 
-      - name: Judge run mode
-        id: mode
+      - name: Repair all deb packages
         run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "run_mode=full" >> $GITHUB_OUTPUT
-            echo "🔴 手动触发：全量修复模式"
-          else
-            echo "run_mode=change" >> $GITHUB_OUTPUT
-            echo "🟢 push触发：变更快速模式"
-          fi
-
-      - name: Get changed deb files
-        id: getchanged
-        if: steps.mode.outputs.run_mode == 'change'
-        run: |
-          CHANGED_DEBS=$(git diff --name-only HEAD~1 HEAD | grep '^debs/.*\.deb$' || true)
-          echo "changed_debs<<EOF" >> $GITHUB_OUTPUT
-          echo "$CHANGED_DEBS" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-          echo "$CHANGED_DEBS"
-          if [[ -z "$CHANGED_DEBS" ]]; then
-            echo "auto_fallback=1" >> $GITHUB_OUTPUT
-            echo "⚠️ 未识别到变更deb，自动回退全量扫描"
-          else
-            echo "auto_fallback=0" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Repair deb packages
-        run: |
-          if [[ "${{ steps.mode.outputs.run_mode }}" == "change" && "${{ steps.getchanged.outputs.auto_fallback }}" == "0" ]]; then
-            TARGET_DEBS="${{ steps.getchanged.outputs.changed_debs }}"
-          else
-            TARGET_DEBS=$(find debs -maxdepth 1 -type f -name "*.deb")
-          fi
+          TARGET_DEBS=$(find debs -type f -name "*.deb")
           while IFS= read -r deb; do
             [[ -z "$deb" ]] && continue
             if [ -f "$deb" ]; then
@@ -76,8 +45,6 @@ jobs:
               }
               rm -rf "$tmp"
               echo "✅ $deb 处理完成"
-            else
-              echo "⚠️ 文件不存在：$deb，跳过"
             fi
           done <<< "$TARGET_DEBS"
 
@@ -93,5 +60,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add debs/*.deb Packages Packages.zst
-          git commit -m "Auto-update: ${{ steps.mode.outputs.run_mode }} mode repair" || echo "No changes to commit"
-          git push origin master || git push origin main || echo "Push conflict, skip"
+          git commit -m "Auto rebuild repo index" || echo "No changes to commit"
+          git push origin master || echo "Push conflict, skip"
