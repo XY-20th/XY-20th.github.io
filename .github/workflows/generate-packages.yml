@@ -38,10 +38,16 @@ jobs:
           echo "$CHANGED_DEBS" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
           echo "$CHANGED_DEBS"
+          if [[ -z "$CHANGED_DEBS" ]]; then
+            echo "auto_fallback=1" >> $GITHUB_OUTPUT
+            echo "⚠️ 未识别到变更deb，自动回退全量扫描"
+          else
+            echo "auto_fallback=0" >> $GITHUB_OUTPUT
+          fi
 
       - name: Repair deb packages
         run: |
-          if [[ "${{ steps.mode.outputs.run_mode }}" == "change" ]]; then
+          if [[ "${{ steps.mode.outputs.run_mode }}" == "change" && "${{ steps.getchanged.outputs.auto_fallback }}" == "0" ]]; then
             TARGET_DEBS="${{ steps.getchanged.outputs.changed_debs }}"
           else
             TARGET_DEBS=$(find debs -maxdepth 1 -type f -name "*.deb")
