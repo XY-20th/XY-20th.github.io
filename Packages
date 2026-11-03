@@ -2491,10 +2491,10 @@ Maintainer: DD
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/com.dd.adblock_1.0.0_iphoneos-arm64.deb
-Size: 14432
-MD5sum: 1a21464779ec3ad3525d07bab3624a39
-SHA1: 27dcff76f283fbe062f9df529009318afd0031ee
-SHA256: 3ae3b4464c22905c7b79cf3ae1458fa6c9e49d55fd78efa0bb3cf8fa7e3a3986
+Size: 28264
+MD5sum: fb1fe85454204379b38d78bd99a2373c
+SHA1: 67f01a860ec4bc317a0d6a2f6cb4b4bbb9a500db
+SHA256: 0ca7465b76008d1124fa01d42df3ac66d937b6fe10812f665ac45d1961c0667e
 Section: Tweaks
 Description: DD微信广告屏蔽（提取 dyilb 用巨魔注入器注入到微信即可）
 Author: DD
@@ -5806,6 +5806,55 @@ Section: Tweaks
 Description: Automatically enable or disable the vpn according to the situation, and enjoy smooth browsing experience in the app. 根据特定场景自动开启/关闭代理连接，畅享APP丝滑浏览体验。
 Author: Snail <mu514983786@gmail.com>
 Name: AutoVPN 自动VPN
+
+Package: com.snapbackup
+Version: 3.8.11
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 648
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Filename: debs/com.snapbackup_3.8.11_iphoneos-arm64.deb
+Size: 1432986
+MD5sum: b1fda7af2f555b1946bad2821c486c4f
+SHA1: d51cd671582b083eba02ddbf39a770b2d55ae58c
+SHA256: 73bb865279a5b114776710f32c9dd40c11410950932d6d9c50a02197fceaf0d5
+Section: Tweaks
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ .
+ 【恢复流程】
+ - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
+ - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
+ - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
+ - 外观支持浅色、深色及跟随系统，自动记住选择
+ - root 扫描清理，覆盖隐根 AppGroup 缓存与日志，显示删除字节和可用空间变化
+ - 扫描系统目录占用，逐项批注可清理、需手动确认或仅查看，不明数据库禁止删除
+ - 独立文件扫描：从根目录逐层查看全手机容量，大小倒序，保留 Filza 定位且不提供删除
+ - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
+ - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
+ - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
+ - 保留恢复日志与配置覆盖前的副本
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Author: kanuo
+Dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
+Name: SnapBackup 备份恢复
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
 
 Package: com.spark.laetus
 Version: 3.5.1-rootless
