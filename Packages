@@ -5814,10 +5814,10 @@ Maintainer: kanuo
 Installed-Size: 648
 Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
 Filename: debs/com.snapbackup_3.8.11_iphoneos-arm64.deb
-Size: 1432986
-MD5sum: b1fda7af2f555b1946bad2821c486c4f
-SHA1: d51cd671582b083eba02ddbf39a770b2d55ae58c
-SHA256: 73bb865279a5b114776710f32c9dd40c11410950932d6d9c50a02197fceaf0d5
+Size: 2059640
+MD5sum: 9702be52847091c316dde8d8089487d8
+SHA1: 3a17be5bdd4ec8fc6305527aa79e1752eb9b3ce7
+SHA256: 30e2c6bae82486727a529fb5d6c72a406c2b38d5ba48ec462819de0d11e420a8
 Section: Tweaks
 Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
  轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
@@ -10392,6 +10392,23 @@ Description: Dock 3D 透视轮播页 - 在 Dock 上左右滑动显示 3D 图标�
 Author: ZuoTian
 Icon: https://i.imgs.ovh/2026/10/29/1bcdc35faf788788df8b6bd000125309.png
 Name: Dock3D
+
+Package: dev.apelin.appstoreupdateblock
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: 白白白
+Installed-Size: 239
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/dev.apelin.appstoreupdateblock_0.1.1_iphoneos-arm64.deb
+Size: 20246
+MD5sum: afa27eb81cd89913ece0fa303ca51ae1
+SHA1: 38394dffd1fdafabf4c94fa0479c4fa1b054197b
+SHA256: 0d9ce5e848ede600c8f1a19eb03f7b98b4766a4568e78d526901b4012834f4e7
+Section: Tweaks
+Description: 在 App Store 里按应用屏蔽更新，被屏蔽的应用不再出现在更新列表，也不会被一次全部更新。
+Author: 白白白
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
+Name: App Store 更新屏蔽
 
 Package: fanqiefn
 Version: 2.0.0
