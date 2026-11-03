@@ -8730,10 +8730,10 @@ Maintainer: wkk
 Installed-Size: 1980
 Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Filename: debs/com.wkk.glasssuitex_1.1-0_iphoneos-arm64.deb
-Size: 472918
-MD5sum: c77a807686da1564479f768ba8b11c84
-SHA1: 10591955354d72564bc6fdf0b2d9e834e395c337
-SHA256: a0bbf98224286a03424889b3b03eb92ce3646b6f2bba6bffb7644ab777086045
+Size: 472908
+MD5sum: f6f2ce4eacb8255a7dde555aff911f9f
+SHA1: 02442cab7451b28af718847da6d618143c9d17e5
+SHA256: addd303cc76f794062d12ba5d0acfac65aa6a58492c84b4f2f41255afa3da172
 Section: Tweaks
 Description: cool
 Author: wkk
