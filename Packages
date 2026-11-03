@@ -4272,6 +4272,21 @@ Icon: https://axs66.github.io/repo/icon/vitreux.png
 Name: Vitreux 液态玻璃
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/vitreux/js.json
 
+Package: com.naiwa.native
+Version: 0.0.22
+Architecture: iphoneos-arm
+Maintainer: NaiWa
+Depends: firmware (>= 26.0)
+Filename: debs/com.naiwa.native_0.0.22_iphoneos-arm.deb
+Size: 1324916
+MD5sum: 8448a17486c7676be524ec7b0ec99635
+SHA1: fb379b620f9822928ed7a45e7e416ed881b9f1dd
+SHA256: 74e08823043efca02f78d73555c6840acb029c51838c2ac6d85796454850905c
+Section: Tweaks
+Description: Native iOS 26+ system tabs and player accessory for NetEase Cloud Music.
+Author: NaiWa
+Name: NaiwaEase
+
 Package: com.nan.bindfs
 Version: 0.7.3
 Architecture: iphoneos-arm64
