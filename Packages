@@ -3837,6 +3837,78 @@ Description: 高德地图界面精简 · 纯本地运行
 Author: jibamao
 Name: GaodeClean 高德精简
 
+Package: com.jijiang.dyliveviewercount
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: jijiang2333
+Installed-Size: 340
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.jijiang.dyliveviewercount_1.0-1_iphoneos-arm64.deb
+Size: 51818
+MD5sum: 689ffea86fb759d06b224f04654d975e
+SHA1: 249835beb7cb5bc35895437e73fcfe0ecd7aaf53
+SHA256: 310ff420f406579b8201cd4ed02a6e3e4183e0e9567d3a8a7e5de17968f4704e
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/jijiang2333/DYLiveViewerCount
+Description: 抖音推荐页直播真实观众数显示插件 - 仅在刷到直播卡片时显示真实人数，支持关闭、精准和模糊模式
+Author: jijiang2333
+Name: DYLiveViewerCount
+
+Package: com.jijiang.dysecondaryconfirmation
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: JiJiang778
+Installed-Size: 340
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.jijiang.dysecondaryconfirmation_1.0-1_iphoneos-arm64.deb
+Size: 54936
+MD5sum: 69e8283d3b283759118c626df954a31c
+SHA1: c59ba77b535a2983992b173a5258a5459f0fa8d4
+SHA256: a01c7160437bd59537f8fb7130f0d7f85b2ff87e8ef493b6f2dfb22e48d89e1b
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/jijiang2333/DYSecondaryConfirmation
+Description: 抖音点赞、收藏、关注二次确认插件
+Author: JiJiang778
+Name: DYSecondaryConfirmation
+
+Package: com.jijiang.dysecondaryconfirmation
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: JiJiang778
+Installed-Size: 340
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.jijiang.dysecondaryconfirmation_1.0-2_iphoneos-arm64.deb
+Size: 55956
+MD5sum: e25ba9b268526ae8cd9a7f7b47e6b0ba
+SHA1: 9c3d8fab83b841d9bb17215037d810d3787c7f52
+SHA256: 7c354ea28b092f0a98bea80ed7bc046313a72d0ceeed0e0fc7e4bbea5c1cb59b
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/jijiang2333/DYSecondaryConfirmation
+Description: 抖音点赞、收藏、关注及评论赞踩二次确认插件
+Author: JiJiang778
+Name: DYSecondaryConfirmation
+
+Package: com.jijiang.lickingdog
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: jijiang2333
+Installed-Size: 376
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.jijiang.lickingdog_1.0-1_iphoneos-arm64.deb
+Size: 105450
+MD5sum: bd01a1981fa6a9ef21db16803f913098
+SHA1: ee88eff55f0889ebca50648c2d0cec122a62fbad
+SHA256: 7f2af12a302c1ad61125e27ad23e7014d1653a9447e7f36a979db150ffdf75fb
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/jijiang2333/LickingDog
+Description: 心动雷达：抖音前台好友动态与喜欢作品记录
+Author: jijiang2333
+Name: LickingDog
+
 Package: com.jkclub.app
 Version: 1.0
 Architecture: iphoneos-arm64
