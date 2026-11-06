@@ -6,6 +6,10 @@ on:
       - 'debs/**'
   workflow_dispatch:
 
+concurrency:
+  group: update-repo-packages
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -32,7 +36,11 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add Packages Packages.zst
-          git diff --cached --quiet || {
-            git commit -m "Auto rebuild repo index"
-            git push
-          }
+
+          if git diff --cached --quiet; then
+            echo "索引没有变化，无需提交"
+            exit 0
+          fi
+
+          git commit -m "Auto rebuild repo index"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
