@@ -2669,6 +2669,25 @@ Description: DD微信广告屏蔽（提取 dyilb 用巨魔注入器注入到微�
 Author: DD
 Name: DD广告助手
 
+Package: com.dpo.pluginnest
+Version: 1.1.72
+Architecture: iphoneos-arm64
+Maintainer: DYstorage
+Installed-Size: 924
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: com.xlzs001.dystorage
+Replaces: com.xlzs001.dystorage
+Filename: debs/com.dpo.pluginnest_1.1.72_iphoneos-arm64.deb
+Size: 346446
+MD5sum: 5aaf331ae1508a8a24c400db020682c7
+SHA1: a124f71af0139dfed927a6fa4452a7a618019a27
+SHA256: 448e43eade7c044153783c09c199269b65ab5fc2df4d6cbcfb9436f76b93fe8d
+Section: Tweaks
+Homepage: https://github.com/xlzs001/DYstorage
+Description: 把抖音设置页里散落的第三方插件入口收进「DYstorage」二级页：保留原插件回调、按插件分组显示名称与版本号；搜索功能当前封存。
+Author: DYstorage
+Name: DYstorage
+
 Package: com.duo.themelab
 Version: 1.6.1
 Architecture: iphoneos-arm64
