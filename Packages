@@ -2658,6 +2658,24 @@ Author: DY778
 Name: DY778
 
 Package: com.dy778.douyin
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: DY778
+Installed-Size: 1236
+Depends: firmware (>= 14.0)
+Conflicts: com.chengguang.douyin
+Replaces: com.chengguang.douyin
+Filename: debs/com.dy778.douyin_1.0-2_iphoneos-arm64.deb
+Size: 370566
+MD5sum: ec22e8b31921bfed61a54320a5f42428
+SHA1: 3ca32b71bf7e1bd07ab075f9324e9e1788862c22
+SHA256: 85dcd0b125a7cc83dfcc60fcb1274a16f5aa0a2131ac5c74e130405024b2afd2
+Section: Tweaks
+Description: DY778 · 消息留存、编辑历史、福袋助手、时间标签与播放增强。已在抖音 39.9.0 测试。
+Author: DY778
+Name: DY778
+
+Package: com.dy778.douyin
 Version: 1.0-3
 Architecture: iphoneos-arm64
 Maintainer: DY778
