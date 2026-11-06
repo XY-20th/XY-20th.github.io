@@ -3939,6 +3939,21 @@ Description: WeChat 8.0.75 message long-press menu customizer
 Author: JiJiang778
 Name: MessageMenu
 
+Package: com.jijiang778.wechatremovelastgroup
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.jijiang778.wechatremovelastgroup_1.1-1_iphoneos-arm64.deb
+Size: 3532
+MD5sum: 5849cfa86f56ca24effae5c64a6e4ad7
+SHA1: 6f27eec9d9fdfb81ef8a97f26a0086df8c8b850d
+SHA256: bb606ff0192416cbb7fadc66280e98ad4a3f2377e722aa9b40deb404264ad0a6
+Section: Tweaks
+Description: Remove "Last Visible Group" row when posting Moments
+Author: JiJiang778
+Name: WeChat Remove Last Group
+
 Package: com.jijiang778.xhs778
 Version: 1.0-1
 Architecture: iphoneos-arm64
