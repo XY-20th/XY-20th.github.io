@@ -4287,6 +4287,23 @@ Author: level3tjg
 Icon: https://www.susubaby.top/images/spotify.png
 Name: Sposify Fix
 
+Package: com.level3tjg.twitchadblock
+Version: 0.1.17
+Architecture: iphoneos-arm64
+Maintainer: gunnerkidBT
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: debs/com.level3tjg.twitchadblock_0.1.17_iphoneos-arm64.deb
+Size: 100778
+MD5sum: 73d99f0b32e0cfd1f51e148205ec1e01
+SHA1: ac26c204156930141d3ac689b702df662e8e5f3b
+SHA256: 841a3bdf4ed76fe85b6e4db631e2f2ab0d9e3a833ed27e1d917ea1c7b872e762
+Section: Tweaks
+Homepage: https://github.com/gunnerkidBT/TwitchAdBlock
+Description: Block Twitch video ads and add 7TV, BTTV and FFZ emotes. Built for Twitch 31.7; older versions are untested.
+Author: gunnerkidBT, based on the original by level3tjg
+Name: TwitchAdBlock
+
 Package: com.liam.chatgbefrees
 Version: 1.0.0
 Architecture: iphoneos-arm64
