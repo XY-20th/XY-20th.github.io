@@ -1,76 +1,52 @@
 name: Update Repo Packages
+
 on:
   push:
     paths:
       - 'debs/**'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
 
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y dpkg-dev zstd fakeroot attr
-
-      - name: Repair all deb packages
-        run: |
-          TARGET_DEBS=$(find debs -type f -name "*.deb")
-          while IFS= read -r deb; do
-            [[ -z "$deb" ]] && continue
-            if [ -f "$deb" ]; then
-              echo "===== 正在处理：$deb ====="
-              setfattr --remove-all "$deb" 2>/dev/null || true
-              tmp=$(mktemp -d)
-              fakeroot dpkg-deb -R "$deb" "$tmp" || {
-                echo "❌ $deb 解析失败，跳过此包"
-                rm -rf "$tmp"
-                continue
-              }
-              chmod 755 "$tmp/DEBIAN"
-              chmod 644 "$tmp/DEBIAN/control"
-              [ -f "$tmp/DEBIAN/preinst" ] && chmod 755 "$tmp/DEBIAN/preinst"
-              [ -f "$tmp/DEBIAN/postinst" ] && chmod 755 "$tmp/DEBIAN/postinst"
-              [ -f "$tmp/DEBIAN/prerm" ] && chmod 755 "$tmp/DEBIAN/prerm"
-              [ -f "$tmp/DEBIAN/postrm" ] && chmod 755 "$tmp/DEBIAN/postrm"
-              fakeroot dpkg-deb -b "$tmp" "$deb" || {
-                echo "❌ $deb 重新打包失败，跳过此包"
-                rm -rf "$tmp"
-                continue
-              }
-              rm -rf "$tmp"
-              echo "✅ $deb 处理完成"
-            fi
-          done <<< "$TARGET_DEBS"
+          sudo apt-get install -y --no-install-recommends dpkg-dev zstd
 
       - name: Generate Packages index
         run: |
-          fakeroot dpkg-scanpackages --multiversion debs /dev/null > Packages.raw 2> scan-warning.log
+          dpkg-scanpackages --multiversion debs /dev/null > Packages.raw 2> scan-warning.log
           sed -E 's/^Section:.*$/Section: Tweaks/' Packages.raw > Packages
           zstd -f Packages -o Packages.zst
           rm -f Packages.raw scan-warning.log
 
-      - name: Debug - Print package count and last 5 packages
+      - name: Show package count
         run: |
-          echo "========================================"
-          echo "📦 当前源里总共有 $(grep -c '^Package:' Packages) 个包"
-          echo "========================================"
-          echo "📋 最后5个包名："
+          echo "当前源里总共有 $(grep -c '^Package:' Packages) 个包"
+          echo "最后 5 个包名："
           grep '^Package:' Packages | tail -5
-          echo "========================================"
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add debs Packages Packages.zst
-          git commit -m "Auto rebuild repo index" || echo "No changes to commit"
-          git push origin master && echo "✅ Push成功" || echo "❌ Push失败！"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add Packages Packages.zst
+
+          if git diff --cached --quiet; then
+            echo "索引没有变化，无需提交"
+            exit 0
+          fi
+
+          git commit -m "Auto rebuild repo index"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
