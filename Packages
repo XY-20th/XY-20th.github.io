@@ -3909,6 +3909,52 @@ Description: 心动雷达：抖音前台好友动态与喜欢作品记录
 Author: jijiang2333
 Name: LickingDog
 
+Package: com.jijiang.wcchangetime
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: debs/com.jijiang.wcchangetime_1.0-1_iphoneos-arm64.deb
+Size: 13834
+MD5sum: 0dd83f6b29fca82033b13237e9972238
+SHA1: 7a986ec1d3a73795cbd5753cb06f699dfbcd1a0a
+SHA256: 98f868974801fed7e4adf05cc2fc8f82950913b98e9433b47b28b86e1a48ca6d
+Section: Tweaks
+Description: WeChat Chat Time Editor - Long press to modify chat time display
+Author: jijiang
+Name: WeChatChangeTime
+
+Package: com.jijiang778.messagemenu
+Version: 1.1-0
+Architecture: iphoneos-arm64
+Installed-Size: 248
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.jijiang778.messagemenu_1.1-0_iphoneos-arm64.deb
+Size: 63368
+MD5sum: 660fa7e0959f415c9126b28ceb3dbd10
+SHA1: 6542f0db3bbfde587e8cf448d7632d7345dc0c09
+SHA256: 29228c482a7867b06e93db6873c58a60c39b0e5f70cdba0421640f70aba42340
+Section: Tweaks
+Description: WeChat 8.0.75 message long-press menu customizer
+Author: JiJiang778
+Name: MessageMenu
+
+Package: com.jijiang778.xhs778
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: jijiang778
+Installed-Size: 160
+Depends: mobilesubstrate
+Filename: debs/com.jijiang778.xhs778_1.0-1_iphoneos-arm64.deb
+Size: 33524
+MD5sum: 5f96db32959f18ced1c2cac91d2f61f5
+SHA1: 3d80dcc792c22032f54b0a12d39e096eea8c21ec
+SHA256: 86d092dae65ff5a5181d07648e616024bbea40edfc5015fc94229d69d9c3151c
+Section: Tweaks
+Description: 小红书表情包保存助手
+Author: jijiang778
+Name: XHS778
+
 Package: com.jkclub.app
 Version: 1.0
 Architecture: iphoneos-arm64
