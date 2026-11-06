@@ -3640,10 +3640,10 @@ Maintainer: jibamao
 Installed-Size: 484
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: debs/com.jibamao.gaodeclean_0.9.123_iphoneos-arm64.deb
-Size: 112118
-MD5sum: ccbb0089aeb09cce36167541331c2267
-SHA1: 1bc0199f7837e312e5f4d9764e32d1fb7b5764c8
-SHA256: b6d57cd86075570e5dd09615ed80d9c08e2f6bc944f7bd65025a51483eb2d24a
+Size: 96664
+MD5sum: ae353bd6003c15843db19c99f0dc51d1
+SHA1: 863b687dfde3c94294769c5abe480df273268632
+SHA256: 435e6cf15c73539cec9e32741cad7d752cf5ff1e49f13ed21b8d7392c928641b
 Section: Tweaks
 Description: 高德无设置，无广告。
  .
