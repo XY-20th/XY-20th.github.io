@@ -19,28 +19,49 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
 
       - name: Install tools
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends dpkg-dev zstd
 
-      - name: Generate package indexes
+      - name: Generate and push package indexes
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
-          dpkg-scanpackages --multiversion debs /dev/null > Packages
-          sed -i -E 's/^Section:.*$/Section: Tweaks/' Packages
-          zstd -f Packages -o Packages.zst
+          set -e
 
-      - name: Commit and push
-        run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add Packages Packages.zst
 
-          if git diff --cached --quiet; then
-            echo "索引没有变化，无需提交"
-            exit 0
-          fi
+          for attempt in 1 2 3 4 5; do
+            echo "生成索引（尝试 ${attempt}/5）"
 
-          git commit -m "Auto rebuild repo index"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+            dpkg-scanpackages --multiversion debs /dev/null > Packages
+            sed -i -E 's/^Section:.*$/Section: Tweaks/' Packages
+            zstd -f Packages -o Packages.zst
+
+            git add Packages Packages.zst
+
+            if git diff --cached --quiet; then
+              echo "索引没有变化"
+              exit 0
+            fi
+
+            git commit -m "Auto rebuild repo index"
+
+            if git push origin "HEAD:${BRANCH}"; then
+              echo "索引推送成功"
+              exit 0
+            fi
+
+            echo "推送未成功，拉取远程更新后重试"
+            git fetch origin "${BRANCH}"
+            git reset --hard "origin/${BRANCH}"
+          done
+
+          echo "重试 5 次后仍无法推送"
+          exit 1
