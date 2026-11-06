@@ -14,39 +14,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
+      - uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install tools
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends dpkg-dev zstd
 
-      - name: Generate Packages index
+      - name: Generate package indexes
         run: |
-          dpkg-scanpackages --multiversion debs /dev/null > Packages.raw 2> scan-warning.log
-          sed -E 's/^Section:.*$/Section: Tweaks/' Packages.raw > Packages
+          dpkg-scanpackages --multiversion debs /dev/null > Packages
+          sed -i -E 's/^Section:.*$/Section: Tweaks/' Packages
           zstd -f Packages -o Packages.zst
-          rm -f Packages.raw scan-warning.log
 
-      - name: Show package count
-        run: |
-          echo "当前源里总共有 $(grep -c '^Package:' Packages) 个包"
-          echo "最后 5 个包名："
-          grep '^Package:' Packages | tail -5
-
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add Packages Packages.zst
-
-          if git diff --cached --quiet; then
-            echo "索引没有变化，无需提交"
-            exit 0
-          fi
-
-          git commit -m "Auto rebuild repo index"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          git diff --cached --quiet || {
+            git commit -m "Auto rebuild repo index"
+            git push
+          }
