@@ -3808,6 +3808,25 @@ Author: jibamao
 Name: GaodeClean 高德精简
 
 Package: com.jibamao.gaodeclean
+Version: 0.9.126
+Architecture: iphoneos-arm64
+Maintainer: jibamao
+Installed-Size: 484
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.jibamao.gaodeclean_0.9.126_iphoneos-arm64.deb
+Size: 99810
+MD5sum: 8c39e390581b262ff16c587e757a0953
+SHA1: 0ad2bc4d89f671525bfc0711a61352e86337e5ea
+SHA256: 066f546df1f41ea3e793772b785d714b0aeb0f5408b4cc32676e3322cc92e13e
+Section: Tweaks
+Description: 高德无设置，无广告。
+ .
+ Sileo 添加源 https://gan-jibamao.github.io，搜 GaodeClean 安装。
+ 装完注销（sbreload）或重启用户空间，再开高德。
+Author: jibamao
+Name: GaodeClean 高德精简
+
+Package: com.jibamao.gaodeclean
 Version: 0.9.20
 Architecture: iphoneos-arm64
 Maintainer: jibamao
@@ -11934,6 +11953,40 @@ Section: Tweaks
 Description: Bring free Home Screen placement and native widget resizing to iOS 17 while preserving the system layout.
 Author: banana
 Name: OpenSpace
+
+Package: local.amap.twotabs
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 祁厅长
+Depends: mobilesubstrate
+Filename: debs/local.amap.twotabs_1.0_iphoneos-arm64.deb
+Size: 131096
+MD5sum: 89235736bc9eef41f7cb940d598ddb28
+SHA1: cdef4aa4770a08a31125186d7e3cdb72fcff72e7
+SHA256: 0da3921477b6671f49bddd59c9ff6431b92a3634a91f7c66307fe297ea380931
+Section: Tweaks
+Description: 人民的高德，不忘初心砥砺前行
+Author: 祁厅长
+Icon: https://qi-ting-zhang.github.io/sileo/images/icon/rmdgd.png
+Name: 人民的高德
+Sileodepiction: https://qi-ting-zhang.github.io/sileo/sileodepiction/rmdgd.json
+
+Package: local.amap.twotabs
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: 祁厅长
+Depends: mobilesubstrate
+Filename: debs/local.amap.twotabs_1.1_iphoneos-arm64.deb
+Size: 145664
+MD5sum: 9a24e14bbb91552e8b5dba98b591f766
+SHA1: b6d0c561b2359a0e5809dc5fde7ad79638765233
+SHA256: 15a5227e37787b50a45f35c3b8f154260aebf8091cddc8df74a2110e8806cf57
+Section: Tweaks
+Description: 人民的高德，不忘初心砥砺前行
+Author: 祁厅长
+Icon: https://qi-ting-zhang.github.io/sileo/images/icon/rmdgd.png
+Name: 人民的高德
+Sileodepiction: https://qi-ting-zhang.github.io/sileo/sileodepiction/rmdgd.json
 
 Package: local.apelin.nomo
 Version: 0.0.2
