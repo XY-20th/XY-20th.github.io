@@ -2774,6 +2774,22 @@ Description: DY778 · 消息留存、特别关注、直播信息、星牌查询�
 Author: DY778
 Name: DY778
 
+Package: com.dy778.douyin
+Version: 1.0-4
+Architecture: iphoneos-arm64
+Maintainer: DY778
+Installed-Size: 2296
+Depends: firmware (>= 14.0)
+Filename: debs/com.dy778.douyin_1.0-4_iphoneos-arm64.deb
+Size: 689478
+MD5sum: 3a195a94f09e12bc5ebce7ef7e2ff41b
+SHA1: 6fef8dab5f94b57719908f8fa90d77315ee53cc4
+SHA256: 3b9bb48c3b868a438148d9669957ca0d5639337afc16c684e92988308962e0a6
+Section: Tweaks
+Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
+Author: DY778
+Name: DY778
+
 Package: com.evgeniy.hotspotvpn
 Version: 1.0
 Architecture: iphoneos-arm64
