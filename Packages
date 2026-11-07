@@ -3773,6 +3773,25 @@ Author: jibamao
 Name: GaodeClean 高德精简
 
 Package: com.jibamao.gaodeclean
+Version: 0.9.124
+Architecture: iphoneos-arm64
+Maintainer: jibamao
+Installed-Size: 484
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.jibamao.gaodeclean_0.9.124_iphoneos-arm64.deb
+Size: 98574
+MD5sum: 879a660923ebfa8a908578efefb1cac4
+SHA1: 98403abc68c9f3f9eb58d4ac95c3c97023677483
+SHA256: 19dae759f85d01a615acb871a64de84085f128d57b441ef33c6f00e754973486
+Section: Tweaks
+Description: 高德无设置，无广告。
+ .
+ Sileo 添加源 https://gan-jibamao.github.io，搜 GaodeClean 安装。
+ 装完注销（sbreload）或重启用户空间，再开高德。
+Author: jibamao
+Name: GaodeClean 高德精简
+
+Package: com.jibamao.gaodeclean
 Version: 0.9.20
 Architecture: iphoneos-arm64
 Maintainer: jibamao
@@ -11823,6 +11842,26 @@ Size: 656890
 MD5sum: 383d3c3e23f9f7c4f02d5f0b5607b39b
 SHA1: b254191cf3b7c868a2904a5e345930e62901e221
 SHA256: b0b0e9af548a5466066a6170b354c2e46e0f40d9b053ef45d1ebf1846d461091
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.3
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 2504
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/im.mjh.xianyuadblock_3.2.3_iphoneos-arm64.deb
+Size: 829844
+MD5sum: a28099f6befb62a4be209b1286a3d00c
+SHA1: f6adb18795df107c7a79787c2a3be635d60a3a19
+SHA256: 0a68325a5147116c9af59eac4db2badb06a08a8b7b6f112ec8b63898b8001828
 Section: Tweaks
 Homepage: https://xianyu.goforit.si
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
