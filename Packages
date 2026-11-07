@@ -2765,10 +2765,10 @@ Maintainer: DY778
 Installed-Size: 2112
 Depends: firmware (>= 14.0)
 Filename: debs/com.dy778.douyin_1.0-3_iphoneos-arm64.deb
-Size: 753910
-MD5sum: 2adec4982714d5e304cd3045a4e16452
-SHA1: ae9108b927f1fae487d8ba89344516b6e974110a
-SHA256: 7f07ef390e3c720247d7d0e8f98dbe040fadbf5438513705deeba8ab33eace16
+Size: 647022
+MD5sum: 94aba877ba37ab2d716872d4042464dd
+SHA1: cafc6c3a81207510279a33157d13ad3226fa4a0e
+SHA256: 80c6d9cb284aa2ce7f0610cc6cb5c3b4124a92e2f0198e14a01a49099b12e6ba
 Section: Tweaks
 Description: DY778 · 消息留存、特别关注、直播信息、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
 Author: DY778
