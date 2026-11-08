@@ -3015,6 +3015,22 @@ Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系�
 Author: hang
 Name: 转转找鸡
 
+Package: com.hdd.wctool
+Version: 1.2.5
+Architecture: iphoneos-arm64
+Maintainer: WCTool
+Installed-Size: 7888
+Depends: mobilesubstrate
+Filename: debs/com.hdd.wctool_1.2.5_iphoneos-arm64.deb
+Size: 2457092
+MD5sum: 4dcec300c3f518da473d61707543a592
+SHA1: 0fde86e2f97bca26d0a7fc173b4820151efac536
+SHA256: e19bf42dda30aa3b066b8fefeff2334b0db50f80e3029295b46742a6c5fc51f3
+Section: Tweaks
+Description: 微信工具,仅在微信8.0.73及以上版本制作
+Author: Hao
+Name: 微信工具
+
 Package: com.huami.dyyy
 Version: 2.2-9
 Architecture: iphoneos-arm64
