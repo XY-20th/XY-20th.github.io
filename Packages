@@ -5537,6 +5537,70 @@ Name: MrShi(Rootless)
 Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
 
 Package: com.noads.tweka
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 2616
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.noads.tweka_1.3.1_iphoneos-arm64.deb
+Size: 768440
+MD5sum: 10e75b01b169a669d37617904202a9dd
+SHA1: cf406b4d628c079d5ef34eef073658c69e02a723
+SHA256: d3b6578850551ac9f3efdd51acd18fe4bd3d8a287f68ade8cd97e3dfed8799ae
+Section: Tweaks
+Description: 去除广告。
+Author: 半生年华
+Name: NoAdsX
+
+Package: com.noads.tweka
+Version: 1.3.2
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 6768
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.noads.tweka_1.3.2_iphoneos-arm64.deb
+Size: 1018988
+MD5sum: c64de917b066d66fb5cf907bc39588cf
+SHA1: d3fbea58910d2e3259b3b7ca9d2bf591b02576ca
+SHA256: 36c070bdd824d1cb360972f867099e75ecf82e78494fa6e38f86042eccbb3208
+Section: Tweaks
+Description: 去除广告。
+Author: 半生年华
+Name: NoAdsX
+
+Package: com.noads.tweka
+Version: 1.3.3
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 9080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.noads.tweka_1.3.3_iphoneos-arm64.deb
+Size: 1305544
+MD5sum: fd01637e7287e87403e877812ab1cd4f
+SHA1: d400e76f1e7b9a2c13e9a24d8cbd70575ecfe54c
+SHA256: 5984bcea6e7ad8ae79028834f5c62f9df1362f6081cd0b89226aaa62ac8aaff9
+Section: Tweaks
+Description: 去除广告。
+Author: 半生年华
+Name: NoAdsX
+
+Package: com.noads.tweka
+Version: 1.3.5
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 15692
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.noads.tweka_1.3.5_iphoneos-arm64.deb
+Size: 1732150
+MD5sum: ac6a59c20af5ce534136c4d5b9f39898
+SHA1: 8fc7a431f1c86983a89607dd6b71e74c94a9b349
+SHA256: 83ed2a0e7156f3170bba90bf7d7eac867037ef4c4f22613a7c4c95625bb92b5f
+Section: Tweaks
+Description: 去除广告。
+Author: 半生年华
+Name: NoAdsX
+
+Package: com.noads.tweka
 Version: 1.3.6
 Architecture: iphoneos-arm64
 Maintainer: 半生年华
