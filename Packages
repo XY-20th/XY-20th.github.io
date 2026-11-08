@@ -2603,6 +2603,22 @@ Author: aReo
 Name: AppTools（免授权）
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
 
+Package: com.dao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/com.dao.filzacrack_1.1-9_iphoneos-arm64.deb
+Size: 28708
+MD5sum: 6ebdc236d361b7c274163d4991c0a340
+SHA1: 6bc53019618af928c6f5bea7742ef9e19b65fae1
+SHA256: eba41e96acfa61dafff48e4b08077a121f3757fe23337bb4d4f991c76a8b27db
+Section: Tweaks
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份。
+Author: Netskao
+Name: Filza Crack(rootless)
+
 Package: com.dao.lockdown
 Version: 2.0
 Architecture: iphoneos-arm64
