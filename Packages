@@ -5079,6 +5079,40 @@ Description: 七猫小说去广告
 Author: M哥
 Name: QMFree
 
+Package: com.mlgm.filzacrack
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 204
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit (>= 5.0.0~), com.tigisoftware.filza64bit (<< 6~)
+Filename: debs/com.mlgm.filzacrack_1.0_iphoneos-arm64.deb
+Size: 8322
+MD5sum: 94d3b2b5883fcc0c0ec3cdbc2300b6a7
+SHA1: 830e3a3ac4b7b47ae0a58f8cd961768842fc7524
+SHA256: 65e26b28418de86e1a455758f98d7bd934d3d3ffb0fcaf90548319d031e0665b
+Section: Tweaks
+Description: Filza 5.x 解锁完整版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/FilzaCrack.png
+Name: Filza Crack
+
+Package: com.mlgm.filzapatch
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 154
+Depends: firmware (>= 15.0), com.roothide.patchloader (>= 0.0.8), roothide (>= 0.1.0)
+Conflicts: roothide.patches.filza
+Filename: debs/com.mlgm.filzapatch_1.0.1_iphoneos-arm64e.deb
+Size: 38778
+MD5sum: fcaa25746aa2c5755f622d459852b2eb
+SHA1: 8718f02ad2d28d2634c5ab242d0faa5e0c523671
+SHA256: 15d96e0255bdc5bcd6db04036b9ee4c1e64c746e6468d18926ac8d4731cd8c72
+Section: Tweaks
+Description: Filza 5.x 的 RootHide 动态补丁
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+Name: Filza Patch
+
 Package: com.mlgm.prefnest
 Version: 1.2
 Architecture: iphoneos-arm64
