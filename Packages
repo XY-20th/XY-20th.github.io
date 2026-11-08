@@ -5537,6 +5537,57 @@ Description: 电池耗电分析：注入SpringBoard监控每App前台/后台运�
 Author: yzdmm2024
 Name: 电池耗电分析
 
+Package: com.ojbkclub.settingsgroupx
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: ojbkclub
+Installed-Size: 776
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.ojbkclub.settingsgroupx_1.1_iphoneos-arm64e.deb
+Size: 237952
+MD5sum: f835d7f47b39327250587f76b94c56fc
+SHA1: 2669bc2a4ab1c4efc41bd8e36c7ab5a8d2bfb4b6
+SHA256: 1b7becf496b2706739b80a17f6c061bca69cc466378ddad3e94efd37dc77314c
+Section: Tweaks
+Description: cool
+Author: ojbkclub
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SettingsGroupX
+
+Package: com.ojbkclub.settingsgroupx
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: ojbkclub
+Installed-Size: 828
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.ojbkclub.settingsgroupx_1.2_iphoneos-arm64e.deb
+Size: 253692
+MD5sum: 9164e7a4cc73752e40c8cd3efa2c05a8
+SHA1: b4f5a4a3e4697ffdd977904fa5d1eaaba75cc16b
+SHA256: d0ce060a92107b09aef91babd294775b33e61b856e04e158f075ddb9c4fc4737
+Section: Tweaks
+Description: cool
+Author: ojbkclub
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SettingsGroupX
+
+Package: com.ojbkclub.settingsgroupx
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: ojbkclub
+Installed-Size: 828
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.ojbkclub.settingsgroupx_1.3_iphoneos-arm64e.deb
+Size: 253626
+MD5sum: c769bb15847ae2b74f4b302021aabbbd
+SHA1: b10d322c49965fe7a7f4277a0dcab9110b8d609b
+SHA256: deaec155034bcd0fbe80aec5b70297104092f327c7a4c01e620ac8e2db1fe5a5
+Section: Tweaks
+Description: cool
+Author: ojbkclub
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SettingsGroupX
+
 Package: com.ojbkclub.themecore
 Version: 1.0-8+h2l1
 Architecture: iphoneos-arm64
