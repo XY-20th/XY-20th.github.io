@@ -3862,6 +3862,25 @@ Author: jibamao
 Name: GaodeClean 高德精简
 
 Package: com.jibamao.gaodeclean
+Version: 0.9.131
+Architecture: iphoneos-arm64
+Maintainer: jibamao
+Installed-Size: 484
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.jibamao.gaodeclean_0.9.131_iphoneos-arm64.deb
+Size: 102346
+MD5sum: 90b920b2c7d6fd88e6a749a4616bf84c
+SHA1: a02150852f7ece685885020fef912fefd27d1fb5
+SHA256: 5f13dc7626543d9952fc030414faa0ce3a4dcae67cdc0f5db48248f669a5e928
+Section: Tweaks
+Description: 高德无设置，无广告。
+ .
+ Sileo 添加源 https://gan-jibamao.github.io，搜 GaodeClean 安装。
+ 装完注销（sbreload）或重启用户空间，再开高德。
+Author: jibamao
+Name: GaodeClean 高德精简
+
+Package: com.jibamao.gaodeclean
 Version: 0.9.20
 Architecture: iphoneos-arm64
 Maintainer: jibamao
