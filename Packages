@@ -4603,6 +4603,38 @@ Author: Local Workspace
 Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
 Name: 支付宝身份验证兼容
 
+Package: com.local.cleandrawer
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 872
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.local.cleandrawer_1.0_iphoneos-arm64.deb
+Size: 122964
+MD5sum: 5b1c9b6da1cc73845f5d3bc0f753307e
+SHA1: 2b563fecf7cf20180bed9109b62a7c8a065b9be1
+SHA256: ef1432533471182cf058e001b944b1e751e46de469b75ef31a21e738a9d93bb3
+Section: Tweaks
+Description: 丝滑的APP启动器
+Author: 半生年华
+Name: CleanDrawer
+
+Package: com.local.cleandrawer
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 872
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.local.cleandrawer_1.1_iphoneos-arm64.deb
+Size: 123304
+MD5sum: 6d4b1f3b5738e92314fae9293294291c
+SHA1: 88d10cc70c39a676591556f41f8b68a4fcb37322
+SHA256: 462139e5642dbc39c608b4dfad1831fc797c7ce54aa29b9c6e0bad671c453084
+Section: Tweaks
+Description: 丝滑的APP启动器
+Author: 半生年华
+Name: CleanDrawer
+
 Package: com.mallin.photonoautoalbums
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -5503,6 +5535,22 @@ Author: MrShi
 Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
 Name: MrShi(Rootless)
 Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
+
+Package: com.noads.tweka
+Version: 1.3.6
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 16592
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.noads.tweka_1.3.6_iphoneos-arm64.deb
+Size: 1791180
+MD5sum: 6ce88c543fcbf8034fbc1bee4481e227
+SHA1: f1e913ffb70ca419b8e643a6f16f86c2db788e5d
+SHA256: 2f31bb54335c9af1e728aa6359b11d497bb2ca8a81d7cde508e8c11fb56957e2
+Section: Tweaks
+Description: 去除广告。
+Author: 半生年华
+Name: NoAdsX
 
 Package: com.notifydynamicx.tweak
 Version: 1.0
