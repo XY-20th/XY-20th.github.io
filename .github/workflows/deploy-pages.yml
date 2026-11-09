@@ -1,0 +1,53 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'debs/**'
+      - 'Packages'
+      - 'Packages.zst'
+      - 'index.html'
+      - 'CydiaIcon.png'
+  workflow_dispatch:
+
+# 同一时间只保留一个正在运行的部署；
+# 新提交到来时取消旧部署，最终发布最新仓库状态。
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Wait for uploads to settle
+        if: github.event_name == 'push'
+        run: sleep 120
+
+      - name: Checkout latest repository state
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
