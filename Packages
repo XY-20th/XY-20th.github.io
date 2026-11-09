@@ -12730,6 +12730,21 @@ Author: Domo <domo@rambler.ru>
 Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
 Name: CocoaTop64
 
+Package: wacljcr.batteryanalyzer
+Version: 1.6.7
+Architecture: iphoneos-arm64
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/wacljcr.batteryanalyzer_1.6.7_iphoneos-arm64.deb
+Size: 126240
+MD5sum: fa5efe6cb4658430e397b893183c8eb1
+SHA1: cc97ce97c1d70dc0c6d2e67796f032e0bffdd0b3
+SHA256: 018ddd507d4d764cf3c4f12df20f54aa4b6d091ccdd86c3e990e9d2e49048e0a
+Section: Tweaks
+Description: 电池耗电分析：统计各 App 前台/后台运行时长与电量变化，估算耗电占比，展示电量历史与充放电统计。注：耗电为估算值，仅供参考，非精确测量。
+Author: yzdmm2024
+Name: 电池耗电分析
+
 Package: xhs.x
 Version: 1.2.0
 Architecture: iphoneos-arm64
