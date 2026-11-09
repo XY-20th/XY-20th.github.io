@@ -9859,6 +9859,23 @@ Description: 去除百度网盘开屏广告，并为本地下载文件添加导�
 Author: wkk
 Name: 百度网盘
 
+Package: com.wkk.copylogx
+Version: 1.2-3
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 1732
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Filename: debs/com.wkk.copylogx_1.2-3_iphoneos-arm64.deb
+Size: 264238
+MD5sum: 52d2986bf9e7bc51b71ad4d7b819b14c
+SHA1: fe9c98dbf7a90458df9e3b45722ab949efc05de1
+SHA256: 17634c76019c1f59b04db22e4133fed6eaf3077b5e75b6382b5324228efcb226
+Section: Tweaks
+Description: cool！
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: CopylogX
+
 Package: com.wkk.cwzadfree
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -9986,6 +10003,23 @@ Description: 键盘调整。
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: KeyboardX（wkk）
+
+Package: com.wkk.keyboardx
+Version: 1.2-2end
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 604
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.wkk.keyboardx_1.2-2end_iphoneos-arm64.deb
+Size: 76372
+MD5sum: a65a758180f0a69a4ffb194af4ecf241
+SHA1: 70dbbc64a2106eb684eefd5245180fd37dbed54c
+SHA256: d5b97e164a5ae05ade5c67701cff6075af7cd743bc3b3891ffee5fdaf7c09d31
+Section: Tweaks
+Description: 键盘调整。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: KeyboardX
 
 Package: com.wkk.lanfanadfree
 Version: 1.0
@@ -10116,6 +10150,23 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: OneStepX（wkk）
 
+Package: com.wkk.onestepx
+Version: 1.2-3
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 968
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.wkk.onestepx_1.2-3_iphoneos-arm64.deb
+Size: 159264
+MD5sum: 1b9a184d53b92245ade89c5dc70732e6
+SHA1: 9557b8598b8a353997e75bb4f3c8e5f70bcbc657
+SHA256: c4dd24a83292fb1166571773c7868c01d06112d8c5d5136d5a605e9763420172
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: OneStepX
+
 Package: com.wkk.qdreaderadblock
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -10181,6 +10232,24 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: deb 保存器
 
+Package: com.wkk.systembox
+Version: 1.5-8end
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 2792
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wkk.clockglass
+Filename: debs/com.wkk.systembox_1.5-8end_iphoneos-arm64.deb
+Size: 636580
+MD5sum: b4ce46d3efc874b585be96b8f14371d0
+SHA1: 51b8fa84af50501b4a0bc45539b6a7abdc55a6f9
+SHA256: a96100c23e8a144eba875bee0a99f9c702616d180e1d3325dbd351adb78cec91
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SystemX
+
 Package: com.wkk.tallynoad
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -10245,6 +10314,23 @@ Section: Tweaks
 Description: cool
 Author: wkk
 Name: 微信圆角
+
+Package: com.wkk.wechatx
+Version: 2.4-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 9604
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wkk.wechatx_2.4-1_iphoneos-arm64.deb
+Size: 3343090
+MD5sum: ff3ca92ec7f6268ac0e78d6c6d23e33b
+SHA1: 599afa467ff0982a08e69f173bb194287d264909
+SHA256: d29de77912629c863c300424fb5cecf711c875edaf8298a5e5ce73340b50034b
+Section: Tweaks
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: WeChatX
 
 Package: com.wkk.weiboadfree
 Version: 1.0
