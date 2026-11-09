@@ -5734,6 +5734,25 @@ Description: 独立管理应用图标、替换角标、替换遮罩、替换开�
 Author: OJBKClub
 Name: ThemeCore (OJBKClub)
 
+Package: com.ojbkclub.themecore
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: OJBKClub
+Installed-Size: 4016
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.susudear.themecore
+Replaces: com.susudear.themecore
+Filename: debs/com.ojbkclub.themecore_1.1-1_iphoneos-arm64e.deb
+Size: 1306386
+MD5sum: 6ca955c50c2f74f70b077082b93c3fa6
+SHA1: ea02e264b7890bb074276417e5403ea42cc09fa6
+SHA256: c9ce9af8cc8271e23cd01a2642b6be66a3d00a7cb9c01b553dc247ea1b448262
+Section: Tweaks
+Description: 独立管理应用图标、替换角标、替换遮罩、替换开关、挂载系统字体、注销动画、SF Symbols、资源替换与图标抓取。
+Author: OJBKClub
+Name: ThemeCore (OJBKClub)
+
 Package: com.pipboy.tweak
 Version: 1.0.22
 Architecture: iphoneos-arm64
