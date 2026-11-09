@@ -2636,6 +2636,23 @@ Description: 让你的设备免受 DarkSword/Coruna 攻击！针对 WebContent �
 Author: roothide
 Name: lockdown(rootless)
 
+Package: com.dao.pogr
+Version: 0.5.5
+Architecture: iphoneos-arm64
+Maintainer: Ruphane
+Installed-Size: 452
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: debs/com.dao.pogr_0.5.5_iphoneos-arm64.deb
+Size: 76026
+MD5sum: 054ed98342d0f15b97a5ad44f8bfff38
+SHA1: b4797ce8e28125df8081a1f9056ee24f1063e15b
+SHA256: c83a528c76b0e46ec31031079cbacea7a1e11d1bd8296696af99abba2e13a9e7
+Section: Tweaks
+Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好地运行；支持 iOS16和USB-C版AirPodsPro2；支持AirPods4；自行实测！
+Author: Ruphane
+Name: PodsGrant(rootless)
+
 Package: com.dao.storeswitchaccounts
 Version: 1.1-4
 Architecture: iphoneos-arm64
