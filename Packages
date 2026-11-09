@@ -5665,6 +5665,23 @@ Description: 电池耗电分析：注入SpringBoard监控每App前台/后台运�
 Author: yzdmm2024
 Name: 电池耗电分析
 
+Package: com.ojbkclub.petdfy
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: ojbkclub
+Installed-Size: 7864
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Filename: debs/PetDFY-1.0-roothide.deb
+Size: 3247074
+MD5sum: e24b01e879f9134fb199e0d960885b98
+SHA1: 23ca0b62e264b37aee9dd858b21cd5622493b4ac
+SHA256: b32034080ef34b644bafe976f44ab95daa6a93cd746c525b719b0a0a69c6c57b
+Section: Tweaks
+Description: 大肥鱼宠物，支持主题换装、触摸互动、动作音效与 AI 对话。
+Author: ojbkclub
+Icon: https://repo.susubaby.cn/icons/PetDFY.png
+Name: 大肥鱼 PetDFY
+
 Package: com.ojbkclub.settingsgroupx
 Version: 1.1
 Architecture: iphoneos-arm64e
