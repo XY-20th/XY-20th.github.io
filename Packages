@@ -10215,6 +10215,23 @@ Description: 自定义快捷录屏的灵动岛录制指示点。
 Author: wkk
 Name: RecordEyeX
 
+Package: com.wkk.screenfarewell
+Version: 1.0-3
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 556
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.wkk.screenfarewell_1.0-3_iphoneos-arm64.deb
+Size: 64610
+MD5sum: 770d283be9d69e6e013596f4510d99db
+SHA1: 9485c0d60bed25ce43cbff6f180b0246a4bf21c0
+SHA256: b525c1493268e2862bfa33159d30735722733e0e760ec6bd0f39ebb034ff3f35
+Section: Tweaks
+Description: 锁屏特效，效果任选，无用请卸载。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: DriftX
+
 Package: com.wkk.sileodebbackupx
 Version: 1.0-1
 Architecture: iphoneos-arm64
@@ -10326,6 +10343,57 @@ Size: 3343090
 MD5sum: ff3ca92ec7f6268ac0e78d6c6d23e33b
 SHA1: 599afa467ff0982a08e69f173bb194287d264909
 SHA256: d29de77912629c863c300424fb5cecf711c875edaf8298a5e5ce73340b50034b
+Section: Tweaks
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: WeChatX
+
+Package: com.wkk.wechatx
+Version: 2.4-5
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 10772
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wkk.wechatx_2.4-5_iphoneos-arm64.deb
+Size: 3498598
+MD5sum: b1a301f4f88157f65ec6f354c4608459
+SHA1: 766d96583b4b56f5b3171b3303ed8df7eea5d3b7
+SHA256: e7dda22c34fb796b6946be172a559f107676eb5a7a4027dcd5aad12c0f2d3a2f
+Section: Tweaks
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: WeChatX
+
+Package: com.wkk.wechatx
+Version: 2.4-7
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 10916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wkk.wechatx_2.4-7_iphoneos-arm64.deb
+Size: 3534278
+MD5sum: 4b806c13184b2462c926b046bebf3d51
+SHA1: 8a61308f2688c5562a88f7ee48e5d93721c73f1e
+SHA256: 0a17c4c5a0ee866b45d67dd0d200e5663d0af49a4884d61459502ca926a09a88
+Section: Tweaks
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: WeChatX
+
+Package: com.wkk.wechatx
+Version: 2.4-8
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 9800
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wkk.wechatx_2.4-8_iphoneos-arm64.deb
+Size: 3382518
+MD5sum: 8bc6873b29cd7933ad58379a19616756
+SHA1: 19961a8219c7a4977a6a1d13cadd66911d63c701
+SHA256: 391e21a2827d9d5db3a1ac71a24164b303cf94e68228139bc8fbe1aef1e417af
 Section: Tweaks
 Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
 Author: wkk
