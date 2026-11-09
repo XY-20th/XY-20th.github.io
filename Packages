@@ -1411,11 +1411,11 @@ Architecture: iphoneos-arm64
 Maintainer: 冰蓝
 Installed-Size: 772
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/binglan.灵动岛背景_1.0.7-arm64.deb
-Size: 83972
-MD5sum: 0159f0cd29a673220c96a07304a12d0b
-SHA1: dd16b8c6aee272221045a04dea7e7cb0d54dd12b
-SHA256: ac11726f7ff6c7898218e020a3064acc1a546898a251fe813dc3e93ae7a4b8ed
+Filename: debs/binglan.dynamicfx_1.0.7-arm64.deb
+Size: 83858
+MD5sum: 4384d6231251363687480fccc598fc3e
+SHA1: 2572420f473bcffefebcf5f521f28ee48a0be5c3
+SHA256: 0b3cb3b24bc952d3cccf0b202c4c53cbc68aa1f92eb3e34d8f25bc7556e378b1
 Section: Tweaks
 Description: 灵动岛背景？
 Author: 冰蓝
@@ -1427,11 +1427,11 @@ Architecture: iphoneos-arm64
 Maintainer: 冰蓝
 Installed-Size: 772
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/binglan.dynamicfx_1.0.7-arm64.deb
-Size: 83858
-MD5sum: 4384d6231251363687480fccc598fc3e
-SHA1: 2572420f473bcffefebcf5f521f28ee48a0be5c3
-SHA256: 0b3cb3b24bc952d3cccf0b202c4c53cbc68aa1f92eb3e34d8f25bc7556e378b1
+Filename: debs/binglan.灵动岛背景_1.0.7-arm64.deb
+Size: 83972
+MD5sum: 0159f0cd29a673220c96a07304a12d0b
+SHA1: dd16b8c6aee272221045a04dea7e7cb0d54dd12b
+SHA256: ac11726f7ff6c7898218e020a3064acc1a546898a251fe813dc3e93ae7a4b8ed
 Section: Tweaks
 Description: 灵动岛背景？
 Author: 冰蓝
@@ -2894,7 +2894,7 @@ Name: CalculatorHistory
 Package: com.gu.xianyupick
 Version: 1.9.1
 Architecture: iphoneos-arm
-Maintainer: 故
+Maintainer: �
 Depends: mobilesubstrate
 Filename: debs/com.gu.xianyupick_1.9.1_iphoneos-arm.deb
 Size: 135300
@@ -2904,7 +2904,7 @@ SHA256: a534515429c8d30a4cb0b20caad073e9702407f82cb437f137cfafa4ab0f9248
 Section: Tweaks
 Homepage: https://t.me/zakadeep_bot
 Description: 闲鱼商品嗅探 + 筛选捡漏工具。悬浮球面板可按机型/容量/系统版本/机身颜色/成色/价格/想要人数筛选，自动翻页、单条复制、点击直达商品。v1.9.1：激活弹窗精简（去掉机器码说明与操作提示两行文字，界面更干净）；卡密校验改为进算法层做严格对账——错码不再只是弹提示，而是当场终止，挡掉批量试码的脚本。抓取与筛选逻辑与 v1.9.0 完全一致。
-Author: 故
+Author: �
 Name: 闲鱼捡漏
 
 Package: com.hades.locktouchx
@@ -3073,13 +3073,13 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 3112
+Installed-Size: 2980
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#14-arm64.deb
-Size: 805804
-MD5sum: de479d87a08d224578047536043e7f59
-SHA1: 026c19db9565f02a395110b1e91ec1486abad174
-SHA256: f59a37328540a7b0c75e6ee2ae31096d71f7f3ea4f7f4f76bd0359cae6ef10bc
+Filename: debs/huami.dyyy_2.3-0#10-arm64.deb
+Size: 774418
+MD5sum: c3150f11d821ec95a7cd7bf328edbc87
+SHA1: c89d7bb2d904a464f3e6cb0078aac156340d256e
+SHA256: 21763d332697955d891a7453628b1dfd65c3f670831248320580af4f17bc4838
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3092,32 +3092,13 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 3372
+Installed-Size: 2964
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.3-0_iphoneos-arm64.deb
-Size: 884654
-MD5sum: 5f482ca50b2cf0e8ddbf4d2b1c288134
-SHA1: aed1f06d04c4e26d66a3fa32ed5f6f6f34f98ca3
-SHA256: 59b025635ac24d8612f546c2401e0cf1fe8ae2950bc4eec55643d8d866e1ed58
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 3064
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#13-arm64.deb
-Size: 807894
-MD5sum: daceb6d399fd4fd9c22dd77b98d0067c
-SHA1: 8f8e0452c113ab126774f94285e9eb08633cb6c3
-SHA256: 51ae56f93af961c1450cfbc7141cd9593a3bff1d70404677374beff8094cf32a
+Filename: debs/huami.dyyy_2.3-0#7-arm64.deb
+Size: 773792
+MD5sum: af7bd09737ed01a0f342de2855271ead
+SHA1: ab3d6185877fb739d9db26b5098d40a5c014fc09
+SHA256: 8cc1f50dbfd1bebbff92793215954ed1f0736eba5d00188442f52a2cf62c7cff
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3168,13 +3149,51 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2964
+Installed-Size: 3112
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#7-arm64.deb
-Size: 773792
-MD5sum: af7bd09737ed01a0f342de2855271ead
-SHA1: ab3d6185877fb739d9db26b5098d40a5c014fc09
-SHA256: 8cc1f50dbfd1bebbff92793215954ed1f0736eba5d00188442f52a2cf62c7cff
+Filename: debs/huami.dyyy_2.3-0#14-arm64.deb
+Size: 805804
+MD5sum: de479d87a08d224578047536043e7f59
+SHA1: 026c19db9565f02a395110b1e91ec1486abad174
+SHA256: f59a37328540a7b0c75e6ee2ae31096d71f7f3ea4f7f4f76bd0359cae6ef10bc
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2980
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.3-0#9-arm64.deb
+Size: 773738
+MD5sum: 59e50ba21cd964b80a9107b7fbc1f4ee
+SHA1: baaf08c92f0da95c4ba8059dfa7ad9d83bf026a2
+SHA256: ce64d563a24a2ba77ba6b72a17681b1174bf20e6f689420013c516294e774697
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2832
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.3-0#4-arm64.deb
+Size: 738404
+MD5sum: d0c840901dcb2e9f639854f3d07b8444
+SHA1: 1afc3d220973e216d7ab06d73e6f04f31790f423
+SHA256: a0787f52c08c4673e63dba276f99a96bb0c29c9573db90e8eea2b567ac62a3a0
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3206,32 +3225,13 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2980
+Installed-Size: 3372
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#10-arm64.deb
-Size: 774418
-MD5sum: c3150f11d821ec95a7cd7bf328edbc87
-SHA1: c89d7bb2d904a464f3e6cb0078aac156340d256e
-SHA256: 21763d332697955d891a7453628b1dfd65c3f670831248320580af4f17bc4838
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 3028
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#11-arm64.deb
-Size: 784484
-MD5sum: 651b4509ffe9491c82da7487830b9b7a
-SHA1: 42c7569ebcb9dff2085c90de6c3c891b9137aa54
-SHA256: a6d588cdf5227587c020944158447c084edc09cada176632748c14c21b74cf41
+Filename: debs/com.huami.dyyy_2.3-0_iphoneos-arm64.deb
+Size: 884654
+MD5sum: 5f482ca50b2cf0e8ddbf4d2b1c288134
+SHA1: aed1f06d04c4e26d66a3fa32ed5f6f6f34f98ca3
+SHA256: 59b025635ac24d8612f546c2401e0cf1fe8ae2950bc4eec55643d8d866e1ed58
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3282,13 +3282,13 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2832
+Installed-Size: 3028
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#4-arm64.deb
-Size: 738404
-MD5sum: d0c840901dcb2e9f639854f3d07b8444
-SHA1: 1afc3d220973e216d7ab06d73e6f04f31790f423
-SHA256: a0787f52c08c4673e63dba276f99a96bb0c29c9573db90e8eea2b567ac62a3a0
+Filename: debs/huami.dyyy_2.3-0#11-arm64.deb
+Size: 784484
+MD5sum: 651b4509ffe9491c82da7487830b9b7a
+SHA1: 42c7569ebcb9dff2085c90de6c3c891b9137aa54
+SHA256: a6d588cdf5227587c020944158447c084edc09cada176632748c14c21b74cf41
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3301,13 +3301,13 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2980
+Installed-Size: 3064
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#9-arm64.deb
-Size: 773738
-MD5sum: 59e50ba21cd964b80a9107b7fbc1f4ee
-SHA1: baaf08c92f0da95c4ba8059dfa7ad9d83bf026a2
-SHA256: ce64d563a24a2ba77ba6b72a17681b1174bf20e6f689420013c516294e774697
+Filename: debs/huami.dyyy_2.3-0#13-arm64.deb
+Size: 807894
+MD5sum: daceb6d399fd4fd9c22dd77b98d0067c
+SHA1: 8f8e0452c113ab126774f94285e9eb08633cb6c3
+SHA256: 51ae56f93af961c1450cfbc7141cd9593a3bff1d70404677374beff8094cf32a
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3912,6 +3912,29 @@ Description: 高德无设置，无广告。
  .
  Sileo 添加源 https://gan-jibamao.github.io，搜 GaodeClean 安装。
  装完注销（sbreload）或重启用户空间，再开高德。
+Author: jibamao
+Name: GaodeClean 高德精简
+
+Package: com.jibamao.gaodeclean
+Version: 0.9.135
+Architecture: iphoneos-arm64
+Maintainer: jibamao
+Installed-Size: 484
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.jibamao.gaodeclean_0.9.135_iphoneos-arm64.deb
+Size: 101254
+MD5sum: 655ea22d1d519c0f2aad3a51f0dd4234
+SHA1: 30f054a08494983539acc4f70ec07ed41d712589
+SHA256: e29263e87cb2cd421c1c2eb0e86280ba6814574b01412b82a1b1645d240933b7
+Section: Tweaks
+Description: 高德地图界面精简：去广告、去白雾、控件归位，深色模式自适应。
+ .
+ 删掉：开屏广告 · 顶部运营横幅与通知条 · 底栏上滑白雾 · 顶部模糊带 · 首页白块 · 上拉发现引导
+ 归位：定位/路线胶囊、连接车机、搜索栏、天气行按原生关系摆放；切页不闪、冷启动不在屏幕中部裸奔
+ 适配：全版本自适应（按类名与几何特征判定）；rootless 与 RootHide 各一份�
+ .
+ 装完即用，无需设置。注销（sbreload）或重启用户空间后再打开高德。
+ 添加源 https://gan-jibamao.github.io 可获取更新。
 Author: jibamao
 Name: GaodeClean 高德精简
 
@@ -7093,11 +7116,11 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
  - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
  - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
- - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有�
  .
  【恢复流程】
  - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
- - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安�
  - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
  - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
  - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
@@ -7112,8 +7135,8 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  .
  【操作流程】
  ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
- ② 恢复配置：主页 →「恢复配置」→ 选备份包
- ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ ② 恢复配置：主页 →「恢复配置」→ 选备份�
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安�
  .
  RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
  备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
@@ -9478,7 +9501,7 @@ Description: 净化喜马拉雅，解锁部分VIP资源!
 Author: SWING
 Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.purexmly
 Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.purexmly/icon.png
-Name: 喜马拉雅
+Name: 喜马拉�
 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.purexmly.json
 
 Package: com.swing.qqmail
