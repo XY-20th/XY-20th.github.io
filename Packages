@@ -2924,6 +2924,22 @@ Author: fiore
 Icon: https://www.susubaby.top/images/jisuanqi.png
 Name: CalculatorHistory
 
+Package: com.flex2areo.apptools15rootless
+Version: 2.9.2+unlocked
+Architecture: iphoneos-arm64
+Maintainer: aReo
+Installed-Size: 5632
+Depends: mobilesubstrate
+Filename: debs/com.flex2areo.apptools15rootless_2.9.2+unlocked_iphoneos-arm64.deb
+Size: 2995782
+MD5sum: 08cb2add9981b72dc1a2017efd87b58a
+SHA1: e6ccdd8074f2f73886ff0e4915a3d8d3eac881d0
+SHA256: 93da16630d99819c15afc3270efa9b51c46f606c19139a23f4c4af36ad4f6c05
+Section: Tweaks
+Description: AppTools for iOS15-17 Rootless
+Author: aReo
+Name: AppTools15-17（免授权）
+
 Package: com.gu.xianyupick
 Version: 1.9.1
 Architecture: iphoneos-arm
@@ -3968,6 +3984,22 @@ Description: 高德地图界面精简：去广告、去白雾、控件归位，�
  .
  装完即用，无需设置。注销（sbreload）或重启用户空间后再打开高德。
  添加源 https://gan-jibamao.github.io 可获取更新。
+Author: jibamao
+Name: GaodeClean 高德精简
+
+Package: com.jibamao.gaodeclean
+Version: 0.9.138
+Architecture: iphoneos-arm64
+Maintainer: jibamao
+Installed-Size: 484
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.jibamao.gaodeclean_0.9.138_iphoneos-arm64.deb
+Size: 101682
+MD5sum: 0e1a3a6db56e98305442499b2847aef6
+SHA1: ffa4a0de1065a627377eacfd2985ec8ebaec3e97
+SHA256: 92e4867d6ec9ed03ab7655fc8f11a317ad95d59759ceeb8967cccdddfd2fbf5d
+Section: Tweaks
+Description: 高德精简，无设置
 Author: jibamao
 Name: GaodeClean 高德精简
 
