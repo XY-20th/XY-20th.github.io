@@ -10639,6 +10639,22 @@ Description: 让微信底栏回归 iOS 26 原生 Liquid Glass 浮动样式
 Author: Riee
 Name: wctabbar
 
+Package: com.xiaomo.secretfriend
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: xiaomo
+Installed-Size: 964
+Depends: ellekit
+Filename: debs/com.xiaomo.secretfriend_1.8_iphoneos-arm64.deb
+Size: 391704
+MD5sum: b7928cb622c11ed83b1fc2f30a4b2b7d
+SHA1: 2afe016e98d619e5b443d00e61d3e9a533058aab
+SHA256: e912b17debe4fe9ab2de97f31d1b782149bebf6fe3d955ab4508738758ffbb4c
+Section: Tweaks
+Description: 小莫助手 - 微信消息隐藏与联系人管理插件
+Author: xiaomo
+Name: 微信独立密友（免授权）
+
 Package: com.xlzs001.dystorage
 Version: 1.2.72
 Architecture: iphoneos-arm64
@@ -12116,6 +12132,54 @@ Description: 设置分类收纳、首页与二级菜单布局、自定义名称�
  【适用范围】
  二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 538
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.1.0_iphoneos-arm64.deb
+Size: 97902
+MD5sum: 2c65e831f794e6ab245056e22b28178e
+SHA1: b525f46bb47ea3628333a3d4acbb0805478cb424
+SHA256: ed5aa6a0435fb86ae0403e7969a71a90230c6e5195660f9781381cd3c5bda981
+Section: Tweaks
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+  【插件介绍】
+  将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+  【主要功能】
+  · 分类管理：手动调整分类，长按条目修改显示名称。
+  · 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+  · 导航文字：自定义首页标题与左上角返回文字。
+  · 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+  【0.1.0 更新】
+  1. 修复搜索输入：修复 Choicy「应用程序」列表搜索框无法输入的问题。
+  2. 修复图标加载：修复重启设置后首次进入「第三方 App」图标延迟显示的问题。
+ .
+  【0.0.9 更新】
+  1. 新增首页布局
+  支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。九宫格默认三列，首页八个分类入口占八格。
+  2. 新增二级菜单布局
+  收纳分类列表支持六种样式，可独立选择或跟随首页。支持多行名称和大字号适配，保留条目跳转与长按改名。
+  3. 调整选项位置
+  以下四项集中放在「壁纸无遮罩」下方：
+  · 左上角返回文字
+  · 首页左上角标题
+  · 首页布局
+  · 二级菜单布局
+ .
+  【使用方法】
+  设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+  选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+  【适用范围】
+  二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
 Author: MoWang
 Name: 设置插件收纳
 
