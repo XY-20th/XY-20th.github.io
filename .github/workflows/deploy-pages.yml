@@ -1,53 +1,77 @@
 name: Deploy Pages
 
 on:
+  workflow_run:
+    workflows:
+      - Update Repo Packages
+    types:
+      - completed
+    branches:
+      - master
+
   push:
     branches:
       - master
     paths:
-      - 'debs/**'
-      - 'Packages'
-      - 'Packages.zst'
       - 'index.html'
       - 'CydiaIcon.png'
-  workflow_dispatch:
+      - 'Release'
+      - 'Sections'
+      - '.github/workflows/deploy-pages.yml'
 
-# 同一时间只保留一个正在运行的部署；
-# 新提交到来时取消旧部署，最终发布最新仓库状态。
-concurrency:
-  group: github-pages
-  cancel-in-progress: true
+  workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
+concurrency:
+  group: repo-pages-publish
+  cancel-in-progress: false
+
 jobs:
   deploy:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
+
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
 
     steps:
-      - name: Wait for uploads to settle
-        if: github.event_name == 'push'
-        run: sleep 120
-
-      - name: Checkout latest repository state
+      - name: Checkout latest files
         uses: actions/checkout@v4
         with:
           ref: master
+          fetch-depth: 1
 
-      - name: Configure GitHub Pages
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends dpkg-dev zstd
+
+      - name: Generate indexes for this deployment
+        run: |
+          set -euo pipefail
+          dpkg-scanpackages --multiversion debs /dev/null > Packages
+          sed -i -E 's/^Section:.*$/Section: Tweaks/' Packages
+          zstd -f Packages -o Packages.zst
+
+      - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload site artifact
+      - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 1200000
