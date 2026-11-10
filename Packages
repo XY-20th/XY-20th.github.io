@@ -6793,6 +6793,24 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/kayokolite.png
 Name: KayokoLite(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/kayokolite/js.json
 
+Package: com.sini921.liquidglassswitch
+Version: 0.0.1-9
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 676
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Filename: debs/com.sini921.liquidglassswitch_0.0.1-9_iphoneos-arm64.deb
+Size: 117678
+MD5sum: 56d8959fc439a1eca2fbd68f1a2c6b4a
+SHA1: 2e2730f49de0db9963e207d58f80f1e2697dee45
+SHA256: b71f1c2dd819356253298b4060a56806bf715d7ed484d3db42f00e2a50d29288
+Section: Tweaks
+Description: 液态玻璃开关
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/liquidglassswitch.png
+Name: LiquidGlassSwitch(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/liquidglassswitch/js.json
+
 Package: com.sini921.liquidswitch
 Version: 0.0.1-1
 Architecture: iphoneos-arm64
