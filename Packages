@@ -11856,6 +11856,182 @@ Author: 白白白
 Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
 Name: App Store 更新屏蔽
 
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 473
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.1_iphoneos-arm64.deb
+Size: 77568
+MD5sum: 162cb8b4a90be3f0bf3a3558ff94118a
+SHA1: 1185d4592b8c35491ca2d378b0caf70b0be81409
+SHA256: 26b26d70362ef48a674c9c7ace381b1976abb8cddef1a200febcae42b2b7d463
+Section: Tweaks
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.2_iphoneos-arm64.deb
+Size: 81046
+MD5sum: 50bf5988f15147c4ccb0fa939e3657c5
+SHA1: facf8bb601acbd2a40ddacfa8390daeb6ce2a050
+SHA256: 90565cc4dd0938cbc64537136b520492ad46473edf11dda74be3c63cf76d47b5
+Section: Tweaks
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.3_iphoneos-arm64.deb
+Size: 80616
+MD5sum: 63979c98633d7ec02a013f48de0028c7
+SHA1: 267c6106ab45c1b24a0e6bad519156a1392c7505
+SHA256: 6354dd26d3b7d1cd521f0547310bafe53a8f9a798876d15da00f00b63174f084
+Section: Tweaks
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.4_iphoneos-arm64.deb
+Size: 81992
+MD5sum: d120d0ac4d113e0924b47baa4c28a55b
+SHA1: 280a8b56093703edf37e36466880672201d8be08
+SHA256: 22506089c4e7cc11f15df98e99d9bb6de502649760acf75b4df2943312ea91a1
+Section: Tweaks
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.5_iphoneos-arm64.deb
+Size: 83502
+MD5sum: f9139e3a81a89e22e1f42f5a9842c76c
+SHA1: 8cd110ce9def11b60bd3842581b2b4bf7cb6a999
+SHA256: cc8cf0681ce696a1dab0732a735cc0d924331f533a15c73b9e72ca53d5444ce5
+Section: Tweaks
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.6_iphoneos-arm64.deb
+Size: 86170
+MD5sum: 2f9e1fc77daa6852e501785d1e879934
+SHA1: 554d9d25bab72090b5eebe73f376d87f28b9ccfb
+SHA256: dfdcb62da27d41e48cbe606454d49f5656c64b9259f3a18190ca27c034fb96d2
+Section: Tweaks
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.7
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.7_iphoneos-arm64.deb
+Size: 88802
+MD5sum: 1a7e44198e6b960015666386a32a4386
+SHA1: c474ec9332d9a04c828b71a2c110e0bbbb0b3a78
+SHA256: cb718461cd5c5b8f3352e322d526515beafac5eb2f49aaee1e67cc842d73b16f
+Section: Tweaks
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.8
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.8_iphoneos-arm64.deb
+Size: 89742
+MD5sum: 70fc8a011f151837a5c67047563308a8
+SHA1: 16486e32869b52cff99e0cd7fdab926f109b78e2
+SHA256: 3712c1ec74c23f7b6742628507026554dda3cde2364b8bb64a70c3411ad5edc6
+Section: Tweaks
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.9
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 538
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.9_iphoneos-arm64.deb
+Size: 96606
+MD5sum: 4d624e3366d7668d8fd1ac693d62a53e
+SHA1: 3ebf3f7d1e23633d191bcf79a5e8c3d1e7d5e103
+SHA256: 0d8a31c95909ac1ac86c9328d9ebe9758bcbe60f44b3bb4814bf0ef99bc35ee8
+Section: Tweaks
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+ 【插件介绍】
+ 将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+ 【主要功能】
+ • 分类管理：手动调整分类，长按条目修改显示名称。
+ • 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+ • 导航文字：自定义首页标题与左上角返回文字。
+ • 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+ 【0.0.9 更新】
+ 1. 新增首页布局
+ 支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。
+ 九宫格默认三列，首页八个分类入口占八格。
+ .
+ 2. 新增二级菜单布局
+ 收纳分类列表支持六种样式，可独立选择或跟随首页。
+ 支持多行名称和大字号适配，保留条目跳转与长按改名。
+ .
+ 3. 调整选项位置
+ 以下四项集中放在「壁纸无遮罩」下方：
+ • 左上角返回文字
+ • 首页左上角标题
+ • 首页布局
+ • 二级菜单布局
+ .
+ 【使用方法】
+ 设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+ 选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+ 【适用范围】
+ 二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+ 壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Author: MoWang
+Name: 设置插件收纳
+
 Package: fanqiefn
 Version: 2.0.0
 Architecture: iphoneos-arm64
