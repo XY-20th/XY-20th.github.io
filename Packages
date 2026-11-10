@@ -5807,6 +5807,23 @@ Author: ojbkclub
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: SettingsGroupX
 
+Package: com.ojbkclub.settingsgroupx
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: ojbkclub
+Installed-Size: 876
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.ojbkclub.settingsgroupx_1.5_iphoneos-arm64e.deb
+Size: 259476
+MD5sum: 62a7b964f8880730e37db955b216a9f5
+SHA1: 18dccaf57d92900ea99d966786ed7de5d9b27423
+SHA256: de3eb2829ae879c1b521e6da72e3589a11f20c9809b8e393833378c1f86f91d3
+Section: Tweaks
+Description: cool
+Author: ojbkclub
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SettingsGroupX
+
 Package: com.ojbkclub.themecore
 Version: 1.0-8+h2l1
 Architecture: iphoneos-arm64
