@@ -4020,6 +4020,22 @@ Author: jibamao
 Name: GaodeClean 高德精简
 
 Package: com.jibamao.gaodeclean
+Version: 0.9.141
+Architecture: iphoneos-arm64
+Maintainer: jibamao
+Installed-Size: 484
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.jibamao.gaodeclean_0.9.141_iphoneos-arm64.deb
+Size: 102358
+MD5sum: 46c447a4e9568fbcb3a0739be7cf7897
+SHA1: 128d2ab6242b7cb0f30edc7e76cca6ba75114250
+SHA256: 361e0fe5db3befe35dd84390371bcc958dde86bca7bcaf0139aff55fe47c906c
+Section: Tweaks
+Description: 高德精简，无设置
+Author: jibamao
+Name: GaodeClean 高德精简
+
+Package: com.jibamao.gaodeclean
 Version: 0.9.20
 Architecture: iphoneos-arm64
 Maintainer: jibamao
@@ -12391,6 +12407,26 @@ Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、
 Author: junhong
 Name: 番茄净化
 
+Package: fanqiefn.roothide
+Version: 3.3.0
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 3396
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Provides: fanqiefn
+Filename: debs/fanqiefn.roothide_3.3.0_iphoneos-arm64e.deb
+Size: 1488930
+MD5sum: 23f330eff34a9f01d886120460607779
+SHA1: 39d1b23e1f55cc76747f46635e2e0cbf3660bd5d
+SHA256: cd1a9274091dbc3d532765b92438bda02e51580c128a84a5c0f62b1725aca9e2
+Section: Tweaks
+Homepage: https://fanqie.goforit.si
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Author: junhong
+Name: 番茄净化 (Roothide)
+
 Package: flex3
 Version: 1:3~Beta90
 Architecture: iphoneos-arm64
@@ -12927,6 +12963,23 @@ Size: 145664
 MD5sum: 9a24e14bbb91552e8b5dba98b591f766
 SHA1: b6d0c561b2359a0e5809dc5fde7ad79638765233
 SHA256: 15a5227e37787b50a45f35c3b8f154260aebf8091cddc8df74a2110e8806cf57
+Section: Tweaks
+Description: 人民的高德，不忘初心砥砺前行
+Author: 祁厅长
+Icon: https://qi-ting-zhang.github.io/sileo/images/icon/rmdgd.png
+Name: 人民的高德
+Sileodepiction: https://qi-ting-zhang.github.io/sileo/sileodepiction/rmdgd.json
+
+Package: local.amap.twotabs
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 祁厅长
+Depends: mobilesubstrate
+Filename: debs/local.amap.twotabs_1.2_iphoneos-arm64.deb
+Size: 158988
+MD5sum: 271efd61ce07d800c1cfae625e128e4f
+SHA1: 94bc3cfba0e899b8f799c9b8b4e027c86026812b
+SHA256: 4624347fbd76cfd4490d1e49f5305f405c4aaa5d4800c61deb8c9e658370ac1e
 Section: Tweaks
 Description: 人民的高德，不忘初心砥砺前行
 Author: 祁厅长
