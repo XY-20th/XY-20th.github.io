@@ -12685,6 +12685,24 @@ Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客�
 Author: Junhong
 Name: Alipay2NFC
 
+Package: im.mjh.alipay2nfc.roothide
+Version: 3.5.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 364
+Depends: firmware (>=14.0), preferenceloader
+Conflicts: com.yourname.alipaynfcredirect
+Replaces: com.yourname.alipaynfcredirect
+Filename: debs/im.mjh.alipay2nfc.roothide_3.5.0_iphoneos-arm64e.deb
+Size: 22880
+MD5sum: bb360395cc75dfdbac778145902bf7fc
+SHA1: 56b53e9e5ff55f2e83d03058074c3bfd77f7cfbe
+SHA256: 3637918ba98c3fdaddc4cd7ec9f61443522f0fa210c5aa16295fba8c02edcd62
+Section: Tweaks
+Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
+Author: Junhong
+Name: Alipay2NFC · 碰一碰转接 (Roothide)
+
 Package: im.mjh.doleo
 Version: 1.0.3
 Architecture: iphoneos-arm64
