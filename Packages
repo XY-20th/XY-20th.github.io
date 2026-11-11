@@ -3048,6 +3048,22 @@ Description: 长按桌面 App Store 图标即可快速切换已登录的 Apple I
 Author: Hades
 Name: StoreSwitchAccounts(RootHide)
 
+Package: com.hang.gdqj
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hang.gdqj_1.0_iphoneos-arm64.deb
+Size: 19126
+MD5sum: c4d09d0c463cb1e36505a3353d020038
+SHA1: 7a7b19f8ecbe444a42d11f86bd9e55e0b6bb0e58
+SHA256: 05800a67f4dbabe9a0f5e6384971d3bd47b07ae95ca66e5b2204d281d1f9784a
+Section: Tweaks
+Description: 测试版本；17.03，去开屏 + 去弹窗广告 + 低栏长按设置
+Author: 航
+Name: 航の缺德地图净化
+
 Package: com.hang.zzzj
 Version: 0.0.1-8+debug
 Architecture: iphoneos-arm64
