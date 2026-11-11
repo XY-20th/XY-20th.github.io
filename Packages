@@ -12666,6 +12666,21 @@ Author: Junhong
 Icon: file:///var/jb/usr/share/doleo/icon.png
 Name: Doleo
 
+Package: im.mjh.myeyeclean
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/im.mjh.myeyeclean_0.1.0_iphoneos-arm64.deb
+Size: 7690
+MD5sum: 6cda0e49f440f5ed0a298d650122208d
+SHA1: 8349b8a0530d4bc5d320a198ad52066bc9ba61fa
+SHA256: f65f577ebbf868a9179c1676a9a60456043bea160d813355fd9556bf485e5e9e
+Section: Tweaks
+Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转app
+Author: Junhong
+Name: 喵眼精灵去广告
+
 Package: im.mjh.xianyuadblock
 Version: 3.0.0
 Architecture: iphoneos-arm64
