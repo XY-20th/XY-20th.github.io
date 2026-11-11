@@ -11414,22 +11414,6 @@ Description: 解锁 Addons Pro高级版，免费禁止倒卖
 Author: zero
 Name: Addons解锁会员
 
-Package: com.zero.alipayadblock
-Version: 2.2-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: zero
-Installed-Size: 236
-Depends: mobilesubstrate
-Filename: debs/com.zero.alipayadblock_2.2-1+debug_iphoneos-arm64e.deb
-Size: 28030
-MD5sum: 0f1643bb0f8a305cbb3964aef838af2c
-SHA1: d8199ec0609ea8e9f1bf55bcf44ed5552f64c804
-SHA256: 1a914c15da1d931399782843ce9bf74039c084e36c851f6f534873b51f2e29f6
-Section: Tweaks
-Description: 支付宝去广告（去启动广告 + 屏蔽更新 + 屏蔽越狱/巨魔检测 + 去除底部理财）
-Author: zero
-Name: 支付宝去广告
-
 Package: com.zero.alipayadblock.rootless
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -12407,26 +12391,6 @@ Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、
 Author: junhong
 Name: 番茄净化
 
-Package: fanqiefn.roothide
-Version: 3.3.0
-Architecture: iphoneos-arm64e
-Maintainer: junhong
-Installed-Size: 3396
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: fanqiefn
-Replaces: fanqiefn
-Provides: fanqiefn
-Filename: debs/fanqiefn.roothide_3.3.0_iphoneos-arm64e.deb
-Size: 1488930
-MD5sum: 23f330eff34a9f01d886120460607779
-SHA1: 39d1b23e1f55cc76747f46635e2e0cbf3660bd5d
-SHA256: cd1a9274091dbc3d532765b92438bda02e51580c128a84a5c0f62b1725aca9e2
-Section: Tweaks
-Homepage: https://fanqie.goforit.si
-Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
-Author: junhong
-Name: 番茄净化 (Roothide)
-
 Package: flex3
 Version: 1:3~Beta90
 Architecture: iphoneos-arm64
@@ -12684,24 +12648,6 @@ Section: Tweaks
 Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
 Author: Junhong
 Name: Alipay2NFC
-
-Package: im.mjh.alipay2nfc.roothide
-Version: 3.5.0
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 364
-Depends: firmware (>=14.0), preferenceloader
-Conflicts: com.yourname.alipaynfcredirect
-Replaces: com.yourname.alipaynfcredirect
-Filename: debs/im.mjh.alipay2nfc.roothide_3.5.0_iphoneos-arm64e.deb
-Size: 22880
-MD5sum: bb360395cc75dfdbac778145902bf7fc
-SHA1: 56b53e9e5ff55f2e83d03058074c3bfd77f7cfbe
-SHA256: 3637918ba98c3fdaddc4cd7ec9f61443522f0fa210c5aa16295fba8c02edcd62
-Section: Tweaks
-Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
-Author: Junhong
-Name: Alipay2NFC · 碰一碰转接 (Roothide)
 
 Package: im.mjh.doleo
 Version: 1.0.3
