@@ -194,6 +194,23 @@ Description: MobileNotes memo feature controls: disable URL navigation and auto-
 Author: 来了老弟 X：h_h_x_t
 Name: 备忘录增强
 
+Package: cn.llld.ql
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 1028
+Depends: firmware (>= 14.0)
+Filename: debs/cn.llld.ql_1.3.0_iphoneos-arm64.deb
+Size: 380572
+MD5sum: 9d8e804d746231ab8dc4e1eafba4bded
+SHA1: 2aa7ab8bb4ab1d16c0883818d37182df7bc6c070
+SHA256: 8a160164d7ced047874e13a9c388767aeb39e5bcdad48fc524f6f77ea3681e0f
+Section: Tweaks
+Description: 越狱 iOS 桌面清理工具：扫描 App 缓存与临时文件、按应用单独清理、明细左滑清理缓存/临时、可跳过后缀、清理短信与 Safari 书签、系统垃圾（系统缓存/相册缩略图/日志/残留数据）
+Tag: purpose::uikit, compatible::ios14
+Author: 来了老弟
+Name: QL 清理
+
 Package: cn.llld.zfbb
 Version: 1.5
 Architecture: iphoneos-arm64
