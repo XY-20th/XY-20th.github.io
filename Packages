@@ -3097,6 +3097,81 @@ Author: Hao
 Name: 微信工具
 
 Package: com.huami.WCPulse
+Version: 1.7-2
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPulse_1.7-2_iphoneos-arm64.deb
+Size: 4919958
+MD5sum: 37410e3c15bcfab9b30ce540948dd823
+SHA1: 93f8eb11f4ea63c74e3a800f5e196a9f749cb2b0
+SHA256: b71f92dcfd221095589ae3497c8a74661e827c20a7b2a0068f11fabb31323a54
+Section: Tweaks
+Description: WCPulse
+Author: huami
+Name: WCPulse
+
+Package: com.huami.WCPulse
+Version: 1.7-3
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPulse_1.7-3_iphoneos-arm64.deb
+Size: 4918362
+MD5sum: 1566f6a4bb96d6b73e4e9f8a0f503f95
+SHA1: e4f691bcdac06370a46c8442c7496cdbd6ccd357
+SHA256: 5241ea36d14adc4d2a6e557dfab0b044c8ae2a7372e96c0449b82050a0b1459d
+Section: Tweaks
+Description: WCPulse
+Author: huami
+Name: WCPulse
+
+Package: com.huami.WCPulse
+Version: 1.7-4
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPulse_1.7-4_iphoneos-arm64.deb
+Size: 4923632
+MD5sum: 2ce264fc89faedf0091a37ff23e7f8f6
+SHA1: c9014e0c029b3f404bd210b988e89ad5117030b9
+SHA256: 67f93336b131f07eeac4505e3d45e28ed6be358ce45c884e2a40939e66b1e575
+Section: Tweaks
+Description: WCPulse
+Author: huami
+Name: WCPulse
+
+Package: com.huami.WCPulse
+Version: 1.7-5
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPulse_1.7-5_iphoneos-arm64.deb
+Size: 4948582
+MD5sum: 985fa1e313ec51e652ac56896b0a7c44
+SHA1: 973d4a2794455fa164e5b056f817a85042eae0f2
+SHA256: da03b0e9987da28544ad01c1dd30b7cedce58e9c4fe49affc93bd4784e806621
+Section: Tweaks
+Description: WCPulse
+Author: huami
+Name: WCPulse
+
+Package: com.huami.WCPulse
+Version: 1.7-6
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPulse_1.7-6_iphoneos-arm64.deb
+Size: 4952644
+MD5sum: bb074f1dcc5cd8fba4acbc154a1f6a2e
+SHA1: 9902222d7a294dae03e713be2bcb6a4b55364985
+SHA256: aaeafc365c1f5f03440287f61f47b0ea243fbd12ff873f3c37a43954e277f924
+Section: Tweaks
+Description: WCPulse
+Author: huami
+Name: WCPulse
+
+Package: com.huami.WCPulse
 Version: 1.7-7
 Architecture: iphoneos-arm64
 Maintainer: huami
