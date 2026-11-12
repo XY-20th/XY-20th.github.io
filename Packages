@@ -80,6 +80,22 @@ Description: Fix Apple watch connection issues
 Author: 577FKJ
 Name: WatchFix
 
+Package: cn.fkj233.watchfix
+Version: 2.0.4
+Architecture: iphoneos-arm64
+Maintainer: 577FKJ
+Installed-Size: 4608
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/cn.fkj233.watchfix_2.0.4_iphoneos-arm64.deb
+Size: 612500
+MD5sum: 3c6937692465aa4e36eecc2a2951bf94
+SHA1: e8f1072ca57dfed8832ef4f2b9b15165eb9cce18
+SHA256: 25484a65186ba7517689a80f17a78005c7b7bff207a9dc6aa12936caffe4eb7f
+Section: Tweaks
+Description: Fix Apple watch connection issues
+Author: 577FKJ
+Name: WatchFix
+
 Package: cn.llld.appfix
 Version: 0.0.36
 Architecture: iphoneos-arm64
