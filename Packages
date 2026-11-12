@@ -10407,6 +10407,23 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: CornerFanX
 
+Package: com.wkk.cornerfanx
+Version: 1.1-5
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 676
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Filename: debs/com.wkk.cornerfanx_1.1-5_iphoneos-arm64.deb
+Size: 98372
+MD5sum: d5b88b467b3d7b2ff86c7aa5fab476fd
+SHA1: 0e55956e9d53a836b79af58766da0050743887a3
+SHA256: 1f3326962c7c46dfcfb0fa51bbae4afc2c67e078922b74c25b338ba25030cc8d
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: CornerFanX
+
 Package: com.wkk.cwzadfree
 Version: 1.0
 Architecture: iphoneos-arm64
