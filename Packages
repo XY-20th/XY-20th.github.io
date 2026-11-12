@@ -5661,6 +5661,24 @@ Author: NaiWa
 Name: 奶蛙
 
 Package: com.nan.bindfs
+Version: 0.6.0
+Architecture: iphoneos-arm64
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/com.nan.bindfs_0.6.0_iphoneos-arm64.deb
+Size: 13148
+MD5sum: 54b079b337c68a58f744adbb418ecb03
+SHA1: 27647b76818f56e46de7ac796bc0480514677575
+SHA256: 45a64dc6b4ef30298b01e4a1f74fc30d438d7a4f09e17d840d341870a679ca91
+Section: Tweaks
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+Name: mount_bindfs (Dopamine)
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+
+Package: com.nan.bindfs
 Version: 0.7.3
 Architecture: iphoneos-arm64
 Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
@@ -5671,6 +5689,24 @@ Size: 59490
 MD5sum: a266da3078ae3d4b4032292c3ceac453
 SHA1: 83d77d55ac9108202c687282774fd0d23c5886f2
 SHA256: 7388ec3a27c14f1907cb69c6dc3a3f32a66abd052e3d9242edf7339230b8dac5
+Section: Tweaks
+Description: bindfs 挂载工具
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+Name: mount_bindfs
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+
+Package: com.nan.bindfs
+Version: 0.7.3-1
+Architecture: iphoneos-arm64
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/com.nan.bindfs_0.7.3-1_iphoneos-arm64.deb
+Size: 53384
+MD5sum: b1de291f96a0eb1469a227026c7f4271
+SHA1: 7b095d6ff79ddb8db885b170ce648d091c2bb3d1
+SHA256: d455f66393eb2d0cbadfac4848217610a0f52010c2778b252e1b081e93753f10
 Section: Tweaks
 Description: bindfs 挂载工具
 Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
