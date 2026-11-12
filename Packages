@@ -10542,37 +10542,20 @@ Name: 全局弹窗
 
 Package: com.wkk.glasssuitex
 Version: 1.3-7
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: wkk
 Installed-Size: 3500
 Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/glasssuitex_1.3-7_iphoneos-arm64.deb
-Size: 643492
-MD5sum: f3b49bff12aaf6cb4db120bab1acfd20
-SHA1: 0b93c7e4e38037b3dfb74970122e2002be5b1bac
-SHA256: c4f451761c86bd867b72c89e7891b6e07b05e624bd8abdedc8bcf48a01fa6222
+Filename: debs/com.wkk.glasssuitex_1.3-7_iphoneos-arm64e.deb
+Size: 650672
+MD5sum: 25b61048cf9dbbcf918cfbb319fd3b5a
+SHA1: f1e3fbedded9365d20de3b82f651b242b990e46b
+SHA256: 0dffc756f7b1f44f657c3208bce6779ad88c6f64888518072d87efbabb7a11bc
 Section: Tweaks
 Description: cool
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: GlasscapeX
-
-Package: com.wkk.glasssuitex
-Version: 1.3-8
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 3504
-Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.wkk.glasssuitex_1.3-8_iphoneos-arm64.deb
-Size: 646684
-MD5sum: f9604b18ebe05e449dff8227000d487b
-SHA1: 15b6e1e4a2fe52a47e42b9e62bba3799e6c7004b
-SHA256: 420a9cf3ab58c84cb4a258d26b1e66f01e89970776eebc2b517ae1e7d5d60c5d
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: GlasscapeX
+Name: 全局弹窗
 
 Package: com.wkk.hupuadfree
 Version: 1.0
