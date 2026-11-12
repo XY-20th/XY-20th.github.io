@@ -11138,6 +11138,23 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
 Name: WeChatX
 
+Package: com.wkk.wechatx
+Version: 2.5-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 9800
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wkk.wechatx_2.5-1_iphoneos-arm64.deb
+Size: 3394152
+MD5sum: c7cd44b59454cffb158b0a8169c254b3
+SHA1: ec48c12672f4d79cb6ec486d0163ec34bd7bc7d5
+SHA256: 35f5f93ccdf8800810462516451b71470786a1175e5d23fc08f64c7b64cc6c09
+Section: Tweaks
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: WeChatX
+
 Package: com.wkk.weiboadfree
 Version: 1.0
 Architecture: iphoneos-arm64
