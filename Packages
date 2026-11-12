@@ -5370,6 +5370,23 @@ Name: 广告跳过
 Sileodepiction: https://wwg135.github.io/depictions/com.mg.adskip.json
 
 Package: com.mg.adskip
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 648
+Depends: mobilesubstrate
+Filename: debs/com.mg.adskip_1.1.0_iphoneos-arm64.deb
+Size: 115244
+MD5sum: 0de9ba284d6c543d92b1b9bd021afcca
+SHA1: e8d840a4eb31c4cc01a88f2dd1f5050c6288275a
+SHA256: 705317d86b33950beda81aef06eb37b7c65222178a7d4cb54c69e9bd2076cd09
+Section: Tweaks
+Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
+Author: M哥
+Name: 广告跳过
+Sileodepiction: https://wwg151.github.io/repo/depictions/com.mg.adskip.json
+
+Package: com.mg.adskip
 Version: 3.3.0
 Architecture: iphoneos-arm64
 Maintainer: M哥
