@@ -1799,6 +1799,22 @@ Description: 按应用绕过 VPN 直连，提供应用内 VPN 检测兼容与独
 Author: Charlie Leung
 Name: VPN Direct
 
+Package: com.codex.ccplayer
+Version: 1.7.226-1
+Architecture: iphoneos-arm64e
+Maintainer: 夜辰
+Installed-Size: 2048
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/com.codex.ccplayer_1.7.226-1_iphoneos-arm64e.deb
+Size: 16201456
+MD5sum: 9afe7929ad8a002e9807cbf889cb837a
+SHA1: cf5ca02e6e88bbffa91e4b1fc1d7720057158355
+SHA256: 57c90c7bdfedd6e16d04cf0cf0b17d4ca407d8785f5b0ff7132687152ada18c1
+Section: Tweaks
+Description: 这是一款加强控制中心3x2/4x2播放器美化的插件，隐根版，38.8元激活作者微信Pb_0504_作者QQ：860059661
+Author: 夜辰
+Name: CC 播放器（免授权）
+
 Package: com.colorblack.alinfcwakefix
 Version: 0.0.35
 Architecture: iphoneos-arm64
