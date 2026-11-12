@@ -11684,6 +11684,54 @@ Description: 自用 | 看剧 短剧 漫画 听书 音乐 无广告 移除VPN检�
 Author: x✨
 Name: iBoxNoAds
 
+Package: com.xx.jrtthook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 580
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.jrtthook_1.0.2_iphoneos-arm64.deb
+Size: 165684
+MD5sum: 06f6d0372380333f85fb4652c893ec43
+SHA1: ed4e7a600cc1ee36678b7272977b6295ed4c0817
+SHA256: 544ef1c2712a21acdab2efafc261b759e734618d840456c610e34cbcfdf81bc1
+Section: Tweaks
+Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项,支持pro版 -- 1.0.2更新内容：保存视频增加一个方式-- 尝试修复移除底部bug
+Author: x✨
+Name: 今日头条Hook
+
+Package: com.xx.jrtthook
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 644
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.jrtthook_1.0.3_iphoneos-arm64.deb
+Size: 177760
+MD5sum: d03367d064268ea090e6e73e73dd4f12
+SHA1: 88a412ca7b6973cbea1ae78099f479a14fc26194
+SHA256: f80ed5da881055ce3e914e224364ebc35d0e9aeb3feaa5122f55bd70cf20c715
+Section: Tweaks
+Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项,支持pro版 -- 1.0.3更新内容：修复移除底部bug
+Author: x✨
+Name: 今日头条Hook
+
+Package: com.xx.jrtthook
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 644
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.jrtthook_1.0.4_iphoneos-arm64.deb
+Size: 179952
+MD5sum: f48f6192779af40d124374ffc9f06f71
+SHA1: 3388e72de60a6f607f40553595ea4e25285a4f08
+SHA256: 979d74dceef87922eb14ad3997c3ce745b483406d5f28f0be6fd716afda48a95
+Section: Tweaks
+Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项,支持pro版 -- 1.0.4更新内容：尝试修复一些已知问题
+Author: x✨
+Name: 今日头条Hook
+
 Package: com.yechen.dynamicislandring
 Version: 1.1.0
 Architecture: iphoneos-arm64
