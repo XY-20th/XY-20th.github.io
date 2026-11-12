@@ -13648,6 +13648,81 @@ Author: Domo <domo@rambler.ru>
 Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
 Name: CocoaTop64
 
+Package: tweaktool
+Version: 1.6.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/tweaktool_1.6.0_iphoneos-arm64.deb
+Size: 10928
+MD5sum: 8916c4f2fced3d1bce630314a6b43afe
+SHA1: b9787f33811c6fb6af3e761b212aa914108a63f1
+SHA256: 5933a68043bf4ad164465abf4e150d96694fd72cdb7d07d755299a0839f7bf78
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+
+Package: tweaktool
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/tweaktool_1.6.1_iphoneos-arm64.deb
+Size: 10952
+MD5sum: c370d701cb3029f329cdc776e2d3079f
+SHA1: d21beb7045fb02c04659d4efd7dbd182e59a4139
+SHA256: 46acecaca51b95987d2fa0cc8ca90b9199c803a2a737c60c2346551812031671
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+
+Package: tweaktool
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/tweaktool_1.6.2_iphoneos-arm64.deb
+Size: 10920
+MD5sum: a3da4e61bba6375c01728b0a791611dd
+SHA1: 7b4a00ebc4e23152b693dd6a019b62196de71145
+SHA256: 5a24f86ce23b29a3739243dccc77edca56fd853835401ac5253bf1d1716177f9
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+
+Package: tweaktool
+Version: 1.6.3
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/tweaktool_1.6.3_iphoneos-arm64.deb
+Size: 10936
+MD5sum: 3a680cbb6139992f4334eb4feedc82f3
+SHA1: 397b444a72963e53e42fdfdff0a12979bb845a22
+SHA256: 5307bbb2dc6dc8ceaaa8093b31bfefa1d09144cc2362b3b793bece747761057e
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+
+Package: tweaktool
+Version: 2.0.0-beta
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/tweaktool_2.0.0-beta_iphoneos-arm64.deb
+Size: 10580
+MD5sum: b6a95d49b6880a820f07e7f59d5bd5b6
+SHA1: 00f00ff5a660eee04e85db57ce98660a3178a0d9
+SHA256: 52a20a4e38901bbe5260dad3668aece3aea35cd915c0ffc086f3751f698b12a0
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+
 Package: wacljcr.batteryanalyzer
 Version: 1.6.7
 Architecture: iphoneos-arm64
