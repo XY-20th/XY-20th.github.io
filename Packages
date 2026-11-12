@@ -3096,6 +3096,21 @@ Description: 微信工具,仅在微信8.0.73及以上版本制作
 Author: Hao
 Name: 微信工具
 
+Package: com.huami.WCPulse
+Version: 1.7-7
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPulse_1.7-7_iphoneos-arm64.deb
+Size: 4933898
+MD5sum: 84996a3edc435653f703a4e948d10644
+SHA1: 3f1353df976f9954d98566f1226442c966e33794
+SHA256: 25ca01db819aacf8de0dd214005816e4c8efd31d76eddf015ff05681767ff0d6
+Section: Tweaks
+Description: WCPulse
+Author: huami
+Name: WCPulse
+
 Package: com.huami.dyyy
 Version: 2.2-9
 Architecture: iphoneos-arm64
