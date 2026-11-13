@@ -13470,6 +13470,23 @@ Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广�
 Author: Junhong
 Name: 红果净化
 
+Package: hongguofn
+Version: 2.2.4
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 7728
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/hongguofn_2.2.4_iphoneos-arm64.deb
+Size: 3343948
+MD5sum: 3e9d8244fa92d6f6d5194ec88bb8b5fa
+SHA1: 03f1b63535153523a516b0d1324a22156f418907
+SHA256: ac5acdaa0a50bf36a6fc81815644b8f24eb38b5eb0d6b98c1c3a7b9acf9bcddd
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Author: Junhong
+Name: 红果净化
+
 Package: im.mjh.alipay2nfc
 Version: 3.5.0
 Architecture: iphoneos-arm64
