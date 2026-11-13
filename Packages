@@ -580,6 +580,22 @@ Description: Pair your Apple Watch on a newer watchOS than this iOS supports
 Author: 34306
 Name: watched
 
+Package: com.82flex.panoramicview
+Version: 0.22.7
+Architecture: iphoneos-arm64
+Maintainer: 82Flex
+Installed-Size: 1948
+Depends: firmware (>= 16.1), mobilesubstrate, preferenceloader
+Filename: debs/com.82flex.panoramicview_0.22.7_iphoneos-arm64.deb
+Size: 359060
+MD5sum: ab19192743bb175669abc81fa7ca2e82
+SHA1: a899432d5b57e10ff14a8272eb17624c220e8779
+SHA256: 465769b3e7128a4f3d76740f9229175b7fbb14fb8408d192c0a0f7d40dd14ba5
+Section: Tweaks
+Description: Two apps, full size, one swipe apart.
+Author: 82Flex
+Name: PanoramicView
+
 Package: com.82flex.touchvis
 Version: 4.2
 Architecture: iphoneos-arm64
