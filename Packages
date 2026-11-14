@@ -11151,6 +11151,23 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: SparkX
 
+Package: com.wkk.sparkx
+Version: 1.1-5
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 892
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.wkk.sparkx_1.1-5_iphoneos-arm64.deb
+Size: 112156
+MD5sum: 52a4644e38fc409945856b3513276388
+SHA1: 7edeb5998d497511f51f5df0ac50c33a042e18f2
+SHA256: e91877a82a39c243c68c5d7da1e87be54a398f5981353aac845eca4860df3923
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SparkX
+
 Package: com.wkk.systembox
 Version: 1.5-8end
 Architecture: iphoneos-arm64
