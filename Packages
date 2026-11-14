@@ -10653,6 +10653,23 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: 全局弹窗
 
+Package: com.wkk.glasssuitex
+Version: 1.4-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 4512
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.wkk.glasssuitex_1.4-1_iphoneos-arm64.deb
+Size: 957332
+MD5sum: 211257f4807be4244f66960cf48c9f8c
+SHA1: 46be29814d3231fb862c3049c32b4df67ae9f058
+SHA256: d27b5101e2d18baaf87a0e41a729e5669881ccbc99767a2268de4921d5a76369
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 全局弹窗
+
 Package: com.wkk.hupuadfree
 Version: 1.0
 Architecture: iphoneos-arm64
