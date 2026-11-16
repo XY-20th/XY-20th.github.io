@@ -3199,6 +3199,23 @@ Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好�
 Author: Ruphane
 Name: PodsGrant(rootless)
 
+Package: com.dao.purifyads
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Mo & 刀刀
+Installed-Size: 168
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.daodao.rootless.vfa, ccom.iosnet.Purifyads
+Filename: debs/com.dao.purifyads_1.1_iphoneos-arm64.deb
+Size: 4718
+MD5sum: d2ff9ff5aeb71b9c1c41f60e0335b765
+SHA1: 5a4ff769a7336680989e7ba1ee089bd69420ddd9
+SHA256: 8088baebd9414ed4ac0335eac1f27e286e0f4d047e3e3ce551af13042b557c90
+Section: Tweaks
+Description: 去除微信的公众号/订阅号/文章的广告。
+Author: 秋名山
+Name: 微信免广告(rootless)
+
 Package: com.dao.storeswitchaccounts
 Version: 1.1-4
 Architecture: iphoneos-arm64
