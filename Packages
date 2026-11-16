@@ -475,6 +475,40 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
 Name: Hello Memory Status（免授权）
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
 
+Package: cn.zqbb.hello.mnt
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 3156
+Filename: debs/cn.zqbb.hello.mnt_1.2.1_iphoneos-arm64e.deb
+Size: 847986
+MD5sum: 7c122fa925ea900418e3fc5a48ed5bdc
+SHA1: 46302bfc3ef3806e82254098bb191b296accb733
+SHA256: 43f6ad2b1e6bc92498c4df2ffb89b5e56634848fc76ac16409349a8f789833c7
+Section: Tweaks
+Description: Relaxin 挂载器!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.mnt.png
+Name: HelloMnt
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.mnt
+
+Package: cn.zqbb.hello.mnt
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 3172
+Filename: debs/cn.zqbb.hello.mnt_1.2.2_iphoneos-arm64e.deb
+Size: 862340
+MD5sum: 3cd0b4b46e1ad565579462beaa31f8a4
+SHA1: 654139e2062d51b6024880b5751942887e217981
+SHA256: 3df40e2bcc485887dd071022db493557c685bd96424629bd9b0846bf6e2ffe83
+Section: Tweaks
+Description: Relaxin 挂载器!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.mnt.png
+Name: HelloMnt
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.mnt
+
 Package: cn.zqbb.hello.qactions
 Version: 1.3.0-1
 Architecture: iphoneos-arm64e
