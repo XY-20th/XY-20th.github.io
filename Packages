@@ -3701,6 +3701,44 @@ Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY
 
+Package: com.huami.xhstranslator
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.xhstranslator_1.0_iphoneos-arm64.deb
+Size: 8248
+MD5sum: 1e7824f7fc6530bf1ebb6b413eb7a2ee
+SHA1: 34b382328daf4a44f3377e8f85d97ed09d050ac1
+SHA256: b1ec2427fac477bb168036d8217fc10f086bd9e69919f42ecbab62045a7e858e
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/xhstranslator
+Description: A tweak for translating content in XiaoHongShu
+Author: huami
+License: MIT
+Name: XHSTranslator
+
+Package: com.huami.xhstranslator
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 172
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.xhstranslator_1.1_iphoneos-arm64.deb
+Size: 8688
+MD5sum: 4ed8f7b9b3978670643bd56b39723d2f
+SHA1: 5c8a7785d14c0f6e023636690aef8e5bf2a5dc0b
+SHA256: b9f2acec3f2feae28acf379ae212ac069a964c22d036ebcc85cbbc4d485fc595
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/xhstranslator
+Description: A tweak for translating content in XiaoHongShu
+Author: huami
+License: MIT
+Name: XHSTranslator
+
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -7994,6 +8032,41 @@ Section: Tweaks
 Description: Automatically enable or disable the vpn according to the situation, and enjoy smooth browsing experience in the app. 根据特定场景自动开启/关闭代理连接，畅享APP丝滑浏览体验。
 Author: Snail <mu514983786@gmail.com>
 Name: AutoVPN 自动VPN
+
+Package: com.snail.byebyelaunchad.rootless
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: Snail <mu514983786@gmail.com>
+Installed-Size: 648
+Depends: firmware (>= 12.0),mobilesubstrate,preferenceloader,com.opa334.altlist
+Filename: debs/com.snail.byebyelaunchad.rootless_1.3.1_iphoneos-arm64.deb
+Size: 279512
+MD5sum: a378561a82dccf884fb0db59110e2674
+SHA1: 99e86b75335301ab298c63278fbe0e4afa06b27a
+SHA256: 01553a98f372228a88534e2a02fbd42c6798f3ff0052a253558ff79a1afc16f4
+Section: Tweaks
+Description: 跳过所有主流APP开屏广告，可以自定义对任意APP启用。支持iOS 14 - iOS 16所有越狱机型。此为rootless版本，不要安装错哦~
+ - 1.3.1 优化Xina、Palera1n越狱机型上可能出现的应用闪退
+ - 1.3.0 过滤“应用停留后台片刻，切换回来叒弹出来的首页广告”，此类场景非开屏广告，应用户建议，终于攻克更新支持~
+ - 1.2.5 修复上一版本可能引入的插件冲突
+ - 1.2.4 优化用户反馈的大量问题，详见https://sourl.cn/fcvYry
+ - 1.2.3 修复某些系统进程的影响
+ - 1.2.2 去掉首次安装购买提醒弹窗
+ - 1.2.1 修复一些已知问题和某些APP，详见优化表格
+ - 1.2.0 全面升级，更快更全面的跳过体验，可自定义检测开屏广告时长
+ - 1.1.0 优化更多的APP
+ - 1.0.9 修复激活弹窗无反应
+ - 1.0.8 优化部分APP体验
+ - 1.0.7 修复106的BUG
+ - 1.0.6 修复与shadow的冲突，加速某些视频APP跳过速度
+ - 1.0.5 优化少数APP、回归支持巨魔安装的APP(105目前已知和shadow有冲突，大家有shadow的先不更新)
+ - 1.0.4 修复少数反馈弹窗问题
+ - 1.0.3 修复1.0.2导致的文字消失问题
+ - 1.0.2 - 修复部分用户初次无法激活、修复部分白屏&部分无法跳过APP
+ - 1.0.1 - 修复用户反馈用户空间问题
+ - 1.0.0 - 初次发布
+Author: Snail <mu514983786@gmail.com>
+Name: 蜗牛拜拜开屏广告-rootless ByeByeLaunchAd-rootless
 
 Package: com.snapbackup
 Version: 3.8.11
