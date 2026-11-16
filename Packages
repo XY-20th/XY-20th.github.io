@@ -12989,6 +12989,40 @@ Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一
 Author: x✨
 Name: 今日头条Hook
 
+Package: com.yaowell.hideavcontrols
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: yaowell
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.yaowell.hideavcontrols_1.0.1_iphoneos-arm64.deb
+Size: 5004
+MD5sum: 1325866e1c7f3cc52a41b8f0d001335a
+SHA1: fd94b9e9cd0190b7910253c46fb9093276393626
+SHA256: bb18b1c62e4920b695be3cb5702605f8939575d68ec53d10559e0407b57fc4db
+Section: Tweaks
+Description: 隐藏控制中心顶部的麦克风模式与视频效果模块 / Hide Microphone Mode and Video Effects in Control Center
+Author: yaowell
+Icon: https://huayuarc.github.io/icon/hideavcontrols.png
+Name: HideAVControls
+
+Package: com.yaowell.hideavcontrols
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: yaowell
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.yaowell.hideavcontrols_1.1_iphoneos-arm64.deb
+Size: 4848
+MD5sum: 1b432201fb0bfea725e124c6934bf236
+SHA1: 6ea6adf1752790fd4d7461648a54b0cf1dac979a
+SHA256: 44401e67b9c9341d020751159fc4f7ccf14d00582a1ef7dc000f7e55f75205a0
+Section: Tweaks
+Description: 隐藏控制中心顶部的麦克风模式与视频效果模块 / Hide Microphone Mode and Video Effects in Control Center
+Author: yaowell
+Icon: https://huayuarc.github.io/icon/hideavcontrols.png
+Name: HideAVControls
+
 Package: com.yechen.dynamicislandring
 Version: 1.1.0
 Architecture: iphoneos-arm64
