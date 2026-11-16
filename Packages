@@ -2685,6 +2685,22 @@ Description: CSDN去广告
 Author: M哥
 Name: CSDN去广告-rootless
 
+Package: com.ctrip
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 40
+Depends: mobilesubstrate
+Filename: debs/com.ctrip_1.0_iphoneos-arm64.deb
+Size: 1490
+MD5sum: 58d0674676c1900ffe74e8318822fc0d
+SHA1: 79376f23e382aef40c61daf6e3dbc7d3cac29128
+SHA256: 073c73a6c4337356c918152bf7c0076e1fbc62ac7860e556415302b5dddf8ea2
+Section: Tweaks
+Description: 携程旅行去广告
+Author: M哥
+Name: 携程旅行去广告NoAd-rootless
+
 Package: com.dao.appdata
 Version: 9.9.9
 Architecture: iphoneos-arm64
@@ -3361,11 +3377,11 @@ Architecture: iphoneos-arm64
 Maintainer: huami
 Installed-Size: 2980
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#8-arm64.deb
-Size: 772338
-MD5sum: 24b46344c445a228f9cebe6db6a4dc2b
-SHA1: 984ed651c707642e940339ea1216ace2ddd4e89f
-SHA256: 5427f8ad28d52e554f03554f9d25cf0f4209b7824168a1e8f342053291743381
+Filename: debs/huami.dyyy_2.3-0#10-arm64.deb
+Size: 774418
+MD5sum: c3150f11d821ec95a7cd7bf328edbc87
+SHA1: c89d7bb2d904a464f3e6cb0078aac156340d256e
+SHA256: 21763d332697955d891a7453628b1dfd65c3f670831248320580af4f17bc4838
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3378,13 +3394,51 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2980
+Installed-Size: 2964
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#10-arm64.deb
-Size: 774418
-MD5sum: c3150f11d821ec95a7cd7bf328edbc87
-SHA1: c89d7bb2d904a464f3e6cb0078aac156340d256e
-SHA256: 21763d332697955d891a7453628b1dfd65c3f670831248320580af4f17bc4838
+Filename: debs/huami.dyyy_2.3-0#7-arm64.deb
+Size: 773792
+MD5sum: af7bd09737ed01a0f342de2855271ead
+SHA1: ab3d6185877fb739d9db26b5098d40a5c014fc09
+SHA256: 8cc1f50dbfd1bebbff92793215954ed1f0736eba5d00188442f52a2cf62c7cff
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 3028
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.3-0_11-arm64.deb
+Size: 784490
+MD5sum: 2ff2f98616f6401831a709ef6ed6b973
+SHA1: c5806344004d70d5806375eaf00a19bc8a34909d
+SHA256: 5884ffbbc2fbe29f02c7af1931b24be00afcd13035f7ed246ec11e274dd3e8bb
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 3048
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.3-0#12-arm64.deb
+Size: 798552
+MD5sum: bedc89a1e4d6debae7a38d888c4bbe45
+SHA1: a03b15ecbea64787d0e08ed10986c4678a17e71d
+SHA256: 583f1073c1731959c5ab5fb7895b0bbf592f6ad87967185bdf20cabc50dce217
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3416,13 +3470,13 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 3048
+Installed-Size: 2980
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#12-arm64.deb
-Size: 798552
-MD5sum: bedc89a1e4d6debae7a38d888c4bbe45
-SHA1: a03b15ecbea64787d0e08ed10986c4678a17e71d
-SHA256: 583f1073c1731959c5ab5fb7895b0bbf592f6ad87967185bdf20cabc50dce217
+Filename: debs/huami.dyyy_2.3-0#9-arm64.deb
+Size: 773738
+MD5sum: 59e50ba21cd964b80a9107b7fbc1f4ee
+SHA1: baaf08c92f0da95c4ba8059dfa7ad9d83bf026a2
+SHA256: ce64d563a24a2ba77ba6b72a17681b1174bf20e6f689420013c516294e774697
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3473,13 +3527,13 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2980
+Installed-Size: 3372
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#9-arm64.deb
-Size: 773738
-MD5sum: 59e50ba21cd964b80a9107b7fbc1f4ee
-SHA1: baaf08c92f0da95c4ba8059dfa7ad9d83bf026a2
-SHA256: ce64d563a24a2ba77ba6b72a17681b1174bf20e6f689420013c516294e774697
+Filename: debs/com.huami.dyyy_2.3-0_iphoneos-arm64.deb
+Size: 884654
+MD5sum: 5f482ca50b2cf0e8ddbf4d2b1c288134
+SHA1: aed1f06d04c4e26d66a3fa32ed5f6f6f34f98ca3
+SHA256: 59b025635ac24d8612f546c2401e0cf1fe8ae2950bc4eec55643d8d866e1ed58
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3511,32 +3565,13 @@ Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 3372
+Installed-Size: 2980
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.3-0_iphoneos-arm64.deb
-Size: 884654
-MD5sum: 5f482ca50b2cf0e8ddbf4d2b1c288134
-SHA1: aed1f06d04c4e26d66a3fa32ed5f6f6f34f98ca3
-SHA256: 59b025635ac24d8612f546c2401e0cf1fe8ae2950bc4eec55643d8d866e1ed58
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 2964
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#7-arm64.deb
-Size: 773792
-MD5sum: af7bd09737ed01a0f342de2855271ead
-SHA1: ab3d6185877fb739d9db26b5098d40a5c014fc09
-SHA256: 8cc1f50dbfd1bebbff92793215954ed1f0736eba5d00188442f52a2cf62c7cff
+Filename: debs/huami.dyyy_2.3-0#8-arm64.deb
+Size: 772338
+MD5sum: 24b46344c445a228f9cebe6db6a4dc2b
+SHA1: 984ed651c707642e940339ea1216ace2ddd4e89f
+SHA256: 5427f8ad28d52e554f03554f9d25cf0f4209b7824168a1e8f342053291743381
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3556,25 +3591,6 @@ Size: 784484
 MD5sum: 651b4509ffe9491c82da7487830b9b7a
 SHA1: 42c7569ebcb9dff2085c90de6c3c891b9137aa54
 SHA256: a6d588cdf5227587c020944158447c084edc09cada176632748c14c21b74cf41
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 3028
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0_11-arm64.deb
-Size: 784490
-MD5sum: 2ff2f98616f6401831a709ef6ed6b973
-SHA1: c5806344004d70d5806375eaf00a19bc8a34909d
-SHA256: 5884ffbbc2fbe29f02c7af1931b24be00afcd13035f7ed246ec11e274dd3e8bb
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -3819,6 +3835,22 @@ Section: Tweaks
 Description: WeChat enhancement tweak with customizable interface, quick actions, and utility features.
 Author: Iris
 Name: WeChatNeo
+
+Package: com.jd4iphone
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.jd4iphone_1.3_iphoneos-arm64.deb
+Size: 5464
+MD5sum: 133229afd97833770f44a86091bb87ca
+SHA1: e7861699e3dbe3b77ccf0c942445a814f0b6d674
+SHA256: 7d454bce60ad4c8e9ed02bc77f946ace74ffdf0343d91f1bfc74e07ec093913c
+Section: Tweaks
+Description: 京东去广告+精简
+Author: M哥
+Name: 京东（去广告+精简）
 
 Package: com.jibamao.gaodeclean
 Version: 0.9.110+trial71
@@ -6278,23 +6310,6 @@ Name: NoAdsX
 
 Package: com.notifydynamicx.tweak
 Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 716
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.dynamicx.tweak
-Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64.deb
-Size: 128020
-MD5sum: 210dbd25bcc3aafb88a463b62c1e5089
-SHA1: e378672abd576c36cda3c1a1815bca9d5e975998
-SHA256: 7e924cf39bde4c5c01e29503d2b3d8d9860d50d73e2d5c19c5339c9b1305421b
-Section: Tweaks
-Description: 通知上岛
-Author: 半生年华
-Name: Notify DynamicX
-
-Package: com.notifydynamicx.tweak
-Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: 半生年华
 Installed-Size: 716
@@ -6305,6 +6320,23 @@ Size: 129668
 MD5sum: 3e5ce8f3bd3ff8148d78eeb91c0dd78e
 SHA1: 6b4de0192799b33bd1b4eeb3f1e4ed95823de338
 SHA256: a4f26f946c8b5f777e154fa3536c9df676a858f69f16278dd60ea915f8f4b41e
+Section: Tweaks
+Description: 通知上岛
+Author: 半生年华
+Name: Notify DynamicX
+
+Package: com.notifydynamicx.tweak
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.dynamicx.tweak
+Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64.deb
+Size: 128020
+MD5sum: 210dbd25bcc3aafb88a463b62c1e5089
+SHA1: e378672abd576c36cda3c1a1815bca9d5e975998
+SHA256: 7e924cf39bde4c5c01e29503d2b3d8d9860d50d73e2d5c19c5339c9b1305421b
 Section: Tweaks
 Description: 通知上岛
 Author: 半生年华
@@ -7834,6 +7866,22 @@ Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
 Name: SnapBackup 备份恢复
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
+
+Package: com.sogouinput
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.sogouinput_1.0_iphoneos-arm64.deb
+Size: 5852
+MD5sum: f2348f655d9a74dbb16a675b6d0e7026
+SHA1: dfbaa8f95f06fe9a11f5f93ae42a436e4f2eabb4
+SHA256: f6c47327f0e6e168668f3b8a3128e3326e355732f68b9496b93950b3cbb173b2
+Section: Tweaks
+Description: 搜狗输入法去广告
+Author: M哥
+Name: 搜狗去广告-rootless
 
 Package: com.spark.laetus
 Version: 3.5.1-rootless
@@ -10250,6 +10298,22 @@ Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.weibolite/icon.png
 Name: 微博轻享版去广告
 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.weibolite.json
 
+Package: com.taobao4iphone
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.taobao4iphone_1.0_iphoneos-arm64.deb
+Size: 4678
+MD5sum: f2340bee84edb9ec82ba77b7d4bc7df5
+SHA1: d14710779fdbffa33acf829a8040825ae174f4fc
+SHA256: d8ed9e95735cf81b42f10f44bf1cc7e09490069ba014ddca59de172b78df8dda
+Section: Tweaks
+Description: 淘宝去广告+精简
+Author: M哥
+Name: 淘宝（去广告+精简）
+
 Package: com.thefool.ccaudioplay
 Version: 0.0.1-7+debug
 Architecture: iphoneos-arm64
@@ -10894,13 +10958,13 @@ Architecture: iphoneos-arm64
 Maintainer: wkk
 Installed-Size: 604
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/com.wkk.keyboardx_1.2-2end_iphoneos-arm64.deb
-Size: 76372
-MD5sum: a65a758180f0a69a4ffb194af4ecf241
-SHA1: 70dbbc64a2106eb684eefd5245180fd37dbed54c
-SHA256: d5b97e164a5ae05ade5c67701cff6075af7cd743bc3b3891ffee5fdaf7c09d31
+Filename: debs/keyboardx_1.2-2end_iphoneos-arm64.deb
+Size: 76436
+MD5sum: bf653d6149ded0617048d04a5af76415
+SHA1: d64e0e70f601d7793147f7226edf3c57773e1b5a
+SHA256: 4b343a550adb8f3676883994f1743334fe52bb27dc2b769524377829838643ca
 Section: Tweaks
-Description: 键盘调整。
+Description: cool
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: KeyboardX
@@ -10911,13 +10975,13 @@ Architecture: iphoneos-arm64
 Maintainer: wkk
 Installed-Size: 604
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/keyboardx_1.2-2end_iphoneos-arm64.deb
-Size: 76436
-MD5sum: bf653d6149ded0617048d04a5af76415
-SHA1: d64e0e70f601d7793147f7226edf3c57773e1b5a
-SHA256: 4b343a550adb8f3676883994f1743334fe52bb27dc2b769524377829838643ca
+Filename: debs/com.wkk.keyboardx_1.2-2end_iphoneos-arm64.deb
+Size: 76372
+MD5sum: a65a758180f0a69a4ffb194af4ecf241
+SHA1: 70dbbc64a2106eb684eefd5245180fd37dbed54c
+SHA256: d5b97e164a5ae05ade5c67701cff6075af7cd743bc3b3891ffee5fdaf7c09d31
 Section: Tweaks
-Description: cool
+Description: 键盘调整。
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: KeyboardX
@@ -12241,11 +12305,11 @@ Architecture: iphoneos-arm64
 Maintainer: ylr
 Installed-Size: 492
 Depends: mobilesubstrate
-Filename: debs/ylr.weifengadclean_1.5.5-arm64.deb
-Size: 108122
-MD5sum: 4f31ea0741c576552247d69f8f4a8813
-SHA1: 0b4bc596fe55fdcb4e14a81ede80fea8ee869f38
-SHA256: 82f063b77ddef9fd6df0207baf28be1e0fadf391c4ae9eed267c1886b3db089f
+Filename: debs/ylr.威锋去广告_1.5.5-arm64.deb
+Size: 108062
+MD5sum: ecae3cd62e59c49389da5ac5b5efddac
+SHA1: 3fb793e7d48f4b96dc529f845b83f4efdf2f409a
+SHA256: ad2d39207f40fbd2a26b4268e5f49a9022b6b66044cd6e5bb583b58bd6b66f72
 Section: Tweaks
 Description: 朋友需要，如有传播请立刻卸载！
 Author: ylr
@@ -12257,11 +12321,11 @@ Architecture: iphoneos-arm64
 Maintainer: ylr
 Installed-Size: 492
 Depends: mobilesubstrate
-Filename: debs/ylr.威锋去广告_1.5.5-arm64.deb
-Size: 108062
-MD5sum: ecae3cd62e59c49389da5ac5b5efddac
-SHA1: 3fb793e7d48f4b96dc529f845b83f4efdf2f409a
-SHA256: ad2d39207f40fbd2a26b4268e5f49a9022b6b66044cd6e5bb583b58bd6b66f72
+Filename: debs/ylr.weifengadclean_1.5.5-arm64.deb
+Size: 108122
+MD5sum: 4f31ea0741c576552247d69f8f4a8813
+SHA1: 0b4bc596fe55fdcb4e14a81ede80fea8ee869f38
+SHA256: 82f063b77ddef9fd6df0207baf28be1e0fadf391c4ae9eed267c1886b3db089f
 Section: Tweaks
 Description: 朋友需要，如有传播请立刻卸载！
 Author: ylr
@@ -12288,11 +12352,11 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
-Size: 1317948
-MD5sum: 3b1f30a8636aba5b59836693f915e8d6
-SHA1: 06862319747d92996a1ae0105205fcc9763c79d3
-SHA256: bc2f6298affdaa1f1849c6e048132be1fad225210d5719b7c2f7b73586c3d386
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Size: 1318022
+MD5sum: 6e4d75de66819adeb6e1671ef80c7e9d
+SHA1: 98bd4ef09d8f8370338840450d274c5fa1620781
+SHA256: 8862d9b0b01c05aef4c066f6561bf85e15f8cdd8f2105f3f087aec2b2ca257e7
 Section: Tweaks
 Description: ReachPlayer便捷访问音乐专辑
 Author: 苏苏 <kk99588077@gmail.com>
@@ -12303,11 +12367,11 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
-Size: 1318022
-MD5sum: 6e4d75de66819adeb6e1671ef80c7e9d
-SHA1: 98bd4ef09d8f8370338840450d274c5fa1620781
-SHA256: 8862d9b0b01c05aef4c066f6561bf85e15f8cdd8f2105f3f087aec2b2ca257e7
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Size: 1317948
+MD5sum: 3b1f30a8636aba5b59836693f915e8d6
+SHA1: 06862319747d92996a1ae0105205fcc9763c79d3
+SHA256: bc2f6298affdaa1f1849c6e048132be1fad225210d5719b7c2f7b73586c3d386
 Section: Tweaks
 Description: ReachPlayer便捷访问音乐专辑
 Author: 苏苏 <kk99588077@gmail.com>
