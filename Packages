@@ -912,6 +912,23 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
 Name: Hello QuickPanel（免授权）
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
 
+Package: cn.zqbb.hello.tim
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Filename: debs/cn.zqbb.hello.tim_1.1_iphoneos-arm64.deb
+Size: 10770
+MD5sum: 539541e6b87f9683f375acdb59b95617
+SHA1: c8a40bce1dbc3c6570584d113913680f7b7a9d40
+SHA256: ddaf719d20c5f364cef801a93af9afd48283c16382f49e916f8234f0c400fcca
+Section: Tweaks
+Description: 一个简单的TIM插件, 能打开提示更新 QQ 的分享~
+Author: zqbb
+Name: Hello TIM
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.tim
+
 Package: cn.zqbb.helloarea
 Version: 0.0.3
 Architecture: iphoneos-arm64
