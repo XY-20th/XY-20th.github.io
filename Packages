@@ -227,6 +227,95 @@ Tag: purpose::uikit, compatible::ios14
 Author: 来了老弟
 Name: QL 清理
 
+Package: cn.llld.qqdsq
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cn.llld.qqdsq_1.3_iphoneos-arm64.deb
+Size: 101926
+MD5sum: e4eb54596f89c29da7b7094a0d425d0f
+SHA1: 753323f3a0610490b0325bcf42c16b53ca5a4e43
+SHA256: 51149c89e5caf9dfbc4c731a8a354bba9c6ed543197e997bb9edeffb107b398d
+Section: Tweaks
+Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。功能在手机"系统设置"。功能在手机"系统设置"。调试版本号：v8.9.58和v9.0以上，别的版本需自测。
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
+Name: 芭比Q-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
+
+Package: cn.llld.qqdsq
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 592
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cn.llld.qqdsq_1.3.1_iphoneos-arm64.deb
+Size: 102864
+MD5sum: f0bd116c75dc3524d422ff1440ceb787
+SHA1: ceec27a30995cb0a8664a0963f79d7fd48ecc0c3
+SHA256: 06016ad2db66c2136a7a200ae829b835f782048768a93fea913ea439272b18b3
+Section: Tweaks
+Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。调试版本号：v8.9.58和v9.0以上，别的版本需自测。
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
+Name: 芭比Q-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
+
+Package: cn.llld.qqdsq
+Version: 1.3.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 592
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cn.llld.qqdsq_1.3.3_iphoneos-arm64.deb
+Size: 104012
+MD5sum: 09d2204a657018c8c4a121984f64a3f2
+SHA1: f6f201be30552a711a0966a62bad43ead97c3663
+SHA256: 31c5d5ef99bc962d1b474003f62280651a3ca88fc9af2645b3df2cb674f0811d
+Section: Tweaks
+Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。调试版本号：v8.9.58和v9.0以上，别的版本需自测。
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
+Name: 芭比Q-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
+
+Package: cn.llld.qqdsq
+Version: 1.3.5
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 544
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cn.llld.qqdsq_1.3.5_iphoneos-arm64.deb
+Size: 93830
+MD5sum: c93303e8acdafa015c73c06e3d9c2570
+SHA1: e02b5e8448a8255b5b21f584fe8e0f9aa4daddb8
+SHA256: a0b0d080c9cf25acd1e53f68b18031bcb516332011552540fedbacc95820536d
+Section: Tweaks
+Description: 功能在手机"系统设置"。调试版本号：v8.9.58和v9.0以上，别的版本需自测。
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
+Name: 芭比Q-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
+
+Package: cn.llld.qqdsqqc
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 464
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cn.llld.qqdsqqc_1.0_iphoneos-arm64.deb
+Size: 79068
+MD5sum: 5092259688049aa7206ad175491d1879
+SHA1: dfebd75abf34f2bc80320e2fc34a756b3146c73d
+SHA256: 0bb960861f1dee187d68c142a2244a6e4d3e803aaa217d8612e10ab06020922b
+Section: Tweaks
+Description: 芭比Q精简功能版，去除 全局视图颜色控制和全局视图透明调节 功能。插件功能在手机"系统设置"。调试版本号：v8.9.58和v9.0.20，别的版本需自测。
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
+Name: 芭比QQ精简版-rootless
+
 Package: cn.llld.zfbb
 Version: 1.5
 Architecture: iphoneos-arm64
