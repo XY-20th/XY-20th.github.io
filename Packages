@@ -14280,6 +14280,55 @@ Description: 开发您自己的调整并在Flex社区云上共享。Dopamine2.0�
 Author: John Coates
 Name: Flex 3 Beta90
 
+Package: griddy
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mikifp
+Depends: mobilesubstrate
+Filename: debs/griddy_1.0_iphoneos-arm64.deb
+Size: 16312
+MD5sum: 808b0eb699cc0778c4d91e1688dfe24c
+SHA1: 3f962304f2e3dde493837d61f59d366eaf26578e
+SHA256: ec7088679f06c1dea279cc776cbb7d583389a22bee8d6c1ed189f912d30a248b
+Section: Tweaks
+Description: Make your icons hit the griddy
+Author: mikifp
+Icon: https://repo.cypwn.xyz/packages/Griddy-Rootless/icon.png
+Name: Griddy
+
+Package: griddy
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: mikifp
+Depends: mobilesubstrate
+Filename: debs/griddy_1.0.3_iphoneos-arm64.deb
+Size: 17568
+MD5sum: 0078b35660879ce66cdfcc2f87dd91f2
+SHA1: 038fb97355b3c16494c6914a5b4c3d28b2f109ad
+SHA256: 6cb6bcf7d6cd218bc6e7b9336a862619e9bd629b6366f2781413e13135dac3b0
+Section: Tweaks
+Description: Make your icons hit the griddy
+Author: mikifp
+Icon: https://repo.cypwn.xyz/packages/Griddy-Rootless/icon.png
+Name: Griddy
+
+Package: griddy
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: mikifp
+Installed-Size: 204
+Depends: mobilesubstrate
+Conflicts: com.mikifp.griddy, xyz.cypwn.griddy
+Filename: debs/griddy_1.0.4_iphoneos-arm64.deb
+Size: 19636
+MD5sum: a5be13bddc325fce8f048b9a0bd2c89e
+SHA1: 96676ef3fb9514479c98c1d2b18ab8da66f878d1
+SHA256: 5ee27504e04752b297178cb9816f8b315b1b302d65fc67c45848e8686335cb35
+Section: Tweaks
+Description: 让你的程序图标在桌面随意摆放。
+Author: mikifp
+Name: Griddy
+
 Package: hongguofn
 Version: 1.0.1
 Architecture: iphoneos-arm64
