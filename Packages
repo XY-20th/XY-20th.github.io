@@ -3685,6 +3685,22 @@ Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY
 
+Package: com.huayuarc.rootless.vfa
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Mo <cydia778899@gmail.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huayuarc.rootless.vfa_1.1_iphoneos-arm64.deb
+Size: 4852
+MD5sum: 17528018ec6d891dc23b462ac0bd1d23
+SHA1: 685418d424715463a9b42237da2f87a320e46fdd
+SHA256: 9df66adc360774f34c92f65fc1e4cb55a02181913ae50a5e12725ada7b3c873a
+Section: Tweaks
+Description: 原作者：糖醋丶炒排骨，Mo编译支持rootless，去掉微信公众号文章内置、底部的广告，无设置。
+Author: Mo
+Name: 微信公众号去广告-Rootless
+Sponsor: Mo <cydia778899@gmail.com>
+
 Package: com.hx.wn
 Version: 1.0.6
 Architecture: iphoneos-arm64
@@ -14568,6 +14584,23 @@ Description: 完美版。
 Author: Domo <domo@rambler.ru>
 Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
 Name: CocoaTop64
+
+Package: safarixs
+Version: 1.9.2
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.0xkuj.safarix, byg.iosios.net.safarix, com.dao.safarix
+Filename: debs/safarixs_1.9.2_iphoneos-arm64.deb
+Size: 296392
+MD5sum: 3d1a132451bad59246e2887fd8852a44
+SHA1: 3afcda10ea79c0e944864b7820217d52f7cf382c
+SHA256: 4eaf4840da782a138d68d5289b1c25d40abe0df67c92bc5b9e4c8522ad216d8f
+Section: Tweaks
+Description: Safari 浏览器增强插件
+Author: 0xkuj
+Icon: https://TrollStoreX.Github.io/sileodepiction/SafariX/icon.png
+Name: Safari X
 
 Package: tweaktool
 Version: 1.6.0
