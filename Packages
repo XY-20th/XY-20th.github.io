@@ -11219,6 +11219,23 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: SystemX
 
+Package: com.wkk.systembox
+Version: 1.7-9
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 2160
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.wkk.systembox_1.7-9_iphoneos-arm64.deb
+Size: 417530
+MD5sum: 9ebb8b5c434c918d9e480e6b49c2dedf
+SHA1: cd9b92697d5334c38075fa9d485aec6fc84ac2d2
+SHA256: 46d21567701c0f0fe7fb64d3d495e7da757d4e552a2533492c07e0d01b6c2e3d
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SystemX
+
 Package: com.wkk.tallynoad
 Version: 1.0
 Architecture: iphoneos-arm64
