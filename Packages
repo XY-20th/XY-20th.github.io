@@ -316,6 +316,123 @@ Author: 来了老弟 X：h_h_x_t
 Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
 Name: 芭比QQ精简版-rootless
 
+Package: cn.llld.qsyy
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: debs/cn.llld.qsyy_1.0_iphoneos-arm64.deb
+Size: 39072
+MD5sum: 9656eb577574fde9c7b73364e5e385d5
+SHA1: 8135243365b09e58ff13b529211eb7c7bf9bab79
+SHA256: 4d06be66e6f3a2d980d5b18d56aaaab1d18c90d72e6f6210de52438c48668578
+Section: Tweaks
+Description: ***Long press any 'tweak title' in the settings to pop up the settings, function: translate the tweak language, effective in real time。240329:Big update, this version adds reddit and small broom, as well as phone, support phone modification of contact, modification of time, modification of call record, support of obsessive-compulsive disorder to other languages in the small broom, it is strongly recommended to upgrade.长按设置中任意'标题'弹出设置，功能：翻译插件语言，实时生效，用于汉化或者别的语言翻译，，，，配合截图识字，发AI翻译效率更高，翻译普通插件几分钟，大型插件也用不了多久，240329大更新，此次版本加入了reddit和小扫把，还有电话，支持电话修改联系人，修改时间，修改通话记录，支持强迫症改小扫把里边那些别的语言，强烈建议升级，之前代码是垃圾，一切以最新版为准，，，提示：装了120或全局篡改插件的设备，不要装此插件***
+Author: 来了老弟
+Name: 悬浮翻译汉化工具-rootless
+
+Package: cn.llld.qsyy
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 540
+Depends: mobilesubstrate
+Filename: debs/cn.llld.qsyy_1.2_iphoneos-arm64.deb
+Size: 94554
+MD5sum: 1ce63c20950a75f3ab4234923c830dfc
+SHA1: 8a73286445b4a67c1913df0f7edac3d470aad598
+SHA256: 6aa513d4a35f3d0b793b3395b54bd8b0cf7604e5a45faec3d61d6ccfd9b60022
+Section: Tweaks
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，，，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FloatingReplacement悬浮替换翻译汉化
+
+Package: cn.llld.qsyy
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 572
+Depends: mobilesubstrate
+Filename: debs/cn.llld.qsyy_1.3_iphoneos-arm64.deb
+Size: 101138
+MD5sum: fec939ae84f4d6338d8d6a6097d070b0
+SHA1: 122f648aa7a1a95ce0359dcb8d2716c20c51f28b
+SHA256: f1004fcb99d64283d655dae7a1e92d1b6bf4d29a0f92560d0cbe347da77c7223
+Section: Tweaks
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，，，勿改包，不弹窗。240403:以新增多款应用，有需要自己汉化巨魔的也可玩，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT悬浮替换翻译汉化-rootless
+
+Package: cn.llld.qsyy
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 616
+Depends: mobilesubstrate
+Filename: debs/cn.llld.qsyy_1.5_iphoneos-arm64.deb
+Size: 112060
+MD5sum: 30bda508c7dc6c4ac1c583fea9d3c04b
+SHA1: d121fbbddb33f6ec36954e94b2326ab11760145c
+SHA256: b215d7c905210013bbdb3783b8aa465d25d770a926f156e2b03998a78fc27197
+Section: Tweaks
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record，Custom text replacement, custom text size, custom text view width, height, custom text view horizontal and vertical coordinates, custom text color, custom text font, custom text transparency etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，自定义文字替换，自定义文字大小，自定义文字视图宽度，高度，自定义文字视图横向纵向的坐标，自定义文字颜色，自定义文字字体，自定义文字透明度，隐藏设备实际信息，靓仔装逼等(非所有文字，个别函数需要等我适配)。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FloatingReplacement悬浮替换翻译汉化
+
+Package: cn.llld.qsyy
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 4924
+Depends: mobilesubstrate
+Filename: debs/cn.llld.qsyy_2.0_iphoneos-arm64.deb
+Size: 3897008
+MD5sum: caa104c29e7b78507e1d4246cf9e7816
+SHA1: 088d3df1a080b811d1b24602ba8e2fc908e25c88
+SHA256: cca2a25039d117fa139dd0f5a5b2a09b1aa628d212a0cb24efb0ab8650273e09
+Section: Tweaks
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record，Custom text replacement, custom text size, custom text view width, height, custom text view horizontal and vertical coordinates, custom text color, custom text font, custom text transparency etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，自定义文字替换，自定义文字大小，自定义文字视图宽度，高度，自定义文字视图横向纵向的坐标，自定义文字颜色，自定义文字字体，自定义文字透明度，隐藏设备实际信息，靓仔装逼等(非所有文字，个别函数需要等我适配)。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT悬浮文本增强翻译汉化-简版
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
+
+Package: cn.llld.wxx
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/cn.llld.wxx_1.0.5_iphoneos-arm64.deb
+Size: 23930
+MD5sum: 96f1169fe77714b750f7fe1216feb2dc
+SHA1: 5def28ef464feca0bb3b27c5e781147402f0fbfa
+SHA256: be16ef9f345fa180519c3db896e1f1f08aa2b4068e7041376c926edc356075d5
+Section: Tweaks
+Description: 微信小布丁1.0.5版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告（可自定义关注视频和直播中订阅号），屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***,8.0.31版本专供，高版本仅用部分功能（我自用是8.0.31，没适配高版本）
+Author: 来了老弟 X：h_h_x_t
+Name: 微信小布丁-rootless
+
+Package: cn.llld.wxx
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/cn.llld.wxx_1.0.6_iphoneos-arm64.deb
+Size: 26216
+MD5sum: d33158b07e10ca9345c1ae3fe0a77483
+SHA1: 6a60f5570978864599adc2b7b94509db24e5ff80
+SHA256: 116c1fcf3b49dbef84db2cf0bbf8ce1c9100901f986a03eb0a0529b4fe3f0b81
+Section: Tweaks
+Description: 微信小布丁1.0.6版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告（可自定义关注视频和直播中订阅号），屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数，后台模糊，界面透明等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***,8.0.31版本专供，高版本仅用部分功能（我自用是8.0.31，没适配高版本）
+Author: 来了老弟 X：h_h_x_t
+Name: 微信小布丁-rootless
+
 Package: cn.llld.zfbb
 Version: 1.5
 Architecture: iphoneos-arm64
