@@ -15373,6 +15373,66 @@ Description: 电池耗电分析：统计各 App 前台/后台运行时长与电�
 Author: yzdmm2024
 Name: 电池耗电分析
 
+Package: wacljcr.keepalive
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: wacljcr
+Installed-Size: 572
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/wacljcr.keepalive_1.0.0_iphoneos-arm64.deb
+Size: 29964
+MD5sum: 66cdf9cb800478047f52bd9ad9d8d958
+SHA1: 6a0be080e763e9683a36a034dce9b58cde4d4c20
+SHA256: 5ab244d55f8dae3912b63b648a51d4e644d43d7937e71b4ff6bc1d34d61825e3
+Section: Tweaks
+Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
+ 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
+ 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
+Author: wacljcr
+Icon: https://huayuarc.github.io/icon/keepalive.png
+Name: 常驻后台
+
+Package: wacljcr.keepalive
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: wacljcr
+Installed-Size: 572
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/wacljcr.keepalive_1.0.3_iphoneos-arm64.deb
+Size: 30612
+MD5sum: be66368c3d944c1572a48a0b4df2e385
+SHA1: 10c4857b5b5caf38d12799547f17c1dc5bee1d97
+SHA256: 2afd1f7316d1702c0004627ea38f5ca92bb2b292a08d3d94f8aa8ed5767cf10c
+Section: Tweaks
+Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
+ 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
+ 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
+Author: wacljcr
+Icon: https://huayuarc.github.io/icon/keepalive.png
+Name: 常驻后台
+
+Package: wacljcr.keepalive
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: wacljcr
+Installed-Size: 612
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/wacljcr.keepalive_1.0.5_iphoneos-arm64.deb
+Size: 37552
+MD5sum: bfc85772e58a72f89a5331c61d3f9e48
+SHA1: 6e7e6f50175cdfb67006dda03384f7b4e41f9970
+SHA256: 23162a04e10daf024fe99b62fbcbf47f0c22fa7217fa364f11937cba0a96a2cd
+Section: Tweaks
+Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
+ 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
+ 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
+Author: wacljcr
+Icon: https://huayuarc.github.io/icon/keepalive.png
+Name: 常驻后台
+
 Package: xhs.x
 Version: 1.2.0
 Architecture: iphoneos-arm64
