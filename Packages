@@ -11529,23 +11529,6 @@ Architecture: iphoneos-arm64
 Maintainer: wkk
 Installed-Size: 604
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/keyboardx_1.2-2end_iphoneos-arm64.deb
-Size: 76436
-MD5sum: bf653d6149ded0617048d04a5af76415
-SHA1: d64e0e70f601d7793147f7226edf3c57773e1b5a
-SHA256: 4b343a550adb8f3676883994f1743334fe52bb27dc2b769524377829838643ca
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: KeyboardX
-
-Package: com.wkk.keyboardx
-Version: 1.2-2end
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 604
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: debs/com.wkk.keyboardx_1.2-2end_iphoneos-arm64.deb
 Size: 76372
 MD5sum: a65a758180f0a69a4ffb194af4ecf241
