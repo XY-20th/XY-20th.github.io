@@ -2121,7 +2121,7 @@ Architecture: iphoneos-arm64
 Maintainer: 冰蓝
 Installed-Size: 780
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_ 2.2.6-arm64.deb
+Filename: debs/binglan.全局水印_2.2.6-arm64.deb
 Size: 100686
 MD5sum: 49b22a02bbd0c1d7a5c42221be146bda
 SHA1: 94eaa3c052b3fc9094afc0336d00ed6d1fa45834
@@ -3899,25 +3899,6 @@ Size: 657596
 MD5sum: c58aa1c9905229af3525fdd5935c1265
 SHA1: 1f0c6235c037d60d566cae4bde7c2a7c4c5dd036
 SHA256: 54dc133cc84e88e92dc6fa591ac476d10297fb4696f358e008976ffa51686a0a
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 2980
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.3-0#10-arm64.deb
-Size: 774418
-MD5sum: c3150f11d821ec95a7cd7bf328edbc87
-SHA1: c89d7bb2d904a464f3e6cb0078aac156340d256e
-SHA256: 21763d332697955d891a7453628b1dfd65c3f670831248320580af4f17bc4838
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
