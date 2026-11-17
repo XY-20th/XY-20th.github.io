@@ -3729,6 +3729,23 @@ Author: Hao
 Name: 微信工具
 
 Package: com.hierarch.dykiller
+Version: 0.7.1
+Architecture: iphoneos-arm64
+Maintainer: hierarch
+Installed-Size: 4524
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.hierarch.dykiller_0.7.1_iphoneos-arm64.deb
+Size: 1090042
+MD5sum: f9a2d88f7c06440854860135c24f9d06
+SHA1: a6f4cf7a2f799a0965d20b89ccb02c59510c1674
+SHA256: d8aff439530ca45797e2497eef28a79b3042aa4b7d35030e0bc309934e91d3d3
+Section: Tweaks
+Priority: optional
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Author: hierarch
+Name: DYKiller
+
+Package: com.hierarch.dykiller
 Version: 0.7.2
 Architecture: iphoneos-arm64
 Maintainer: hierarch
@@ -6642,23 +6659,6 @@ Name: NoAdsX
 
 Package: com.notifydynamicx.tweak
 Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 716
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.dynamicx.tweak
-Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64.deb
-Size: 128020
-MD5sum: 210dbd25bcc3aafb88a463b62c1e5089
-SHA1: e378672abd576c36cda3c1a1815bca9d5e975998
-SHA256: 7e924cf39bde4c5c01e29503d2b3d8d9860d50d73e2d5c19c5339c9b1305421b
-Section: Tweaks
-Description: 通知上岛
-Author: 半生年华
-Name: Notify DynamicX
-
-Package: com.notifydynamicx.tweak
-Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: 半生年华
 Installed-Size: 716
@@ -6669,6 +6669,23 @@ Size: 129668
 MD5sum: 3e5ce8f3bd3ff8148d78eeb91c0dd78e
 SHA1: 6b4de0192799b33bd1b4eeb3f1e4ed95823de338
 SHA256: a4f26f946c8b5f777e154fa3536c9df676a858f69f16278dd60ea915f8f4b41e
+Section: Tweaks
+Description: 通知上岛
+Author: 半生年华
+Name: Notify DynamicX
+
+Package: com.notifydynamicx.tweak
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.dynamicx.tweak
+Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64.deb
+Size: 128020
+MD5sum: 210dbd25bcc3aafb88a463b62c1e5089
+SHA1: e378672abd576c36cda3c1a1815bca9d5e975998
+SHA256: 7e924cf39bde4c5c01e29503d2b3d8d9860d50d73e2d5c19c5339c9b1305421b
 Section: Tweaks
 Description: 通知上岛
 Author: 半生年华
