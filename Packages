@@ -12984,21 +12984,6 @@ Description: ReachPlayer便捷访问音乐专辑
 Author: 苏苏 <kk99588077@gmail.com>
 Name: ReachPlayer音乐专辑
 
-Package: com.yourepo.ok95.reachplayer
-Version: 5.0.0
-Architecture: iphoneos-arm64
-Maintainer: 苏苏 <kk99588077@gmail.com>
-Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
-Size: 1317948
-MD5sum: 3b1f30a8636aba5b59836693f915e8d6
-SHA1: 06862319747d92996a1ae0105205fcc9763c79d3
-SHA256: bc2f6298affdaa1f1849c6e048132be1fad225210d5719b7c2f7b73586c3d386
-Section: Tweaks
-Description: ReachPlayer便捷访问音乐专辑
-Author: 苏苏 <kk99588077@gmail.com>
-Name: ReachPlayer音乐专辑
-
 Package: com.yourname.12306noad
 Version: 1.0.0-11+debug
 Architecture: iphoneos-arm64
