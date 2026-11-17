@@ -2748,22 +2748,6 @@ Description: QQ阅读去开屏广告，由群友（Edison"）自费单独定制�
 Author: colorblack
 Name: QQyuedu_NoAd
 
-Package: com.colorblack.shakeadblocker
-Version: 1.0.0-1+debug
-Architecture: iphoneos-arm
-Maintainer: colorblack
-Installed-Size: 176
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.colorblack.shakeadblocker_1.0.0-1+debug_iphoneos-arm.deb
-Size: 9164
-MD5sum: 786e9f47afc8bd220feafbdc8bc7e27d
-SHA1: 8291e8e51e300f7a2757d4cd3326cdcbd948431c
-SHA256: 5b674ae37cc7d318a23f4f3491a31c90ac90d53d09e01c390e15c6d78cfd4460
-Section: Tweaks
-Description: 屏蔽iOS应用启动时的摇一摇广告跳转功能，启动后10秒内禁用陀螺仪响应，之后恢复正常使用
-Author: colorblack
-Name: ShakeAdBlocker
-
 Package: com.colorblack.shouji360noad
 Version: 0.0.3
 Architecture: iphoneos-arm64
@@ -3635,22 +3619,6 @@ Section: Tweaks
 Description: AppTools for iOS15-17 Rootless
 Author: aReo
 Name: AppTools15-17（免授权）
-
-Package: com.gu.xianyupick
-Version: 1.9.1
-Architecture: iphoneos-arm
-Maintainer: �
-Depends: mobilesubstrate
-Filename: debs/com.gu.xianyupick_1.9.1_iphoneos-arm.deb
-Size: 135300
-MD5sum: af33d3370c1e64444d1bc1798bb5547f
-SHA1: acd92799f15a0f92cb7c2e5838466f7c117a63f4
-SHA256: a534515429c8d30a4cb0b20caad073e9702407f82cb437f137cfafa4ab0f9248
-Section: Tweaks
-Homepage: https://t.me/zakadeep_bot
-Description: 闲鱼商品嗅探 + 筛选捡漏工具。悬浮球面板可按机型/容量/系统版本/机身颜色/成色/价格/想要人数筛选，自动翻页、单条复制、点击直达商品。v1.9.1：激活弹窗精简（去掉机器码说明与操作提示两行文字，界面更干净）；卡密校验改为进算法层做严格对账——错码不再只是弹提示，而是当场终止，挡掉批量试码的脚本。抓取与筛选逻辑与 v1.9.0 完全一致。
-Author: �
-Name: 闲鱼捡漏
 
 Package: com.hades.locktouchx
 Version: 2.2
@@ -5526,21 +5494,6 @@ Description: 侧边栏分组
 Author: Junzai
 Name: Fenzu
 
-Package: com.kalert.tweak
-Version: 5.0.2-1+debug
-Architecture: iphoneos-arm
-Maintainer: tanxiaolin
-Installed-Size: 456
-Filename: debs/com.kalert.tweak_5.0.2-1+debug_iphoneos-arm.deb
-Size: 63136
-MD5sum: fece2370550c4c4a4c3dce995d2a259d
-SHA1: ae0502566a052605208cdfdee3762cf1413dde17
-SHA256: ea827fd524b6419a50bd634706c415ffb657cda680411e100b8e968b7c8635ea
-Section: Tweaks
-Description: KAlert popup tweak
-Author: tanxiaolin
-Name: KAlert
-
 Package: com.lessica.camover
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -6564,21 +6517,6 @@ Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 Name: MUtool（免授权）
 Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
-
-Package: com.naiwa.native
-Version: 0.0.22
-Architecture: iphoneos-arm
-Maintainer: NaiWa
-Depends: firmware (>= 26.0)
-Filename: debs/com.naiwa.native_0.0.22_iphoneos-arm.deb
-Size: 1324904
-MD5sum: d837bd0fd94c9dcd5fc941b50cf1c2b9
-SHA1: bc7fde7d1de10962831cf45b3fa6428af22133de
-SHA256: 7009c73a8cf50d3f430af91966816a615db2b00ff4d2165f50f5cc8aee072518
-Section: Tweaks
-Description: Native iOS 26+ system tabs and player accessory for NetEase Cloud Music.
-Author: NaiWa
-Name: NaiwaEase
 
 Package: com.naiwaguo.native
 Version: 0.1.1
