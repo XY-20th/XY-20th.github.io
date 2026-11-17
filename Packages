@@ -2778,6 +2778,22 @@ Description: 去除腾讯手机管家开屏广告
 Author: colorblack
 Name: TencentGuanjia-NoSplash
 
+Package: com.colorblack.tmgaadblock
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: ColorBlack
+Installed-Size: 204
+Depends: firmware (>= 15.0)
+Filename: debs/colorblack.腾讯手游加速器_1.0.0-arm64.deb
+Size: 14896
+MD5sum: 24d0f11701eb43936bd2001a5c79fc9e
+SHA1: eda2a2a4d6245ddf75db808aed57289be1e4a359
+SHA256: 3877669086e9930349c72d695c0ba547e0958edbbc5057fa213c97e4408c3734
+Section: Tweaks
+Description: Rootless/RootHide tweak that blocks Tencent Mobile Game Accelerator ad URLs in-process.
+Author: ColorBlack
+Name: TMGA AdBlock
+
 Package: com.colorblack.wetypecolorgoogle
 Version: 1.0.9
 Architecture: iphoneos-arm64
