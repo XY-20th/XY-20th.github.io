@@ -1015,16 +1015,48 @@ Author: 82Flex
 Name: PanoramicView
 
 Package: com.82flex.touchvis
+Version: 4.1
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 4400
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.82flex.touchvis_4.1_iphoneos-arm64.deb
+Size: 938820
+MD5sum: 8cd1167b640a1448881fb2f4be663cd9
+SHA1: bcfe12752bd08f98c5f0bd77558f8d3687c52eea
+SHA256: e5bc556f870a0ac80af457d327fbd40a30d530f253540ad058c2d2fe4197e0b2
+Section: Tweaks
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
+
+Package: com.82flex.touchvis
+Version: 4.1.1
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 4400
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.82flex.touchvis_4.1.1_iphoneos-arm64.deb
+Size: 939648
+MD5sum: cd4b06988e1f23c257bed0dcebb3832f
+SHA1: 0f69fe91c776a6168b60019281d3f0db2b23dfdc
+SHA256: a017ae0cf7e4dd4b0bd25ddd7f55be16ab3b584e763a94bddc3d38b0b30fda78
+Section: Tweaks
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
+
+Package: com.82flex.touchvis
 Version: 4.2
 Architecture: iphoneos-arm64
 Maintainer: Lessica <82flex@gmail.com>
 Installed-Size: 3644
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: debs/com.82flex.touchvis_4.2_iphoneos-arm64.deb
-Size: 811590
-MD5sum: 6d934e6028e05147b9e16c6e04701683
-SHA1: a5efc3cbb1528002def21b357decf5ca991c0b64
-SHA256: 6fa07ff9c02bd35cd78705c93e910aca3ad639e7f969a14ae30d57cd0a9c0100
+Size: 729358
+MD5sum: 4ae937680595c18a17e205aa36b2dfd3
+SHA1: f80be4036565dda5f39c8d19713c12a6190e4a3c
+SHA256: d8446ae9362f912a02f653f12907049b7fa2670afe0a5c44c2e3c9194d5e7513
 Section: Tweaks
 Description: Display your touch interactions!
 Author: Lessica <82flex@gmail.com>
