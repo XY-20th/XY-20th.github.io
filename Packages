@@ -138,22 +138,6 @@ Architecture: iphoneos-arm64
 Maintainer: 来了老弟 X: h_h_x_t
 Installed-Size: 112
 Depends: mobilesubstrate
-Filename: debs/单排截图标记（功能少几个）-arm64.deb
-Size: 21156
-MD5sum: 884ff75d36b677aaca98b2311556a91d
-SHA1: 703aa1a863d42269d756a22b240770647750e91f
-SHA256: dd6b246463ed8c167593f5bfa02bd33ba0ea79d1e7b33b362e00ef75ed0bd486
-Section: Tweaks
-Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
-Author: 来了老弟 X: h_h_x_t
-Name: 截图标记-rootless
-
-Package: cn.llld.biaoji
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X: h_h_x_t
-Installed-Size: 112
-Depends: mobilesubstrate
 Filename: debs/cn.llld.biaoji_1.2_iphoneos-arm64.deb
 Size: 21158
 MD5sum: df7bbd5de9851d5d2e59bf44d322583f
@@ -5154,42 +5138,6 @@ Size: 254218
 MD5sum: a0d6138eaee9c165f37336007fe0d199
 SHA1: 925a144c1bf8824dde2bca73a1fdd7696d510f01
 SHA256: 2069e66333c5f2aec05545b71301cc04bb35ac6544dff81d6338acce6381a967
-Section: Tweaks
-Description: 侧边栏分组
-Author: Junzai
-Name: Fenzu
-
-Package: com.jz.fz
-Version: 4.0.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Junzai
-Installed-Size: 12096
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.monk.wclgbubbleliquidglass
-Replaces: com.monk.wclgbubbleliquidglass
-Filename: debs/junzai.分组_4.0.0-1+debug-arm64.deb
-Size: 1968944
-MD5sum: 20a01b1032bfc01a687be7b005572a77
-SHA1: f395ce2bad1aaba505ef617cca0066ea9150a9bd
-SHA256: 8f10913a76f68f7e60cbd88491630426af8988d734faca0a2144bec56218146a
-Section: Tweaks
-Description: 侧边栏分组
-Author: Junzai
-Name: Fenzu
-
-Package: com.jz.fz
-Version: 4.1.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Junzai
-Installed-Size: 12336
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.monk.wclgbubbleliquidglass
-Replaces: com.monk.wclgbubbleliquidglass
-Filename: debs/junzai.分组_4.1.0-1-arm64.deb
-Size: 2007552
-MD5sum: 83514f74eb3b246b8fcfa8f05c8fd1dc
-SHA1: c4321143d7c76f8085836b8728635655695c7970
-SHA256: ff23faa2df8d48ad4e38ea9911358d584589809c6347eb00b0118af404afda72
 Section: Tweaks
 Description: 侧边栏分组
 Author: Junzai
@@ -12920,22 +12868,6 @@ Section: Tweaks
 Description: 禁传播
 Author: ylr
 Name: 微信广而告之精简
-
-Package: com.ylr.weifengadclean
-Version: 1.5.5
-Architecture: iphoneos-arm64
-Maintainer: ylr
-Installed-Size: 492
-Depends: mobilesubstrate
-Filename: debs/ylr.威锋去广告_1.5.5-arm64.deb
-Size: 108062
-MD5sum: ecae3cd62e59c49389da5ac5b5efddac
-SHA1: 3fb793e7d48f4b96dc529f845b83f4efdf2f409a
-SHA256: ad2d39207f40fbd2a26b4268e5f49a9022b6b66044cd6e5bb583b58bd6b66f72
-Section: Tweaks
-Description: 朋友需要，如有传播请立刻卸载！
-Author: ylr
-Name: 威锋广而告之精简
 
 Package: com.ylr.weifengadclean
 Version: 1.5.5
