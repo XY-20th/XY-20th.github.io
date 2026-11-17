@@ -1,3 +1,21 @@
+Package: byg.iosios.net.baidudisk.rootless
+Version: 0.0.2-1
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.baidudisk.rootless_0.0.2-1_iphoneos-arm64.deb
+Size: 7148
+MD5sum: 6faaae99e749df80ab708f1da8766838
+SHA1: ac0d010bc507004a08864108d3b74485e4c486f0
+SHA256: e92bb85655eaee8e8ab4380dbc13c2bc44a104614539f2bd47be4bad9bd0e9a8
+Section: Tweaks
+Description: 百度网盘解锁会员，优化去除广告，精简个人主页、解锁超清画质和倍速播放、下载不限速！显示已失去，实则功能已启用！仅适用于11.14.0版本，请使用APPdata插件，降级至11.14.0版本！本插件乃搬运工源iOSign免费首发，如需转载请注明出处！别的源会员才能用的插件在搬运工基本可以免费使用！但资源可能不多，慢慢来吧，至于劫持依赖问题，说真的我对你的依赖一点不敢兴趣，只是大多数插件依赖要多，我要一个个去修改依赖包，然后更新又多，我是忙别的没时间去弄，我又不是每天只搞越狱源！介意的勿用，但是用过的都知道搬运工是个什么样的源，给群友提供了多少帮助！网络时代，敲敲键盘就能诋毁一切，不做过多评判！
+Author: iOSign
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 百度网盘 破解-Rootless
+Sponsor: 搬运工
+
 Package: ch.xxtou.hudapp.jb
 Version: 2.0-13
 Architecture: iphoneos-arm64
