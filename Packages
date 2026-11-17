@@ -1745,22 +1745,6 @@ Author: baiy <961666883>
 Name: 白衣の小分组
 
 Package: com.baiy.wcgrouping
-Version: 2.0.0
-Architecture: iphoneos-arm64
-Maintainer: baiy <961666883>
-Installed-Size: 36100
-Depends: mobilesubstrate
-Filename: debs/baiy.微信分组-2.0.0-ara64.deb
-Size: 15075814
-MD5sum: 5d189a1666ace234402a018ae4fd37ca
-SHA1: cf70e848ac1474bbd66c7a26f2aa3808c2b86256
-SHA256: 980721c8fb74721434495cbf49cc90e02b21dc2c9e4a8edf754d1e5775712af1
-Section: Tweaks
-Description: 给微信添加一些分组过滤。
-Author: baiy <961666883>
-Name: 白衣の小分组
-
-Package: com.baiy.wcgrouping
 Version: 2.0.1
 Architecture: iphoneos-arm64
 Maintainer: baiy <961666883>
@@ -2793,22 +2777,6 @@ Section: Tweaks
 Description: 去除腾讯手机管家开屏广告
 Author: colorblack
 Name: TencentGuanjia-NoSplash
-
-Package: com.colorblack.tmgaadblock
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: ColorBlack
-Installed-Size: 204
-Depends: firmware (>= 15.0)
-Filename: debs/colorblack.腾讯手游加速器_1.0.0-arm64.deb.deb
-Size: 14896
-MD5sum: 24d0f11701eb43936bd2001a5c79fc9e
-SHA1: eda2a2a4d6245ddf75db808aed57289be1e4a359
-SHA256: 3877669086e9930349c72d695c0ba547e0958edbbc5057fa213c97e4408c3734
-Section: Tweaks
-Description: Rootless/RootHide tweak that blocks Tencent Mobile Game Accelerator ad URLs in-process.
-Author: ColorBlack
-Name: TMGA AdBlock
 
 Package: com.colorblack.wetypecolorgoogle
 Version: 1.0.9
