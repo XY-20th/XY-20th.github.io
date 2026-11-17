@@ -3484,6 +3484,39 @@ Author: evgeniy
 Icon: https://huayuarc.github.io/icon/hotspotvpn.jpg
 Name: HotspotVPN
 
+Package: com.example.noticelisttweak
+Version: 1.0.1~test16+h2l1
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Installed-Size: 759
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.example.noticelisttweak_1.0.1~test16+h2l1_iphoneos-arm64.deb
+Size: 166256
+MD5sum: 663b05512d9af9183a3b920901cdd224
+SHA1: 0ba95da5f056b653a98475f52c7db1c66288af66
+SHA256: 10de38b12dcb34f2dc8ae85a205a9f13f822dcd3a0dba217e2975e79b7890e6d
+Section: Tweaks
+Description: RootHide notification-list, app-icon and banner dust effects; experimental device test.
+Author: Local User
+Icon: https://huayuarc.github.io/icon/noticelisttweak.png
+Name: 通知消散
+
+Package: com.example.noticelisttweak
+Version: 1.0.1~test18
+Architecture: iphoneos-arm64e
+Maintainer: YUE
+Installed-Size: 853
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.example.noticelisttweak_1.0.1~test18_iphoneos-arm64e.deb
+Size: 214516
+MD5sum: 2350c462edf6a4547d7660355ceffcf7
+SHA1: 4786106ecbb0a3c295d97bfc17d5426fe135e709
+SHA256: 49aacea1694541ef8b19b9322cd9384d1e42e05ef53a0a99665ea18832470149
+Section: Tweaks
+Description: RootHide notification-list, app-icon and banner dust effects; experimental device test.
+Author: YUE
+Name: 通知消散
+
 Package: com.example.wifileasekeeper
 Version: 1.0.10
 Architecture: iphoneos-arm64
