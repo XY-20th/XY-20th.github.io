@@ -1922,22 +1922,6 @@ Description: 灵动岛背景？
 Author: 冰蓝
 Name: DynamicFX
 
-Package: com.binglan.dynamicfx
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 772
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/binglan.灵动岛背景_1.0.7-arm64.deb
-Size: 83972
-MD5sum: 0159f0cd29a673220c96a07304a12d0b
-SHA1: dd16b8c6aee272221045a04dea7e7cb0d54dd12b
-SHA256: ac11726f7ff6c7898218e020a3064acc1a546898a251fe813dc3e93ae7a4b8ed
-Section: Tweaks
-Description: 灵动岛背景？
-Author: 冰蓝
-Name: DynamicFX
-
 Package: com.binglan.filmphotos
 Version: 1.0.4
 Architecture: iphoneos-arm64e
