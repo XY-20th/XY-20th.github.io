@@ -1236,22 +1236,6 @@ Author: 白衣
 Name: SwitchTheme——牙齿
 
 Package: com.baiy.wcgrouping
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: baiy <961666883>
-Installed-Size: 26732
-Depends: mobilesubstrate
-Filename: debs/baiy.白衣の小分组_1.0.3-arm64.deb
-Size: 11171018
-MD5sum: e069d380008343f9edc976a2cbe5cbfb
-SHA1: a68b28a0e780e9c69120b2553e7a4e7dc71c776a
-SHA256: f5ad69815840baec41b1a6aaa6d37cb701230d6380028af82ec132d547db089e
-Section: Tweaks
-Description: 给微信添加一些分组过滤。
-Author: baiy <961666883>
-Name: 白衣の小分组
-
-Package: com.baiy.wcgrouping
 Version: 2.0.1
 Architecture: iphoneos-arm64
 Maintainer: baiy <961666883>
@@ -1262,22 +1246,6 @@ Size: 15138180
 MD5sum: 4cb252ccbda6432bf90186e7463cdbe4
 SHA1: 03fabf7b2494460e23fd577d59e3f85c0d66ff0f
 SHA256: 6871a83bc6000b71d5fdbf27bad473b614345d0abdabe8b7c00889e81836faa7
-Section: Tweaks
-Description: 给微信添加一些分组过滤。
-Author: baiy <961666883>
-Name: 白衣の小分组
-
-Package: com.baiy.wcgrouping
-Version: 2.0.4
-Architecture: iphoneos-arm64
-Maintainer: baiy <961666883>
-Installed-Size: 36796
-Depends: mobilesubstrate
-Filename: debs/baiy.小分组-2.0.4-arm64.deb
-Size: 15356070
-MD5sum: fa140ecc6b2189a788a08e191bc41461
-SHA1: 4c2d8ad956c0098e51d78561fba7972f4e7f1692
-SHA256: 2c1b219f50158efe0559c86198a6854dcb80c1b75fd54ee10b55444b015e2f17
 Section: Tweaks
 Description: 给微信添加一些分组过滤。
 Author: baiy <961666883>
@@ -5410,23 +5378,6 @@ Size: 140444
 MD5sum: e154c5b12bc0d241ba3d7ab654ad3a7b
 SHA1: 4955b38522840be53c8bb38b0dc52154d77ea0b4
 SHA256: 35b882f4fcd5c9c54d592371a79fcefaa83f7d081a325fcdebf4904cbc3b043c
-Section: Tweaks
-Description: Edit frozen screenshots with arrows, doodles, highlights, mosaics, and rectangles.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot Edit
-
-Package: com.susudear.stayshot.markup
-Version: 1.5.9
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 572
-Depends: com.susudear.stayshot (>= 0.4.3), mobilesubstrate, firmware (>= 15.1)
-Filename: debs/susu.stayshot.markup_1.5.9-arm64.deb
-Size: 144284
-MD5sum: 16dd2c16de13eeb0326065b33b553e3c
-SHA1: c03fadca0dc2c7fc6ee0ed858bc9d11038f0ae8a
-SHA256: 1599f69a932f57ad7d34faf8b8dfa345a82320eb0b0ae9ca4e56229ace75b2f8
 Section: Tweaks
 Description: Edit frozen screenshots with arrows, doodles, highlights, mosaics, and rectangles.
 Author: SuSuDear
