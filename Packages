@@ -5965,40 +5965,6 @@ Description: 去除百度网盘开屏广告，并为本地下载文件添加导�
 Author: wkk
 Name: 百度网盘
 
-Package: com.wkk.cornerfanx
-Version: 1.0-8
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 676
-Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
-Filename: debs/cornerfanx_1.0-8_iphoneos-arm64.deb
-Size: 97064
-MD5sum: ff6fd5bbe327196467469a624d0897e9
-SHA1: ee594939108fb54872944fd226bf331924bd2fda
-SHA256: e83bce9f7fc671ccf4725ee3024637d94ed8e57d89b5cbbad8a08741228128e6
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: CornerFanX
-
-Package: com.wkk.cornerfanx
-Version: 1.1-5
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 676
-Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
-Filename: debs/com.wkk.cornerfanx_1.1-5_iphoneos-arm64.deb
-Size: 98372
-MD5sum: d5b88b467b3d7b2ff86c7aa5fab476fd
-SHA1: 0e55956e9d53a836b79af58766da0050743887a3
-SHA256: 1f3326962c7c46dfcfb0fa51bbae4afc2c67e078922b74c25b338ba25030cc8d
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: CornerFanX
-
 Package: com.wkk.cwzadfree
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -6149,6 +6115,23 @@ Description: cool
 Author: wkk
 Name: 全局弹窗
 
+Package: com.wkk.glasssuitex
+Version: 1.4-6
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 4464
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.wkk.glasssuitex_1.4-6_iphoneos-arm64.deb
+Size: 945774
+MD5sum: 2a6870d11668b28c2bdbd7f651a66e08
+SHA1: 1018a274381faa76a296b2cc53de72c811ccd131
+SHA256: 0936ff7a7ff4c93e86a629e9e97bdc9f85444cc8db7c57e45ace68c0a4a6b82a
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: GlasscapeX
+
 Package: com.wkk.hupuadfree
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -6231,23 +6214,6 @@ Description: 键盘调整。
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: KeyboardX
-
-Package: com.wkk.keytoolsx
-Version: 1.1-4
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 9928
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/keytoolsx_1.1-4_iphoneos-arm64.deb
-Size: 2505912
-MD5sum: 35c19168e19d6bcc6f4ebdf4f3d4f0e6
-SHA1: b36f62049e4c1bcf67c030a2e854ae8ddf5fbaa3
-SHA256: 1964e70289443efa7e53d92d7f9a79117c5ffa6c2cf41f6c6be4894c1dca9791
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: KeyToolsX
 
 Package: com.wkk.lanfanadfree
 Version: 1.0
@@ -6344,23 +6310,6 @@ Description: cool
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: 米家优化
-
-Package: com.wkk.modelx
-Version: 1.0-2
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 432
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/modelx_1.0-2_iphoneos-arm64.deb
-Size: 38894
-MD5sum: 15aaf3a610ff3414d3b462cfc927f39c
-SHA1: 9d9a17366d66145be3d6544475ee730e91daecab
-SHA256: 6898ead85f1b1a7a84d0ab5936e58faaa031a3e97ffb3b7bf81f93e139e573e4
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: ModelX
 
 Package: com.wkk.nemusicnolaunchad
 Version: 1.0-1
