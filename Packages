@@ -7064,6 +7064,23 @@ Description: Organizes compatible third-party Douyin tweak settings in one entry
 Author: DYStorage Contributors
 Name: DYStorage
 
+Package: com.xlzs001.dystorage
+Version: 1.2.76
+Architecture: iphoneos-arm64
+Maintainer: DYStorage Contributors
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: debs/com.xlzs001.dystorage_1.2.76_iphoneos-arm64.deb
+Size: 27892
+MD5sum: 435e759618f49c0cf69001704ff8a462
+SHA1: 42c6eccdc0437ba7354c5a930da24b0337c7453e
+SHA256: f1e26583f0e6a2ec2a3c829b894d4c81aa3c8ebb8c679da9072eb9ebaaa51eeb
+Section: Tweaks
+Description: 将你的抖音插件收纳起来
+Author: DYStorage Contributors
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: 抖音插件收纳
+
 Package: com.xuuz.cadvip
 Version: 0.0.3
 Architecture: iphoneos-arm64
