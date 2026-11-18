@@ -2623,6 +2623,27 @@ Author: be-huge & doimty
 Icon: https://huayuarc.github.io/icon/Insulation.png
 Name: insulation
 
+Package: com.huayuarc.insulation
+Version: 1.0.27
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 2672
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Replaces: com.huayuarc.insulation
+Filename: debs/com.huayuarc.insulation_1.0.27_iphoneos-arm64.deb
+Size: 245076
+MD5sum: 084d8c3d51461ed2d1977d650242ac20
+SHA1: e635e3f73446870a2b743e40672383bf4cdb3e30
+SHA256: a03e6cd3dabd96cf664de09607cb99555874a0a01dc67cf6b68285cef840b0a3
+Section: Tweaks
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。包含设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+ 仅在本机 iPhone 14 Pro（iOS 16.1.2，隐根 roothide 黑名单环境）上测试过安装与使用；其他系统版本、机型与越狱环境请自行测试。
+ 安装或使用后出现问题（安全模式、应用闪退、设置无法进入等）请自行卸载，使用风险自负。
+ 仅供自用，不推荐安装。
+Author: be-huge & doimty
+Icon: https://huayuarc.github.io/icon/Insulation.png
+Name: insulation
+
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
 Architecture: iphoneos-arm64
