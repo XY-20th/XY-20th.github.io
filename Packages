@@ -4292,23 +4292,6 @@ Author: M哥
 Name: 直播吧
 
 Package: com.mlgm.filzapatch
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: mlgm
-Installed-Size: 178
-Depends: firmware (>= 15.0), mobilesubstrate, uikittools, com.tigisoftware.filza64bit (= 5.0.1-3)
-Conflicts: roothide.patches.filza
-Filename: debs/com.mlgm.filzapatch_1.1_iphoneos-arm64e.deb
-Size: 10766
-MD5sum: 968794b5bede5d76ac7a7ecea050d071
-SHA1: 748288d63a15a25b4811624b5bd8168db397bcc8
-SHA256: bf0978f2506cbedfc005743115469940c26b83214dbd83c5f095c990a4798fc5
-Section: Tweaks
-Description: Filza 5.x 的 RootHide 动态补丁，收藏夹增加常用随机化路径目录。(原版 Filza 已适配 RootHide，如遇崩溃等问题需重装 Filza)
-Icon: https://mlgm66.github.io/icon/FilzaPatch.png
-Name: Filza Patch
-
-Package: com.mlgm.filzapatch
 Version: 1.1.2
 Architecture: iphoneos-arm64e
 Maintainer: mlgm
@@ -6375,74 +6358,6 @@ Size: 406520
 MD5sum: d0e0bfae860697dbf7b6483f2464e497
 SHA1: 99970ea2e9486c2cb93ec45a776178c84bab5a2a
 SHA256: 2d7db3fbbf22987e88778e7fbabecc8e313a68712c51d55803dfa0b30844ee89
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 2.0.0
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2960
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_2.0.0_iphoneos-arm64.deb
-Size: 531498
-MD5sum: 1e1e614c6653516df9ec318d250679aa
-SHA1: ac39d766a491d108e02c6040a635b97c517bacb5
-SHA256: 59921ee2bd76f159544e6db70609fc400302ae723d7cfa435c5ae9b214106ad7
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 2.0.1
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2960
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_2.0.1_iphoneos-arm64.deb
-Size: 534792
-MD5sum: 37c629fee6ffaf48def013495c8694d9
-SHA1: 151d8e71788c9cd010ff9e2ee2a8142123643a9a
-SHA256: d2347d2daa183554c03eca610b8efa1e4b9fbeb22d90d9f426077717b430a583
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 2.0.2
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2964
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_2.0.2_iphoneos-arm64.deb
-Size: 538936
-MD5sum: c1c7b52211af1dd81711f169ba7f8722
-SHA1: 340094c1d3c45b7f1670813cd118d63669841826
-SHA256: 803d9ede689ea71eaca08ef72b77d027adc0bc8e35451971e5a922d2fd5362fd
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 2.0.3
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2964
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_2.0.3_iphoneos-arm64.deb
-Size: 537874
-MD5sum: 0176420ed173ff909cfb81cdbb26c096
-SHA1: e0231ad93ceab24e37967a851b99549e27142348
-SHA256: e98731f3c53ca435045fd927fc0bf77ff6b36b4c547b2dfb0441bdea40138fb8
 Section: Tweaks
 Description: 分屏而已
 Author: SuSu
