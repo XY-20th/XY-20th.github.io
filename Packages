@@ -2226,23 +2226,6 @@ Description: 长按桌面AppStore图标即可切换登录过的AppleID。Netskao
 Author: Netskao
 Name: StoreSwitchAccounts(rootless)
 
-Package: com.dao.storeswitcher2
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: subdiox
-Installed-Size: 184
-Depends: firmware (>= 11), mobilesubstrate
-Conflicts: com.lenglengyu.storeswitcher2-rootless, com.yourepo.0xkuj.storeswitcher2rootless, com.hk.storeswitcher2.rl, com.qms.storeswitcher
-Filename: debs/com.dao.storeswitcher2_1.0.5_iphoneos-arm64.deb
-Size: 15224
-MD5sum: 025cf42d1d4406e8d286ef4c50fdbe9b
-SHA1: 161f92391246e98f04a061fc669ddaeaf0ebf76e
-SHA256: cd3a2715db5ac9e880c05443a25f8b6b578518547dea1dd829c93a5a44166068
-Section: Tweaks
-Description: 点击AppStore帐户页面左上角图标快速切换账号。
-Author: subdiox
-Name: StoreSwitcher2(rootless)
-
 Package: com.daodao.wicellswitcher
 Version: 1.2
 Architecture: iphoneos-arm64
