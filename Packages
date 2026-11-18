@@ -197,38 +197,6 @@ Author: 来了老弟
 Name: CocoaTop (汉化插件)
 
 Package: cn.llld.jxydt
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: debs/cn.llld.jxydt_0.1_iphoneos-arm64.deb
-Size: 17450
-MD5sum: f90e5acbe6356c35109eb07779ddf938
-SHA1: d6036f6520437a278473a304011b7806d759e8ec
-SHA256: c04e3be9aa7b4fa7fcc03d12b51ac033819850e0d0b6b7227e714e13aa4af795
-Section: Tweaks
-Description: ***给(驾校一点通)加点小功能，可注入可越狱，祝各位拿证到手***。默认去除开屏广告和动画(若开梯子使用会冲突)，长按任何页面（去提升）或（直播课）或 (考前直播) 或(直播刷题) 文字 1 秒，弹出更多功能设置。
-Author: 来了老弟
-Name: 驾校一点通绿了-rootless
-
-Package: cn.llld.jxydt
-Version: 0.4
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 220
-Depends: mobilesubstrate
-Filename: debs/cn.llld.jxydt_0.4_iphoneos-arm64.deb
-Size: 21330
-MD5sum: ff25a8437cf497ac353ad2f0d0d1bf22
-SHA1: dea0c7ded9f660d13308a994949bb6880e1171bb
-SHA256: db670dde7cc2e64abc4d19c891693265239c8f5cf0717ea21382281f08f4ac0f
-Section: Tweaks
-Description: 可注入可越狱使用，祝各位拿证到手。默认去除开屏广告和动画(若开梯子使用会冲突)，广告因版本不同而有所固执，待处理。开启'模拟考试完整技巧次数破解'，开启'去除视频观看20秒需会员的限制'等数十功能，长按1秒底栏弹出设置。
-Author: 来了老弟
-Name: 驾校一点通绿化-rootless
-
-Package: cn.llld.jxydt
 Version: 0.5
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
@@ -1986,70 +1954,6 @@ Section: Tweaks
 Description: 神秘功能。
 Author: binglan
 Name: 控制中心美化
-
-Package: com.binglanqjsy.deb
-Version: 2.1.0
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 504
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_2.1.0-arm64.deb
-Size: 42710
-MD5sum: f9398c7b8b153be056eda8f20f9be33d
-SHA1: 4e58ef8a1c8e7f329e23837345cabb4b4ba63ac2
-SHA256: e48d6b192530c9301828a450532cb2ee96f691a2600a5bbdd5c41ba33ad60be5
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截屏水印，录屏水印，套壳截图。
-Author: binglan
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 2.2.4
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 596
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_2.2.4-arm64.deb
-Size: 69114
-MD5sum: 7e6fb287b17b814eec094bf748720305
-SHA1: fbd82a5a0b905eaf4610c65509bd10a53c3aec45
-SHA256: 24993a392cc6f4b310cd016928095e2410bcf1b7d85aa3233574f1819f5e7803
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 2.2.5
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 660
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_2.2.5-arm64.deb
-Size: 76166
-MD5sum: 304709ba63fe674531244add7c8463ce
-SHA1: fb9c4f60cf9498f8144cd087df982abb679f9fa8
-SHA256: aac2a03e71a6a1a243e4f7342d93db09fcebd17f2f91aed3058e8d298559aa06
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 2.2.6
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 780
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_2.2.6-arm64.deb
-Size: 100686
-MD5sum: 49b22a02bbd0c1d7a5c42221be146bda
-SHA1: 94eaa3c052b3fc9094afc0336d00ed6d1fa45834
-SHA256: b3df962270dbf627fddae9984fe33d6459f5cb78966010c5291be7c38d7b35e3
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
 
 Package: com.binglanqjsy.deb
 Version: 3.0.0
