@@ -5246,23 +5246,6 @@ Name: 爱笔思画X Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ibispaintxcrack
 
 Package: com.netskao.imgplaycrack
-Version: 1.1-8
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 852
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/netskao.imgplaycrack_1.1-8-arm64.deb
-Size: 342348
-MD5sum: d9e54f6604584249b44ab52cb50bcb53
-SHA1: 0f24b680d9e78f6e12430ba9db91d222b17846b2
-SHA256: 39a04122fe90360fadb4f67ac5b96d8b074ae4e0a9459cda215355bf110a995c
-Section: Tweaks
-Description: ImgPlay Crack, Supports version 6.7.0 only
-Author: Netskao
-Name: ImgPlay Crack
-Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.imgplaycrack
-
-Package: com.netskao.imgplaycrack
 Version: 1.1-9
 Architecture: iphoneos-arm64
 Maintainer: Nets
@@ -5494,23 +5477,6 @@ Name: NoAdsX
 
 Package: com.notifydynamicx.tweak
 Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 半生年华
-Installed-Size: 716
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.dynamicx.tweak
-Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64e.deb
-Size: 129668
-MD5sum: 3e5ce8f3bd3ff8148d78eeb91c0dd78e
-SHA1: 6b4de0192799b33bd1b4eeb3f1e4ed95823de338
-SHA256: a4f26f946c8b5f777e154fa3536c9df676a858f69f16278dd60ea915f8f4b41e
-Section: Tweaks
-Description: 通知上岛
-Author: 半生年华
-Name: Notify DynamicX
-
-Package: com.notifydynamicx.tweak
-Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 半生年华
 Installed-Size: 716
@@ -5521,6 +5487,23 @@ Size: 128020
 MD5sum: 210dbd25bcc3aafb88a463b62c1e5089
 SHA1: e378672abd576c36cda3c1a1815bca9d5e975998
 SHA256: 7e924cf39bde4c5c01e29503d2b3d8d9860d50d73e2d5c19c5339c9b1305421b
+Section: Tweaks
+Description: 通知上岛
+Author: 半生年华
+Name: Notify DynamicX
+
+Package: com.notifydynamicx.tweak
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.dynamicx.tweak
+Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64e.deb
+Size: 129668
+MD5sum: 3e5ce8f3bd3ff8148d78eeb91c0dd78e
+SHA1: 6b4de0192799b33bd1b4eeb3f1e4ed95823de338
+SHA256: a4f26f946c8b5f777e154fa3536c9df676a858f69f16278dd60ea915f8f4b41e
 Section: Tweaks
 Description: 通知上岛
 Author: 半生年华
@@ -6087,132 +6070,6 @@ Name: CCBorder(roothide)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
 
 Package: com.sini921.ccloader
-Version: 0.0.1-10
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-10-arm64.deb
-Size: 153706
-MD5sum: 4b3fd301d8b32c803f253f5b91c86362
-SHA1: 92ef5ee4a0f2de57314936f526ad10c062365378
-SHA256: 371847de92779f86117f351476f90c15cece0d13ab190f03cc21de684cd37f43
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-11
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-11-arm64.deb
-Size: 153892
-MD5sum: 7638449c690fe39c2aa6075d21ae1a27
-SHA1: 9ece95c5c641d9566d88525ebbd5018b8f4c5d0d
-SHA256: dae2cd921fbdd22d1263620829361e56aa91669b8373a7246fc50be9a2dca0dc
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-12
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-12-arm64.deb
-Size: 153864
-MD5sum: 7eb14a269cece0bf3dd32f3ea5f6b352
-SHA1: d7fc48618dd4f05a9a11eb58a9328cde3ba468b9
-SHA256: 0029bb8de3830151d4bc42f4767efd1a91ea8c0711cbcd3902aa57fb81a0f557
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-13
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-13-arm64.deb
-Size: 153448
-MD5sum: b8faff12fa77e28b7fcec446ed237aca
-SHA1: 92913dd67f485f20916f76ad8ca5180fbd6c9ce6
-SHA256: b482f959c1e76e870bd3bebaaafe83cfad08111eeb4b9974fad40c18a145795e
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-14
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-14-arm64.deb
-Size: 153586
-MD5sum: 367fa5b5f3c5fcfb97313289aaa08135
-SHA1: dab4f31a64b4a7ddbe0fd6a2fe00754f2cbba1d9
-SHA256: c298ad8027265373a71cfa9c0fc87502f65429ba737cfcf4059bfeeefcfcd844
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-15
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-15-arm64.deb
-Size: 153830
-MD5sum: 9961654d44edeaca40bc1099cc9887e1
-SHA1: b9d679af4a8140c84248bea2ed40ad69ab88fd72
-SHA256: 4817b6f9ac00af72cced5e8bcff824093fb8c9ce9af35bc19b39859369ff42b5
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-16
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-16-arm64.deb
-Size: 153868
-MD5sum: 266b989de49889bc69148fd79d5a7df5
-SHA1: 0b8e86233613a70da208e83537fb17b895fee6b4
-SHA256: 87c906e4d2f6461881e70cda51cde3380a5aabedb334d4c2d92917f1a2849c75
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
 Version: 0.0.1-17
 Architecture: iphoneos-arm64
 Maintainer: 橙子
@@ -6302,96 +6159,6 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
 Name: CCLoader(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
 
-Package: com.sini921.ccloader
-Version: 0.0.1-5
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-5-arm64.deb
-Size: 150770
-MD5sum: 062dc67b0b7ccda23610e86e98853a04
-SHA1: 371932eb5d0823099351f73393ce81a1a6e1c1b6
-SHA256: 3f60dce3b6a3d7080e9912f17c51eb64adfa16a58b7b22e83bb822fd6000ef3b
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-6
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-6-arm64.deb
-Size: 150870
-MD5sum: 05f6356acd5071e59a10fd34edfa17d7
-SHA1: a258d4557492bca137d08ffef6c3df1385146f93
-SHA256: c0bc17fa0da1a11c2378c3fe6ffcf40a6cf1c1d403f1844dcf5d5649c98d5969
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-7
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-7-arm64.deb
-Size: 151464
-MD5sum: ea302b82abd8ff5283281e0142d55db6
-SHA1: 01ed2e76c19a1613b4d3014507c744c0d4bcccef
-SHA256: 62c1d6f3312711b8c7ecec38d2baffe4331f5f7d4e98fa524be5f812786ab3de
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-8
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-8-arm64.deb
-Size: 151456
-MD5sum: bf87cb36fb074e8af309c497f22349e0
-SHA1: b994165b586a6e23a48295112ca83e2c6f6cfc6f
-SHA256: 9ec6c356d4ac3a1d74ab93cec48006f7bfe478d8d5836283f929b68851a3aaaf
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-9
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-9-arm64.deb
-Size: 153550
-MD5sum: 7d881d0d74fd62e499a7a9370c9c0869
-SHA1: 7506ca1acc2836b85c5ef23e997106982185032d
-SHA256: 3ae179bb75e781f5da2559bc970e56f5b9bb2c12305bc347a386ad1ef9874c8f
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
 Package: com.sini921.disabledcirclebackground
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -6407,96 +6174,6 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: SINI
 Name: DisabledCircleBackground(rootless)
-
-Package: com.sini921.folderpro
-Version: 0.0.1-33
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1452
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-33-arm64.deb
-Size: 522032
-MD5sum: 1f8075ca5c78dcd312f3d5d377f8fddb
-SHA1: 179fa91389e3471feb44491ef0727f6673b23e81
-SHA256: 0e58fec32c9e9b116a042fbcd2ca8459a6dd3905e32a3d5b8be7231ca922593d
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
-Version: 0.0.1-34
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1456
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-34-arm64.deb
-Size: 522426
-MD5sum: 225a6fb8b231219bd6c0e97917915126
-SHA1: f39aac83ea08daff6628eaca783b3ed8129aa3b9
-SHA256: dfcabd40c7fc49b1ac9c69b2f21b0b64ab49bebf9b984715e882fdda164c3f88
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
-Version: 0.0.1-36
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1508
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-36-arm64.deb
-Size: 535718
-MD5sum: b6602e7f7be64226f80492495761bee6
-SHA1: a8ab7bb84ef4946f7159ca0b6427c78a12700c1c
-SHA256: ebee423b5aafc7ecd77b6bfb5adfed812523916bbb592f5746ea9319ede266f0
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
-Version: 0.0.1-37
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1508
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-37-arm64.deb
-Size: 536292
-MD5sum: 6461d087718956163b46a260749fbc01
-SHA1: 072fe1e2fda87940f7f25a18cacfb2a4e48f38f1
-SHA256: 9bdd1b300a581c05e7df1276b36ccf04d46dde93ca2e781ff16f3500ba94cec8
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
-Version: 0.0.1-38
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1508
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-38-arm64.deb
-Size: 536058
-MD5sum: 85f732edd3ad1f81cf7687279ce37ca0
-SHA1: 847233c7fb123f94b7e19a2df135cd4532828e94
-SHA256: 458f91b9dd65f4ab04f4205c3110459d90180fa036a65c69a5a48123f47dcb03
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
 
 Package: com.sini921.folderpro
 Version: 0.0.1-39
@@ -6785,24 +6462,6 @@ Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/liquidswitch.png
 Name: LiquidSwitch(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/liquidswitch/js.json
-
-Package: com.sini921.lockscreenhelper
-Version: 0.0.1-10
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 668
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.LockScreenHelper-0.0.1-10-arm64.deb
-Size: 81808
-MD5sum: 7871c28ba157cdaa57efd1390a8a2cdf
-SHA1: 224f6611dbd48869aa16848ba96f51c877a7fd7c
-SHA256: 37a46a33b3a4e04f70d7d5b7fb8e33f5f678984031e528b204487b08fd3f023d
-Section: Tweaks
-Description: 锁屏界面相关的简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
-Name: LockScreenHelper(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
 
 Package: com.sini921.lockscreenhelper
 Version: 0.0.1-11
@@ -12153,54 +11812,6 @@ Author: mikifp
 Name: Griddy
 
 Package: hongguofn
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: 5hux1n
-Installed-Size: 436
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/hongguofn_1.0.1_iphoneos-arm64.deb
-Size: 92958
-MD5sum: 81e09a891d63ffebffaafe2da98a7d55
-SHA1: 9f20870f844a5762cc0868890a92413073fb46b9
-SHA256: 4f2a58f1cc43671bf95a57f722045ea5e8ffec5734fc9877c806fd79a40e72fb
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Name: 红果净化
-
-Package: hongguofn
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: 5hux1n
-Installed-Size: 468
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/hongguofn_1.0.2_iphoneos-arm64.deb
-Size: 98304
-MD5sum: daa31aaceb02055e802ed470aa349a80
-SHA1: 3fbdc5c71b1456768d568c35ddd57e38db35d5fd
-SHA256: addf1d2f24fb208c54700ce312ec7b35093ac4dca02e35e14c1a56585edbcce1
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Name: 红果净化
-
-Package: hongguofn
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: 5hux1n
-Installed-Size: 552
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/hongguofn_1.0.3_iphoneos-arm64.deb
-Size: 121112
-MD5sum: aede4993160f03f09b0b89eb259c1103
-SHA1: 8051711c37fd90b3271a7af6e69b5639f8d39044
-SHA256: aa50818ed398cf83fe6c02872eef84bbac8a61da55d8d6a7be1c262c560044e0
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Name: 红果净化
-
-Package: hongguofn
 Version: 2.0.0
 Architecture: iphoneos-arm64
 Maintainer: junhong
@@ -12215,163 +11826,6 @@ Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
 Author: junhong
-Name: 红果净化
-
-Package: hongguofn
-Version: 2.0.1
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 4504
-Depends: firmware (>= 15.0)
-Filename: debs/hongguofn_2.0.1_iphoneos-arm64.deb
-Size: 2206468
-MD5sum: 358e39ad2b43c1d62567ab4383fc229d
-SHA1: 7aad984b4aace5714580b4a84f47407f309c9b98
-SHA256: eb4a3f0c1e1a9ad5bda88883b4cfb27dad0284e347c9237a8e02a9a42953916a
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Author: Junhong
-Name: 红果净化
-
-Package: hongguofn
-Version: 2.0.2
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 4520
-Depends: firmware (>= 15.0)
-Filename: debs/hongguofn_2.0.2_iphoneos-arm64.deb
-Size: 2210934
-MD5sum: 844a5303cf663a847e606383e1d2b7c3
-SHA1: 81074734b8d3b3b6d3fe3649869c937ff60c5850
-SHA256: d2510cd2eeb7f851ba89d9fb481def24fe644ed5cc39d671cc87ad2163f21956
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Author: Junhong
-Name: 红果净化
-
-Package: hongguofn
-Version: 2.0.3
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 4568
-Depends: firmware (>= 15.0)
-Filename: debs/hongguofn_2.0.3_iphoneos-arm64.deb
-Size: 2234950
-MD5sum: f35a2add9d38186c3d58d24fe111ca45
-SHA1: 98133999c6ffb697896f7a3c81b2facaace0c590
-SHA256: 24899f858c04918f2ad09ad84e575eaa78c7b70e6a84ba69ec22dce3e9d7b915
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Author: Junhong
-Name: 红果净化
-
-Package: hongguofn
-Version: 2.0.5
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 4668
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/hongguofn_2.0.5_iphoneos-arm64.deb
-Size: 2289104
-MD5sum: 2e3cdc6b2604316128e750c9dfa74767
-SHA1: 115dec80becbee4dbb9b23b2bf125540cc257e83
-SHA256: bd0c79b6f5f17bdf863193940675ce11f5627842eb73482aa11f75596ac9269d
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Author: Junhong
-Name: 红果净化
-
-Package: hongguofn
-Version: 2.0.6
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 4700
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/hongguofn_2.0.6_iphoneos-arm64.deb
-Size: 2291840
-MD5sum: 110ef8af9ef1042f76ddc5ec50157127
-SHA1: 5630564d174d246a89cb47f4d86b216d8c8af415
-SHA256: fe3d9002632365aa19c242ee02193402789230a8a4f61d54fa67c6c9ea26fef7
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Author: Junhong
-Name: 红果净化
-
-Package: hongguofn
-Version: 2.1.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 4700
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/hongguofn_2.1.0_iphoneos-arm64.deb
-Size: 2295400
-MD5sum: 1cd3e44ef5892a4fe4ad67fe72c24299
-SHA1: d771f8b71314d3647fa41016b7ffcd9b0bf0271c
-SHA256: d6a08ab5abc4f18df2113da02c5adf6d668a2171002215705f8b23c9e9f33246
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
- 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
-Author: Junhong
-Name: 红果净化
-
-Package: hongguofn
-Version: 2.2.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 5052
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/hongguofn_2.2.0_iphoneos-arm64.deb
-Size: 2486006
-MD5sum: 3207c624316b8ccf5cd4d4df040fd14a
-SHA1: a3120c755bc1ee25e782ee4074ebb8c7a6d2a167
-SHA256: 8a9ef30441ff7c888980945225cf1abb7ac117b3db8a5335d802e60ed04f296d
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
- 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
-Author: Junhong
-Name: 红果净化
-
-Package: hongguofn
-Version: 2.2.1
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 5180
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/hongguofn_2.2.1_iphoneos-arm64.deb
-Size: 2546672
-MD5sum: 514be2a4cd17aab056ca4379222d00b3
-SHA1: 2d3ab3f0afd6d6d2f690a8622ee7a29c80358f11
-SHA256: df5fb7f1f6bb3777db0c6959f18bdfed51ffeb85bde15056f745df5912d3f554
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
- 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
-Author: Junhong
-Name: 红果净化
-
-Package: hongguofn
-Version: 2.2.2
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 6712
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/hongguofn_2.2.2_iphoneos-arm64.deb
-Size: 2928424
-MD5sum: eb2003c21ecab324abdad5cf892f3257
-SHA1: 6b70bafdd366685c731e1886c1a3ded9604ec1e7
-SHA256: 9778ccd20c89537a8158ffad87860b7c2e7083014f7a66243d88dfa7ef8e4fb7
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
- 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
-Author: Junhong
 Name: 红果净化
 
 Package: hongguofn
@@ -12473,150 +11927,6 @@ Section: Tweaks
 Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转app
 Author: Junhong
 Name: 喵眼精灵去广告
-
-Package: im.mjh.xianyuadblock
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 488
-Depends: firmware (>=15.0), mobilesubstrate
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: debs/im.mjh.xianyuadblock_3.0.0_iphoneos-arm64.deb
-Size: 96136
-MD5sum: 1896d81037d6cbeebea333001afe1e32
-SHA1: 55a593bc0d4dbdeda5907e6db1e86840f9d0d6f9
-SHA256: 8e31398bdea64aff08a018a9ada03fdc7c9649ecef4830c099d8a3bd81922f86
-Section: Tweaks
-Homepage: https://xianyu.goforit.si/
-Description: 闲鱼广告与页面净化、自动普通擦亮、会员经验领取、原样编辑商品及按日期查看运行记录。
-Author: Junhong
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
-Name: 闲鱼助手
-
-Package: im.mjh.xianyuadblock
-Version: 3.1.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 1560
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: debs/im.mjh.xianyuadblock_3.1.0_iphoneos-arm64.deb
-Size: 644446
-MD5sum: 26a399c406a0ca32a113f1aaca7ebaa5
-SHA1: 9f1a114e3c980ad26eb56f310109cccfec6f47c9
-SHA256: af81ee4e634ac96f5a92f7a9a263a942abcfa95502e33a2d0ad432ddf575659d
-Section: Tweaks
-Homepage: https://xianyu.goforit.si/
-Description: 闲鱼广告与页面净化、自动好评与商品任务、虚拟商品交付、配置迁移及运行记录。
-Author: Junhong
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
-Moderndepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json
-Name: 闲鱼助手
-Sileodepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json
-Tags: compatible_min::ios15.0
-
-Package: im.mjh.xianyuadblock
-Version: 3.1.1
-Architecture: iphoneos-arm64
-Maintainer: junhong
-Installed-Size: 1544
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: debs/im.mjh.xianyuadblock_3.1.1_iphoneos-arm64.deb
-Size: 638252
-MD5sum: 08564852a38ec059b4ad0bb1d160e03e
-SHA1: a897c186e8132f2704cda34ee92acee1fb748b4f
-SHA256: ce2f166c7ef256d9e4750fbfaa35fd5f56195919472e66a0bb0a7bd14d5f0d5e
-Section: Tweaks
-Homepage: https://xianyu.goforit.si
-Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
-Author: junhong
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
-Name: 闲鱼助手
-
-Package: im.mjh.xianyuadblock
-Version: 3.1.2+2
-Architecture: iphoneos-arm64
-Maintainer: junhong
-Installed-Size: 1560
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: debs/im.mjh.xianyuadblock_3.1.2+2_iphoneos-arm64.deb
-Size: 641886
-MD5sum: 964e9d7d5ad26b950b21c8ce99d6a438
-SHA1: 2f6c5da58cadac65e5b93d6551ba1fc81df10b6e
-SHA256: 49f6c1cc8c81a32e4619a56561520f2e2bed0f1ea0ad2d5d0697cf588e25be2d
-Section: Tweaks
-Homepage: https://xianyu.goforit.si
-Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
-Author: junhong
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
-Name: 闲鱼助手
-
-Package: im.mjh.xianyuadblock
-Version: 3.2.0
-Architecture: iphoneos-arm64
-Maintainer: junhong
-Installed-Size: 1560
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: debs/im.mjh.xianyuadblock_3.2.0_iphoneos-arm64.deb
-Size: 649956
-MD5sum: 6b9e3b4a64c0df47f1ab7af4b05c47a2
-SHA1: 0fefe34776233c71813a9c4f035a8ad02abffbae
-SHA256: 56d4aad6b3cf23f58847dfecf3be320aa59881210bf3d7c2775fe603e8d49139
-Section: Tweaks
-Homepage: https://xianyu.goforit.si
-Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
-Author: junhong
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
-Name: 闲鱼助手
-
-Package: im.mjh.xianyuadblock
-Version: 3.2.1
-Architecture: iphoneos-arm64
-Maintainer: junhong
-Installed-Size: 1580
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: debs/im.mjh.xianyuadblock_3.2.1_iphoneos-arm64.deb
-Size: 657286
-MD5sum: d03eb95e99638050cf956175ffe52bdc
-SHA1: 57feb08e237e2412e5eb51936b5c92f4e9b529f9
-SHA256: f7c44c1feac46560dbe05d1b841b87cab52222da9494613c7064b81b493c5cd3
-Section: Tweaks
-Homepage: https://xianyu.goforit.si
-Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
-Author: junhong
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
-Name: 闲鱼助手
-
-Package: im.mjh.xianyuadblock
-Version: 3.2.2
-Architecture: iphoneos-arm64
-Maintainer: junhong
-Installed-Size: 1580
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: debs/im.mjh.xianyuadblock_3.2.2_iphoneos-arm64.deb
-Size: 656890
-MD5sum: 383d3c3e23f9f7c4f02d5f0b5607b39b
-SHA1: b254191cf3b7c868a2904a5e345930e62901e221
-SHA256: b0b0e9af548a5466066a6170b354c2e46e0f40d9b053ef45d1ebf1846d461091
-Section: Tweaks
-Homepage: https://xianyu.goforit.si
-Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
-Author: junhong
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
-Name: 闲鱼助手
 
 Package: im.mjh.xianyuadblock
 Version: 3.2.3
