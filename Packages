@@ -5477,23 +5477,6 @@ Name: NoAdsX
 
 Package: com.notifydynamicx.tweak
 Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 716
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.dynamicx.tweak
-Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64.deb
-Size: 128020
-MD5sum: 210dbd25bcc3aafb88a463b62c1e5089
-SHA1: e378672abd576c36cda3c1a1815bca9d5e975998
-SHA256: 7e924cf39bde4c5c01e29503d2b3d8d9860d50d73e2d5c19c5339c9b1305421b
-Section: Tweaks
-Description: 通知上岛
-Author: 半生年华
-Name: Notify DynamicX
-
-Package: com.notifydynamicx.tweak
-Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: 半生年华
 Installed-Size: 716
@@ -5504,6 +5487,23 @@ Size: 129668
 MD5sum: 3e5ce8f3bd3ff8148d78eeb91c0dd78e
 SHA1: 6b4de0192799b33bd1b4eeb3f1e4ed95823de338
 SHA256: a4f26f946c8b5f777e154fa3536c9df676a858f69f16278dd60ea915f8f4b41e
+Section: Tweaks
+Description: 通知上岛
+Author: 半生年华
+Name: Notify DynamicX
+
+Package: com.notifydynamicx.tweak
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.dynamicx.tweak
+Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64.deb
+Size: 128020
+MD5sum: 210dbd25bcc3aafb88a463b62c1e5089
+SHA1: e378672abd576c36cda3c1a1815bca9d5e975998
+SHA256: 7e924cf39bde4c5c01e29503d2b3d8d9860d50d73e2d5c19c5339c9b1305421b
 Section: Tweaks
 Description: 通知上岛
 Author: 半生年华
@@ -9788,74 +9788,6 @@ Author: wkk
 Name: 微信圆角
 
 Package: com.wkk.wechatx
-Version: 2.4-1
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 9604
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.wkk.wechatx_2.4-1_iphoneos-arm64.deb
-Size: 3343090
-MD5sum: ff3ca92ec7f6268ac0e78d6c6d23e33b
-SHA1: 599afa467ff0982a08e69f173bb194287d264909
-SHA256: d29de77912629c863c300424fb5cecf711c875edaf8298a5e5ce73340b50034b
-Section: Tweaks
-Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-Name: WeChatX
-
-Package: com.wkk.wechatx
-Version: 2.4-5
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 10772
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.wkk.wechatx_2.4-5_iphoneos-arm64.deb
-Size: 3498598
-MD5sum: b1a301f4f88157f65ec6f354c4608459
-SHA1: 766d96583b4b56f5b3171b3303ed8df7eea5d3b7
-SHA256: e7dda22c34fb796b6946be172a559f107676eb5a7a4027dcd5aad12c0f2d3a2f
-Section: Tweaks
-Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-Name: WeChatX
-
-Package: com.wkk.wechatx
-Version: 2.4-7
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 10916
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.wkk.wechatx_2.4-7_iphoneos-arm64.deb
-Size: 3534278
-MD5sum: 4b806c13184b2462c926b046bebf3d51
-SHA1: 8a61308f2688c5562a88f7ee48e5d93721c73f1e
-SHA256: 0a17c4c5a0ee866b45d67dd0d200e5663d0af49a4884d61459502ca926a09a88
-Section: Tweaks
-Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-Name: WeChatX
-
-Package: com.wkk.wechatx
-Version: 2.4-8
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 9800
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.wkk.wechatx_2.4-8_iphoneos-arm64.deb
-Size: 3382518
-MD5sum: 8bc6873b29cd7933ad58379a19616756
-SHA1: 19961a8219c7a4977a6a1d13cadd66911d63c701
-SHA256: 391e21a2827d9d5db3a1ac71a24164b303cf94e68228139bc8fbe1aef1e417af
-Section: Tweaks
-Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-Name: WeChatX
-
-Package: com.wkk.wechatx
 Version: 2.5-1
 Architecture: iphoneos-arm64
 Maintainer: wkk
@@ -10251,86 +10183,6 @@ Author: x✨
 Name: 高德地图优化
 
 Package: com.xx.iboxhook
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 124
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.iboxhook_1.0.0_iphoneos-arm64.deb
-Size: 22342
-MD5sum: 1856e5517cfe92cba5732f9cf9e6508a
-SHA1: 48f3c763b4cb14d3cc44d5348ab333c08b879c9e
-SHA256: c50cebfd775eb90fb1bf7faca0ab1196ffa647d5825dc92519bad06ae89a15d6
-Section: Tweaks
-Description: 自用 | 去除观看广告 | 去除越狱检测 VPN检测 | 仅适配2.0.7 插件仅越狱使用 | 免越狱IPA版本网盘或者QQ群有
-Author: x✨
-Name: iBoxNoAds
-
-Package: com.xx.iboxhook
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 236
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.iboxhook_1.0.1_iphoneos-arm64.deb
-Size: 47636
-MD5sum: 60efe8284c3f763ff6e4824ca53cbf3a
-SHA1: f9be1c41d3c0445e67650ba0dcc1b6768e64a0ce
-SHA256: 7a139ce2e9847f5914ef4a81a40e5beb67ddd3ebea5ae575cf5b651be21fa3f3
-Section: Tweaks
-Description: 自用 | 去除观看广告 | 去除越狱检测 VPN检测 | 仅适配2.0.7 插件仅越狱使用 | 免越狱IPA版本网盘或者QQ群有 || 101更新修短剧听书 现在可跳过广告
-Author: x✨
-Name: iBoxNoAds
-
-Package: com.xx.iboxhook
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 156
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.iboxhook_1.0.3_iphoneos-arm64.deb
-Size: 34032
-MD5sum: 68d21b68a8f20458e351b9990308fbbb
-SHA1: f2d7e76c63cd0b3dc00f44d4d74a408dad4230a8
-SHA256: ef4a0ab51b8ae15ec2b1bedf8fd18e8f0448a4baf90c2b473387d92d2d613015
-Section: Tweaks
-Description: 自用 | 仅看剧无广告 无去除任何检测(短剧听书没做 本人不用) | 仅越狱使用 仅209版本
-Author: x✨
-Name: iBoxNoAds
-
-Package: com.xx.iboxhook
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 192
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.iboxhook_1.0.4_iphoneos-arm64.deb
-Size: 37512
-MD5sum: 6dc02f6d0406c6bad8905ac7938c9338
-SHA1: e836dda5ee81bc49cda05c3d07649b166a4b5afa
-SHA256: 14d9597afc0aa42d7bf63ecc0f4e31da7dae1001f2c75e6a3f0fafc1bbb16c12
-Section: Tweaks
-Description: 自用 | 看剧短剧听书无广告 无去除任何检测 | 仅越狱使用 仅支持210版本
-Author: x✨
-Name: iBoxNoAds
-
-Package: com.xx.iboxhook
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 140
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.iboxhook_1.0.5_iphoneos-arm64.deb
-Size: 22398
-MD5sum: f17a8c7a2ad37d861f2133e590e10dc5
-SHA1: 9b09795aeb2ea122c13fb115435c635599662d60
-SHA256: ac36755ac840e6feae4d8fe4068a4fa97d724311487599f9e423b85d81a80a94
-Section: Tweaks
-Description: 自用 | 看剧 短剧 漫画 听书 无广告 无去除任何检测 | 仅越狱使用 仅支持212版本
-Author: x✨
-Name: iBoxNoAds
-
-Package: com.xx.iboxhook
 Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: x✨
@@ -10361,22 +10213,6 @@ Section: Tweaks
 Description: 自用 | 看剧 短剧 漫画 听书 音乐 无广告 移除VPN检测 移除开屏Ads | 仅越狱使用 更新支持216版本
 Author: x✨
 Name: iBoxNoAds
-
-Package: com.xx.jrtthook
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 580
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.jrtthook_1.0.2_iphoneos-arm64.deb
-Size: 165684
-MD5sum: 06f6d0372380333f85fb4652c893ec43
-SHA1: ed4e7a600cc1ee36678b7272977b6295ed4c0817
-SHA256: 544ef1c2712a21acdab2efafc261b759e734618d840456c610e34cbcfdf81bc1
-Section: Tweaks
-Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项,支持pro版 -- 1.0.2更新内容：保存视频增加一个方式-- 尝试修复移除底部bug
-Author: x✨
-Name: 今日头条Hook
 
 Package: com.xx.jrtthook
 Version: 1.0.3
@@ -10585,22 +10421,6 @@ SHA1: e1f8e03d1f1a2e2b642875d1d9e6ea8693b2538c
 SHA256: 87faff544efaa8b7d8429a777d58bd2e97a89688698f5608b8aafd49e146b51d
 Section: Tweaks
 Description: 123云盘去广告 + 启动加速 + 屏蔽更新/巨魔/越狱
-Author: Zero
-Name: 123PanClean
-
-Package: com.zero.123panclean.rootless
-Version: 1.0.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Zero
-Installed-Size: 232
-Depends: mobilesubstrate
-Filename: debs/com.zero.123panclean.rootless_1.0.0-1+debug_iphoneos-arm64.deb
-Size: 30226
-MD5sum: 44ce621fbf277a0d392e252990e059ef
-SHA1: e8c67e3ee34602fca7ea4d7a29a0b1441fabad0f
-SHA256: 3d440cee6bb255a11240c9feb7d05717b805e031901a870c473575edad049efb
-Section: Tweaks
-Description: 123云盘去广告 + 启动加速
 Author: Zero
 Name: 123PanClean
 
@@ -10922,22 +10742,6 @@ Author: zero
 Name: riliAdBlock
 
 Package: com.zero.taobaoadblock
-Version: 1.5.8
-Architecture: iphoneos-arm64e
-Maintainer: zero
-Installed-Size: 236
-Depends: mobilesubstrate
-Filename: debs/com.zero.taobaoadblock_1.5.8_iphoneos-arm64e.deb
-Size: 40106
-MD5sum: fa9d70a6249fc5beec5876b176089371
-SHA1: ac9eb29340f6d1f445770b98ad4963cb002b6e60
-SHA256: 93dacb0bd6489d5fb7cebecbfaf4edfbd8eeb9396c3305dc4d9d386ec76d55db
-Section: Tweaks
-Description: 淘宝去广告 v1.5.8
-Author: zero
-Name: 淘宝去广告
-
-Package: com.zero.taobaoadblock
 Version: 4.1.0
 Architecture: iphoneos-arm64
 Maintainer: zero
@@ -10951,22 +10755,6 @@ SHA256: 3ba097bfe880145c0b8caf58f4d5a56870ad19c8e919c10ac10e880efed4da97
 Section: Tweaks
 Description: 淘宝去广告 — 开屏广告 / 更新弹窗 / 越狱检测 / 底部 Tab 精简 / 我的页精简
 Author: zero
-Name: TaobaoAdBlock
-
-Package: com.zero.taobaoadblock.rootless
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Zero
-Installed-Size: 112
-Depends: mobilesubstrate
-Filename: debs/com.zero.taobaoadblock.rootless_1.0.0_iphoneos-arm64.deb
-Size: 25490
-MD5sum: 48cdd3568f95e341965e5cd4ef6cd3d9
-SHA1: 2be6dca7096d00f0b09ccf504a1b7c54ce18c36d
-SHA256: ab72689c2a98c30f7904f61567290c42665b6ac26d8ea4606c7cd4db9f54854c
-Section: Tweaks
-Description: 淘宝去广告 + 启动加速 + 屏蔽更新/巨魔/越狱（一版通吃）
-Author: Zero
 Name: TaobaoAdBlock
 
 Package: com.zero.taobaoadblock.rootless
@@ -11078,22 +10866,6 @@ Section: Tweaks
 Description: 闲鱼 去广告
 Author: zero
 Name: 闲鱼去广告
-
-Package: com.zero.xianyudblock.rootless
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Zero
-Installed-Size: 108
-Depends: mobilesubstrate
-Filename: debs/com.zero.xianyudblock.rootless_1.0.0_iphoneos-arm64.deb
-Size: 23890
-MD5sum: 19cd4c05754f95a0771dc2bb652e0889
-SHA1: c2444cb8a28284f9988d23ff16b232b6c7873fbd
-SHA256: 529ed0fe46b8210949d523efc16df8d0a1e3b46dc6adc27f9dc6f1755291fa9f
-Section: Tweaks
-Description: 闲鱼去广告 + 清爽首页/精简底部/精简我的页面 + 屏蔽更新/巨魔/越狱（一版通吃）
-Author: Zero
-Name: XianyuAdBlock
 
 Package: com.zero.zfbnoads
 Version: 1.0.0
@@ -11212,182 +10984,6 @@ Description: 在 App Store 里按应用屏蔽更新，被屏蔽的应用不再�
 Author: 白白白
 Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
 Name: App Store 更新屏蔽
-
-Package: dev.owngoal.settingsorganizer
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 473
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Filename: debs/dev.owngoal.settingsorganizer_0.0.1_iphoneos-arm64.deb
-Size: 77568
-MD5sum: 162cb8b4a90be3f0bf3a3558ff94118a
-SHA1: 1185d4592b8c35491ca2d378b0caf70b0be81409
-SHA256: 26b26d70362ef48a674c9c7ace381b1976abb8cddef1a200febcae42b2b7d463
-Section: Tweaks
-Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
-Author: MoWang
-Name: 设置插件收纳
-
-Package: dev.owngoal.settingsorganizer
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 505
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Filename: debs/dev.owngoal.settingsorganizer_0.0.2_iphoneos-arm64.deb
-Size: 81046
-MD5sum: 50bf5988f15147c4ccb0fa939e3657c5
-SHA1: facf8bb601acbd2a40ddacfa8390daeb6ce2a050
-SHA256: 90565cc4dd0938cbc64537136b520492ad46473edf11dda74be3c63cf76d47b5
-Section: Tweaks
-Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
-Author: MoWang
-Name: 设置插件收纳
-
-Package: dev.owngoal.settingsorganizer
-Version: 0.0.3
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 505
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Filename: debs/dev.owngoal.settingsorganizer_0.0.3_iphoneos-arm64.deb
-Size: 80616
-MD5sum: 63979c98633d7ec02a013f48de0028c7
-SHA1: 267c6106ab45c1b24a0e6bad519156a1392c7505
-SHA256: 6354dd26d3b7d1cd521f0547310bafe53a8f9a798876d15da00f00b63174f084
-Section: Tweaks
-Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
-Author: MoWang
-Name: 设置插件收纳
-
-Package: dev.owngoal.settingsorganizer
-Version: 0.0.4
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 505
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Filename: debs/dev.owngoal.settingsorganizer_0.0.4_iphoneos-arm64.deb
-Size: 81992
-MD5sum: d120d0ac4d113e0924b47baa4c28a55b
-SHA1: 280a8b56093703edf37e36466880672201d8be08
-SHA256: 22506089c4e7cc11f15df98e99d9bb6de502649760acf75b4df2943312ea91a1
-Section: Tweaks
-Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
-Author: MoWang
-Name: 设置插件收纳
-
-Package: dev.owngoal.settingsorganizer
-Version: 0.0.5
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 505
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Filename: debs/dev.owngoal.settingsorganizer_0.0.5_iphoneos-arm64.deb
-Size: 83502
-MD5sum: f9139e3a81a89e22e1f42f5a9842c76c
-SHA1: 8cd110ce9def11b60bd3842581b2b4bf7cb6a999
-SHA256: cc8cf0681ce696a1dab0732a735cc0d924331f533a15c73b9e72ca53d5444ce5
-Section: Tweaks
-Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
-Author: MoWang
-Name: 设置插件收纳
-
-Package: dev.owngoal.settingsorganizer
-Version: 0.0.6
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 505
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Filename: debs/dev.owngoal.settingsorganizer_0.0.6_iphoneos-arm64.deb
-Size: 86170
-MD5sum: 2f9e1fc77daa6852e501785d1e879934
-SHA1: 554d9d25bab72090b5eebe73f376d87f28b9ccfb
-SHA256: dfdcb62da27d41e48cbe606454d49f5656c64b9259f3a18190ca27c034fb96d2
-Section: Tweaks
-Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
-Author: MoWang
-Name: 设置插件收纳
-
-Package: dev.owngoal.settingsorganizer
-Version: 0.0.7
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 505
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Filename: debs/dev.owngoal.settingsorganizer_0.0.7_iphoneos-arm64.deb
-Size: 88802
-MD5sum: 1a7e44198e6b960015666386a32a4386
-SHA1: c474ec9332d9a04c828b71a2c110e0bbbb0b3a78
-SHA256: cb718461cd5c5b8f3352e322d526515beafac5eb2f49aaee1e67cc842d73b16f
-Section: Tweaks
-Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
-Author: MoWang
-Name: 设置插件收纳
-
-Package: dev.owngoal.settingsorganizer
-Version: 0.0.8
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 505
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Filename: debs/dev.owngoal.settingsorganizer_0.0.8_iphoneos-arm64.deb
-Size: 89742
-MD5sum: 70fc8a011f151837a5c67047563308a8
-SHA1: 16486e32869b52cff99e0cd7fdab926f109b78e2
-SHA256: 3712c1ec74c23f7b6742628507026554dda3cde2364b8bb64a70c3411ad5edc6
-Section: Tweaks
-Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
-Author: MoWang
-Name: 设置插件收纳
-
-Package: dev.owngoal.settingsorganizer
-Version: 0.0.9
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 538
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Filename: debs/dev.owngoal.settingsorganizer_0.0.9_iphoneos-arm64.deb
-Size: 96606
-MD5sum: 4d624e3366d7668d8fd1ac693d62a53e
-SHA1: 3ebf3f7d1e23633d191bcf79a5e8c3d1e7d5e103
-SHA256: 0d8a31c95909ac1ac86c9328d9ebe9758bcbe60f44b3bb4814bf0ef99bc35ee8
-Section: Tweaks
-Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
- 【插件介绍】
- 将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
- .
- 【主要功能】
- • 分类管理：手动调整分类，长按条目修改显示名称。
- • 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
- • 导航文字：自定义首页标题与左上角返回文字。
- • 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
- .
- 【0.0.9 更新】
- 1. 新增首页布局
- 支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。
- 九宫格默认三列，首页八个分类入口占八格。
- .
- 2. 新增二级菜单布局
- 收纳分类列表支持六种样式，可独立选择或跟随首页。
- 支持多行名称和大字号适配，保留条目跳转与长按改名。
- .
- 3. 调整选项位置
- 以下四项集中放在「壁纸无遮罩」下方：
- • 左上角返回文字
- • 首页左上角标题
- • 首页布局
- • 二级菜单布局
- .
- 【使用方法】
- 设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
- 选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
- .
- 【适用范围】
- 二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
- 壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
-Author: MoWang
-Name: 设置插件收纳
 
 Package: dev.owngoal.settingsorganizer
 Version: 0.1.0
@@ -11532,166 +11128,6 @@ Description: 设置分类收纳、首页与二级菜单布局、自定义名称�
   壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
 Author: MoWang
 Name: 设置插件收纳
-
-Package: fanqiefn
-Version: 2.0.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 168
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: debs/fanqiefn_2.0.0_iphoneos-arm64.deb
-Size: 5564
-MD5sum: 0602b4ea1bdc26a75cdcff4bfeddef01
-SHA1: a4b540678f99878b433e469e618ba7165f51350e
-SHA256: b7cd861f63a96931e3979d92a3cac50ef4d549ce7ed2596a85f953ca6cb73923
-Section: Tweaks
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-
-Package: fanqiefn
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 204
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.0.0_iphoneos-arm64.deb
-Size: 23000
-MD5sum: 28ec95dc60e0fd6c1f43716e61db73ca
-SHA1: e78bbfc9a9662bb2cd5bf86abd2be57c1a61f82a
-SHA256: 4cb5c12ce571c2616d327fd9593040b4c8a378ec7c0038e6f43fa65da24dca65
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-
-Package: fanqiefn
-Version: 3.0.1
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 204
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.0.1_iphoneos-arm64.deb
-Size: 26004
-MD5sum: 9df074b0db51cc7ab753d21fe6c2f46a
-SHA1: 8077ab2a2197a84fb658399288cf50851953d5ff
-SHA256: 0b351169a516a51509d4fd0e5cde773ca90ec19e9bb8714df5edab06730210e4
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-
-Package: fanqiefn
-Version: 3.0.2
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.0.2_iphoneos-arm64.deb
-Size: 28896
-MD5sum: 6288b0badbe22aca16bc6ddd1ef496a7
-SHA1: 1e393fe258b1b44524ee16dec42fdc9e5b03a155
-SHA256: 43eee6c5f604e940cdfd03f275deb345ae9e0dfc4c750e8a93318ce0999eb090
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-
-Package: fanqiefn
-Version: 3.0.3
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.0.3_iphoneos-arm64.deb
-Size: 32102
-MD5sum: 96f3fbb99c216c6ccba4947fc762d6eb
-SHA1: 7a01b10277d1d77dc400ecad033e47debe081ef7
-SHA256: 3aef3d80e7e85341f69df7a7ecf1afc2fd4ed6eafa55b300d2ab87871c021c61
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-
-Package: fanqiefn
-Version: 3.0.4
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.0.4_iphoneos-arm64.deb
-Size: 33156
-MD5sum: 96442f180689ce40b3550f946c7f6014
-SHA1: 07f9a6b33fdcc3da38f98588c59593e8fd5fb6d9
-SHA256: 47c674515778c8ba48657a42b14303c2dda020da6cd9e2eef38013997a5f09fa
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-
-Package: fanqiefn
-Version: 3.0.5
-Architecture: iphoneos-arm64
-Maintainer: 5hux1n
-Installed-Size: 240
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.0.5_iphoneos-arm64.deb
-Size: 33894
-MD5sum: 26d761ba9506f9e57fdedab02c101946
-SHA1: 8b64ce175e2d84ea0a21a779873abbf5006fcc82
-SHA256: a34565b56795660dc5f47901968bcb0fa6e68193ac32d9c33c569b625da13130
-Section: Tweaks
-Homepage: https://fanqie.goforit.si
-Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
-Name: 番茄净化
-
-Package: fanqiefn
-Version: 3.1.0
-Architecture: iphoneos-arm64
-Maintainer: 5hux1n
-Installed-Size: 3008
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.1.0_iphoneos-arm64.deb
-Size: 1511188
-MD5sum: 3edf05de181315fb03f6f0d158477f9b
-SHA1: 99f108d70416b82674fb130e43afdf07c4abfa27
-SHA256: a4eac3fd4b17fd0965036b52fbfea8a17b87e4536102e82132efc17e08e6e5b3
-Section: Tweaks
-Homepage: https://fanqie.goforit.si
-Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
-Name: 番茄净化
-
-Package: fanqiefn
-Version: 3.1.1
-Architecture: iphoneos-arm64
-Maintainer: 5hux1n
-Installed-Size: 3008
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.1.1_iphoneos-arm64.deb
-Size: 1507934
-MD5sum: 99be574f07f17ffc5a2f85287d8d5d76
-SHA1: ebb3bf598ca8b9f7256d458a4c596e6f0a736485
-SHA256: 97921d46111ad1635d1e80d39c2bce9a6fc5fb48fc529da0332c245cd1cd8fcf
-Section: Tweaks
-Homepage: https://fanqie.goforit.si
-Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
-Name: 番茄净化
-
-Package: fanqiefn
-Version: 3.3.0
-Architecture: iphoneos-arm64
-Maintainer: junhong
-Installed-Size: 3412
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.3.0_iphoneos-arm64.deb
-Size: 1689152
-MD5sum: b9c68d8a8d707396c729e30e51712fb7
-SHA1: 020ca229b9cad55eab0c363140df0c643b22d8b8
-SHA256: 06dba207a3c0cf52536d22cc911e97cb3f0179cb7988b5eb29cf988718248c70
-Section: Tweaks
-Homepage: https://fanqie.goforit.si
-Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
-Author: junhong
-Name: 番茄净化
 
 Package: fanqiefn
 Version: 3.5.0
