@@ -779,22 +779,6 @@ Author: 82Flex
 Name: PanoramicView
 
 Package: com.82flex.touchvis
-Version: 4.1
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 4400
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/com.82flex.touchvis_4.1_iphoneos-arm64.deb
-Size: 938820
-MD5sum: 8cd1167b640a1448881fb2f4be663cd9
-SHA1: bcfe12752bd08f98c5f0bd77558f8d3687c52eea
-SHA256: e5bc556f870a0ac80af457d327fbd40a30d530f253540ad058c2d2fe4197e0b2
-Section: Tweaks
-Description: Display your touch interactions!
-Author: Lessica <82flex@gmail.com>
-Name: Touch-Viz
-
-Package: com.82flex.touchvis
 Version: 4.1.1
 Architecture: iphoneos-arm64
 Maintainer: Lessica <82flex@gmail.com>
@@ -1718,22 +1702,6 @@ Author: binglan
 Name: 控制中心美化
 
 Package: com.binglan.kzmh
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 376
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.6-arm64.deb
-Size: 22450
-MD5sum: bc75130474b3910beb469e1108681f08
-SHA1: d51187901245bdbb758d68fc8aeceacb5158bf29
-SHA256: 13cb561c49af2328ee9505cb8cb32f579caf04f032755e04da255bf7e0ccb0b2
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
 Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: binglan
@@ -2463,23 +2431,6 @@ Author: colorblack
 Name: youdaoyunbiji-NoAd
 
 Package: com.crctdd.memtrim
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 820
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/com.crctdd.memtrim_0.0.1_iphoneos-arm64.deb
-Size: 71582
-MD5sum: a2a9f19d4d496246e6e4b1e14a16e8b7
-SHA1: 8c4b411eea4733a8ff01b17930f2201e0f6349c7
-SHA256: 48553a1e5d5ed836dc5387e951d6d79b938a02affc1cd7a9ce57d15a063a3424
-Section: Tweaks
-Homepage: https://crctdd.github.io/repo/
-Description: 优化并释放部分运行内存。(支持iOS 15-17)
-Author: crctdd
-Name: MemTrim
-
-Package: com.crctdd.memtrim
 Version: 0.0.2
 Architecture: iphoneos-arm64
 Maintainer: crctdd
@@ -2528,38 +2479,6 @@ Section: Tweaks
 Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
 Author: crctdd
 Name: SharingX
-
-Package: com.crctdd.stayalivelite
-Version: 0.4.0
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 1944
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.crctdd.stayalivelite_0.4.0_iphoneos-arm64.deb
-Size: 239908
-MD5sum: f512beaebcd9ed88bca98b2459c61ef2
-SHA1: 1acac69fc1f0ccadcd93a55fe44920396352f9a1
-SHA256: ca55a795340ecdbde911e2be4e35abacb20f91d96408b72d1ec75e7eac84b7b1
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.4.1
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 2568
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.crctdd.stayalivelite_0.4.1_iphoneos-arm64.deb
-Size: 280160
-MD5sum: bc3481e91f6dbd2f951e15032e24daad
-SHA1: 7c9de8bd369fce70001c6cff78b5eaf4a78cf704
-SHA256: c461432292217c9a22103107fdb8ea16f792a9f48345461747165efe18c89777
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
 Version: 0.4.2
@@ -2842,90 +2761,6 @@ Author: dvntm
 Icon: https://i.imgur.com/C5MLSXo.png
 Name: Infuse Plus
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/icons/main/infuseplus.json
-
-Package: com.dy778.douyin
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: DY778
-Installed-Size: 1184
-Depends: firmware (>= 14.0)
-Conflicts: com.chengguang.douyin
-Replaces: com.chengguang.douyin
-Filename: debs/com.dy778.douyin_1.0-1_iphoneos-arm64.deb
-Size: 419324
-MD5sum: 4bba07bc63108bbd08c16492660ab23a
-SHA1: c65f3b9c9a28b244ad4d79f3d8d3b43f3bc43720
-SHA256: fd8c8103b169b643abf176921a2aa4c30694f516804ae8492119881cefabdd83
-Section: Tweaks
-Description: DY778 · 消息留存、编辑历史、福袋助手、时间标签与播放增强。已在抖音 39.9.0 测试。
-Author: DY778
-Name: DY778
-
-Package: com.dy778.douyin
-Version: 1.0-2
-Architecture: iphoneos-arm64
-Maintainer: DY778
-Installed-Size: 1236
-Depends: firmware (>= 14.0)
-Conflicts: com.chengguang.douyin
-Replaces: com.chengguang.douyin
-Filename: debs/com.dy778.douyin_1.0-2_iphoneos-arm64.deb
-Size: 370566
-MD5sum: ec22e8b31921bfed61a54320a5f42428
-SHA1: 3ca32b71bf7e1bd07ab075f9324e9e1788862c22
-SHA256: 85dcd0b125a7cc83dfcc60fcb1274a16f5aa0a2131ac5c74e130405024b2afd2
-Section: Tweaks
-Description: DY778 · 消息留存、编辑历史、福袋助手、时间标签与播放增强。已在抖音 39.9.0 测试。
-Author: DY778
-Name: DY778
-
-Package: com.dy778.douyin
-Version: 1.0-3
-Architecture: iphoneos-arm64
-Maintainer: DY778
-Installed-Size: 2112
-Depends: firmware (>= 14.0)
-Filename: debs/com.dy778.douyin_1.0-3_iphoneos-arm64.deb
-Size: 647022
-MD5sum: 94aba877ba37ab2d716872d4042464dd
-SHA1: cafc6c3a81207510279a33157d13ad3226fa4a0e
-SHA256: 80c6d9cb284aa2ce7f0610cc6cb5c3b4124a92e2f0198e14a01a49099b12e6ba
-Section: Tweaks
-Description: DY778 · 消息留存、特别关注、直播信息、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
-Author: DY778
-Name: DY778
-
-Package: com.dy778.douyin
-Version: 1.0-4
-Architecture: iphoneos-arm64
-Maintainer: DY778
-Installed-Size: 2296
-Depends: firmware (>= 14.0)
-Filename: debs/com.dy778.douyin_1.0-4_iphoneos-arm64.deb
-Size: 689478
-MD5sum: 3a195a94f09e12bc5ebce7ef7e2ff41b
-SHA1: 6fef8dab5f94b57719908f8fa90d77315ee53cc4
-SHA256: 3b9bb48c3b868a438148d9669957ca0d5639337afc16c684e92988308962e0a6
-Section: Tweaks
-Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
-Author: DY778
-Name: DY778
-
-Package: com.dy778.douyin
-Version: 1.0-5
-Architecture: iphoneos-arm64
-Maintainer: DY778
-Installed-Size: 2416
-Depends: firmware (>= 14.0)
-Filename: debs/com.dy778.douyin_1.0-5_iphoneos-arm64.deb
-Size: 732212
-MD5sum: 719128bd758ca9c4df08ed81c9112fcb
-SHA1: d74612667ec70f69b3fd236e5baa9c9078f2c0e6
-SHA256: 4b3092fb7cd7c61492f6400f5ee4b5826fa97351b01cdeeafe39f8435d03fcc6
-Section: Tweaks
-Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
-Author: DY778
-Name: DY778
 
 Package: com.dy778.douyin
 Version: 1.0-6
@@ -3582,38 +3417,6 @@ Author: iosrxwy
 Name: VVeboFix
 
 Package: com.iosrxwy.weibonoads
-Version: 1.1-12
-Architecture: iphoneos-arm64
-Maintainer: iosrxwy
-Installed-Size: 348
-Depends: mobilesubstrate
-Filename: debs/com.iosrxwy.weibonoads_1.1-12_iphoneos-arm64.deb
-Size: 97718
-MD5sum: 5547e424bb81fbb19ddd56cc85739e21
-SHA1: be3ad77f5797a40d567da1b97ac0450e2ca723c2
-SHA256: 7878e638a436d51425f68a084ef46d010a83765d0e0080b38c476bdfd94efb36
-Section: Tweaks
-Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。三指双击打开设置，长按底栏「我」开关设置
-Author: iosrxwy
-Name: WeiboNoAds
-
-Package: com.iosrxwy.weibonoads
-Version: 1.2.2
-Architecture: iphoneos-arm64
-Maintainer: iosrxwy
-Installed-Size: 348
-Depends: mobilesubstrate
-Filename: debs/com.iosrxwy.weibonoads_1.2.2_iphoneos-arm64.deb
-Size: 97722
-MD5sum: 5259ad57d322406e60d2431bec5a584f
-SHA1: a5b5fd2ba1dbba682e64bde3cac36d8f641c6406
-SHA256: f363b19fae43ac6e33253271bd578b198dcbdcd1ebf84f947ea895933955ef45
-Section: Tweaks
-Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。三指双击打开设置，长按底栏「我」开关设置
-Author: iosrxwy
-Name: WeiboNoAds
-
-Package: com.iosrxwy.weibonoads
 Version: 1.2.3
 Architecture: iphoneos-arm64
 Maintainer: iosrxwy
@@ -3958,42 +3761,6 @@ Author: Junzai
 Name: Fenzu
 
 Package: com.jz.fz
-Version: 5.0.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Junzai
-Installed-Size: 17468
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.monk.wclgbubbleliquidglass
-Replaces: com.monk.wclgbubbleliquidglass
-Filename: debs/com.jz.fz_5.0.0-1+debug_iphoneos-arm64.deb
-Size: 2848086
-MD5sum: eab6471e7327cb89aff8f30f38fdae41
-SHA1: 456440991740f883a127a25ec5b01f731eda1866
-SHA256: c35a0ba6197c5f9e7cce820b3ae71390a2491e5aa914582a6a5b5e3658b5275d
-Section: Tweaks
-Description: 侧边栏分组
-Author: Junzai
-Name: Fenzu
-
-Package: com.jz.fz
-Version: 5.4.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Junzai
-Installed-Size: 19660
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.monk.wclgbubbleliquidglass
-Replaces: com.monk.wclgbubbleliquidglass
-Filename: debs/com.jz.fz_5.4.0-1+debug_iphoneos-arm64.deb
-Size: 3217772
-MD5sum: edc5a129ebf5f5d160804dc2f8958616
-SHA1: c42a8ee2cc0823c1be20815966ff40806aed5268
-SHA256: 0c4eca22c65c418a3d3f0877c04d89c6d632974b8b530c237299c82cc31ad7a0
-Section: Tweaks
-Description: 侧边栏分组
-Author: Junzai
-Name: Fenzu
-
-Package: com.jz.fz
 Version: 5.6.0-1+debug
 Architecture: iphoneos-arm64
 Maintainer: Junzai
@@ -4247,79 +4014,6 @@ Author: 半生年华
 Name: CleanDrawer
 
 Package: com.mallin.photonoautoalbums
-Version: 3.0
-Architecture: iphoneos-arm64
-Maintainer: Mallin <mallin@example.local>
-Installed-Size: 440
-Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/com.mallin.photonoautoalbums_3.0_iphoneos-arm64.deb
-Size: 51152
-MD5sum: 1a538875a2c08328f5ef429d91038cb0
-SHA1: 37f14bddd64a1ab2b59f0a52d63f9630ea02770f
-SHA256: a00d61f8cd6dd81b3dabf009fe5a0f0e8387560b32c1c02c569da510aa0fe66c
-Section: Tweaks
-Homepage: https://local.mallin/PhotoNoAutoAlbums
-Description: 禁止APP在照片内自动新建相册。
-Tag: role::enduser
-Author: Mallin
-Name: PhotoNoAutoAlbums 免费
-
-Package: com.mallin.photonoautoalbums
-Version: 3.1
-Architecture: iphoneos-arm64
-Maintainer: Mallin <mallin@example.local>
-Installed-Size: 440
-Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/com.mallin.photonoautoalbums_3.1_iphoneos-arm64.deb
-Size: 52146
-MD5sum: 475d0d82ce910d4cabeff947d78c3ac3
-SHA1: 435e810f9ca81b82417bb26b8ccc7d3d3480e452
-SHA256: 027daa7e06286fdf8a2be79dee9d369316284b19613fdc59aee03b93476adc03
-Section: Tweaks
-Homepage: https://local.mallin/PhotoNoAutoAlbums
-Description: 禁止APP在照片内自动新建相册。
-Tag: role::enduser
-Author: Mallin
-Name: PhotoNoAutoAlbums 免费
-
-Package: com.mallin.photonoautoalbums
-Version: 3.27
-Architecture: iphoneos-arm64
-Maintainer: Mallin <mallin@example.local>
-Installed-Size: 1056
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/com.mallin.photonoautoalbums_3.27_iphoneos-arm64.deb
-Size: 143156
-MD5sum: 2e74e88a62a272c82c7cafcb98e6a75d
-SHA1: 9a4ee0d11485785fe61b6f4886d340fc33f74a41
-SHA256: 58559b9d9232cd000184d3619b87ffc35d67f75b17bb7610a0f445ec8657f315
-Section: Tweaks
-Homepage: https://local.mallin/PhotoNoAutoAlbums
-Description: 禁止APP在照片内自动新建相册。
-Tag: role::enduser
-Author: Mallin
-Name: PhotoNoAutoAlbums 免费
-
-Package: com.mallin.photonoautoalbums
-Version: 3.28
-Architecture: iphoneos-arm64
-Maintainer: Mallin <mallin@example.local>
-Installed-Size: 1072
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/com.mallin.photonoautoalbums_3.28_iphoneos-arm64.deb
-Size: 152540
-MD5sum: 87ca3d8ad4fce486fd7e17b1151654fe
-SHA1: 961c561a132fb7a1ea54fcd4c9decf0a334ee27a
-SHA256: bfcfce33f426c0465b7f8830362ca197e6bb970656cb08a388024d64d0d57647
-Section: Tweaks
-Homepage: https://local.mallin/PhotoNoAutoAlbums
-Description: 禁止APP在照片内自动新建相册。
-Tag: role::enduser
-Author: Mallin
-Icon: https://mallinrepo.pages.dev/depictions/photonoautoalbums/icon.png
-Name: PhotoNoAutoAlbums 免费
-
-Package: com.mallin.photonoautoalbums
 Version: 3.29
 Architecture: iphoneos-arm64
 Maintainer: Mallin <mallin@example.local>
@@ -4372,61 +4066,6 @@ Description: 该插件能够实现该手机的科学上网功能直接通过热�
 Author: Mallin
 Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
 Name: VPN 共享（免授权）
-
-Package: com.mallin.wechatpinnedorder
-Version: 1.6.0
-Architecture: iphoneos-arm64
-Maintainer: Mallin <mallin@example.local>
-Installed-Size: 560
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/com.mallin.wechatpinnedorder_1.6.0_iphoneos-arm64.deb
-Size: 105926
-MD5sum: c11c0e6f0af33b21fc7f0f0d256d37da
-SHA1: d4d6ba36b0e02b2dd3eff41c4bee816997c2fece
-SHA256: b4a1b75ef0833873a76fe3bd5ada78493ab88841f181648eae1888b674e3b990
-Section: Tweaks
-Description: 固定微信聊天首页置顶会话的排列位置，并支持自定义上下顺序。置顶项目较多时，收到新消息的会话不会再自动移到置顶区域最上方。
-Tag: role::enduser
-Author: Mallin
-Name: WeChatPinnedOrder
-
-Package: com.mallin.wechatpinnedorder
-Version: 2.3.2
-Architecture: iphoneos-arm64
-Maintainer: Mallin <mallin@example.local>
-Installed-Size: 656
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/com.mallin.wechatpinnedorder_2.3.2_iphoneos-arm64.deb
-Size: 146914
-MD5sum: 4e6187de923056246ea4d51f11a28ea9
-SHA1: 526b9dc87d631f537abbcf1dc3210a781ccf2065
-SHA256: c93ee677300ec2a2ead909a0f2f9d7edd9323207dfcfc997166c8074aefae1fd
-Section: Tweaks
-Description: 固定微信聊天首页的置顶会话顺序，收到新消息后排序保持不变。使用方法：点击右上角+号进入“置顶排序”，识别当前所有置顶项后拖动排序并保存即可。
-Tag: role::enduser
-Author: Mallin
-Name: WeChatPinnedOrder 诊断版
-
-Package: com.mallin.wechatpinnedorder
-Version: 3.1.2
-Architecture: iphoneos-arm64
-Maintainer: Mallin <mallin@example.local>
-Installed-Size: 708
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/com.mallin.wechatpinnedorder_3.1.2_iphoneos-arm64.deb
-Size: 173086
-MD5sum: 25f43db32d8ed98604a34226e18e1211
-SHA1: c353ece019477528f7a62c50edeb560122d2fd0e
-SHA256: f849f12f97311e7e41b97c902380cd362cee201d4e3a384e355979e020e8de3d
-Section: Tweaks
-Description: 1. 该插件功能是固定微信聊天首页（或者分组）的置顶会话顺序，收到新消息后排序保持不变；
- 2. 兼容WCPulse最新版1.7-2；
- 3. 安装WCPulse后可以实现每个分组内的置顶排序，分组之间互不干扰；
- 4. 使用方法：点击右上角+号进入“置顶排序”，识别当前所有（或当前分组）置顶项后拖动排序并保存既可；
- 5. QQ1群：1095225014  QQ群2:1105316125
-Tag: role::enduser
-Author: Mallin
-Name: WeChatPinnedOrder 诊断版
 
 Package: com.mallin.wechatpinnedorder
 Version: 3.1.3
@@ -4517,195 +4156,6 @@ Section: Tweaks
 Description: Remove SDK ads (splash/banner/interstitial/rewarded/feed), unlock VIP, hide jailbreak, block update popups for 123云盘. No logging.
 Author: Doubao
 Name: 123Pan AdBlock
-
-Package: com.mg.adskip
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 500
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.0.0_iphoneos-arm64.deb
-Size: 78242
-MD5sum: 6ed2647ce385c5983cf28a426d1cda98
-SHA1: c231873cbbe0ebb99597a1afbc4163eabe87eb43
-SHA256: 643ce51469e0f779b0dfdd17a8d44b4f6ce3ad83f8bbdce66a2f99bd550d494b
-Section: Tweaks
-Description: 按应用开启的开屏广告自动跳过插件，支持 rootless / RootHide
- 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，系统应用不受影响。
- 自动识别开屏广告的跳过按钮并点击，支持总开关，新安装的 App 会自动出现在应用列表中。
-Author: M哥
-Name: 广告跳过
-
-Package: com.mg.adskip
-Version: 1.0.18
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 648
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.0.18_iphoneos-arm64.deb
-Size: 116292
-MD5sum: 112fd49b01335bacf51dfb4fb158dae0
-SHA1: e12c9493bd35597d776b862e67c99d06d1ea9ca2
-SHA256: d1613c155b1ca233a91f110a68fe8523fcb6a2ba0f6cc19e416f442125b9c5a9
-Section: Tweaks
-Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
-Author: M哥
-Name: 广告跳过
-Sileodepiction: https://wwg151.github.io/repo/depictions/com.mg.adskip.json
-
-Package: com.mg.adskip
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 532
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.0.2_iphoneos-arm64.deb
-Size: 83170
-MD5sum: 90f07f118b44e6414848a04f504c20d2
-SHA1: 0470c7b232410e117c19b9f03a9a33cb6080d1a1
-SHA256: 47e3bf351138e4d41b83efeaba77c0adb02554891ac52f4b73a550629360b685
-Section: Tweaks
-Description: 按应用开启的开屏广告自动跳过插件，支持 rootless / RootHide。
- 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，系统应用不受影响。
- 自动识别开屏广告的跳过按钮并点击，支持总开关，新安装的 App 会自动出现在应用列表中。
-Author: M哥
-Name: 广告跳过
-
-Package: com.mg.adskip
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 532
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.0.4_iphoneos-arm64.deb
-Size: 84946
-MD5sum: d93b173ef98d51101f63118c2d4b4df8
-SHA1: cb350fab7e44ad80a91d6912f42ce5a2bc33e090
-SHA256: 6302c68ec395b6340f161394fb579de4f067a8cbb7cf4ea54d268af51db055ee
-Section: Tweaks
-Description: 按应用开启的开屏广告自动跳过插件，支持 rootless / RootHide
- 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，系统应用不受影响。
- 自动识别开屏广告的跳过按钮并点击，支持总开关，新安装的 App 会自动出现在应用列表中。
-Author: M哥
-Name: 广告跳过
-
-Package: com.mg.adskip
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 532
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.0.5_iphoneos-arm64.deb
-Size: 85870
-MD5sum: 731247ebec91b2016a817942be62b012
-SHA1: abd102f3ccd9d6de59d38b1a7a3d7b88e99f873e
-SHA256: 65bbc6dd7866ccf5dede5b7c79f0002457974eb42c3851fd9a9447be3d95caf3
-Section: Tweaks
-Description: 按应用开启的开屏广告自动跳过插件，支持 rootless / RootHide。
- 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，系统应用不受影响。
- 自动识别开屏广告的跳过按钮并点击，支持总开关，新安装的 App 会自动出现在应用列表中。
-Author: M哥
-Name: 广告跳过
-
-Package: com.mg.adskip
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 532
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.0.6_iphoneos-arm64.deb
-Size: 86608
-MD5sum: 3be27d246ef792cd058484be3b21d222
-SHA1: 1f5bca5062814bff49d23e90cef70e54242a8e6d
-SHA256: 074275c410500be3bc5d320ab10d6064b94a99a94a32f75092399937eb39cc66
-Section: Tweaks
-Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
-Author: M哥
-Name: 广告跳过
-Sileodepiction: https://wwg135.github.io/depictions/com.mg.adskip.json
-
-Package: com.mg.adskip
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 548
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.0.7_iphoneos-arm64.deb
-Size: 92836
-MD5sum: ae08038fd517057f2c9636f71ec19a75
-SHA1: a2f7d18eadc1fb987ed4fe746ca91a2f0108612c
-SHA256: 0da47a9be2dc1cba23eae13f70a12691a7e8d88848b38d7bb74ff44657bb2bea
-Section: Tweaks
-Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
-Author: M哥
-Name: 广告跳过
-Sileodepiction: https://wwg135.github.io/depictions/com.mg.adskip.json
-
-Package: com.mg.adskip
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 580
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.0.8_iphoneos-arm64.deb
-Size: 100558
-MD5sum: 2d33dccaa2df80f6c18b2f7060295967
-SHA1: 40de2eedbcb3ecd4c836ba3d97574f715ffda061
-SHA256: 8302e9b899bf8bbb9137d5f37c735e748d98c3df122a8cc3cafe151d5f14bca1
-Section: Tweaks
-Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
-Author: M哥
-Name: 广告跳过
-Sileodepiction: https://wwg135.github.io/depictions/com.mg.adskip.json
-
-Package: com.mg.adskip
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 648
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.1.0_iphoneos-arm64.deb
-Size: 115244
-MD5sum: 0de9ba284d6c543d92b1b9bd021afcca
-SHA1: e8d840a4eb31c4cc01a88f2dd1f5050c6288275a
-SHA256: 705317d86b33950beda81aef06eb37b7c65222178a7d4cb54c69e9bd2076cd09
-Section: Tweaks
-Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
-Author: M哥
-Name: 广告跳过
-Sileodepiction: https://wwg151.github.io/repo/depictions/com.mg.adskip.json
-
-Package: com.mg.adskip
-Version: 1.2.1
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.2.1_iphoneos-arm64.deb
-Size: 122708
-MD5sum: 0384618299c40a9d837124ec27e29b34
-SHA1: e2f976b642df1263e2bfabebee42a1e3a4b4f9f0
-SHA256: 45c1fe4d8ea724c5c462b2bc0776d1859fc0f7cd0817e46cfef316441504290b
-Section: Tweaks
-Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
-Author: M哥
-Name: 广告跳过
-Sileodepiction: https://wwg151.github.io/repo/depictions/com.mg.adskip.json
-
-Package: com.mg.adskip
-Version: 1.2.2
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.2.2_iphoneos-arm64.deb
-Size: 123436
-MD5sum: d0d3e9f19f41a1bfff3687ba82bfa7b2
-SHA1: ed4cebe2bde92ab209ecd9c7d1a57ac736d38f99
-SHA256: 9ae0c25604f540f28c571f13d5edd3bcbc07579f63d9ca344e795bc973f2f5c9
-Section: Tweaks
-Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
-Author: M哥
-Name: 广告跳过
-Sileodepiction: https://wwg151.github.io/repo/depictions/com.mg.adskip.json
 
 Package: com.mg.adskip
 Version: 3.3.0
@@ -4840,57 +4290,6 @@ Homepage: https://github.com/wwg135
 Description: 直播吧去广告/功能增强，长按底部栏呼出设置面板。
 Author: M哥
 Name: 直播吧
-
-Package: com.mlgm.filzacrack
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: mlgm
-Installed-Size: 204
-Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit (>= 5.0.0~), com.tigisoftware.filza64bit (<< 6~)
-Filename: debs/com.mlgm.filzacrack_1.0_iphoneos-arm64.deb
-Size: 8322
-MD5sum: 94d3b2b5883fcc0c0ec3cdbc2300b6a7
-SHA1: 830e3a3ac4b7b47ae0a58f8cd961768842fc7524
-SHA256: 65e26b28418de86e1a455758f98d7bd934d3d3ffb0fcaf90548319d031e0665b
-Section: Tweaks
-Description: Filza 5.x 解锁完整版
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/FilzaCrack.png
-Name: Filza Crack
-
-Package: com.mlgm.filzapatch
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: mlgm
-Installed-Size: 154
-Depends: firmware (>= 15.0), com.roothide.patchloader (>= 0.0.8), roothide (>= 0.1.0)
-Conflicts: roothide.patches.filza
-Filename: debs/com.mlgm.filzapatch_1.0.1_iphoneos-arm64e.deb
-Size: 38778
-MD5sum: fcaa25746aa2c5755f622d459852b2eb
-SHA1: 8718f02ad2d28d2634c5ab242d0faa5e0c523671
-SHA256: 15d96e0255bdc5bcd6db04036b9ee4c1e64c746e6468d18926ac8d4731cd8c72
-Section: Tweaks
-Description: Filza 5.x 的 RootHide 动态补丁
-Icon: https://mlgm66.github.io/icon/FilzaPatch.png
-Name: Filza Patch
-
-Package: com.mlgm.filzapatch
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Maintainer: mlgm
-Installed-Size: 170
-Depends: firmware (>= 15.0), com.roothide.patchloader (>= 0.0.8), roothide (>= 0.1.0)
-Conflicts: roothide.patches.filza
-Filename: debs/com.mlgm.filzapatch_1.0.2_iphoneos-arm64e.deb
-Size: 39566
-MD5sum: f37d4476873e51e021f82f544b64e719
-SHA1: 9fe3f9db3bb1bdb44372a55ee03b751e02bf5b4f
-SHA256: d74f3b167f62dc5fd5325a43dc7fc926f483a98989c98339d6a4754e72505bd3
-Section: Tweaks
-Description: Filza 5.x 的 RootHide 动态补丁
-Icon: https://mlgm66.github.io/icon/FilzaPatch.png
-Name: Filza Patch
 
 Package: com.mlgm.filzapatch
 Version: 1.1
@@ -5067,24 +4466,6 @@ Section: Tweaks
 Description: Full-height video playback and native floating glass tab bar for Red Fruit Short Drama.
 Author: NaiWa
 Name: 奶蛙
-
-Package: com.nan.bindfs
-Version: 0.6.0
-Architecture: iphoneos-arm64
-Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
-Depends: coreutils, sed, plutil, firmware (>> 14.0)
-Conflicts: mobilesubstrate (= 999)
-Filename: debs/com.nan.bindfs_0.6.0_iphoneos-arm64.deb
-Size: 13148
-MD5sum: 54b079b337c68a58f744adbb418ecb03
-SHA1: 27647b76818f56e46de7ac796bc0480514677575
-SHA256: 45a64dc6b4ef30298b01e4a1f74fc30d438d7a4f09e17d840d341870a679ca91
-Section: Tweaks
-Description: 以 bindfs 挂载文件夹的 cli 工具
-Author: 无尽伤痛都锁进黑夜 & zhaonan
-Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
-Name: mount_bindfs (Dopamine)
-Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 
 Package: com.nan.bindfs
 Version: 0.7.3
@@ -5396,54 +4777,6 @@ Name: MrShi(Rootless)
 Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
 
 Package: com.noads.tweka
-Version: 1.3.1
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 2616
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.noads.tweka_1.3.1_iphoneos-arm64.deb
-Size: 768440
-MD5sum: 10e75b01b169a669d37617904202a9dd
-SHA1: cf406b4d628c079d5ef34eef073658c69e02a723
-SHA256: d3b6578850551ac9f3efdd51acd18fe4bd3d8a287f68ade8cd97e3dfed8799ae
-Section: Tweaks
-Description: 去除广告。
-Author: 半生年华
-Name: NoAdsX
-
-Package: com.noads.tweka
-Version: 1.3.2
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 6768
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.noads.tweka_1.3.2_iphoneos-arm64.deb
-Size: 1018988
-MD5sum: c64de917b066d66fb5cf907bc39588cf
-SHA1: d3fbea58910d2e3259b3b7ca9d2bf591b02576ca
-SHA256: 36c070bdd824d1cb360972f867099e75ecf82e78494fa6e38f86042eccbb3208
-Section: Tweaks
-Description: 去除广告。
-Author: 半生年华
-Name: NoAdsX
-
-Package: com.noads.tweka
-Version: 1.3.3
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 9080
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.noads.tweka_1.3.3_iphoneos-arm64.deb
-Size: 1305544
-MD5sum: fd01637e7287e87403e877812ab1cd4f
-SHA1: d400e76f1e7b9a2c13e9a24d8cbd70575ecfe54c
-SHA256: 5984bcea6e7ad8ae79028834f5c62f9df1362f6081cd0b89226aaa62ac8aaff9
-Section: Tweaks
-Description: 去除广告。
-Author: 半生年华
-Name: NoAdsX
-
-Package: com.noads.tweka
 Version: 1.3.5
 Architecture: iphoneos-arm64
 Maintainer: 半生年华
@@ -5540,74 +4873,6 @@ Description: 大肥鱼宠物，支持主题换装、触摸互动、动作音效�
 Author: ojbkclub
 Icon: https://repo.susubaby.cn/icons/PetDFY.png
 Name: 大肥鱼 PetDFY
-
-Package: com.ojbkclub.settingsgroupx
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: ojbkclub
-Installed-Size: 776
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/com.ojbkclub.settingsgroupx_1.1_iphoneos-arm64e.deb
-Size: 237952
-MD5sum: f835d7f47b39327250587f76b94c56fc
-SHA1: 2669bc2a4ab1c4efc41bd8e36c7ab5a8d2bfb4b6
-SHA256: 1b7becf496b2706739b80a17f6c061bca69cc466378ddad3e94efd37dc77314c
-Section: Tweaks
-Description: cool
-Author: ojbkclub
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: SettingsGroupX
-
-Package: com.ojbkclub.settingsgroupx
-Version: 1.2
-Architecture: iphoneos-arm64e
-Maintainer: ojbkclub
-Installed-Size: 828
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/com.ojbkclub.settingsgroupx_1.2_iphoneos-arm64e.deb
-Size: 253692
-MD5sum: 9164e7a4cc73752e40c8cd3efa2c05a8
-SHA1: b4f5a4a3e4697ffdd977904fa5d1eaaba75cc16b
-SHA256: d0ce060a92107b09aef91babd294775b33e61b856e04e158f075ddb9c4fc4737
-Section: Tweaks
-Description: cool
-Author: ojbkclub
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: SettingsGroupX
-
-Package: com.ojbkclub.settingsgroupx
-Version: 1.3
-Architecture: iphoneos-arm64e
-Maintainer: ojbkclub
-Installed-Size: 828
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/com.ojbkclub.settingsgroupx_1.3_iphoneos-arm64e.deb
-Size: 253626
-MD5sum: c769bb15847ae2b74f4b302021aabbbd
-SHA1: b10d322c49965fe7a7f4277a0dcab9110b8d609b
-SHA256: deaec155034bcd0fbe80aec5b70297104092f327c7a4c01e620ac8e2db1fe5a5
-Section: Tweaks
-Description: cool
-Author: ojbkclub
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: SettingsGroupX
-
-Package: com.ojbkclub.settingsgroupx
-Version: 1.4
-Architecture: iphoneos-arm64e
-Maintainer: ojbkclub
-Installed-Size: 828
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/com.ojbkclub.settingsgroupx_1.4_iphoneos-arm64e.deb
-Size: 254822
-MD5sum: c6c56bd53891667583ba4ac52732dd39
-SHA1: ec06b7acbcea0d347c900bd2d14b8789a7293e74
-SHA256: 92b8eea0b50c1be4ee1de8382390b6d7e8b3e09494e63ab90b4e2660124ebebf
-Section: Tweaks
-Description: cool
-Author: ojbkclub
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: SettingsGroupX
 
 Package: com.ojbkclub.settingsgroupx
 Version: 1.5
@@ -11246,23 +10511,6 @@ Section: Tweaks
 Description: 让你的程序图标在桌面随意摆放。
 Author: mikifp
 Name: Griddy
-
-Package: hongguofn
-Version: 2.0.0
-Architecture: iphoneos-arm64
-Maintainer: junhong
-Installed-Size: 4456
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/红果净化-2.0.0-iphoneos-arm64.deb
-Size: 2194936
-MD5sum: 741abbcb7f4326347f29954b136f593e
-SHA1: b7197bc6e6260622e058a009767bcdb42ea3cf99
-SHA256: 8fd56283fe4c10b7ccc9ed0ff4bc841fec6557ce67d6234cada1b7362bcfbad2
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Author: junhong
-Name: 红果净化
 
 Package: hongguofn
 Version: 2.2.4
