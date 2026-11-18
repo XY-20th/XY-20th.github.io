@@ -463,24 +463,6 @@ Author: SquidForce, Backup
 Name: 乌贼键盘无根（免授权）
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 
-Package: cn.octoforce.squidextender.roothide
-Version: 3.7.4+offline.1
-Architecture: iphoneos-arm64e
-Maintainer: SquidForce, Backup
-Installed-Size: 10254
-Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
-Conflicts: cn.octoforce.squidextender, com.squidforce.squidextender
-Filename: debs/cn.octoforce.squidextender.roothide_3.7.4+offline.1_iphoneos-arm64e.deb
-Size: 2662800
-MD5sum: db3b5b79230c7df617c64b70f77f306d
-SHA1: 35db9dbe068fb77500153c335dd4f0d536436606
-SHA256: 13d5aa97e91246f0eb8e5c33dd806eca7099463965b3ef74857048de62b10e7a
-Section: Tweaks
-Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
-Author: SquidForce, Backup
-Name: 乌贼键盘隐根（免授权）
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-
 Package: cn.octoforce.squidgesturepro
 Version: 2.7.6-2
 Architecture: iphoneos-arm64
@@ -497,24 +479,6 @@ Section: Tweaks
 Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
 Author: SquidForce, Backup
 Name: 乌贼手势无根（免授权）
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
-
-Package: cn.octoforce.squidgesturepro.roothide
-Version: 2.7.6-1
-Architecture: iphoneos-arm64e
-Maintainer: 刀哥
-Installed-Size: 6762
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Conflicts: cn.octoforce.squidgesturepro, com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: debs/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb
-Size: 2095736
-MD5sum: ca0b40030b8d9fe3c75dc6d8726fafb5
-SHA1: d8677c735b21417ca357515be3b130f2518fc269
-SHA256: 3a5b1b74902a6ca677c678c1bdc327a14d05003382258eb77b1ca64974805e8d
-Section: Tweaks
-Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
-Author: 刀哥
-Name: 乌贼手势隐根（免授权）
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
 Package: cn.zqbb.disupdateapp
@@ -568,42 +532,6 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
 Name: Hello BundleID（免授权）
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
-
-Package: cn.zqbb.hello.jailport
-Version: 1.0.3-1
-Architecture: iphoneos-arm64e
-Maintainer: zqbb
-Installed-Size: 1296
-Depends: firmware (>= 15.0), apt, dpkg, coreutils, tar
-Filename: debs/cn.zqbb.hello.jailport_1.0.3-1_iphoneos-arm64e.deb
-Size: 565678
-MD5sum: 0fb9a9a1508b0352e9497b115b29890a
-SHA1: 38522c6f539cfefcc848cb4d73d72c81b9e89b8b
-SHA256: a02296accffa103210f7c921b43a713f6fee99b4fcc49476f310b6f98327279e
-Section: Tweaks
-Description: 越狱插件、依赖与文件的可视化备份和恢复
-Author: zqbb
-Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.jailport.png
-Name: HelloJailPort
-Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.hello.jailport
-
-Package: cn.zqbb.hello.jailport
-Version: 1.0.5
-Architecture: iphoneos-arm64e
-Maintainer: zqbb
-Installed-Size: 1468
-Depends: firmware (>= 15.0), apt, dpkg, coreutils, tar
-Filename: debs/cn.zqbb.hello.jailport_1.0.5_iphoneos-arm64e.deb
-Size: 634608
-MD5sum: 5cf14f534131c6af7bd22f40961bd28c
-SHA1: 7ad5a368c9559a79bad2beb18f9fd14e62415573
-SHA256: 37d0f429bfc73e4186a15a37e1a2a840eb5c328000091d44002f89417ac57a45
-Section: Tweaks
-Description: 越狱插件、依赖与文件的可视化备份和恢复
-Author: zqbb
-Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.jailport.png
-Name: HelloJailPort
-Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.hello.jailport
 
 Package: cn.zqbb.hello.jailport
 Version: 1.0.6
@@ -2087,22 +2015,6 @@ Author: colorblack
 Name: 支付宝助手
 
 Package: com.colorblack.alinfcwakefix
-Version: 0.0.5
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 432
-Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/colorblack.支付宝碰一碰优化_0.0.5-arm64.deb
-Size: 49184
-MD5sum: 9953e94bcedc771e56874add4122bbb2
-SHA1: ec58c791417c2cc63fbbb87322bb9739a00bd7e7
-SHA256: b26e81dde7f4f06b83a337437761a95477f92f84053ea76dae035fa828c708ed
-Section: Tweaks
-Description: 支付宝碰一碰支付功能优化，改善碰一碰没反应、反应过慢问题。有可能也无效果。仅 beta测试版。QQ群：205928931
-Author: colorblack
-Name: 支付宝碰一碰优化
-
-Package: com.colorblack.alinfcwakefix
 Version: 0.0.6
 Architecture: iphoneos-arm64
 Maintainer: colorblack
@@ -2167,38 +2079,6 @@ Author: colorblack
 Name: BaiduMapAdBlock
 
 Package: com.colorblack.bottomx
-Version: 0.2.62
-Architecture: iphoneos-arm64
-Maintainer: Color Black
-Installed-Size: 1928
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
-Filename: debs/colorblack.Bottom-x-0.2.62-arm64.deb
-Size: 553746
-MD5sum: 761bd704b67bce0e42baf35a39e56603
-SHA1: c70965e04ba78bb4c1df78d35f414aae5d324e82
-SHA256: 73867d95f7a382d5a7bacc59aa06252df0c0e12c12536a750f008e1ecf09b7e1
-Section: Tweaks
-Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
-Author: Color Black
-Name: Bottom-x
-
-Package: com.colorblack.bottomx
-Version: 0.2.67
-Architecture: iphoneos-arm64
-Maintainer: Color Black
-Installed-Size: 1944
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
-Filename: debs/colorblack.Bottomx_0.2.67-arm64.deb
-Size: 551798
-MD5sum: 24e2f44c763e20d2f04c71f2154d880a
-SHA1: 7a08cb5ab707180784d3bdff1504d6f132242e4c
-SHA256: 31bbe7f05b4fc424b14ded3035f36e5bc076ba72f447b38a2ebfe3f79f804ed5
-Section: Tweaks
-Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
-Author: Color Black
-Name: Bottom-x
-
-Package: com.colorblack.bottomx
 Version: 0.2.68
 Architecture: iphoneos-arm64
 Maintainer: Color Black
@@ -2211,22 +2091,6 @@ SHA1: f505b5f5b875b20af4bba505742f6bef7992ceb6
 SHA256: c5725647cfa7434db482b90d257ae55d55064d5d1bfa1f8d643206fa862ce930
 Section: Tweaks
 Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
-Author: Color Black
-Name: Bottom-x
-
-Package: com.colorblack.bottomx
-Version: 0.2.69
-Architecture: iphoneos-arm64
-Maintainer: Color Black
-Installed-Size: 3024
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
-Filename: debs/colorblack.Bottomx_TrollStoreInjection_0.2.69-arm64.deb
-Size: 829386
-MD5sum: 68a653d5b5a18b65138a09c886e03650
-SHA1: 0618e9ff5b49a6c0db88d36283e09de42ad9dc95
-SHA256: b546a31374149ceed9e800deb593f7609e2bc9570d8537b0a5273e21f34bbdef
-Section: Tweaks
-Description: 点击底部小白条逐级返回，到app最顶层就会返回桌面，新增学习返回模式，视觉返回保留。; 感兴趣可以加 QQ 群 2059 28931
 Author: Color Black
 Name: Bottom-x
 
@@ -2485,86 +2349,6 @@ Section: Tweaks
 Description: Rootless/RootHide tweak that blocks Tencent Mobile Game Accelerator ad URLs in-process.
 Author: ColorBlack
 Name: TMGA AdBlock
-
-Package: com.colorblack.wetypecolorgoogle
-Version: 1.0.9
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 112
-Depends: mobilesubstrate
-Filename: debs/colorblack.微信输入法-Google毛玻璃配色_1.0.9-arm64.deb
-Size: 22646
-MD5sum: 5bda64479e86429491f8e1bb103cc8ce
-SHA1: 8d0a6c9bd770dcced20f7606ec319527c92f785f
-SHA256: 442104f61e5d98f27a7cb279ae99501e17d64a8976cbee7c21aa07ca2b567dfc
-Section: Tweaks
-Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
-Author: colorblack
-Name: 微信输入法_Google配色
-
-Package: com.colorblack.wetypecolorgoogle
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 108
-Depends: mobilesubstrate
-Filename: debs/colorblack.微信输入法-Google毛玻璃配色_1.1.0-arm64.deb
-Size: 23034
-MD5sum: 7ec6325143d9af3848210f59b5063007
-SHA1: af887daca523d470096c68125a8c7e8f8b754322
-SHA256: bfe0e2d977d850d4571665a38f37f74a01264a4ba39abf3f6eaa6c03c4bf6f66
-Section: Tweaks
-Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
-Author: colorblack
-Name: 微信输入法_Google配色
-
-Package: com.colorblack.wetypecolorgoogle
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 124
-Depends: mobilesubstrate
-Filename: debs/colorblack.微信输入法-Google毛玻璃配色_1.1.1-arm64.deb
-Size: 28094
-MD5sum: f112b9293c42f0297bab23ef66910d11
-SHA1: 07a731dbfd6eacd5d151dc177a2e69a1594fdf7e
-SHA256: 90148bb064689034a0c6c0cf567a241113991256f4d6c4a94b7887cc9c012c90
-Section: Tweaks
-Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
-Author: colorblack
-Name: 微信输入法_Google配色
-
-Package: com.colorblack.wetypecolorgoogle
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 128
-Depends: mobilesubstrate
-Filename: debs/colorblack.微信输入法-Google毛玻璃配色_1.1.2-arm64.deb
-Size: 29598
-MD5sum: f21b3d35fc54eb6597a0f795b6d62764
-SHA1: af83476b2b7076dee175b6d9e56c9e9576d51059
-SHA256: 798c0764992b1a74f7f070e8563fb6d1da9fd124960422bc1196c23c4c485a90
-Section: Tweaks
-Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
-Author: colorblack
-Name: 微信输入法_Google配色
-
-Package: com.colorblack.wetypecolorgoogle
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 144
-Depends: mobilesubstrate
-Filename: debs/colorblack.微信输入法-Google毛玻璃配色_1.1.3-arm64.deb
-Size: 31982
-MD5sum: 9fb2c28ef200ce94ee9c1691b6e9ad91
-SHA1: 9571e6fe54f95307f52e219f3d0993388cf10e24
-SHA256: 9d71b48f89f2fae72b3a840ed105e3426220b53821caf29d28076d8bfc53c2dc
-Section: Tweaks
-Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
-Author: colorblack
-Name: 微信输入法_Google配色
 
 Package: com.colorblack.wetypecolorgoogle
 Version: 1.1.4
@@ -9846,22 +9630,6 @@ Author: TiaoTiao
 Name: WeChatEmoticonToSelfie
 
 Package: com.tiaotiao.wxkeyboarduihook
-Version: 1.8
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 416
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/tiaotiao.微信键盘虚线_1.8-arm64.deb
-Size: 91592
-MD5sum: a8e1bde1cf08b738ae63344976c26965
-SHA1: aee0953f00bf930961e2fafd7fef3f654a4d02b3
-SHA256: 76bdae6e634f16d1533db9b5064f0498304432f079b19296f3d48031d4e869df
-Section: Tweaks
-Description: WXKeyboardUIHook
-Author: TiaoTiao
-Name: WXKeyboardUIHook
-
-Package: com.tiaotiao.wxkeyboarduihook
 Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: TiaoTiao
@@ -11295,21 +11063,6 @@ Author: DYStorage Contributors
 Name: DYStorage
 
 Package: com.xuuz.cadvip
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/xuuz.cad看图解锁_0.0.1-arm64.deb
-Size: 15550
-MD5sum: 7c3ba09bda36cbd5fba24f71307c7d1b
-SHA1: 71d234fba46c62f329a49188a618cad16e2b3e59
-SHA256: 69a1459b622a614b0eaefd2d89cddf42f0e46586a5776e14715df2153dac4443
-Section: Tweaks
-Author: XUUᶻ
-Name: CAD快速看图解锁永久VIP
-
-Package: com.xuuz.cadvip
 Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: XUUᶻ
@@ -11323,168 +11076,6 @@ SHA256: da07423e30643aeb2474eb2b48a37b28781020e6b753c1266fc0f73456000175
 Section: Tweaks
 Author: XUUᶻ
 Name: CAD快速看图解锁永久VIP
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-4
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17412
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-4-arm64.deb
-Size: 7732686
-MD5sum: ad1c893701aa2f6702d5e3d92910c2b9
-SHA1: 5978ffbef91e80c9d80082586c8933bbe4ac33fc
-SHA256: 163798d869c24c7257d038bb30bc0b7af7cde380909fd6fe9189f884b4d1f57b
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-5
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17444
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-5-arm64.deb
-Size: 7737158
-MD5sum: 71a7ba4e13400f232f4b4268fac1b235
-SHA1: 00346df5d29bc33f0e770418ef9158ad470e9871
-SHA256: 47a4e11e25b017ef38442c6d56e0fb18fc49a310ce84e4334ed6bcab121565c5
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-6
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-6-arm64.deb
-Size: 7756222
-MD5sum: 8d91027e8969086fd5141a714df4ee12
-SHA1: ed16eb93cf08c67d7aa6af12af18938935b519ef
-SHA256: 561dbfd886b570fa05ccc40da1daa6c93c09790e6d09314e3150c537ac3563f8
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-7
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-7-arm64.deb
-Size: 7756384
-MD5sum: bf170e85a128cb23bc2dc9cf445a9af9
-SHA1: 792eef1dd347f8b48efe99ab7ae2268785ec0515
-SHA256: c32c370e5f232da0bb230805a2c86af9d6e7356304145a7a2f90f042c6308edc
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-8
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-8-arm64.deb
-Size: 7756638
-MD5sum: 7c803282b87ea312cc71e913210a9db8
-SHA1: acac739bcacb98785df383f23fe535a07d2e94cb
-SHA256: 20ded6beb09625c2ee6dae4127d074266e5843e449f2c40ed5a005edc36d29fa
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-9
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-9-arm64.deb
-Size: 7758348
-MD5sum: 76ee902eb089318884735c18ebf12945
-SHA1: c1e5329d09b2e5c20519f0f636d9519975c6c290
-SHA256: f45d3b415619f3340cbfe896492bf163815697db002a40d3c2b53c51399d2cb6
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.2-0
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.2-0-arm64.deb
-Size: 7759408
-MD5sum: 516798a3cf46b991b2871e181636d618
-SHA1: 655038c63ab7278a3a9cb39d893b125daa7df066
-SHA256: 68e211542b2084970bc9ee0e397650a9d849190c17f6159e1e79136f4b2d8d9b
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.2-1
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17508
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.2-1-arm64.deb
-Size: 7760772
-MD5sum: 92a08cb0d9e76d27f9d2a6ba6448327c
-SHA1: 3ea119769bc7249a87632f32c0918a53c41e0584
-SHA256: 8f88e1469c3586e752d41d67825ad316355fd5e645be2a03e3aec01213810e1f
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.2-2
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17544
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.2-2-arm64.deb
-Size: 7770318
-MD5sum: de2e3f33964240f289279e7dae7951ad
-SHA1: e8df28998cd46da626c328b232274a8d46b80dd5
-SHA256: baa18160516c1357aae8e2b48fd68a4401ce6e5b8c7621677f7f2d03478eddf5
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
 
 Package: com.xuuz.douyinhelper
 Version: 2.2-3
@@ -14046,51 +13637,6 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/SafariX/icon.png
 Name: Safari X
 
 Package: tweaktool
-Version: 1.6.0
-Architecture: iphoneos-arm64
-Maintainer: 预言小猫
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/tweaktool_1.6.0_iphoneos-arm64.deb
-Size: 10928
-MD5sum: 8916c4f2fced3d1bce630314a6b43afe
-SHA1: b9787f33811c6fb6af3e761b212aa914108a63f1
-SHA256: 5933a68043bf4ad164465abf4e150d96694fd72cdb7d07d755299a0839f7bf78
-Section: Tweaks
-Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
-Author: 预言小猫
-Name: 一键备份和恢复工具-Rootless
-
-Package: tweaktool
-Version: 1.6.1
-Architecture: iphoneos-arm64
-Maintainer: 预言小猫
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/tweaktool_1.6.1_iphoneos-arm64.deb
-Size: 10952
-MD5sum: c370d701cb3029f329cdc776e2d3079f
-SHA1: d21beb7045fb02c04659d4efd7dbd182e59a4139
-SHA256: 46acecaca51b95987d2fa0cc8ca90b9199c803a2a737c60c2346551812031671
-Section: Tweaks
-Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
-Author: 预言小猫
-Name: 一键备份和恢复工具-Rootless
-
-Package: tweaktool
-Version: 1.6.2
-Architecture: iphoneos-arm64
-Maintainer: 预言小猫
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/tweaktool_1.6.2_iphoneos-arm64.deb
-Size: 10920
-MD5sum: a3da4e61bba6375c01728b0a791611dd
-SHA1: 7b4a00ebc4e23152b693dd6a019b62196de71145
-SHA256: 5a24f86ce23b29a3739243dccc77edca56fd853835401ac5253bf1d1716177f9
-Section: Tweaks
-Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
-Author: 预言小猫
-Name: 一键备份和恢复工具-Rootless
-
-Package: tweaktool
 Version: 1.6.3
 Architecture: iphoneos-arm64
 Maintainer: 预言小猫
@@ -14134,26 +13680,6 @@ Section: Tweaks
 Description: 电池耗电分析：统计各 App 前台/后台运行时长与电量变化，估算耗电占比，展示电量历史与充放电统计。注：耗电为估算值，仅供参考，非精确测量。
 Author: yzdmm2024
 Name: 电池耗电分析
-
-Package: wacljcr.keepalive
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: wacljcr
-Installed-Size: 572
-Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
-Filename: debs/wacljcr.keepalive_1.0.0_iphoneos-arm64.deb
-Size: 29964
-MD5sum: 66cdf9cb800478047f52bd9ad9d8d958
-SHA1: 6a0be080e763e9683a36a034dce9b58cde4d4c20
-SHA256: 5ab244d55f8dae3912b63b648a51d4e644d43d7937e71b4ff6bc1d34d61825e3
-Section: Tweaks
-Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
- 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
- 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
- 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
-Author: wacljcr
-Icon: https://huayuarc.github.io/icon/keepalive.png
-Name: 常驻后台
 
 Package: wacljcr.keepalive
 Version: 1.0.3
@@ -14208,186 +13734,6 @@ Size: 1956344
 MD5sum: 79dcff7131619d3c58c88a22da77ad96
 SHA1: 4d5a415983288f8972c1f6058fbb101b90159061
 SHA256: 8fec71f84648c2da4b45d83011c567b2666d4edcec6f2d2c3e51ce13ad3f8af6
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 1.2.1
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 2592
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/x.xhs_1.2.1-arm64.deb
-Size: 926606
-MD5sum: ef7e31d6cfd3191ffdbbb6c6647836e0
-SHA1: 963977cfa1aebe707e5dc1f97e9edddde4610a80
-SHA256: 20996536920f949cfeec625d4280018027d772df59bc00f0ef66a7fa4c301a09
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 1.2.2
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 3940
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_1.2.2_iphoneos-arm64.deb
-Size: 1687846
-MD5sum: a532c23547f504bc4fda308e38d20429
-SHA1: c2d060998cf4e2e3d2734c3da6e677db1ceb2b82
-SHA256: eb21f1f7a0a3435ed47d137c12742b82acd17c7f536e1237f3ffb613216cb05a
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 1.2.5
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 2760
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_1.2.5_iphoneos-arm64.deb
-Size: 1219344
-MD5sum: cf6ca093666ea6bcdc28b69ab936aadf
-SHA1: 7a64f5240323f95bd03d259bd51e23e39757d78e
-SHA256: ac95ae7edd4f32a37e15b9c4a3b5124bacd45f6949942208753f6d9c678198f0
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 1.2.6
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 3932
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_1.2.6_iphoneos-arm64.deb
-Size: 1798194
-MD5sum: 0f26833c0da9d5a12f3b5fbace4940db
-SHA1: 5dc79e3b1251dfd34e7ecacf5a868abe994881c8
-SHA256: cecd28c460abc1c13380a1b5c7d08c0f972f2fe11a8cbd3406b259bb44e131e5
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 1.2.8
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 4012
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_1.2.8_iphoneos-arm64.deb
-Size: 1827418
-MD5sum: 964441365556e6c1ecb620373af6f109
-SHA1: 1932b9ebd7d517ef6e3cd7c54dd821b98383d7ed
-SHA256: b22aa980f08f12200c37abf8ea0dc7e04b8b6386ff10fcd946342e2af7da624d
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 1.2.9
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 3560
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_1.2.9_iphoneos-arm64.deb
-Size: 1592006
-MD5sum: c3312228d4e7037019cafe2d40c35396
-SHA1: ba7871b2524c778847068514474da0255b6f6f22
-SHA256: a742587a13acdf51efbdfdb163f95907c23016c0ebefff2c00ee2540d6ccdfdf
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 2.0.1
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 5692
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_2.0.1_iphoneos-arm64.deb
-Size: 2587232
-MD5sum: 4f430dbdaf4b0f5123624ae60c24ae1d
-SHA1: 42b706f7b5ffa8f968d5da594585369b5d7d58ed
-SHA256: ceea5e84354ffde33ba1e349db6daa92fbc0658644f2f6ff70b0e9dc3b46b2f9
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 2.0.2
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 5744
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_2.0.2_iphoneos-arm64.deb
-Size: 2603888
-MD5sum: 68f8159f439d51b6ae25e9dc0a8b2f43
-SHA1: d511541f565042e66469de7b80f8bb255716d984
-SHA256: 153db9eaa7d499b3b78e49393467bec1ab2ab277409ed74dff41450ab26be7c0
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 2.0.6
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 9060
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_2.0.6_iphoneos-arm64.deb
-Size: 4067346
-MD5sum: d147ba90fa5254577e34fa8d834b4dac
-SHA1: 2393315c2f951c9636ccd28c6c9d57cf1b2e5826
-SHA256: dd408daed10144dcd4fd3d131d3cb2218949d563262b685dc6247fbdae805077
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 2.0.7
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 9412
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_2.0.7_iphoneos-arm64.deb
-Size: 4211416
-MD5sum: 5b022494138085653cb97241bf4bde6d
-SHA1: a04fb7db76e5003b10342454953450635aa32770
-SHA256: 36f92ba56b0196445c15d9daf7d4eb85ec8b9f6cbc1fa707b01ae4a6d208a147
 Section: Tweaks
 Description: 自用
 Author: 𝙓
