@@ -6013,26 +6013,6 @@ Description: 去除懂球帝开屏、信息流、详情页等广告
 Author: wkk
 Name: 懂球帝去广告
 
-Package: com.wkk.driftx
-Version: 1.0-4
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 624
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.wkk.screenfarewell
-Replaces: com.wkk.screenfarewell
-Provides: com.wkk.screenfarewell
-Filename: debs/driftx_1.0-4_iphoneos-arm64.deb
-Size: 73818
-MD5sum: e22c1b1b588790d3014e5c2495cbff25
-SHA1: 9688f405d286eddd514daa29ca0a314403181568
-SHA256: 518961f8332b4e8167722b8af936dbc36ede3cfc3e7405d31f051b8af3019850
-Section: Tweaks
-Description: 锁屏特效，效果任选，无用请卸载。
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: DriftX
-
 Package: com.wkk.fanqiemusicadfree
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -6148,23 +6128,6 @@ Description: 去广告
 Author: wkk
 Name: 虎扑去广告
 
-Package: com.wkk.islandstayx
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 624
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Filename: debs/islandstayx_1.1-1_iphoneos-arm64.deb
-Size: 132542
-MD5sum: bb87244514c4099bb2e245f1f670006f
-SHA1: c6ab147bb57bb5b3f39ea234eabc2ae36ccb5b5e
-SHA256: db2f5246a29978b8dc198b50928bd04c9d80658f095948a4e09a65cee8add41b
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: IslandStayX
-
 Package: com.wkk.jiakaobaodiannoad
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -6180,40 +6143,6 @@ Section: Tweaks
 Description: 去除驾考宝典开屏广告及应用内广告
 Author: wkk
 Name: 驾考宝典去广告
-
-Package: com.wkk.keyboardx
-Version: 1.1-6
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 616
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/com.wkk.keyboardx_1.1-6_iphoneos-arm64.deb
-Size: 91862
-MD5sum: b9c356886ed1d8c28595962bde29580b
-SHA1: 5b03fc2ae3822deadfc8abc6e3eff3f50b33c4b9
-SHA256: 9fa960b7953c6678c55da86af5ce0febb44bcafef05cb5adc5e6dd6f6044457c
-Section: Tweaks
-Description: 键盘调整。
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: KeyboardX（wkk）
-
-Package: com.wkk.keyboardx
-Version: 1.2-2end
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 604
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/com.wkk.keyboardx_1.2-2end_iphoneos-arm64.deb
-Size: 76372
-MD5sum: a65a758180f0a69a4ffb194af4ecf241
-SHA1: 70dbbc64a2106eb684eefd5245180fd37dbed54c
-SHA256: d5b97e164a5ae05ade5c67701cff6075af7cd743bc3b3891ffee5fdaf7c09d31
-Section: Tweaks
-Description: 键盘调整。
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: KeyboardX
 
 Package: com.wkk.lanfanadfree
 Version: 1.0
@@ -6327,23 +6256,6 @@ Description: 去除网易云音乐开屏广告、评论区广告，并自动领�
 Author: wkk
 Name: 网易云音乐去广告
 
-Package: com.wkk.notifytonex
-Version: 1.0-8
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 5520
-Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
-Filename: debs/notifytonex_1.0-8_iphoneos-arm64.deb
-Size: 2557278
-MD5sum: 5ec6529630d1f35f543833eb49206c37
-SHA1: 0b999b95f6eaa719b4aae055b0dc189512402195
-SHA256: 017ab59808a63c90a0e68f960e0f609d5f2922336f5a7fcf147b7097d2c8504c
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: NotifyToneX
-
 Package: com.wkk.qdreaderadblock
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -6425,23 +6337,6 @@ Description: cool
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: SettingsGroupX
-
-Package: com.wkk.sileodebbackupx
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: debs/com.wkk.sileodebbackupx_1.0-1_iphoneos-arm64.deb
-Size: 5364
-MD5sum: 6e93dc388d796cf6aa6aab05d73305b0
-SHA1: dc67ba4ec4841dfc2c46d28e6657dcbcd9440da1
-SHA256: 8a5ee4b77c212cf87f2ea0e67cf1abbc3fa7c15e5669b0e56d15f484d8deb1d0
-Section: Tweaks
-Description: 自动备份 Sileo 从软件源下载的 DEB（包括依赖和更新），保存位置：/var/mobile/Documents/SileoDEB。
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: deb 保存器
 
 Package: com.wkk.systembox
 Version: 1.5-8end
