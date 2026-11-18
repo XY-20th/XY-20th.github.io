@@ -3947,6 +3947,44 @@ Author: huami
 License: MIT
 Name: XHSTranslator
 
+Package: com.huayuarc.insulation
+Version: 1.0.19
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 2672
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Replaces: com.huayuarc.insulation
+Filename: debs/com.huayuarc.insulation_1.0.19_iphoneos-arm64.deb
+Size: 243388
+MD5sum: bc8c9775ed0b5d8cbc03d01b6ad89957
+SHA1: c082f2e2997f7e174f9c8a4073792bb964385d93
+SHA256: e6a62bfdfb6089002b854c096ad468a62aa593242acd049a8725eee4e69e5451
+Section: Tweaks
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Author: be-huge & doimty
+Icon: https://huayuarc.github.io/icon/Insulation.png
+Name: insulation
+
+Package: com.huayuarc.insulation
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 2268
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Provides: com.be-huge.insulation
+Filename: debs/com.huayuarc.insulation_1.0.8_iphoneos-arm64.deb
+Size: 209188
+MD5sum: c985c3d56b9d688e2dd35cd391cdb753
+SHA1: 48c7220e3e204fdfe79afd086aa0596269592b0c
+SHA256: 700521f3289cbca079f52d1ed0b5b71e030ede691962caabbbb68aeccb9bf5fc
+Section: Tweaks
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
+Author: be-huge & doimty
+Icon: https://huayuarc.github.io/icon/Insulation.png
+Name: insulation
+
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
 Architecture: iphoneos-arm64
