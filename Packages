@@ -611,22 +611,6 @@ Author: 82Flex
 Name: PanoramicView
 
 Package: com.82flex.touchvis
-Version: 4.1.1
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 4400
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/com.82flex.touchvis_4.1.1_iphoneos-arm64.deb
-Size: 939648
-MD5sum: cd4b06988e1f23c257bed0dcebb3832f
-SHA1: 0f69fe91c776a6168b60019281d3f0db2b23dfdc
-SHA256: a017ae0cf7e4dd4b0bd25ddd7f55be16ab3b584e763a94bddc3d38b0b30fda78
-Section: Tweaks
-Description: Display your touch interactions!
-Author: Lessica <82flex@gmail.com>
-Name: Touch-Viz
-
-Package: com.82flex.touchvis
 Version: 4.2
 Architecture: iphoneos-arm64
 Maintainer: Lessica <82flex@gmail.com>
@@ -660,24 +644,6 @@ Icon: https://axs66.github.io/repo/icon/classickeyboardxs.png
 Name: ClassicKeyboardXS 键盘高度调整
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/classickeyboardxs/js.json
 
-Package: com.Axs.snapper3
-Version: 1.2.1
-Architecture: iphoneos-arm64e
-Maintainer: Jonathan Winger-lang
-Installed-Size: 4148
-Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
-Filename: debs/com.Axs.snapper3_1.2.1_iphoneos-arm64e.deb
-Size: 1263260
-MD5sum: 2c9637344782df6cd9f66d209d6733e4
-SHA1: 7a024a087570930ca26b1eec56d5bbea804919df
-SHA256: 3597916cff96cafe27b8d72ff4637844170896b8cf3d6c28fd6cebe3d4bf33d1
-Section: Tweaks
-Description: 将截图钉在屏幕上，此为破解版，内置透光图标。
-Author: Jonathan Winger-lang
-Icon: https://axs66.github.io/pro/icon/snapper.png
-Name: snapper3（免授权）
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper/js.json
-
 Package: com.Axs.wcsurfacetrim
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -695,25 +661,6 @@ Author: ylr
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Name: 微信去广告（新）
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/wcsurfacetrim/js.json
-
-Package: com.Axs.xmzs
-Version: 1.1-4C
-Architecture: iphoneos-arm64
-Maintainer: xmmm
-Installed-Size: 3728
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb
-Size: 1292044
-MD5sum: e9eba63db93600c182fe9f9f78cb671b
-SHA1: 9af051d6a241f610e47c61fe276dbff58c93e87d
-SHA256: 37b7f94dff6d97989c74550305d01f0cc1992caa4d7eaf7833343482d541b87f
-Section: Tweaks
-Priority: optional
-Description: 微信功能扩展
-Author: xmmm
-Icon: https://axs66.github.io/pro/icon/wechat.png
-Name: 熊猫助手（免授权）
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/xmzs/js.json
 
 Package: com.Doki.kbstyle
 Version: 1.1
@@ -821,26 +768,6 @@ Description: 拼多多 PddNoAds 去广告插件 — 移除开屏广告、信息�
   设置入口: 个人中心-设置-插件设置 (居中对齐, 与原生行一致)。
 Author: adfree
 Name: PddNoAds
-
-Package: com.adlayer.rootless
-Version: 0.1.98+rootless
-Architecture: iphoneos-arm64
-Maintainer: Flex 4 Beta Contributors
-Installed-Size: 3084
-Depends: firmware (>= 15.0), firmware (<< 17.4), ellekit, libflex
-Conflicts: com.adlayer.roothide
-Replaces: com.adlayer
-Provides: com.adlayer
-Filename: debs/com.adlayer.rootless_0.1.98+rootless_iphoneos-arm64.deb
-Size: 1954048
-MD5sum: abebb6cca7206131c978dbbd20c61b44
-SHA1: 8bf5a7bea40dd687f4e7a09316d67211e6452b90
-SHA256: 06190deecfae50b9d657b24a05d909803e8321d97ed6941dafe37e85f75bc27c
-Section: Tweaks
-Description: Flex 4 Beta：越狱环境下的 UIKit 视图层级过滤与开屏倒计时辅助工具。
-Tag: role::enduser
-Author: ColorBlack
-Name: Flex 4 Beta
 
 Package: com.adlayer.rootless
 Version: 0.1.99+rootless
@@ -1436,22 +1363,6 @@ Author: be-huge
 Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
 Name: floatingView (授权版)
 Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
-
-Package: com.be-huge.floating-view
-Version: 1.6.0-1
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 3136
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/com.be-huge.floating-view_1.6.0-1_iphoneos-arm64.deb
-Size: 695510
-MD5sum: 36efb0cd2ddddc8c9bcd01a2a634c569
-SHA1: 72d7ccd334dd84f8ec8eaf44d3b56c38fc62307b
-SHA256: da3627af6becf8cb0225c68444d91a709467cf0e66fec45784107c595480530f
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
 
 Package: com.be-huge.floating-view
 Version: 1.6.0-6
@@ -2763,24 +2674,6 @@ License: MIT
 Name: XHSTranslator
 
 Package: com.huayuarc.insulation
-Version: 1.0.19
-Architecture: iphoneos-arm64
-Maintainer: doimty
-Installed-Size: 2672
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Replaces: com.huayuarc.insulation
-Filename: debs/com.huayuarc.insulation_1.0.19_iphoneos-arm64.deb
-Size: 243388
-MD5sum: bc8c9775ed0b5d8cbc03d01b6ad89957
-SHA1: c082f2e2997f7e174f9c8a4073792bb964385d93
-SHA256: e6a62bfdfb6089002b854c096ad468a62aa593242acd049a8725eee4e69e5451
-Section: Tweaks
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
-Author: be-huge & doimty
-Icon: https://huayuarc.github.io/icon/Insulation.png
-Name: insulation
-
-Package: com.huayuarc.insulation
 Version: 1.0.22
 Architecture: iphoneos-arm64
 Maintainer: doimty
@@ -3566,21 +3459,6 @@ Author: Doubao
 Name: 123Pan AdBlock
 
 Package: com.mg.adskip
-Version: 3.3.0
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 144
-Filename: debs/com.mg.adskip_3.3.0_iphoneos-arm64.deb
-Size: 26824
-MD5sum: d89c0b14cc6f221a212494480d3d08d5
-SHA1: e524784b1611adfced72e94180421cee7d97ed34
-SHA256: 9242bc6fe61068381bc54ebfd8bbe7a8a3a2103cb5bd6e01221083b94a7defe6
-Section: Tweaks
-Description: 跳过开屏广告，无黑名单·事件驱动秒跳·容器门控两级词表+防摇一摇+摇一摇带按钮秒跳+防误点广告主图+结构防自点，不影响无广告应用。
-Author: M哥
-Name: 广告跳过
-
-Package: com.mg.adskip
 Version: 3.5.0
 Architecture: iphoneos-arm64
 Maintainer: M哥
@@ -4113,24 +3991,6 @@ Description: cool
 Author: ojbkclub
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: SettingsGroupX
-
-Package: com.ojbkclub.themecore
-Version: 1.0-8+h2l1
-Architecture: iphoneos-arm64
-Maintainer: OJBKClub
-Installed-Size: 3936
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), iya.banana.hide2less.compat (>= 0.1.0)
-Conflicts: com.susudear.themecore
-Replaces: com.susudear.themecore
-Filename: debs/com.ojbkclub.themecore_1.0-8+h2l1_iphoneos-arm64.deb
-Size: 752430
-MD5sum: c9a13be6930d16959a67940866c5cc22
-SHA1: b73c45cfa49fa44b1106fd6fc14a0846819a85dc
-SHA256: ce230ee4376fa0756cb7ce6dfe7e6d809831e70d4136eaceae6253ba6e7d665a
-Section: Tweaks
-Description: 独立管理应用图标、替换角标、替换遮罩、替换开关、挂载系统字体、注销动画、SF Symbols、资源替换与图标抓取。
-Author: OJBKClub
-Name: ThemeCore (OJBKClub)
 
 Package: com.ojbkclub.themecore
 Version: 1.1-1
@@ -7238,22 +7098,6 @@ Author: xiaomo
 Name: 微信独立密友（免授权）
 
 Package: com.xlzs001.dystorage
-Version: 1.2.72
-Architecture: iphoneos-arm64
-Maintainer: DYStorage Contributors
-Installed-Size: 240
-Depends: mobilesubstrate
-Filename: debs/com.xlzs001.dystorage_1.2.72_iphoneos-arm64.deb
-Size: 32198
-MD5sum: dc8cff62cc6d4088f83d28dc2f39bfdd
-SHA1: d5c085503e30cad1c2041eb8b2a3520b70d65a54
-SHA256: f6203915497026da1b8c84fe6ee3a0e52faed1c3da5f77eb12d24d4d429481a7
-Section: Tweaks
-Description: Organizes compatible third-party Douyin tweak settings in one entry.
-Author: DYStorage Contributors
-Name: DYStorage
-
-Package: com.xlzs001.dystorage
 Version: 1.2.75
 Architecture: iphoneos-arm64
 Maintainer: DYStorage Contributors
@@ -7313,24 +7157,6 @@ Size: 7773728
 MD5sum: a20ea69b8619f24f09c7c6f19f54062f
 SHA1: 1c4b3c1811408ee11e6be1e5b8bdbdae7e12be13
 SHA256: 78eca8387299178954d49130b386265ff20cc39e592db9f211006d6342a3666e
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.2-6
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17640
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.xuuz.douyinhelper_2.2-6_iphoneos-arm64.deb
-Size: 7809268
-MD5sum: 41ac40e0b6a213456b42fcd81e9e291b
-SHA1: 2961a8a3d66215e486a7ac7ef91bca3d91a37fd0
-SHA256: 0713edde7853767ea70b88cb747247bce56c8e1b757bd4d9fbc4a4e5bb016883
 Section: Tweaks
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
@@ -7419,22 +7245,6 @@ Author: x✨
 Name: 高德地图优化
 
 Package: com.xx.iboxhook
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 484
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.iboxhook_1.0.8_iphoneos-arm64.deb
-Size: 161876
-MD5sum: 4210105bbb53a11bd84a5b2b00c93754
-SHA1: 68da8908fed8b8e97d3151a9ddeae33443b2edf0
-SHA256: 40b4696bd0c8c1980995e4cad25920c8c84aa3530da2e8674be842260980f112
-Section: Tweaks
-Description: 自用 | 看剧 短剧 漫画 听书 音乐 无广告 移除看剧VPN检测 其余检测未去除 | 仅越狱使用 仅支持215版本
-Author: x✨
-Name: iBoxNoAds
-
-Package: com.xx.iboxhook
 Version: 1.0.9
 Architecture: iphoneos-arm64
 Maintainer: x✨
@@ -7451,22 +7261,6 @@ Author: x✨
 Name: iBoxNoAds
 
 Package: com.xx.jrtthook
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 644
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.jrtthook_1.0.3_iphoneos-arm64.deb
-Size: 177760
-MD5sum: d03367d064268ea090e6e73e73dd4f12
-SHA1: 88a412ca7b6973cbea1ae78099f479a14fc26194
-SHA256: f80ed5da881055ce3e914e224364ebc35d0e9aeb3feaa5122f55bd70cf20c715
-Section: Tweaks
-Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项,支持pro版 -- 1.0.3更新内容：修复移除底部bug
-Author: x✨
-Name: 今日头条Hook
-
-Package: com.xx.jrtthook
 Version: 1.0.4
 Architecture: iphoneos-arm64
 Maintainer: x✨
@@ -7481,23 +7275,6 @@ Section: Tweaks
 Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项,支持pro版 -- 1.0.4更新内容：尝试修复一些已知问题
 Author: x✨
 Name: 今日头条Hook
-
-Package: com.yaowell.hideavcontrols
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: yaowell
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: debs/com.yaowell.hideavcontrols_1.0.1_iphoneos-arm64.deb
-Size: 5004
-MD5sum: 1325866e1c7f3cc52a41b8f0d001335a
-SHA1: fd94b9e9cd0190b7910253c46fb9093276393626
-SHA256: bb18b1c62e4920b695be3cb5702605f8939575d68ec53d10559e0407b57fc4db
-Section: Tweaks
-Description: 隐藏控制中心顶部的麦克风模式与视频效果模块 / Hide Microphone Mode and Video Effects in Control Center
-Author: yaowell
-Icon: https://huayuarc.github.io/icon/hideavcontrols.png
-Name: HideAVControls
 
 Package: com.yaowell.hideavcontrols
 Version: 1.1
@@ -7755,22 +7532,6 @@ Description: iPlayer Pro 全功能解锁
 Author: zero
 Name: iPlayer Pro
 
-Package: com.zero.jdadblock
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: zero
-Installed-Size: 236
-Depends: mobilesubstrate
-Filename: debs/com.zero.jdadblock_1.0.0_iphoneos-arm64e.deb
-Size: 38342
-MD5sum: a08523e7e287c7af6fb2237e7c94ecab
-SHA1: 5fa3769851e2e552965d5a6d77a17258c790dab5
-SHA256: f1dbf2a0fbd53b4963cf81508c247b8ad10c8aeb476a6eb777a76c827c3ac201
-Section: Tweaks
-Description: 京东去广告正式版
-Author: zero
-Name: 京东去广告
-
 Package: com.zero.jdadblock.rootless
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -7835,22 +7596,6 @@ Author: Zero
 Name: PDDAdBlock
 
 Package: com.zero.qdreaderadblock.rootless
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Zero
-Installed-Size: 144
-Depends: mobilesubstrate
-Filename: debs/com.zero.qdreaderadblock.rootless_1.0.0_iphoneos-arm64.deb
-Size: 37164
-MD5sum: 7e7f9e7e07b36cac9d7385a42f359181
-SHA1: ca613a48a05267e095878ef47901cddc07aa6166
-SHA256: 0419cde0912def087fc9e870fb997da6faeca4d09804e5f729b534beba2a8129
-Section: Tweaks
-Description: 起点读书去广告 + 启动页颜色 + 屏蔽更新/巨魔/越狱（一版通吃）
-Author: Zero
-Name: QDReaderAdBlock
-
-Package: com.zero.qdreaderadblock.rootless
 Version: 1.2.0
 Architecture: iphoneos-arm64
 Maintainer: Zero
@@ -7865,22 +7610,6 @@ Section: Tweaks
 Description: 起点读书净化插件
 Author: Zero
 Name: QDReaderAdBlock
-
-Package: com.zero.qmxsadblock
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: zero
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: debs/com.zero.qmxsadblock_1.0.0_iphoneos-arm64e.deb
-Size: 20434
-MD5sum: 77826a10753817f3389674b39c890d6a
-SHA1: 06c207e93e7f6fcfa5782a50bf883c155ec466d6
-SHA256: 3d611a539f9c6c278123534fb3d4effdf69978a69ca80e1c8aec392e3b23e51b
-Section: Tweaks
-Description: 七猫小说 去广告
-Author: zero
-Name: 七猫小说去广告
 
 Package: com.zero.qmxsadblock.rootless
 Version: 1.0.0
@@ -8207,40 +7936,6 @@ Author: MoWang
 Name: 设置插件收纳
 
 Package: fanqiefn
-Version: 3.5.0
-Architecture: iphoneos-arm64
-Maintainer: junhong
-Installed-Size: 4804
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.5.0_iphoneos-arm64.deb
-Size: 2100334
-MD5sum: 455f827321e70b3982fad28e849b524e
-SHA1: 3ad39c43861872d7cd5b1d2e5126b734225ecfcd
-SHA256: 4bd9cf9b57d13247bd94a6f8839263060d865902b12037a22f00514b3cc90577
-Section: Tweaks
-Homepage: https://fanqie.goforit.si
-Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
-Author: junhong
-Name: 番茄净化
-
-Package: fanqiefn
-Version: 3.5.2
-Architecture: iphoneos-arm64
-Maintainer: junhong
-Installed-Size: 5028
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/fanqiefn_3.5.2_iphoneos-arm64.deb
-Size: 2196712
-MD5sum: e5ece66dc6bb52cecfbb2d201a15cfef
-SHA1: 3a336f067eecd0b2b0a96e7ca5a0e96e204b01ff
-SHA256: c27fb5fbd74e5ca1b01c61a239954239dc290c35797ecafb256c5874b6088c7b
-Section: Tweaks
-Homepage: https://fanqie.goforit.si
-Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
-Author: junhong
-Name: 番茄净化
-
-Package: fanqiefn
 Version: 3.5.3
 Architecture: iphoneos-arm64
 Maintainer: junhong
@@ -8276,22 +7971,6 @@ Author: John Coates
 Name: Flex 3 Beta90
 
 Package: griddy
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: mikifp
-Depends: mobilesubstrate
-Filename: debs/griddy_1.0.3_iphoneos-arm64.deb
-Size: 17568
-MD5sum: 0078b35660879ce66cdfcc2f87dd91f2
-SHA1: 038fb97355b3c16494c6914a5b4c3d28b2f109ad
-SHA256: 6cb6bcf7d6cd218bc6e7b9336a862619e9bd629b6366f2781413e13135dac3b0
-Section: Tweaks
-Description: Make your icons hit the griddy
-Author: mikifp
-Icon: https://repo.cypwn.xyz/packages/Griddy-Rootless/icon.png
-Name: Griddy
-
-Package: griddy
 Version: 1.0.4
 Architecture: iphoneos-arm64
 Maintainer: mikifp
@@ -8307,23 +7986,6 @@ Section: Tweaks
 Description: 让你的程序图标在桌面随意摆放。
 Author: mikifp
 Name: Griddy
-
-Package: hongguofn
-Version: 2.2.4
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 7728
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/hongguofn_2.2.4_iphoneos-arm64.deb
-Size: 3343948
-MD5sum: 3e9d8244fa92d6f6d5194ec88bb8b5fa
-SHA1: 03f1b63535153523a516b0d1324a22156f418907
-SHA256: ac5acdaa0a50bf36a6fc81815644b8f24eb38b5eb0d6b98c1c3a7b9acf9bcddd
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
-Author: Junhong
-Name: 红果净化
 
 Package: hongguofn
 Version: 2.2.6
@@ -8361,23 +8023,6 @@ Author: Junhong
 Name: Alipay2NFC
 
 Package: im.mjh.doleo
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 1040
-Depends: mobilesubstrate, dpkg
-Filename: debs/im.mjh.doleo_1.0.3_iphoneos-arm64.deb
-Size: 266042
-MD5sum: 62902e477f90d14c92e028f1adf095ce
-SHA1: bbdc58230949c004486666f472728c7c32dfd580
-SHA256: c0c148141809f1577186959b4f775b26142e937b7ceb2087c284691a3668cd78
-Section: Tweaks
-Description: Download and keep local DEB packages in Sileo.
-Author: Junhong
-Icon: file:///var/jb/usr/share/doleo/icon.png
-Name: Doleo
-
-Package: im.mjh.doleo
 Version: 1.0.4
 Architecture: iphoneos-arm64
 Maintainer: Junhong
@@ -8407,26 +8052,6 @@ Section: Tweaks
 Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转app
 Author: Junhong
 Name: 喵眼精灵去广告
-
-Package: im.mjh.xianyuadblock
-Version: 3.2.3
-Architecture: iphoneos-arm64
-Maintainer: junhong
-Installed-Size: 2504
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: debs/im.mjh.xianyuadblock_3.2.3_iphoneos-arm64.deb
-Size: 829844
-MD5sum: a28099f6befb62a4be209b1286a3d00c
-SHA1: f6adb18795df107c7a79787c2a3be635d60a3a19
-SHA256: 0a68325a5147116c9af59eac4db2badb06a08a8b7b6f112ec8b63898b8001828
-Section: Tweaks
-Homepage: https://xianyu.goforit.si
-Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
-Author: junhong
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
-Name: 闲鱼助手
 
 Package: im.mjh.xianyuadblock
 Version: 3.2.4
