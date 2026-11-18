@@ -4282,24 +4282,6 @@ Name: CCBorder(roothide)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
 
 Package: com.sini921.ccloader
-Version: 0.0.1-18
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 536
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-18-arm64.deb
-Size: 169276
-MD5sum: 03fc33f2d2f418809241c27bcb754fe8
-SHA1: d1a587d929e9e24d294a56f317bb69b7428e8bd9
-SHA256: 3784b3959ff14687841823baa9143a89b5239ff3645cc92b092bd0054dd7d676
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
 Version: 0.0.1-20
 Architecture: iphoneos-arm64
 Maintainer: 橙子
@@ -7684,38 +7666,6 @@ Section: Tweaks
 Description: 支付宝去广告 — 开屏 / 弹窗 / 悬浮 / banner / 推荐位拦截
 Author: zero
 Name: ZfbNoAds
-
-Package: com.zuner.lunajumpad
-Version: 1.4
-Architecture: iphoneos-arm64
-Maintainer: liwhs
-Installed-Size: 2256
-Depends: mobilesubstrate
-Filename: debs/zuner.汽水音乐去广告_1.4-arm64.deb
-Size: 903214
-MD5sum: 1bfae28371819c81500adce958d9fec1
-SHA1: 2c72c9590f0e3f4b7b2b64f639a91195f65abddb
-SHA256: 7b599a41733e78d023b3925d0832f7f188c5f37b52e8d63c97f1b1629deb6d0f
-Section: Tweaks
-Description: 禁止开屏广告、秒过激励广告
-Author: Zuner
-Name: LunaJumpAd
-
-Package: com.zuner.lunanoad
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: liwhs
-Installed-Size: 1756
-Depends: mobilesubstrate
-Filename: debs/zuner.汽水音乐去广告_1.3-arm64.deb
-Size: 719152
-MD5sum: d31f719ff5551def97a0a0b02ca805dd
-SHA1: 3272ea48ef447e844ea6ec1716f4e09a79acf854
-SHA256: 4d907b3e29f8c78b1404a80ad1c59f10e1a0346ee55fb828ab7f638c63d244b4
-Section: Tweaks
-Description: 禁止开屏广告、秒过激励广告
-Author: Zuner
-Name: LunaNoAd
 
 Package: com.zuner.lunanoad
 Version: 1.5
