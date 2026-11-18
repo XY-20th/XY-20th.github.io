@@ -1956,54 +1956,6 @@ Author: binglan
 Name: 控制中心美化
 
 Package: com.binglan.kzmh
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 356
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.1-arm64.deb
-Size: 20324
-MD5sum: 974c769cc0db7a0b0fb71b1264a759e9
-SHA1: 502e2e692ed8e4d7050794609650c010984740ad
-SHA256: 054a33b208602f004543ec2060934d1b9e5b3d26103158c8a3708e6529d4e634
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 356
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.5-arm64.deb
-Size: 22324
-MD5sum: b8551858cf0e62faa303eab8d4bfd348
-SHA1: 568e78778226bcb3ec9bd71e1cb0f1cea0d65d9c
-SHA256: d2b75aa4a355adf2707218b4572a1e9b582f6ba5f44ca38b21328e4899b14ac2
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
-Version: 1.0.5-1
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 356
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.5-1-arm64.deb
-Size: 23314
-MD5sum: a22e33b1bb790d954cac78b57cf5c3c4
-SHA1: c7b08c0a39c6750d37b818a17b554d377c7b9f0f
-SHA256: ea0a0235e4ba878b1ce989e3a1edaa88a1550e91e59bbf93ee1ed9170417c43c
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
 Version: 1.0.6
 Architecture: iphoneos-arm64
 Maintainer: binglan
