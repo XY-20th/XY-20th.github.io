@@ -3018,24 +3018,6 @@ Author: Junzai
 Name: Fenzu
 
 Package: com.jz.fz
-Version: 5.6.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Junzai
-Installed-Size: 21220
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.monk.wclgbubbleliquidglass
-Replaces: com.monk.wclgbubbleliquidglass
-Filename: debs/com.jz.fz_5.6.0-1+debug_iphoneos-arm64.deb
-Size: 3466932
-MD5sum: 825662f33c3130f6d785708d463ab872
-SHA1: ece7869601dfe5f1b54e243f08599ac7a6f5e9d4
-SHA256: 96302abda0baa85c051fee0b9278bbb8106451c31e3343977925880f03e498f1
-Section: Tweaks
-Description: 侧边栏分组
-Author: Junzai
-Name: Fenzu
-
-Package: com.jz.fz
 Version: 5.9.0-1+debug
 Architecture: iphoneos-arm64
 Maintainer: Junzai
@@ -6939,42 +6921,6 @@ Author: XUUᶻ
 Name: CAD快速看图解锁永久VIP
 
 Package: com.xuuz.douyinhelper
-Version: 2.2-3
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17544
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.2-3-arm64.deb
-Size: 7772364
-MD5sum: c3ae82d539ac8c2b142faaf6ce8e7fa4
-SHA1: bf60b78402c914d34763948091bf61b8fbbb18fa
-SHA256: 3118ceaf083166e3fec580c4dfedc095c20e89b55fcf02ef32320bfd60e1c9b2
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.2-4
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17544
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.2-4-arm64.deb
-Size: 7773728
-MD5sum: a20ea69b8619f24f09c7c6f19f54062f
-SHA1: 1c4b3c1811408ee11e6be1e5b8bdbdae7e12be13
-SHA256: 78eca8387299178954d49130b386265ff20cc39e592db9f211006d6342a3666e
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
 Version: 2.2-7
 Architecture: iphoneos-arm64
 Maintainer: XUUᶻ
@@ -8222,24 +8168,6 @@ Size: 1956344
 MD5sum: 79dcff7131619d3c58c88a22da77ad96
 SHA1: 4d5a415983288f8972c1f6058fbb101b90159061
 SHA256: 8fec71f84648c2da4b45d83011c567b2666d4edcec6f2d2c3e51ce13ad3f8af6
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
-
-Package: xhs.x
-Version: 2.0.8
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 9708
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_2.0.8_iphoneos-arm64.deb
-Size: 4341736
-MD5sum: 6e205fce0a287bf8fcd93a809f84064d
-SHA1: 09b9409ec273c08f050888ffbded9dfff63b9aa6
-SHA256: 828b0664e530061de2bb74354a3636a43c159358b0d6f99108b17afcd3b1ea13
 Section: Tweaks
 Description: 自用
 Author: 𝙓
