@@ -5494,23 +5494,6 @@ Name: NoAdsX
 
 Package: com.notifydynamicx.tweak
 Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 半生年华
-Installed-Size: 716
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.dynamicx.tweak
-Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64e.deb
-Size: 129668
-MD5sum: 3e5ce8f3bd3ff8148d78eeb91c0dd78e
-SHA1: 6b4de0192799b33bd1b4eeb3f1e4ed95823de338
-SHA256: a4f26f946c8b5f777e154fa3536c9df676a858f69f16278dd60ea915f8f4b41e
-Section: Tweaks
-Description: 通知上岛
-Author: 半生年华
-Name: Notify DynamicX
-
-Package: com.notifydynamicx.tweak
-Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 半生年华
 Installed-Size: 716
@@ -5521,6 +5504,23 @@ Size: 128020
 MD5sum: 210dbd25bcc3aafb88a463b62c1e5089
 SHA1: e378672abd576c36cda3c1a1815bca9d5e975998
 SHA256: 7e924cf39bde4c5c01e29503d2b3d8d9860d50d73e2d5c19c5339c9b1305421b
+Section: Tweaks
+Description: 通知上岛
+Author: 半生年华
+Name: Notify DynamicX
+
+Package: com.notifydynamicx.tweak
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.dynamicx.tweak
+Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64e.deb
+Size: 129668
+MD5sum: 3e5ce8f3bd3ff8148d78eeb91c0dd78e
+SHA1: 6b4de0192799b33bd1b4eeb3f1e4ed95823de338
+SHA256: a4f26f946c8b5f777e154fa3536c9df676a858f69f16278dd60ea915f8f4b41e
 Section: Tweaks
 Description: 通知上岛
 Author: 半生年华
@@ -7306,60 +7306,6 @@ Icon: https://www.susubaby.top/images/ziti.png
 Name: ios16原生字体 90%大小
 
 Package: com.susu.ios18batteryestimate
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 304
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/susu.锁屏充电时间_1.1.1-arm64.deb
-Size: 42432
-MD5sum: 2edcba256958a20763028b5b1e24e53d
-SHA1: a68d057f81d5379515b0a29b8bba2a7245ff59a9
-SHA256: 87b7a90e1a7a06dd1e0dd574a14e27b09b32d21d58c22fe2554fa606a426b2d9
-Section: Tweaks
-Description: 在锁屏界面显示预计充电时间
-Author: 苏苏
-Icon: https://www.susubaby.top/images/batteryestimate.png
-Name: iOS18BatteryEstimate
-Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
-
-Package: com.susu.ios18batteryestimate
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 304
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/susu.锁屏充电时间_1.1.2-arm64.deb
-Size: 45230
-MD5sum: 2536da5ef45b26aaa01611aa9db8063b
-SHA1: 3881af8a81eefeb1ad9a642b95d57d0af37ae636
-SHA256: 7374f3ea803c5e89e7d1bc08f4dd032fcf1e48134e6437c398a57e6b360490b3
-Section: Tweaks
-Description: 在锁屏界面显示预计充电时间
-Author: 苏苏
-Icon: https://www.susubaby.top/images/batteryestimate.png
-Name: iOS18BatteryEstimate
-Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
-
-Package: com.susu.ios18batteryestimate
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 336
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/susu.锁屏充电时间_1.1.3-arm64.deb
-Size: 51500
-MD5sum: 2cb5d0f9c8e4c7d1614270c8690f723c
-SHA1: 91f13673bfb824ccd502730bd4d538e6abba4e01
-SHA256: 4c38f2c963d739ed68609c312f1b0672cd3befaf9c335e2229afc1895d3f5625
-Section: Tweaks
-Description: 在锁屏界面显示预计充电时间
-Author: 苏苏
-Icon: https://www.susubaby.top/images/batteryestimate.png
-Name: iOS18BatteryEstimate
-Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
-
-Package: com.susu.ios18batteryestimate
 Version: 1.1.4
 Architecture: iphoneos-arm64
 Maintainer: 苏苏
@@ -7394,26 +7340,6 @@ Author: 苏苏
 Icon: https://www.susubaby.top/images/batteryestimate.png
 Name: iOS18BatteryEstimate
 Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
-
-Package: com.susu.nopreferencetips
-Version: 1.0.2-1
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/susu.隐藏非官方电池提醒_1.0.2-1-arm64.deb
-Size: 5646
-MD5sum: bc5829f9fb10f46d59b316a9cfc0db9a
-SHA1: 49cd2e6012d85d9dd98ab06194b964360e9dccdb
-SHA256: 99755f44694a72ac11611a9891d45408fd66182400634fbaac13ad50c5614dd1
-Section: Tweaks
-Description: 此插件偏向于更换非官方电池的用户(一“件”全包)
-   * 修复“设置-电池-电池健康与充电”的提醒并显示健康值
-   * 移除桌面上的设置角标（只显示 15 天）
-   * 移除“关于本机”页面中-部件和服务历史记录下的未知部件提醒（如：电池-未知部件）
-Author: 苏苏
-Icon: https://www.susubaby.top/images/Preferences.png
-Name: NoPreferencesTips
 
 Package: com.susu.nopreferencetips
 Version: 1.0.3-7
@@ -7491,24 +7417,6 @@ Icon: https://www.susubaby.top/images/photos.png
 Name: SuPhotos
 
 Package: com.susu.reachplayer
-Version: 4.0.3
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 2088
-Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_4.0.3-arm64.deb
-Size: 1126324
-MD5sum: e436e2c4dd8bbf143e080ca6da3bcdea
-SHA1: 5c7cb93a018c4bcfee0479e26db45e575661bf56
-SHA256: d01bdfff29c0babb53287dc2860a61d7858cc0d9a6ea6047aaff7958b09effa0
-Section: Tweaks
-Description: ReachPlayer便捷访问音乐专辑
-Author: 苏苏
-Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
-Name: ReachPlayer音乐专辑
-Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
-
-Package: com.susu.reachplayer
 Version: 4.1.3
 Architecture: iphoneos-arm64
 Maintainer: 苏苏
@@ -7577,152 +7485,6 @@ Icon: https://www.susubaby.top/images/appstore.png
 Name: StoreSwitcher2
 
 Package: com.susu.suawemehook
-Version: 1.2-1
-Architecture: iphoneos-arm64
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-1-arm64.deb
-Size: 22704
-MD5sum: 860a684c2cb8a17c94f194a3b38a5905
-SHA1: d2c7d57a775ea42085cabc4a908f8cc8ed669182
-SHA256: 82d17a59242b2fe70034f541b813675dfaf0aa560186a1472ef5aff01fd059b0
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-
-Package: com.susu.suawemehook
-Version: 1.2-2
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-2-arm64.deb
-Size: 23306
-MD5sum: b620e1df9183e3645173887ddf7229c8
-SHA1: 024fd469af1f14855f123c74f16fcbaba84799cf
-SHA256: 566b5e32f7efaff8b5eaaaf17fa4301656ab87053d0f12a100ababf84cce4601
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Name: SuAwemeHook
-
-Package: com.susu.suawemehook
-Version: 1.2-3
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-3-arm64.deb
-Size: 23334
-MD5sum: 66d9aa545b733b40b74d7620f0bb851d
-SHA1: 9f74f802932623119b5dd7a0dac7b1b7f6814dec
-SHA256: 733971f9d8e30ee8b9d7cb3a7e85e4fbb3272d882b27b8d82d2bf5c86ef64af0
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-
-Package: com.susu.suawemehook
-Version: 1.2-4
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-4-arm64.deb
-Size: 24274
-MD5sum: cd89492545fd8c3aa01b0b0807f2a823
-SHA1: 8c3d0650d7a98bb4357175ea35a1362904398f1d
-SHA256: 125ef473ead32e545ae723129bf5c8a0e73a1a9bb08e4e7d453a544a89c0ec28
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-
-Package: com.susu.suawemehook
-Version: 1.2-5
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-5-arm64.deb
-Size: 25308
-MD5sum: 20f629183f11f71e392131a2613ce5b9
-SHA1: 5711d42186e1e6342cb49455f3092cc977823f82
-SHA256: d58c40b4e7b7ff9b084adb6a58968435e83a1dfc28ca84d32e9f4e0dcd256224
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.2-6
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-6-arm64.deb
-Size: 25364
-MD5sum: a6acd80c2af2cab11fd0da9af1d81f79
-SHA1: cebf8ba909bf88a1b6396fb77505dd18c568c20f
-SHA256: ccfe88e7a40b36eae4294f2bf41c9ccada34fa75bca3acdc699fe07e9b410ca0
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.2-7
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-7-arm64.deb
-Size: 25078
-MD5sum: ae1c106a072dd1116081938d1e72c579
-SHA1: 5f3220b084067e17f0de037b1c10b94b5e23acc4
-SHA256: f4fdf8fd10da4ed036816aaa6cb1f7d16cf67e49bf0e82a7edeaab30ac762eee
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.2-8
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-8-arm64.deb
-Size: 25502
-MD5sum: 925e615fcf52d0a63f0c307a8bf2715c
-SHA1: 45b5ca7b2a8c682bc97bbbc7d42bbb8ea5053bb7
-SHA256: eb1d65db702ee84a209217f54d09547bc519dacebc4bd3f819e1645efcb2f461
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
 Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: susu
@@ -7739,101 +7501,6 @@ Description: 仅供学习交流
 Author: susu
 Icon: https://www.susubaby.top/images/douyin.png
 Name: SuAwemeHook End
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.1
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.1-arm64.deb
-Size: 26018
-MD5sum: 8b249615eb1f4331240577d8ec0b5f2d
-SHA1: 1b4ad8fcd5db8cf7e56b5d3d7838049458aad496
-SHA256: dcb2d4dd6b97d595b4e8df0fd3070fb165522306159c29d501ef92a7272d827c
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.2
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.2-arm64.deb
-Size: 26082
-MD5sum: 0f6ed85fc5f6a05d5d6a400c0c173665
-SHA1: 5a38ad220d1654ecd4822856a7418394ad7d6ea3
-SHA256: 950c86e3ca27831cc32f41a04ce1d9cd9456f2c459aad537f5a4d4b6b6abb79f
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.3
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 332
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.3-arm64.deb
-Size: 35906
-MD5sum: 81a7356dffc0995e572080b85462dd99
-SHA1: 59d2ebf385ba3ec4e007c05d2a12cbf2a5c4a4ef
-SHA256: f9fb2ddf264ddc9400c3df0880ef0d6c8e353059fd31f05210b9fcc5e3dc719b
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.5
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 332
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.5-arm64.deb
-Size: 35636
-MD5sum: 0b323feffe9e7fcd712a6cc66eaa9855
-SHA1: 670ba8d7ab741381e2d74c3c282faefff22d0a91
-SHA256: 95648f36770c7ea1ec87f72346b7e973a44b79d0788e61c4f1ffedab27493895
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.6
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 352
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.6-arm64.deb
-Size: 43546
-MD5sum: 68cc73c023cb0a95f9a6cf02f37fc396
-SHA1: 14b3ed5b3727ca2ec4c56b3dd2d75e74b5ccaf3f
-SHA256: d6da7e9ebe073942d7fe3e75a993489057418c7d5d3c4d773f2aea1540cf2ff6
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
 Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
 
 Package: com.susu.suawemehook
@@ -8027,22 +7694,6 @@ Author: SuSuDear
 Name: DYLayoutFix
 
 Package: com.susudear.screencore
-Version: 0.1.0
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 1720
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/susu.screencore_0.1.0-arm64.deb
-Size: 285880
-MD5sum: af52b50e68438393365a2121eab31d34
-SHA1: dbc90c14703704d355d8aed2ddfe5cb6005ee438
-SHA256: 9671d736c8a64092afa7231ad6c4a7af8fd02c0141f8559b198b98f763bf99d4
-Section: Tweaks
-Description: ARC application gesture layer for SpringBoard.
-Author: SuSu
-Name: ScreenCore
-
-Package: com.susudear.screencore
 Version: 0.2.0
 Architecture: iphoneos-arm64
 Maintainer: SuSu
@@ -8101,23 +7752,6 @@ Size: 375032
 MD5sum: 81d1a3ae013b50650c58d8d8522d183f
 SHA1: b567d3949e7b0233afa356cf1925bc9117cdbabf
 SHA256: 8d6a0e805eeb9767a1fd0aceaa0414afc31357e179f9c95f813fbd0e5aa85649
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2132
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/susu.screencore_1.0.1-arm64.deb
-Size: 376008
-MD5sum: a9c3cc3542e8e613d8361397bc97e04a
-SHA1: 9bb426422892c00ba2f9fa873397f2137a82934f
-SHA256: e853dc132d3225425a003e0189619652a76f3a79da6dbcc6034a724b61cf1b66
 Section: Tweaks
 Description: 分屏而已
 Author: SuSu
@@ -8567,126 +8201,6 @@ Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 Name: ScreenCore
 
 Package: com.susudear.stayshot
-Version: 0.2.8
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 1152
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/susu.stayshot_0.2.8-arm64.deb
-Size: 186188
-MD5sum: d98f5e0ba79142d1f63a0b2edc0ce2ca
-SHA1: 524d9bff968778d55a16e924db21a09c27094326
-SHA256: 2db6e5d85e6c9c4d0cc45e7b335ddfe091266668f191265dfadf1d2d294bc263
-Section: Tweaks
-Description: Pin cropped screenshots on screen with Snapper 3 compatible entry points and extensions.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-
-Package: com.susudear.stayshot
-Version: 0.4.2
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 2280
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/susu.stayshot_0.4.2-arm64.deb
-Size: 243040
-MD5sum: 8872f4c5434ec0fa8710048389d7c103
-SHA1: 0f2055d3d52a2cb7c202e365ee22e8154366a972
-SHA256: 6a46d5c65d7a5b63f5860c283d2d83f8e620e03d31b1f484f645a6349a87a123
-Section: Tweaks
-Description: Pin cropped screenshots on screen with Snapper 3 compatible entry points and extensions.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-
-Package: com.susudear.stayshot
-Version: 0.4.3
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 2280
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/susu.stayshot_0.4.3-arm64.deb
-Size: 243404
-MD5sum: 194137948a1e5e930ac08812b2ae8d64
-SHA1: d91e86b426e5edcc8ad19236773636585bd1c1cd
-SHA256: 60c70a35aa6d11d0a5df994bef563cd23f67155e6e1b20faa619f60e13516100
-Section: Tweaks
-Description: Pin cropped screenshots on screen with Snapper 3 compatible entry points and extensions.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-
-Package: com.susudear.stayshot
-Version: 0.4.6
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 2280
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/susu.stayshot_0.4.6-arm64.deb
-Size: 246338
-MD5sum: 553845ff161de79f4a19211f09a263aa
-SHA1: c287f18119040d98e441f584e8b340a4e4c22513
-SHA256: 3cdbf6d88e90b02ee7e9a32ce8254c96573c1a9fa345770a1cd24959bd44d9f7
-Section: Tweaks
-Description: Pin cropped screenshots on screen with Snapper 3 compatible entry points and extensions.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-
-Package: com.susudear.stayshot
-Version: 0.4.7
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 2236
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/susu.stayshot_0.4.7-arm64.deb
-Size: 228340
-MD5sum: 8adaab00205958e0e2e9d34b3e27a570
-SHA1: ca4f016ebaf09e87f1c693108dbdba49f28d3bfc
-SHA256: 8033b8c59a6d816f67ad651b861e0d3d80053d79d37c57eb22325a7486ef98d8
-Section: Tweaks
-Description: Pin cropped screenshots on screen with Snapper 3 compatible entry points and extensions.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-
-Package: com.susudear.stayshot
-Version: 0.4.8
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 2252
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/susu.stayshot_0.4.8-arm64.deb
-Size: 229932
-MD5sum: 4b1c0c15eae536bc7967609718069df5
-SHA1: cd4e34e0376c2e3dba64bdae5efab1f9f40caab3
-SHA256: 5a99468d23542835d420c24ab1af761979f8c6fc1bcc79b58e0d85b675303fe4
-Section: Tweaks
-Description: Pin cropped screenshots on screen with Snapper 3 compatible entry points and extensions.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-
-Package: com.susudear.stayshot
 Version: 0.5.0
 Architecture: iphoneos-arm64
 Maintainer: SuSuDear
@@ -8862,23 +8376,6 @@ Icon: https://repo.susubaby.cn/icons/StayShot.png
 Name: StayShot Edit
 
 Package: com.susudear.stayshot.markup
-Version: 1.5.3
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 572
-Depends: com.susudear.stayshot (>= 0.4.3), mobilesubstrate, firmware (>= 15.1)
-Filename: debs/susu.stayshot.markup_1.5.3-arm64.deb
-Size: 140440
-MD5sum: cf63d1db53d56d0d442cb1d9daf96557
-SHA1: 7e67d52519442ec02567e84edd153af8401aba41
-SHA256: e48f26bb0725f30c3137e3cda92016f020981f7c514b6a3e1ea9d290e1a166cd
-Section: Tweaks
-Description: Edit frozen screenshots with arrows, doodles, highlights, mosaics, and rectangles.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot Edit
-
-Package: com.susudear.stayshot.markup
 Version: 1.5.4
 Architecture: iphoneos-arm64
 Maintainer: SuSuDear
@@ -8889,40 +8386,6 @@ Size: 140444
 MD5sum: e154c5b12bc0d241ba3d7ab654ad3a7b
 SHA1: 4955b38522840be53c8bb38b0dc52154d77ea0b4
 SHA256: 35b882f4fcd5c9c54d592371a79fcefaa83f7d081a325fcdebf4904cbc3b043c
-Section: Tweaks
-Description: Edit frozen screenshots with arrows, doodles, highlights, mosaics, and rectangles.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot Edit
-
-Package: com.susudear.stayshot.markup
-Version: 1.5.5
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 572
-Depends: com.susudear.stayshot (>= 0.4.3), mobilesubstrate, firmware (>= 15.1)
-Filename: debs/susu.stayshot.markup_1.5.5-arm64.deb
-Size: 141416
-MD5sum: efa087aa66cfe16884bdeba429e6eb81
-SHA1: 104e1d21c3f9c8b67e7541835cd330bfa2858033
-SHA256: 5167ac2f4072552e5ca6d9a8877a73dd171eaef21e7950f700647befb394a4f2
-Section: Tweaks
-Description: Edit frozen screenshots with arrows, doodles, highlights, mosaics, and rectangles.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot Edit
-
-Package: com.susudear.stayshot.markup
-Version: 1.5.7
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 572
-Depends: com.susudear.stayshot (>= 0.4.3), mobilesubstrate, firmware (>= 15.1)
-Filename: debs/susu.stayshot.markup_1.5.7-arm64.deb
-Size: 143410
-MD5sum: d1689f79a83655c7967e54fc5f9c65a8
-SHA1: 7cefa99193e944c212e44dc9607925d5df5743dc
-SHA256: 4879ee7ca6236eecd5be5ff424e5ecf9b3cd7f50e1258b3f16df2d39080ae2bd
 Section: Tweaks
 Description: Edit frozen screenshots with arrows, doodles, highlights, mosaics, and rectangles.
 Author: SuSuDear
@@ -8980,90 +8443,6 @@ Author: SuSuDear
 Icon: https://repo.susubaby.cn/icons/StayShot.png
 Name: StayShot Edit
 Sileodepiction: https://repo.susubaby.cn/json/stayshotedit.json
-
-Package: com.susudear.susuocr
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 544
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/susu.susuocr_0.0.1-arm64.deb
-Size: 73858
-MD5sum: e00b400404d1b93c75b550c16b265780
-SHA1: 77fbc72b8cb066e23331828c027f429415323f83
-SHA256: 2dca1885d63f1fcff52fb10ce6905650da8d671ace3ba4499e95374f702647b1
-Section: Tweaks
-Description: Snapper 3 OCR plugin using cloud PaddleOCR API.
-Author: SuSuDear
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 560
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/SuSu.OCR_1.0.0-arm64.deb
-Size: 76226
-MD5sum: ff83bda6742467f44f2070ab8b50321e
-SHA1: 4e3fd6209561941ab96236c950ede02240af2c05
-SHA256: bb4a85defe769c8a64659c6acad0ff9070dba655e0c09f9ecc573335927306e3
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.15
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 736
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/susu.ocr_1.0.15-arm64.deb
-Size: 131422
-MD5sum: 6fd37b88b6ab8648e2933d1a073bc719
-SHA1: 4e538f8ca263de743ac57180daa95bc6401e3681
-SHA256: cefaf727e71a0fd08ee66ca9e0a8dcb07d05e896c5a01f3553fe61146b2af3ad
-Section: Tweaks
-Description: 百度 OCR 识别提取文字、百度翻译和 AI 截图处理，需要自备 API。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.18
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 772
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/susu.susuocr_1.0.18-arm64.deb
-Size: 135930
-MD5sum: 375bc3810626680f340c087a10de31ca
-SHA1: eef94ea72bded8ba766f9b8566cd316cbc4f7be1
-SHA256: 13926819b169864aefaa0e23b935c95ba40542ab89ac7420e01471079f1378c5
-Section: Tweaks
-Description: 百度 OCR 识别提取文字、百度翻译和 AI 截图处理，需要自备 API。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 576
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/SuSu.OCR_1.0.2-arm64.deb
-Size: 81070
-MD5sum: aee2c516f796b8d491e0cbb1be2f57b6
-SHA1: 2917411d595e62b88c6b975e99dab551d9f7fd74
-SHA256: 14e5a74cea829b931a7dd0629ae9751b7e5d72697030a631f38b2e55e417458d
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
 
 Package: com.susudear.susuocr
 Version: 1.0.21
@@ -9127,23 +8506,6 @@ Size: 89576
 MD5sum: 8e3d7a2c77ca39ebe3a33994c5a7d1a0
 SHA1: 51811f09517b4e3e47ad737f4f8f387121a3b942
 SHA256: d4e8e3d926dcf170c9378cd9f5c52f4b1e098b55e8e975bcf82c8339b58d0947
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 600
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/SuSu.OCR_1.0.7-arm64.deb
-Size: 95228
-MD5sum: 1efedb8c91ea6de039d229d3f82c7cf9
-SHA1: 3d546123f9995ad3bee1cea567fd1f301086f861
-SHA256: 8f3bbfb80f2f045519d4d70929d5b354f00f8563e6562b53e151e57707777b8e
 Section: Tweaks
 Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
 Author: SuSuDear
