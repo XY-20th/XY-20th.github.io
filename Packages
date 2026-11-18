@@ -279,42 +279,6 @@ Author: 来了老弟
 Name: QL 清理
 
 Package: cn.llld.qqdsq
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X：h_h_x_t
-Installed-Size: 576
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/cn.llld.qqdsq_1.3_iphoneos-arm64.deb
-Size: 101926
-MD5sum: e4eb54596f89c29da7b7094a0d425d0f
-SHA1: 753323f3a0610490b0325bcf42c16b53ca5a4e43
-SHA256: 51149c89e5caf9dfbc4c731a8a354bba9c6ed543197e997bb9edeffb107b398d
-Section: Tweaks
-Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。功能在手机"系统设置"。功能在手机"系统设置"。调试版本号：v8.9.58和v9.0以上，别的版本需自测。
-Author: 来了老弟 X：h_h_x_t
-Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
-Name: 芭比Q-rootless
-Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
-
-Package: cn.llld.qqdsq
-Version: 1.3.1
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X：h_h_x_t
-Installed-Size: 592
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/cn.llld.qqdsq_1.3.1_iphoneos-arm64.deb
-Size: 102864
-MD5sum: f0bd116c75dc3524d422ff1440ceb787
-SHA1: ceec27a30995cb0a8664a0963f79d7fd48ecc0c3
-SHA256: 06016ad2db66c2136a7a200ae829b835f782048768a93fea913ea439272b18b3
-Section: Tweaks
-Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。调试版本号：v8.9.58和v9.0以上，别的版本需自测。
-Author: 来了老弟 X：h_h_x_t
-Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
-Name: 芭比Q-rootless
-Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
-
-Package: cn.llld.qqdsq
 Version: 1.3.3
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟 X：h_h_x_t
@@ -368,56 +332,6 @@ Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubi
 Name: 芭比QQ精简版-rootless
 
 Package: cn.llld.qsyy
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 304
-Depends: mobilesubstrate
-Filename: debs/cn.llld.qsyy_1.0_iphoneos-arm64.deb
-Size: 39072
-MD5sum: 9656eb577574fde9c7b73364e5e385d5
-SHA1: 8135243365b09e58ff13b529211eb7c7bf9bab79
-SHA256: 4d06be66e6f3a2d980d5b18d56aaaab1d18c90d72e6f6210de52438c48668578
-Section: Tweaks
-Description: ***Long press any 'tweak title' in the settings to pop up the settings, function: translate the tweak language, effective in real time。240329:Big update, this version adds reddit and small broom, as well as phone, support phone modification of contact, modification of time, modification of call record, support of obsessive-compulsive disorder to other languages in the small broom, it is strongly recommended to upgrade.长按设置中任意'标题'弹出设置，功能：翻译插件语言，实时生效，用于汉化或者别的语言翻译，，，，配合截图识字，发AI翻译效率更高，翻译普通插件几分钟，大型插件也用不了多久，240329大更新，此次版本加入了reddit和小扫把，还有电话，支持电话修改联系人，修改时间，修改通话记录，支持强迫症改小扫把里边那些别的语言，强烈建议升级，之前代码是垃圾，一切以最新版为准，，，提示：装了120或全局篡改插件的设备，不要装此插件***
-Author: 来了老弟
-Name: 悬浮翻译汉化工具-rootless
-
-Package: cn.llld.qsyy
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 540
-Depends: mobilesubstrate
-Filename: debs/cn.llld.qsyy_1.2_iphoneos-arm64.deb
-Size: 94554
-MD5sum: 1ce63c20950a75f3ab4234923c830dfc
-SHA1: 8a73286445b4a67c1913df0f7edac3d470aad598
-SHA256: 6aa513d4a35f3d0b793b3395b54bd8b0cf7604e5a45faec3d61d6ccfd9b60022
-Section: Tweaks
-Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，，，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
-Author: 来了老弟
-Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
-Name: FloatingReplacement悬浮替换翻译汉化
-
-Package: cn.llld.qsyy
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 572
-Depends: mobilesubstrate
-Filename: debs/cn.llld.qsyy_1.3_iphoneos-arm64.deb
-Size: 101138
-MD5sum: fec939ae84f4d6338d8d6a6097d070b0
-SHA1: 122f648aa7a1a95ce0359dcb8d2716c20c51f28b
-SHA256: f1004fcb99d64283d655dae7a1e92d1b6bf4d29a0f92560d0cbe347da77c7223
-Section: Tweaks
-Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，，，勿改包，不弹窗。240403:以新增多款应用，有需要自己汉化巨魔的也可玩，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
-Author: 来了老弟
-Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
-Name: FT悬浮替换翻译汉化-rootless
-
-Package: cn.llld.qsyy
 Version: 1.5
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
@@ -453,38 +367,6 @@ Name: FT悬浮文本增强翻译汉化-简版
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
 
 Package: cn.llld.wbb
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/cn.llld.wbb_0.1_iphoneos-arm64.deb
-Size: 11080
-MD5sum: d623a962f592a132efc687d0e41c10d3
-SHA1: f5bc94feaee73475ef63a769b28ad6257b6edf1f
-SHA256: 136f39de00be08fa5e5b9d5e55eede9c62e8f5f5e0211ea79a0e2c924ff1b9f9
-Section: Tweaks
-Description: ***给微博加点小功能，去广告啥的，可注入 可越狱版，随意写的，设置排版以后再搞，近期要加的东西多***。长按'我'页面的（创作中心）或者（浏览记录）的文字，弹出设置
-Author: 来了老弟
-Name: 微博绿了注入版-rootless
-
-Package: cn.llld.wbb
-Version: 0.2
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 172
-Depends: mobilesubstrate
-Filename: debs/cn.llld.wbb_0.2_iphoneos-arm64.deb
-Size: 11778
-MD5sum: 93a1f5a4e8db1a4975f0e2c89e6e8466
-SHA1: e013f38dcc62c4b303ba434c82ddc38b12b7919d
-SHA256: 0bdf6f547747b9656e678954f80fb3affb97a30ef4899731e015120445c878ab
-Section: Tweaks
-Description: ***给微博加点小功能，去广告啥的，可注入 可越狱版，随意写的，设置排版以后再搞，近期要加的东西多***。长按'我'页面的（创作中心）或者（浏览记录）的文字，弹出设置,240115:修复闪退，加快微博启动速度。Q群928481652，cydia装不了的，下群文件
-Author: 来了老弟
-Name: 微博绿了注入版-rootless
-
-Package: cn.llld.wbb
 Version: 0.3
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
@@ -515,22 +397,6 @@ Section: Tweaks
 Description: 给微博加点小功能，可注入可越狱版使用。***禁用开屏广告，评论区广告，信息流广告，视频流广告，首页上方直播入口。查看视频全屏模式，禁用角标消息红点等功能***。长按'我'页面的（创作中心）周边图标，长按首页的顶栏和底栏均可以弹出设置。240331：网上已有去广告插件，配合这个就行了，微博变来变去的，最近几月版本我都没去广告
 Author: 来了老弟 X：h_h_x_t
 Name: 微博绿化-rootless
-
-Package: cn.llld.wxx
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X：h_h_x_t
-Installed-Size: 236
-Depends: mobilesubstrate
-Filename: debs/cn.llld.wxx_1.0.5_iphoneos-arm64.deb
-Size: 23930
-MD5sum: 96f1169fe77714b750f7fe1216feb2dc
-SHA1: 5def28ef464feca0bb3b27c5e781147402f0fbfa
-SHA256: be16ef9f345fa180519c3db896e1f1f08aa2b4068e7041376c926edc356075d5
-Section: Tweaks
-Description: 微信小布丁1.0.5版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告（可自定义关注视频和直播中订阅号），屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***,8.0.31版本专供，高版本仅用部分功能（我自用是8.0.31，没适配高版本）
-Author: 来了老弟 X：h_h_x_t
-Name: 微信小布丁-rootless
 
 Package: cn.llld.wxx
 Version: 1.0.6
