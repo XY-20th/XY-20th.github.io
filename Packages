@@ -33,23 +33,6 @@ Author: Lessica <82flex@gmail.com>
 Name: TrollSpeed JB
 
 Package: cn.dao.relaxin.cocoatop
-Version: 2.3.3
-Architecture: iphoneos-arm64e
-Maintainer: SXX, Domo
-Installed-Size: 936
-Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject, cn.zqbb.cocoatop64.relaxin
-Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
-Filename: debs/cn.dao.relaxin.cocoatop_2.3.3_iphoneos-arm64e.deb
-Size: 265296
-MD5sum: 4b080eb6aa41ee9fbb1eae8aabf41076
-SHA1: dc67696e7e2370e8dd630c239dde9fd47a8c9c86
-SHA256: aeb39d2b0a82197002aa1c0754339e30ea6bb729b561e40d5357be12378ece81
-Section: Tweaks
-Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI微调+更新图标等。
-Author: Domo, SXX
-Name: CocoaTop64 中文版(Relaxin)
-
-Package: cn.dao.relaxin.cocoatop
 Version: 2.3.3.1
 Architecture: iphoneos-arm64e
 Maintainer: SXX, Domo
@@ -154,7 +137,7 @@ Architecture: iphoneos-arm64
 Maintainer: 来了老弟 X: h_h_x_t
 Installed-Size: 128
 Depends: mobilesubstrate
-Filename: debs/截图标记-rootless-1.3-arm64.deb
+Filename: debs/cn.llld.截图标记-rootless-1.3-arm64.deb
 Size: 29716
 MD5sum: b5e3ffbf71404aabc5c04fe33522b287
 SHA1: 835d55a22bd9f1df74d9342b795ecdae17282ccb
@@ -163,22 +146,6 @@ Section: Tweaks
 Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Author: 来了老弟 X: h_h_x_t
 Name: 截图标记-rootless
-
-Package: cn.llld.cocoatop
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 240
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.llld.cocoatop_0.0.2_iphoneos-arm64.deb
-Size: 21392
-MD5sum: c053a8d85efe72bdfc91848783d7b3c6
-SHA1: d8a1faff46a0817da99006b2d6e9f7bd740b5705
-SHA256: 6af444f8cc8367c9bcf9bd3b3a0d4e3902adc400b3d53fd021a749533962bc40
-Section: Tweaks
-Description: CocoaTop汉化插件，适配官版和真皮4个修改版
-Author: 来了老弟
-Name: CocoaTop (汉化插件)
 
 Package: cn.llld.cocoatop
 Version: 0.0.3
@@ -195,22 +162,6 @@ Section: Tweaks
 Description: CocoaTop汉化插件，适配官版、真皮4个修改版、真皮Relaxin版。
 Author: 来了老弟
 Name: CocoaTop (汉化插件)
-
-Package: cn.llld.jxydt
-Version: 0.5
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: debs/cn.llld.jxydt_0.5_iphoneos-arm64.deb
-Size: 19784
-MD5sum: fe72b360b9df316c871911fb943dc542
-SHA1: 37647b7f11527e57adfb82a08fdd12fc53d94a47
-SHA256: 6e38ddcc97b5cf6938ce2a15b331cd621e7aa3be3be926103c3879b1f6f66f4f
-Section: Tweaks
-Description: 可注入可越狱使用，祝各位拿证到手。默认去除开屏广告和动画(关梯子使用)，长按首页(底部功能栏)，或任何页面（答题）或（背题）或 (考前直播) 或(直播刷题) 弹出更多功能设置。 调试一点通版本15.4.1
-Author: 来了老弟
-Name: 驾校一点通绿化-rootless
 
 Package: cn.llld.jxydt
 Version: 0.6
@@ -1438,21 +1389,6 @@ Author: baiy <961666883>
 Name: 白衣の小分组
 
 Package: com.baiy.wechatfile
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: baiy <961666883>
-Installed-Size: 17348
-Depends: mobilesubstrate
-Filename: debs/baiy.WeChatFile_1.0.1-arm64.deb
-Size: 7438684
-MD5sum: dab0dac939ace98857877f0a9be101fa
-SHA1: 7a2be185d50ca28106f9f2b7d296dd01d926c1b0
-SHA256: a4f3847783b3ca5807346329a478c328d1867cbd9bf693cc7dde43ea62cd8238
-Section: Tweaks
-Description: 白衣
-Name: WeChatFile
-
-Package: com.baiy.wechatfile
 Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: baiy <961666883>
@@ -1581,38 +1517,6 @@ Section: Tweaks
 Description: 神秘功能。
 Author: binglan
 Name: 控制中心美化
-
-Package: com.binglan.kzmh
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 392
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.8-arm64.deb
-Size: 28164
-MD5sum: 8b998d1522ef37717a824b60e96d3bfa
-SHA1: acea0dcaba73176f001699b320e165fc50b4b5c4
-SHA256: 00a2968bc9321c3d135195f9acb966931a60835ffd4106a642ce29f748af063e
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglanqjsy.deb
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 908
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_3.0.0-arm64.deb
-Size: 125148
-MD5sum: 4678490a790d25a4c445652398adce96
-SHA1: 989b768edc9fd68d098a27595b571d04655a0896
-SHA256: 2c97ea2b50898e5b30c90124ceb8c926895a28b8d625c0890e607bad80606fdb
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
 
 Package: com.binglanqjsy.deb
 Version: 4.1.6-end
