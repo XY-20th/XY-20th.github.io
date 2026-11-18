@@ -973,7 +973,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.App Store净化_1.0.0-arm64.deb
+Filename: debs/com.apple.AppStore_1.0.0-arm64.deb
 Size: 4370
 MD5sum: 36ad7cbcd65206516463cd0d2ee670c4
 SHA1: db8850d586cea0e4b4204e614ea8169549d6f561
@@ -992,7 +992,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 236
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.哔哩哔哩净化_1.2.3-arm64.deb
+Filename: debs/com.apple.哔哩哔哩_1.2.3-arm64.deb
 Size: 25624
 MD5sum: a2fde4901d1dc4642a02e5435230d762
 SHA1: 8f422adf4479e1db0c3cfbac284b7158d86ac59d
@@ -1059,7 +1059,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 220
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.网易云净化_1.0.0-arm64.deb
+Filename: debs/com.apple.网易云_1.0.0-arm64.deb
 Size: 20450
 MD5sum: 414ff67c02a8f797734e22eb5477107d
 SHA1: ef84c94ac4d744971fea87cadb5d804af770a966
@@ -1078,7 +1078,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.京东净化_1.0.0-arm64.deb
+Filename: debs/com.apple.京东_1.0.0-arm64.deb
 Size: 15482
 MD5sum: 27c4ecde9fada13da57fd62a70c70b9b
 SHA1: ce553ed3cc58b6c6795d536c35db27c95e1b8ba8
@@ -1097,7 +1097,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 188
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.拼多多净化_1.0.0-arm64.deb
+Filename: debs/com.apple.拼多多_1.0.0-arm64.deb
 Size: 12536
 MD5sum: 8e33f3ca18d1d53651b8aad3e0a0f850
 SHA1: 9982db1e64a263cf687dc672ee390d4cfe24186f
@@ -1116,7 +1116,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.淘宝净化_1.0.0-arm64.deb
+Filename: debs/com.apple.淘宝_1.0.0-arm64.deb
 Size: 17742
 MD5sum: 64e9546544e4dcff1a81a20e9ce72ae5
 SHA1: cdefbedf693cfc1fea97f37a410464b070d11a3f
@@ -1135,7 +1135,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.淘宝净化_1.1.0-arm64.deb
+Filename: debs/com.apple.淘宝_1.1.0-arm64.deb
 Size: 13348
 MD5sum: 640e0e1ea04c4be8d75f14baaf5ce813
 SHA1: 0417d1a7e997e7625cf2a755be56e54dc991ef3c
@@ -1154,7 +1154,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 236
 Depends: mobilesubstrate
-Filename: debs/Apple.百度贴吧净化_1.0.8-arm64.deb
+Filename: debs/com.apple.百度贴吧_1.0.8-arm64.deb
 Size: 22432
 MD5sum: 38a3b7c22dd35faf1f8a23e32d6c5ea0
 SHA1: 58b726e6caae7093e0b7d8a7e1418c51ab85e56e
@@ -1173,7 +1173,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.小红书净化_1.0.3-arm64.deb
+Filename: debs/com.apple.小红书_1.0.3-arm64.deb
 Size: 16036
 MD5sum: 7d02927a8ef981728bf091164af61cb4
 SHA1: de0658dd58ad52551c40edb47e1245968583a990
@@ -1192,7 +1192,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 236
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.喜马拉雅净化_1.0.1-arm64.deb
+Filename: debs/com.apple.喜马拉雅_1.0.1-arm64.deb
 Size: 29668
 MD5sum: 8f6f48d3c8fb2eae30f600e306623309
 SHA1: 505617b28f9b6b7a2e9b78dd80d3014103c193d8
@@ -1211,7 +1211,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.QQ音乐净化_1.0.0-arm64.deb
+Filename: debs/com.apple.QQ音乐_1.0.0-arm64.deb
 Size: 20660
 MD5sum: 0f455a671469e3311610eec7ef1cf212
 SHA1: 8b4330bb5efe31e4733b8a6beea689e18677623f
@@ -1246,7 +1246,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 272
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.微信净化_1.2.0-arm64.deb
+Filename: debs/com.apple.微信_1.2.0-arm64.deb
 Size: 35080
 MD5sum: 1bca7b872322c5cb824fbd186403b6b3
 SHA1: e690bd7816a574d7134b2beb7becb243de4d30ec
@@ -1262,7 +1262,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 252
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.微信净化_1.2.1-arm64.deb
+Filename: debs/com.apple.微信_1.2.1-arm64.deb
 Size: 31970
 MD5sum: e2c06fe7ad04ffb4e644d312c9f7af6d
 SHA1: c19ee9cfce85d80d3e0da51aa40a6dddc74ffcaa
@@ -1278,7 +1278,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 236
 Depends: mobilesubstrate
-Filename: debs/Apple.微博净化_1.2.5-arm64.deb
+Filename: debs/com.apple.微博_1.2.5-arm64.deb
 Size: 30844
 MD5sum: e9aea5a4bd8d0f2027b0c5c21ce28861
 SHA1: 765caae75dfd839a60d8f9fcddfc1fdaeb8db6b6
@@ -1297,7 +1297,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 204
 Depends: mobilesubstrate
-Filename: debs/Apple.知乎净化_1.0.0-arm64.deb
+Filename: debs/com.apple.知乎_1.0.0-arm64.deb
 Size: 20444
 MD5sum: 4d4e7bf592f8756632a419828dbb1670
 SHA1: 304976246f42e12850fcbd0202b075458839ed34
@@ -5778,7 +5778,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.叮咚买菜净化_1.0.0-arm64.deb
+Filename: debs/com.swing.叮咚买菜_1.0.0-arm64.deb
 Size: 5166
 MD5sum: 025e8acb385d72996e77928b9951cbd0
 SHA1: a2241d51e966fcd10a967f499f77bd2fcab5ac3d
@@ -5797,7 +5797,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.百度网盘净化_1.2.0-arm64.deb
+Filename: debs/com.swing.百度网盘_1.2.0-arm64.deb
 Size: 19468
 MD5sum: 58f794f59976aaa7cf813f6a6c5e8b07
 SHA1: c6f65e17f5a33a1966c9cbfc91ee159a1725e35a
@@ -5816,7 +5816,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.饿了么净化_1.0.5-arm64.deb
+Filename: debs/com.swing.饿了么_1.0.5-arm64.deb
 Size: 14564
 MD5sum: 1592fe342cadd87b111364d7390cbb65
 SHA1: 5b012de3e5400e287400c07695806dc5bce586bb
@@ -5835,7 +5835,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 180
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.咸鱼净化_1.0.0-2-arm64.deb
+Filename: debs/com.swing.咸鱼_1.0.0-2-arm64.deb
 Size: 16842
 MD5sum: 20a2bbee97bcc4abaaf6f7a924fd603f
 SHA1: 802c2f778ac065fd4ecd401a7cce4277f0e6d7e6
@@ -5851,7 +5851,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.github_1.0.1-arm64.deb
+Filename: debs/com.swing.github_1.0.1-arm64.deb
 Size: 6098
 MD5sum: 12f43997ab5e0b4ad2e64ba4bd85d2be
 SHA1: f14c4e8a249cd6df51de34ac01e1fe6ab203e9cd
@@ -5870,7 +5870,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.米家净化_1.0.0-arm64.deb
+Filename: debs/com.swing.米家_1.0.0-arm64.deb
 Size: 8390
 MD5sum: 7e32ec46a3d34fbbea8efc13079eb1af
 SHA1: 88f0efdf7ce19b699b2fe389758590d0f932421e
@@ -5889,7 +5889,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.网易云净化_0.0.1-arm64.deb
+Filename: debs/com.swing.网易云_0.0.1-arm64.deb
 Size: 12390
 MD5sum: 8d9f49f162e4e78cc35cb8e26bd67d90
 SHA1: ee0a06bb42e42c7b884061a0bed178ce1b53b0bf
@@ -5908,7 +5908,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.Nicegram Pro_1.0.0-1-arm64.deb
+Filename: debs/com.swing.Nicegram Pro_1.0.0-1-arm64.deb
 Size: 8008
 MD5sum: c5d0cafdc9986f8e81a4b2a1dcef884a
 SHA1: 1ef6638a0f1960603f5dacb6faeb36903f0a61aa
@@ -5927,7 +5927,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 204
 Depends: mobilesubstrate
-Filename: debs/swing.百度贴吧净化_1.0.7-arm64.deb
+Filename: debs/com.swing.百度贴吧_1.0.7-arm64.deb
 Size: 20120
 MD5sum: bc66d97132ac9eb8a39729da5b6d94bd
 SHA1: 993fca941a4a91c8527fff6d3da422b82a001567
@@ -5946,7 +5946,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.小红书净化_1.0.2-arm64.deb
+Filename: debs/com.swing.小红书_1.0.2-arm64.deb
 Size: 15290
 MD5sum: f9fe4ffd63587d2400b3a53014efbf48
 SHA1: 495a3b2594da41a730688e4c0e21c35481e69174
@@ -5965,7 +5965,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 236
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.喜马拉雅净化_1.0.2-arm64.deb
+Filename: debs/com.swing.喜马拉雅_1.0.2-arm64.deb
 Size: 28274
 MD5sum: 2f336337f63a92ae2daa4e7fa0adbf29
 SHA1: cc127c0e073780641bc4bb17691cee62e01a0b37
@@ -5984,7 +5984,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.QQ邮箱净化_1.0.1-arm64.deb
+Filename: debs/com.swing.qqmail_1.0.1-arm64.deb
 Size: 5214
 MD5sum: da722553b294a664ef4b6ad1e65654da
 SHA1: 908a23030cb3f2fcc24f92085d7f7c89e7449300
@@ -6003,7 +6003,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.QQ音乐净化_1.0.1-arm64.deb
+Filename: debs/com.swing.qqmusic_1.0.1-arm64.deb
 Size: 20230
 MD5sum: b2c6ad190ef45c5c6755440a46eeec7d
 SHA1: 16ccc02aa13fc613b3805622e96dd90d389da5c1
@@ -6022,7 +6022,7 @@ Architecture: iphoneos-arm64
 Maintainer: SWING
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.微博轻享净化_1.0.3-arm64.deb
+Filename: debs/com.swing.微博轻享_1.0.3-arm64.deb
 Size: 14840
 MD5sum: 4f59a18b0b2176f60642417b78aaea51
 SHA1: c5ffb12f4e3a4d5e4362678b5417e34198f584bb
