@@ -2962,25 +2962,6 @@ Markdowndescription: 千阅解锁全功能<br><br>• v1.1-1: 修复自签疯狂
 Name: 千阅 Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.initnil.flreadercrack
 
-Package: com.initnil.imgplaycrack
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: INITNIL
-Installed-Size: 964
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.netskao.imgplaycrack
-Replaces: com.netskao.imgplaycrack
-Filename: debs/com.initnil.imgplaycrack_1.1-1_iphoneos-arm64.deb
-Size: 389646
-MD5sum: 55e656cd78feffb9ff350b40b8d70763
-SHA1: 311dc0930a48e849e15600b53926179c5175200b
-SHA256: b8778f6646a88a89a8f692003499bb942c55605bb98ec62218a21b2b5115d0d2
-Section: Tweaks
-Description: ImgPlay Crack
-Author: INITNIL
-Name: ImgPlay Crack
-Sileodepiction: https://jailrepo.initnil.com/api?Package=com.initnil.imgplaycrack
-
 Package: com.initnil.medibangprocrack
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -3905,23 +3886,6 @@ Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
 Name: mount_bindfs
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 
-Package: com.nan.injectipa
-Version: 1.4-4
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 15.0)
-Conflicts: netskao.injectipa-rootless
-Provides: netskao.injectipa-rootless (=1.4-4)
-Filename: debs/com.nan.injectipa_1.4-4_iphoneos-arm64.deb
-Size: 1134964
-MD5sum: 546f454cb77939b00d3b9c453cc9dce7
-SHA1: 8e8bec5e990f05dc0e2627bef05391b40baee971
-SHA256: 17bab94c0474d3852c54fa5850a0ca030da729bc0c7622fc64d1937d970439fd
-Section: Tweaks
-Description: injectipa 是一款命令行一键注入dylib 到 ipa 工具。用法: injectipa ipa 路径 dylib 路径 (如有多个 dylib 依次填写在末尾即可), 其它参数执行 injectipa 查看即可, 注入完成后的 IPA 需要签名使用
-Author: Netskao
-Name: injectipa
-
 Package: com.necromancy.tweak
 Version: 1.2.6
 Architecture: iphoneos-arm64
@@ -4194,21 +4158,6 @@ Section: Tweaks
 Description: 通知上岛
 Author: 半生年华
 Name: Notify DynamicX
-
-Package: com.ntm.batteryanalyzer
-Version: 1.6.10
-Architecture: iphoneos-arm64
-Maintainer: yzdmm2024
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/com.ntm.batteryanalyzer_1.6.10_iphoneos-arm64.deb
-Size: 108664
-MD5sum: e39912924b05261ab1da88d6a77c84b3
-SHA1: 1a9ebc41c902ac3fd606576bc96a690bf196ea09
-SHA256: 0a8479d257a101225c2985e3662336f97d30c516574b199e8faf1f6044b9acbe
-Section: Tweaks
-Description: 电池耗电分析：注入SpringBoard监控每App前台/后台运行时间与电量变化，估算每App耗电，显示电量历史与本次耗电统计
-Author: yzdmm2024
-Name: 电池耗电分析
 
 Package: com.ojbkclub.petdfy
 Version: 1.0
@@ -5334,24 +5283,6 @@ Description: 删除原生相册无用的窗口
 Author: 苏苏
 Icon: https://www.susubaby.top/images/photos.png
 Name: SuPhotos
-
-Package: com.susu.reachplayer
-Version: 4.1.3
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 3668
-Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_4.1.3-arm64.deb
-Size: 1311244
-MD5sum: 4dc1e39609e94a85f1051b696c040240
-SHA1: cd7861d7370a71b0bd22d278435314f9427ac224
-SHA256: 4cd090132158b2802b4a7b610a4d969fa85597e19926277b634d174fddfdd89e
-Section: Tweaks
-Description: ReachPlayer便捷访问音乐专辑
-Author: 苏苏
-Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
-Name: ReachPlayer音乐专辑
-Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
 
 Package: com.susu.snapper3.picta
 Version: 1.0.0
@@ -7021,23 +6952,6 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: RecordEyeX
 
-Package: com.wkk.screenfarewell
-Version: 1.0-3
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 556
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/com.wkk.screenfarewell_1.0-3_iphoneos-arm64.deb
-Size: 64610
-MD5sum: 770d283be9d69e6e013596f4510d99db
-SHA1: 9485c0d60bed25ce43cbff6f180b0246a4bf21c0
-SHA256: b525c1493268e2862bfa33159d30735722733e0e760ec6bd0f39ebb034ff3f35
-Section: Tweaks
-Description: 锁屏特效，效果任选，无用请卸载。
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: DriftX
-
 Package: com.wkk.settingsgroupx
 Version: 1.0-6
 Architecture: iphoneos-arm64
@@ -7984,22 +7898,6 @@ Description: 京东去广告 — 开屏拦截 / 底部Tab精简 / 我的页精�
 Author: zero
 Name: JdNoAds
 
-Package: com.zero.pan123clean
-Version: 0.1.0
-Architecture: iphoneos-arm64e
-Maintainer: zero
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: debs/com.zero.pan123clean_0.1.0_iphoneos-arm64e.deb
-Size: 20002
-MD5sum: 50f93d1323b8e9e32f5cfeff691e6f9c
-SHA1: bc5e79700da7ffd9e9c7053b4b6ee4f634434c10
-SHA256: 7f347b6f157be645761bc1e3bb07ef7be536e50c57e90d999b7c670d6237f352
-Section: Tweaks
-Description: 123云盘去广告探测版
-Author: zero
-Name: 123云盘去广告
-
 Package: com.zero.pddadblock
 Version: 10.0.0-1+debug
 Architecture: iphoneos-arm64e
@@ -8865,23 +8763,6 @@ Description: 皮皮虾去除启动广告，去除评论广告，去除视频流�
 Author: Netskao
 Icon: https://huayuarc.github.io/icon/huayuarc.jpg
 Name: 皮皮虾 NoAds
-
-Package: netskao.pulloverpro
-Version: 2.1.2-7
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 3328
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.c1d3r.pulloverpro
-Filename: debs/netskao.pulloverpro_2.1.2-7_iphoneos-arm64.deb
-Size: 824996
-MD5sum: ae75de85b274446df68b3ad22cbaf5a1
-SHA1: a5d99b73c3568e685d0c876a9741194ccc8b4ac6
-SHA256: a7d7683fdc155e8ec0024a54e59474750e63582f739fc9f3f78cf5dd171bedf0
-Section: Tweaks
-Description: A better way to multitask! Fix support for iOS15
-Author: c1d3r
-Name: PullOver Pro
 
 Package: netskao.wcpureextension
 Version: 2026.04
