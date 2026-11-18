@@ -2788,22 +2788,6 @@ Description: 小白学习打印 去广告 + 会员解锁
 Author: iosrxwy
 Name: XiaoBaiNoAds
 
-Package: com.iris.wcneo
-Version: 1.0.8-2
-Architecture: iphoneos-arm64
-Maintainer: Iris
-Installed-Size: 15056
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.iris.wcneo_1.0.8-2_iphoneos-arm64.deb
-Size: 3264198
-MD5sum: cd142697dc35ec4c233c0831c94e1d54
-SHA1: bda251e274c85c7aff234aaf679cbe45c920fc1d
-SHA256: 3182d8ee1f6b33b910395b1ac2b0e82c51f6c8a413ca019c865dac7353c80076
-Section: Tweaks
-Description: WeChat enhancement tweak with customizable interface, quick actions, and utility features.
-Author: Iris
-Name: WeChatNeo
-
 Package: com.jd4iphone
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -7590,22 +7574,6 @@ SHA256: 3ba097bfe880145c0b8caf58f4d5a56870ad19c8e919c10ac10e880efed4da97
 Section: Tweaks
 Description: 淘宝去广告 — 开屏广告 / 更新弹窗 / 越狱检测 / 底部 Tab 精简 / 我的页精简
 Author: zero
-Name: TaobaoAdBlock
-
-Package: com.zero.taobaoadblock.rootless
-Version: 3.5.3
-Architecture: iphoneos-arm64
-Maintainer: Zero
-Installed-Size: 108
-Depends: mobilesubstrate
-Filename: debs/com.zero.taobaoadblock.rootless_3.5.3_iphoneos-arm64.deb
-Size: 22898
-MD5sum: 357a5382905ca649553ee5076c6b5386
-SHA1: fbfa47463dfe4e4670f63b9f4f13aeba4b0a4bee
-SHA256: 868ba8afc6ff50fd08164c220b599db18a6f158befe326c01e4d601edb15c76e
-Section: Tweaks
-Description: 淘宝去广告 + 精简首页/我的页/底部
-Author: Zero
 Name: TaobaoAdBlock
 
 Package: com.zero.tianqitong.vip
