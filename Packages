@@ -4810,23 +4810,6 @@ Name: NoAdsX
 
 Package: com.notifydynamicx.tweak
 Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 半生年华
-Installed-Size: 716
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.dynamicx.tweak
-Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64e.deb
-Size: 129668
-MD5sum: 3e5ce8f3bd3ff8148d78eeb91c0dd78e
-SHA1: 6b4de0192799b33bd1b4eeb3f1e4ed95823de338
-SHA256: a4f26f946c8b5f777e154fa3536c9df676a858f69f16278dd60ea915f8f4b41e
-Section: Tweaks
-Description: 通知上岛
-Author: 半生年华
-Name: Notify DynamicX
-
-Package: com.notifydynamicx.tweak
-Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 半生年华
 Installed-Size: 716
@@ -4837,6 +4820,23 @@ Size: 128020
 MD5sum: 210dbd25bcc3aafb88a463b62c1e5089
 SHA1: e378672abd576c36cda3c1a1815bca9d5e975998
 SHA256: 7e924cf39bde4c5c01e29503d2b3d8d9860d50d73e2d5c19c5339c9b1305421b
+Section: Tweaks
+Description: 通知上岛
+Author: 半生年华
+Name: Notify DynamicX
+
+Package: com.notifydynamicx.tweak
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.dynamicx.tweak
+Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64e.deb
+Size: 129668
+MD5sum: 3e5ce8f3bd3ff8148d78eeb91c0dd78e
+SHA1: 6b4de0192799b33bd1b4eeb3f1e4ed95823de338
+SHA256: a4f26f946c8b5f777e154fa3536c9df676a858f69f16278dd60ea915f8f4b41e
 Section: Tweaks
 Description: 通知上岛
 Author: 半生年华
@@ -7682,22 +7682,6 @@ Icon: https://s1.imagehub.cc/images/2025/02/06/40c726a175b0b0a82d1fbc1c0c309be8.
 Name: 高德地图NoAds
 
 Package: com.wkk.glasssuitex
-Version: 1.1-0
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 1980
-Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.wkk.glasssuitex_1.1-0_iphoneos-arm64.deb
-Size: 472866
-MD5sum: 6ef357ab912a656966bff3948bceca39
-SHA1: d3132f870ab371600086e2fa5e3ad21490e80302
-SHA256: b43decf94326a9950be880df4017ea0607d1b8423d558a63cc3bcf3f338d45ee
-Section: Tweaks
-Description: cool
-Author: wkk
-Name: 全局弹窗
-
-Package: com.wkk.glasssuitex
 Version: 1.4-1
 Architecture: iphoneos-arm64
 Maintainer: wkk
@@ -8179,40 +8163,6 @@ Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.
 Name: SystemX
 
 Package: com.wkk.systembox
-Version: 1.7-3
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 3504
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/systembox_1.7-3_iphoneos-arm64.deb
-Size: 793632
-MD5sum: 3ecf2f645c4053d4654d17f9835b796e
-SHA1: 4cd376eb210b21cd280c27e8fc663002cfb9d926
-SHA256: 8f2c37cdd347d6f6ee8eeb1483f6b76be4b2f0200052d6eeb230493c0f153ba5
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: SystemX
-
-Package: com.wkk.systembox
-Version: 1.7-6
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 1968
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.wkk.systembox_1.7-6_iphoneos-arm64.deb
-Size: 408588
-MD5sum: c9a3aaf8a41b90e7af2d83808e9e79a9
-SHA1: 04e1b35a2dc46acb7bfa2493d7986a99a90c6405
-SHA256: bc4626c04c3d03eba7bada3a164da69cbe2e2ab67c40119f88bfc728d2bf21d9
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: SystemX
-
-Package: com.wkk.systembox
 Version: 1.7-9
 Architecture: iphoneos-arm64
 Maintainer: wkk
@@ -8583,24 +8533,6 @@ Size: 7773728
 MD5sum: a20ea69b8619f24f09c7c6f19f54062f
 SHA1: 1c4b3c1811408ee11e6be1e5b8bdbdae7e12be13
 SHA256: 78eca8387299178954d49130b386265ff20cc39e592db9f211006d6342a3666e
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.2-5
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17608
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.xuuz.douyinhelper_2.2-5_iphoneos-arm64.deb
-Size: 7792662
-MD5sum: 4bf310702081de91e424df684cc7dd87
-SHA1: 5474f4bbce4d6fc99662526fa9a4979457eefa71
-SHA256: 73249ecd1b5131c8a2d851c6527cd1dde6568800e56a5a0d91b23a713c39e71d
 Section: Tweaks
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
@@ -9010,22 +8942,6 @@ Section: Tweaks
 Description: 过滤高德地图开屏广告与各页面推广（Loon 规则转 deb，JSCore 原样执行）
 Author: zero
 Name: 高德地图去广告
-
-Package: com.zero.amapclean
-Version: 3.2-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: zero
-Installed-Size: 212
-Depends: mobilesubstrate
-Filename: debs/com.zero.amapclean_3.2-1+debug_iphoneos-arm64e.deb
-Size: 26934
-MD5sum: b8e9f721dc7784512d887befe17dc769
-SHA1: e4110b130e727ef3a60df15f760463f11e37bff3
-SHA256: 73d7cf648f26e041d01a986e697aec8384d03be9f4cb49f8de3ab391c81fb7cf
-Section: Tweaks
-Description: 高德地图去广告（正式版）
-Author: zero
-Name: amapclean
 
 Package: com.zero.appstoread
 Version: 1.1.0-1+debug
@@ -9723,22 +9639,6 @@ Author: John Coates
 Name: Flex 3 Beta90
 
 Package: griddy
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: mikifp
-Depends: mobilesubstrate
-Filename: debs/griddy_1.0_iphoneos-arm64.deb
-Size: 16312
-MD5sum: 808b0eb699cc0778c4d91e1688dfe24c
-SHA1: 3f962304f2e3dde493837d61f59d366eaf26578e
-SHA256: ec7088679f06c1dea279cc776cbb7d583389a22bee8d6c1ed189f912d30a248b
-Section: Tweaks
-Description: Make your icons hit the griddy
-Author: mikifp
-Icon: https://repo.cypwn.xyz/packages/Griddy-Rootless/icon.png
-Name: Griddy
-
-Package: griddy
 Version: 1.0.3
 Architecture: iphoneos-arm64
 Maintainer: mikifp
@@ -9960,23 +9860,6 @@ Section: Tweaks
 Description: Bring free Home Screen placement and native widget resizing to iOS 17 while preserving the system layout.
 Author: banana
 Name: OpenSpace
-
-Package: local.amap.twotabs
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 祁厅长
-Depends: mobilesubstrate
-Filename: debs/local.amap.twotabs_1.0_iphoneos-arm64.deb
-Size: 131096
-MD5sum: 89235736bc9eef41f7cb940d598ddb28
-SHA1: cdef4aa4770a08a31125186d7e3cdb72fcff72e7
-SHA256: 0da3921477b6671f49bddd59c9ff6431b92a3634a91f7c66307fe297ea380931
-Section: Tweaks
-Description: 人民的高德，不忘初心砥砺前行
-Author: 祁厅长
-Icon: https://qi-ting-zhang.github.io/sileo/images/icon/rmdgd.png
-Name: 人民的高德
-Sileodepiction: https://qi-ting-zhang.github.io/sileo/sileodepiction/rmdgd.json
 
 Package: local.amap.twotabs
 Version: 1.1
