@@ -4793,23 +4793,6 @@ Name: NoAdsX
 
 Package: com.notifydynamicx.tweak
 Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 半生年华
-Installed-Size: 716
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.dynamicx.tweak
-Filename: debs/com.notifydynamicx.tweak_1.0_iphoneos-arm64e.deb
-Size: 129668
-MD5sum: 3e5ce8f3bd3ff8148d78eeb91c0dd78e
-SHA1: 6b4de0192799b33bd1b4eeb3f1e4ed95823de338
-SHA256: a4f26f946c8b5f777e154fa3536c9df676a858f69f16278dd60ea915f8f4b41e
-Section: Tweaks
-Description: 通知上岛
-Author: 半生年华
-Name: Notify DynamicX
-
-Package: com.notifydynamicx.tweak
-Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 半生年华
 Installed-Size: 716
@@ -6399,46 +6382,6 @@ Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 Name: ScreenCore
 
 Package: com.susudear.stayshot
-Version: 0.5.0
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 2252
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/susu.stayshot_0.5.0-arm64.deb
-Size: 231538
-MD5sum: 8d7305a22b8bb5bb32e0c0150199ca9d
-SHA1: 4505d1cd15bb236421b963247e2b093763c6675c
-SHA256: 21562edeb1bb563bdaa3f7ef8832fc8a32b7f665ecdf7967cadc8283a903538a
-Section: Tweaks
-Description: Pin cropped screenshots on screen with Snapper 3 compatible entry points and extensions.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-
-Package: com.susudear.stayshot
-Version: 0.5.1
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 2284
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/susudear.stayshot_0.5.1-arm64.deb
-Size: 235576
-MD5sum: aa0a75b045d8535ce301a26070ad1a18
-SHA1: b53b11f449831af7b352e4d471805a2792c0b6b4
-SHA256: e6b592408af1c80685d9b3bf86bc4b2df9b5ef0a23246ad8b4e352956b497509
-Section: Tweaks
-Description: Pin cropped screenshots on screen with Snapper 3 compatible entry points and extensions.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-
-Package: com.susudear.stayshot
 Version: 0.5.2
 Architecture: iphoneos-arm64
 Maintainer: SuSuDear
@@ -6672,40 +6615,6 @@ SHA1: 121cb6583c3250316de543fbbfb3736da895b2a3
 SHA256: 7b941f9eab71f325396826d7cfbebc76f0fd70c68013249cc73f6e3a0e19bb0f
 Section: Tweaks
 Description: 百度 OCR 识别提取文字、百度翻译和 AI 截图处理，需要自备 API。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 600
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/SuSu.OCR-1.0.4-arm64.deb
-Size: 88012
-MD5sum: 1895e4c194af837bdf5ea3ae997de771
-SHA1: 3d537d05ccb388004c5b4c092ad53ffa5946bd9f
-SHA256: c156535326bb14853432c1ac57e47afe361220cadc17a445135979034a0054a5
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 600
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/SuSu.OCR-1.0.5-arm64.deb
-Size: 89576
-MD5sum: 8e3d7a2c77ca39ebe3a33994c5a7d1a0
-SHA1: 51811f09517b4e3e47ad737f4f8f387121a3b942
-SHA256: d4e8e3d926dcf170c9378cd9f5c52f4b1e098b55e8e975bcf82c8339b58d0947
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
 Author: SuSuDear
 Icon: https://repo.susubaby.cn/icons/susuocr.png
 Name: SuSuOCR
