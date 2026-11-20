@@ -6690,6 +6690,23 @@ Description: 去除威锋 App 的开屏、信息流、插屏及横幅广告
 Author: wkk
 Name: 威锋去广告
 
+Package: com.wkk.xcfhook
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wkk.xcfhook_1.0-1_iphoneos-arm64.deb
+Size: 4800
+MD5sum: be7d461ac24417ed26ee0ab4c64ea223
+SHA1: 9406324d44ad3335fb35e050892583a7bf431d4e
+SHA256: 3c04771211c36023a77e94782bce268839ceb8eb0120d3949008d7a644826581
+Section: Tweaks
+Description: 去所有广告，版本：238.9.51，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/12/5068d044a386b8962839103daf5e8b41.png
+Name: 下厨房NoAds
+
 Package: com.wkk.xianyuad
 Version: 1.0
 Architecture: iphoneos-arm64
