@@ -2062,6 +2062,23 @@ Description: 长按桌面电话/信息图标可快速清除记录，无设置项
 Author: crctdd
 Name: 快速清除通话短信记录
 
+Package: com.crctdd.memtrim
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 820
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.memtrim_0.0.2_iphoneos-arm64.deb
+Size: 125198
+MD5sum: 37a2f6b78bad2d98266bd577b816aa97
+SHA1: 832c2a0d172b83fe1cc49b2bcfa25950d4080738
+SHA256: 24d6babe21eceacfffd06c4c26bb36e5f9077408f12b22cd8e53c5fd5baf1db5
+Section: Tweaks
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Author: crctdd
+Name: MemTrim
+
 Package: com.crctdd.mobileslideshowhook
 Version: 0.0.5
 Architecture: iphoneos-arm64
@@ -2920,6 +2937,22 @@ Section: Tweaks
 Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
 Author: iosdump
 Name: 后台一键清理
+
+Package: com.iosdump.neofont
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 396
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.neofont_0.0.1_iphoneos-arm64.deb
+Size: 33948
+MD5sum: 8b56c4edc049a5bbdd851e0b75848092
+SHA1: b9d8ebeee91d57aab603b19b1416b23684dd2a53
+SHA256: aa96b94a6c504ac8f7c9d24cd2d5e3dc84d5a19160e7ca6bff7c44db95b6a291
+Section: Tweaks
+Description: iOS 14-17+ 免挂载修改系统字体
+Author: iosdump
+Name: NeoFont
 
 Package: com.iosdump.screenrecordnostatusbar
 Version: 0.1
