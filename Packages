@@ -7608,6 +7608,21 @@ Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Name: 闲鱼助手
 
+Package: im.mjh.xianyuadblock
+Version: 3.2.5
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 2568
+Filename: debs/im.mjh.xianyuadblock_3.2.5_iphoneos-arm64.deb
+Size: 858130
+MD5sum: 68f26e0da4fc31816479b9b24f7cfcad
+SHA1: 71b46d867270dd75997043d0cadcb3371cf1c351
+SHA256: 7a32b0481ace15b576083b8c2f4b1e97042dedc04e49521950ae250341fa662c
+Section: Tweaks
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Name: 闲鱼助手
+
 Package: im.mjh.xiaoyingclean
 Version: 0.1.0
 Architecture: iphoneos-arm64
