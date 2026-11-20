@@ -4667,11 +4667,11 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
  - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
  - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
- - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有�
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
  .
  【恢复流程】
  - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
- - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安�
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
  - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
  - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
  - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
@@ -4686,8 +4686,8 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  .
  【操作流程】
  ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
- ② 恢复配置：主页 →「恢复配置」→ 选备份�
- ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安�
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
  .
  RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
  备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
@@ -5597,7 +5597,7 @@ Description: 净化喜马拉雅，解锁部分VIP资源!
 Author: SWING
 Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.purexmly
 Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.purexmly/icon.png
-Name: 喜马拉�
+Name: 喜马拉雅
 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.purexmly.json
 
 Package: com.swing.qqmail
