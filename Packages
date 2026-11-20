@@ -8008,6 +8008,31 @@ Author: 0xkuj
 Icon: https://TrollStoreX.Github.io/sileodepiction/SafariX/icon.png
 Name: Safari X
 
+Package: spoofnotify.roothide
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 300
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Filename: debs/spoofnotify.roothide_1.0.2_iphoneos-arm64e.deb
+Size: 36562
+MD5sum: 43ac1fce63db713e857ced5aee776208
+SHA1: ea3eff25b67de895a2ee9859d2fcd55d36a04b56
+SHA256: 3251eb15911caa5b9f37b2c09189a23e6214eb7c888258c21b5ecd28580b6726
+Section: Tweaks
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Author: Junhong
+Name: 通知权限伪装
+
 Package: tweaktool
 Version: 1.6.3
 Architecture: iphoneos-arm64
