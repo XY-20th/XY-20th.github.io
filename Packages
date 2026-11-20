@@ -2408,6 +2408,36 @@ Description: AppTools for iOS15-17 Rootless
 Author: aReo
 Name: AppTools15-17（免授权）
 
+Package: com.h4x.threadspulse
+Version: 1.29.4+8
+Architecture: iphoneos-arm64
+Maintainer: h4x_0x30vm
+Installed-Size: 1776
+Filename: debs/com.h4x.threadspulse_1.29.4+8_iphoneos-arm64.deb
+Size: 599988
+MD5sum: 06339da25ff67175c1da89a17f339c55
+SHA1: 8981539b9f51ae37143635e960fb36250be852e3
+SHA256: 7cf4cd56039e8a57fc6b558f28d56564cba16fb5dc7932b4ef43384eafa37252
+Section: Tweaks
+Description: Threads 增強插件：影片下載、移除網址追蹤碼、去廣告、App 設定選單
+Author: h4x_0x30vm
+Name: ThreadsPulse
+
+Package: com.h4x.threadspulse
+Version: 1.31.0+10
+Architecture: iphoneos-arm64
+Maintainer: h4x_0x30vm
+Installed-Size: 2036
+Filename: debs/com.h4x.threadspulse_1.31.0+10_iphoneos-arm64.deb
+Size: 673690
+MD5sum: 1dbf8c0983bd922dceb4ce62523d1889
+SHA1: e77ff682c83f1b1d54c269061efacf4fa4fd9ba6
+SHA256: 89490ce717bdd2e4754967799116b3b95f04d10c92efeff1e2ab8b78f3142422
+Section: Tweaks
+Description: Threads 增強插件：影片下載、移除網址追蹤碼、去廣告、App 設定選單
+Author: h4x_0x30vm
+Name: ThreadsPulse
+
 Package: com.hades.locktouchx
 Version: 2.3
 Architecture: iphoneos-arm64e
@@ -7578,6 +7608,21 @@ Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Name: 闲鱼助手
 
+Package: im.mjh.xiaoyingclean
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/im.mjh.xiaoyingclean_0.1.0_iphoneos-arm64.deb
+Size: 7996
+MD5sum: 33305baf25ea158dec68a7cd8e0c2e65
+SHA1: 6db04693e2c0cb12627c0c2db9c3d36f471db75b
+SHA256: b293826dca576d5a002bab88dea126454ab794d257a0cacd69c08b01f110b870
+Section: Tweaks
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Author: Junhong
+Name: 小鹰看看去广告
+
 Package: iya.banana.jumpguard
 Version: 0.1.2
 Architecture: iphoneos-arm64
@@ -7714,6 +7759,23 @@ Priority: optional
 Description: Misaka
 Author: Misaka
 Name: MikotoHelper-1.3.6-Rootless
+
+Package: moe.misty.sslkillswitch3
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: NyaMisty <misty@misty.moe>
+Installed-Size: 388
+Depends: preferenceloader
+Conflicts: com.nablac0d3.sslkillswitch2
+Filename: debs/moe.misty.sslkillswitch3_1.5_iphoneos-arm64.deb
+Size: 45420
+MD5sum: e68a3c6e802a9968720a780d3fe14a78
+SHA1: 216d86d39f8b26c14da3c181ac2c3e48bd176c95
+SHA256: 63a5dfc6bdd2a477ea83d70a6b67007157b23b8f229be46d61fa28037f6068f1
+Section: Tweaks
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Author: NyaMisty <misty@misty.moe>, Alban Diquet <nabla.c0d3@gmail.com>
+Name: SSL Kill Switch 4
 
 Package: moe.waru.jikan
 Version: 1.1.0
