@@ -2841,6 +2841,56 @@ Description: 提取与修改 Assets.car 资源 (Filza 插件)
 Author: iosdump
 Name: FilzaCarPlugin
 
+Package: com.iosdump.hotaiqingli
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: debs/com.iosdump.hotaiqingli_0.0.2_iphoneos-arm64.deb
+Size: 24524
+MD5sum: 4ae24e99c47a1d4043ce14a178769b93
+SHA1: f62ecd2c2b9c9b5cd6ca368551c746f93209f85e
+SHA256: 0f2d96e67e02b7f6add32e5d058b3cca58dd116751cd561516611f4c122f7988
+Section: Tweaks
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Author: iosdump
+Name: 后台一键清理
+
+Package: com.iosdump.shellx
+Version: 11.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 12324
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/com.iosdump.shellx_11.2_iphoneos-arm64.deb
+Size: 2716396
+MD5sum: 1f810090e6ce5fba54b1cfde47905078
+SHA1: 6acf1b05225ff77c0aec7dd009468521b12e2d05
+SHA256: 2c9c42ec2a8cfe87c05b357e77e700e70afc41356079e5631acebb53fb99e123
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 11.3
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 11532
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Filename: debs/com.iosdump.shellx_11.3_iphoneos-arm64.deb
+Size: 2603202
+MD5sum: bb109c1c3ba97e097ec9836a309174cf
+SHA1: b061b95c885ea74f5257471c5b8951ffa02458f2
+SHA256: 2e0d5abb304242e76a7f6b9c0fa89bad1e1dcad2fc11abb0fb9a20f8167a73ca
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
 Package: com.iosrxwy.vvebofix
 Version: 1.0.1
 Architecture: iphoneos-arm64
