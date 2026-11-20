@@ -2921,6 +2921,38 @@ Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
 Author: iosdump
 Name: 后台一键清理
 
+Package: com.iosdump.screenrecordnostatusbar
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.iosdump.screenrecordnostatusbar_0.1_iphoneos-arm64.deb
+Size: 5560
+MD5sum: 02eaa08dba482993fa9a16daee0fbf0f
+SHA1: 2d4b37e0bb7c5a13d31ec4055e061a250eb02677
+SHA256: 59bcb913e75066a5a650fe8fd2065bcf0b01f79ad0ad944f0e13515a9f67c66d
+Section: Tweaks
+Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项（防止一些人盯着敏感的状态栏猜用户）。
+Author: iosdump
+Name: ScreenRecordNoStatusBar
+
+Package: com.iosdump.screenshotnostatusbar
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.iosdump.screenshotnostatusbar_0.1_iphoneos-arm64.deb
+Size: 5128
+MD5sum: 5592b6703a951f60fb730565f55f1f78
+SHA1: 19d50342d0ad2cce9ece5f5c7cf49d205862b97a
+SHA256: 93c48555ed6b2f21e2a0b4e4087fc073dfd2c710ac4a6ae320612abc38671969
+Section: Tweaks
+Description: iOS 14-17 截图时隐藏状态栏，无设置项（可防止一些人盯着敏感的状态栏猜用户）。
+Author: iosdump
+Name: ScreenshotNoStatusBar
+
 Package: com.iosdump.shellx
 Version: 11.2
 Architecture: iphoneos-arm64
