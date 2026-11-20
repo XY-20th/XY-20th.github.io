@@ -2992,6 +2992,38 @@ Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静�
 Author: iosdump
 Name: AppMute
 
+Package: com.iosdump.customcallbg
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.customcallbg_0.0.5_iphoneos-arm64.deb
+Size: 41346
+MD5sum: 391965c1386f43c102a83a04fc5b0ee7
+SHA1: 8a0d7542e4de4b4883792fb862d58dead6abb6fb
+SHA256: dbb5e29627d12a075e9bfa0974d0ccb9fd81de8db3cda17bf282f8ac12be2ebe
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64.deb
+Size: 69734
+MD5sum: fc37959ebfe5a073fd3dafce64148c50
+SHA1: 955c7729c7a378b1cd3ccb4d69af98da40c528d0
+SHA256: 333760a89b0ae242c097dcfe7e320562b42da519da9b3b9abdaf78fb2d90f592
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
 Package: com.iosdump.filzacarplugin
 Version: 1.0.0
 Architecture: iphoneos-arm64
