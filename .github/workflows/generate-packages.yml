@@ -5,10 +5,8 @@ on:
     branches: [master]
     paths:
       - 'debs/**'
-      - 'index.html'
       - 'CydiaIcon.png'
       - 'Release'
-      - 'Sections'
       - '.github/workflows/generate-packages.yml'
   workflow_dispatch:
 
@@ -58,7 +56,6 @@ jobs:
           for attempt in 1 2 3 4 5; do
             echo "更新索引：第 ${attempt}/5 次"
 
-            # 只更新 Actions 临时工作目录。
             git fetch --depth=1 origin master
             git switch --detach FETCH_HEAD
 
