@@ -6176,6 +6176,24 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: GlasscapeX
 
+Package: com.wkk.glasssuitex
+Version: 1.5-2
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 4620
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: wiki.qaq.duostatusring
+Filename: debs/com.wkk.glasssuitex_1.5-2_iphoneos-arm64.deb
+Size: 986478
+MD5sum: b8b611d82e3443bb01b991d4d02824d3
+SHA1: e0c4c3c621d7e15bd16b7e16adbee683e984b086
+SHA256: 59c85217d73f75c4bd92417ec76048f56aaaa2a2dc1030f07a5ca04cd2d4714a
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: GlasscapeX
+
 Package: com.wkk.hupuadfree
 Version: 1.0
 Architecture: iphoneos-arm64
