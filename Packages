@@ -7405,6 +7405,22 @@ Author: ZuoTian
 Icon: https://i.imgs.ovh/2026/10/29/1bcdc35faf788788df8b6bd000125309.png
 Name: Dock3D
 
+Package: danmutool.roothide
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 968
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/danmutool.roothide_2.0.0_iphoneos-arm64e.deb
+Size: 312372
+MD5sum: 8f42b14e1849ae7bd003f267533d1304
+SHA1: 6cccd19f261c04f12158fe9b974061b9085cded0
+SHA256: 9ba3081ab53e76dcec68198047bb6d7bc3274684c8ba552e1c868f3c41dae698
+Section: Tweaks
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Author: Junhong
+Name: 弹幕助手 (Roothide)
+
 Package: dev.apelin.appstoreupdateblock
 Version: 0.1.1
 Architecture: iphoneos-arm64
@@ -7587,6 +7603,22 @@ Section: Tweaks
 Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转app
 Author: Junhong
 Name: 喵眼精灵去广告
+
+Package: im.mjh.uuscreenswitch.roothide
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 240
+Depends: firmware (>= 15.0)
+Filename: debs/im.mjh.uuscreenswitch.roothide_1.0.3_iphoneos-arm64e.deb
+Size: 26020
+MD5sum: 7761697085f553fd6a1377c183efe98c
+SHA1: d6e8246a663b399ad28ddf75a1bed3912f922332
+SHA256: 63f3735d789caea48d57c1c167ad2accf1eb14a0edb624b86513a4aa6af34df9
+Section: Tweaks
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Author: junhong
+Name: UU远控切屏 (Roothide)
 
 Package: im.mjh.xianyuadblock
 Version: 3.2.4
@@ -8005,6 +8037,21 @@ Section: Tweaks
 Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
 Author: 预言小猫
 Name: 一键备份和恢复工具-Rootless
+
+Package: uuhelper.roothide
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 360
+Filename: debs/uuhelper.roothide_1.0.4_iphoneos-arm64e.deb
+Size: 59374
+MD5sum: 9bdbac087cd9738a466db75badc258ba
+SHA1: 9b97802a5975b004d2ed1eaada7960430334f447
+SHA256: 488d06cae858e0b3087e67beb934d86558078816235ebf6faaecc9bf020e1607
+Section: Tweaks
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
+Author: junhong
+Name: uu 远控增强 (Roothide)
 
 Package: wacljcr.batteryanalyzer
 Version: 1.6.7
