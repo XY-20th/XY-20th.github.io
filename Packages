@@ -2938,6 +2938,38 @@ Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
 Author: iosdump
 Name: 后台一键清理
 
+Package: com.iosdump.memorycontrol
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 780
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.memorycontrol_1.2_iphoneos-arm64.deb
+Size: 91920
+MD5sum: f7366ef2bf8a5234bf7da3aba18e8f72
+SHA1: 6e0d93cd9ff1f19e4a242761a9aa1c0277cc8f0d
+SHA256: fcf54419cb83fe1317e515861df868b123d28f211ea9e62c0b91ddb06aee9d99
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
+Package: com.iosdump.memorycontrol
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 780
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64.deb
+Size: 91722
+MD5sum: 878546171bc837a525a725b2f7517a6e
+SHA1: f3aaaa2c42ba72249a295cbb9d5a154d5455f5a8
+SHA256: db8956dc922f5bd1b7eefdb7e30a7969daff9abb6a4780e6cb62ca9dd2f1ffd4
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
 Package: com.iosdump.neofont
 Version: 0.0.1
 Architecture: iphoneos-arm64
