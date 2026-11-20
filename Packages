@@ -2907,6 +2907,54 @@ Author: INITNIL
 Name: 绘爆Paletta Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.initnil.medibangprocrack
 
+Package: com.iosdump.airdrop
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.iosdump.airdrop_0.0.1_iphoneos-arm64.deb
+Size: 3390
+MD5sum: 79a93b17f1202f6eb669f751a330b80f
+SHA1: f44e503f79593bf7c02ec944fc40ec6caa88ffc0
+SHA256: 776531c56354321c14153dde55b950fd8974275476ea4649dc162c3e099ee038
+Section: Tweaks
+Description: 解除隔空十分钟限制iOS16+
+Author: iosdump
+Name: AirDrop
+
+Package: com.iosdump.airdrop
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.iosdump.airdrop_0.0.2_iphoneos-arm64.deb
+Size: 7478
+MD5sum: 96d50d9108878a2574fca9da775bd5ff
+SHA1: 5d81f954877fc96e7ae621d370564cf9dbec9a67
+SHA256: 7610e7532d76f78476598ed4dbf0942e24ad64bc09b72b27ff3d0ca1a3e2edc8
+Section: Tweaks
+Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Author: iosdump
+Name: AirDrop
+
+Package: com.iosdump.appmute
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.iosdump.appmute_0.0.1_iphoneos-arm64.deb
+Size: 11662
+MD5sum: fd12cb6ed8e64c8d4a742a7baa3ed5d7
+SHA1: 902e6316a9fa3dabd104bdbcc051fc0e8c39fbd2
+SHA256: a1ccf6cadb1c1b612693038cb708cdacba217168d72bc3e15a26d79baab87d93
+Section: Tweaks
+Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静音媒体音量开关。
+Author: iosdump
+Name: AppMute
+
 Package: com.iosdump.filzacarplugin
 Version: 1.0.0
 Architecture: iphoneos-arm64
