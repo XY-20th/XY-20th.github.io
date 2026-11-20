@@ -2,66 +2,114 @@ name: Update Repo Packages
 
 on:
   push:
+    branches: [master]
     paths:
       - 'debs/**'
+      - 'index.html'
+      - 'CydiaIcon.png'
+      - 'Release'
+      - 'Sections'
+      - '.github/workflows/generate-packages.yml'
   workflow_dispatch:
-
-concurrency:
-  group: update-repo-packages
-  cancel-in-progress: false
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: repo-update-and-publish
+  cancel-in-progress: false
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  publish:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    env:
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout latest files
+        uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
-          fetch-depth: 0
+          ref: master
+          fetch-depth: 1
 
       - name: Install tools
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends dpkg-dev zstd
 
-      - name: Generate and push package indexes
-        env:
-          BRANCH: ${{ github.ref_name }}
+      - name: Generate and save indexes
+        shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
           for attempt in 1 2 3 4 5; do
-            echo "生成索引（尝试 ${attempt}/5）"
+            echo "更新索引：第 ${attempt}/5 次"
+
+            # 只更新 Actions 临时工作目录。
+            git fetch --depth=1 origin master
+            git switch --detach FETCH_HEAD
+
+            invalid=0
+            while IFS= read -r -d '' deb; do
+              if ! dpkg-deb --field "$deb" >/dev/null; then
+                echo "::error::异常插件：$deb"
+                invalid=$((invalid + 1))
+              fi
+            done < <(find debs -type f -name '*.deb' -print0)
+
+            if [ "$invalid" -gt 0 ]; then
+              echo "::error::发现 ${invalid} 个异常包，请修复后重新上传"
+              exit 1
+            fi
 
             dpkg-scanpackages --multiversion debs /dev/null > Packages
             sed -i -E 's/^Section:.*$/Section: Tweaks/' Packages
             zstd -f Packages -o Packages.zst
-
             git add Packages Packages.zst
 
             if git diff --cached --quiet; then
-              echo "索引没有变化"
-              exit 0
+              echo "索引无需更新，继续发布"
+              break
             fi
 
             git commit -m "Auto rebuild repo index"
 
-            if git push origin "HEAD:${BRANCH}"; then
-              echo "索引推送成功"
-              exit 0
+            if git push origin HEAD:master; then
+              break
             fi
 
-            echo "推送未成功，拉取远程更新后重试"
-            git fetch origin "${BRANCH}"
-            git reset --hard "origin/${BRANCH}"
+            if [ "$attempt" -eq 5 ]; then
+              echo "::error::推送重试 5 次仍失败"
+              exit 1
+            fi
+
+            echo "重新读取最新插件并重试"
+            sleep 5
           done
 
-          echo "重试 5 次后仍无法推送"
-          exit 1
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1200000
