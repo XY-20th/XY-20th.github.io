@@ -2046,6 +2046,38 @@ Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide)
 Author: colorblack
 Name: youdaoyunbiji-NoAd
 
+Package: com.crctdd.deleterecords
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 236
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.deleterecords_0.0.1_iphoneos-arm64.deb
+Size: 20790
+MD5sum: 9c1acdc269afc7ed8daaeb7fef5ddad9
+SHA1: 5249f86144ec5b987b8d863bf7c08476bd99dfb3
+SHA256: 134268e0884ec7e6480e8563907ac58c08cc37b36fa4e11db56279d2df0e0837
+Section: Tweaks
+Description: 长按桌面电话/信息图标可快速清除记录，无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: 快速清除通话短信记录
+
+Package: com.crctdd.mobileslideshowhook
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64.deb
+Size: 31942
+MD5sum: a4a2d353e1cd54c54f184791ee41010b
+SHA1: 10232b15eb7eb151db4edc00e68b21824f123e39
+SHA256: 667d5cbd95e85af20b743c3ef9d14f0d2db42f1b79734e9ce518d9cd76a16436
+Section: Tweaks
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Author: crctdd
+Name: 系统相册视频进度条
+
 Package: com.crctdd.sharingx
 Version: 0.0.3
 Architecture: iphoneos-arm64
