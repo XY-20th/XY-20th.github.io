@@ -7705,6 +7705,21 @@ Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横�
 Author: Junhong
 Name: 小鹰看看去广告
 
+Package: im.mjh.xiaoyingclean
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 80
+Filename: debs/im.mjh.xiaoyingclean_0.1.1_iphoneos-arm64.deb
+Size: 9574
+MD5sum: cf82b576bf602b430ee686a8ffa3fbb8
+SHA1: 5cea9ac29edf97b77aadd8bf4bffc18094b3cde7
+SHA256: 83ff1eacf983942808dc94d5423cc96ac9c153f091a581442d11828da37e4667
+Section: Tweaks
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Author: Junhong
+Name: 小鹰看看去广告
+
 Package: iya.banana.jumpguard
 Version: 0.1.2
 Architecture: iphoneos-arm64
