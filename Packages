@@ -4024,6 +4024,23 @@ Description: 直播吧去广告/功能增强，长按底部栏呼出设置面板
 Author: M哥
 Name: 直播吧
 
+Package: com.mlgm.filzacrack
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 204
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit (>= 5.0.0~), com.tigisoftware.filza64bit (<< 6~)
+Filename: debs/com.mlgm.filzacrack_1.0_iphoneos-arm64.deb
+Size: 8322
+MD5sum: 94d3b2b5883fcc0c0ec3cdbc2300b6a7
+SHA1: 830e3a3ac4b7b47ae0a58f8cd961768842fc7524
+SHA256: 65e26b28418de86e1a455758f98d7bd934d3d3ffb0fcaf90548319d031e0665b
+Section: Tweaks
+Description: Filza 5.x 解锁完整版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/FilzaCrack.png
+Name: Filza Crack
+
 Package: com.mlgm.filzapatch
 Version: 1.1.3
 Architecture: iphoneos-arm64e
@@ -4174,11 +4191,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
-Size: 360630
-MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
-SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
-SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
+Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
+Size: 342096
+MD5sum: 58459e3e0df3335e57c604238d910889
+SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
+SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
@@ -4190,11 +4207,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
-Size: 342096
-MD5sum: 58459e3e0df3335e57c604238d910889
-SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
-SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
+Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
+Size: 360630
+MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
+SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
+SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
