@@ -4174,6 +4174,22 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
+Size: 342096
+MD5sum: 58459e3e0df3335e57c604238d910889
+SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
+SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
+Section: Tweaks
+Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
+Author: colorBlack
+Name: Necromancy
+
+Package: com.necromancy.tweak
+Version: 1.2.6
+Architecture: iphoneos-arm64
+Maintainer: colorBlack
+Installed-Size: 1200
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
 Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
 Size: 360630
 MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
@@ -4199,6 +4215,22 @@ Section: Tweaks
 Description: 从1.3.1版本后，都是精简版，保留了核心功能，简化了设置项，简单易用。前面专家模式太复杂了。 QQ群 205928931
 Author: colorBlack
 Name: Necromancy
+
+Package: com.necromancy.tweak-roothide
+Version: 1.2.6
+Architecture: iphoneos-arm64e
+Maintainer: colorBlack
+Installed-Size: 1200
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.necromancy.tweak-roothide_1.2.6_iphoneos-arm64e.deb
+Size: 342120
+MD5sum: d14465b977dc6aec747381081568fc2e
+SHA1: f9937d8aaccd362d1e7c6a4eceb4e90ea36959da
+SHA256: cdae6de415b8ab45b6233b2e5c6c80d3dac4c0e4af18950984e324b02b2a87a6
+Section: Tweaks
+Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
+Author: colorBlack
+Name: Necromancy-roothide
 
 Package: com.netskao.awemenoads
 Version: 1.1-3
