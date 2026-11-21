@@ -2003,6 +2003,40 @@ Description: 微信输入法启用毛玻璃效果，测试输入法版本号 3.5
 Author: colorblack
 Name: 微信输入法_毛玻璃效果
 
+Package: com.colorblack.wetypeskinswitcher.relaxin
+Version: 0.1.16
+Architecture: iphoneos-arm64e
+Maintainer: colorblack
+Installed-Size: 23036
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 17.3.2)
+Conflicts: com.colorblack.wetypematerialglass, com.colorblack.wetypecolorgoogle, com.colorblack.wetypetypewriter, com.colorblack.elegantgreen, com.colorblack.wetypeskinswitcher
+Filename: debs/com.colorblack.wetypeskinswitcher.relaxin_0.1.16_iphoneos-arm64e.deb
+Size: 15275440
+MD5sum: a191910296220289ea754b17f62f0942
+SHA1: 9087421eec0026ce57666d9b9c1ed6b32aa78868
+SHA256: 77682802497b910f76a76c5455c682d77eb019893afe9618b1597f473a14c201
+Section: Tweaks
+Description: 微信输入法皮肤切换器，暂时5款，2款免费（免费单独下载其他包即可）3款收费，后期不定期更新。QQ群：205928931
+Author: 待配置
+Name: 微信输入法皮肤切换器（Relaxin · iOS 17）
+
+Package: com.colorblack.wetypeskinswitcher.relaxin
+Version: 0.1.17
+Architecture: iphoneos-arm64e
+Maintainer: colorblack
+Installed-Size: 23036
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 17.3.2)
+Conflicts: com.colorblack.wetypematerialglass, com.colorblack.wetypecolorgoogle, com.colorblack.wetypetypewriter, com.colorblack.elegantgreen, com.colorblack.wetypeskinswitcher
+Filename: debs/com.colorblack.wetypeskinswitcher.relaxin_0.1.17_iphoneos-arm64e.deb
+Size: 15278056
+MD5sum: fbd448c2ceea5f906b5198509e32d17f
+SHA1: 64a69468edc0e271f6e394388475052e39dc2d34
+SHA256: d4ce4149c6d266572fc8a9c1d62cb4ec9728e3483126495cbe19bd8e8bec80d4
+Section: Tweaks
+Description: 微信输入法皮肤切换器，暂时5款，2款免费（免费单独下载其他包即可）3款收费，后期不定期更新。QQ群：205928931
+Author: 待配置
+Name: 微信输入法皮肤切换器（Relaxin · iOS 17）
+
 Package: com.colorblack.xbnoads
 Version: 1.15.0
 Architecture: iphoneos-arm64
