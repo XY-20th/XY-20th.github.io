@@ -790,6 +790,46 @@ Description: 拼多多 PddNoAds 去广告插件 — 移除开屏广告、信息�
 Author: adfree
 Name: PddNoAds
 
+Package: com.adlayer.roothide
+Version: 0.1.98+roothide
+Architecture: iphoneos-arm64e
+Maintainer: Flex 4 Beta Contributors
+Installed-Size: 3084
+Depends: firmware (>= 15.0), firmware (<< 17.4), ellekit, libflex
+Conflicts: com.adlayer.rootless
+Replaces: com.adlayer
+Provides: com.adlayer
+Filename: debs/com.adlayer.roothide_0.1.98+roothide_iphoneos-arm64e.deb
+Size: 1899804
+MD5sum: 004d9e3a3d72ab6184e67d8993ee03f8
+SHA1: f1d691b5c7054f0793c5b20c75d1ce97b9856785
+SHA256: 3e0bc4712b55a4878243a876ba63b1bbc2cb25c99cd73119aa92af8b2eff085a
+Section: Tweaks
+Description: Flex 4 Beta：越狱环境下的 UIKit 视图层级过滤与开屏倒计时辅助工具。
+Tag: role::enduser
+Author: ColorBlack
+Name: Flex 4 Beta
+
+Package: com.adlayer.roothide
+Version: 0.1.99+roothide
+Architecture: iphoneos-arm64e
+Maintainer: Flex 4 Beta Contributors
+Installed-Size: 3084
+Depends: firmware (>= 15.0), firmware (<< 17.4), ellekit, libflex
+Conflicts: com.adlayer.rootless
+Replaces: com.adlayer
+Provides: com.adlayer
+Filename: debs/com.adlayer.roothide_0.1.99+roothide_iphoneos-arm64e.deb
+Size: 1900914
+MD5sum: 77dc693b5b16634cd844c46367697186
+SHA1: a4b125743dd70d336c0ee40a4cbd1c2f8c111ffe
+SHA256: 6fb7b39f3f4f40c7257e2e67c9811024f1c1cbfbef682d13c0a5ed9e94ba4c3c
+Section: Tweaks
+Description: Flex 4 Beta：越狱环境下的 UIKit 视图层级过滤与开屏倒计时辅助工具。
+Tag: role::enduser
+Author: ColorBlack
+Name: Flex 4 Beta
+
 Package: com.adlayer.rootless
 Version: 0.1.99+rootless
 Architecture: iphoneos-arm64
