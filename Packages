@@ -1409,6 +1409,22 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.binglan.clockpopover
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 224
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.binglan.clockpopover_1.0.1_iphoneos-arm64.deb
+Size: 23334
+MD5sum: c0d7eb7fbb6854c4e3309495670505b4
+SHA1: 41d0e79d2f554c323134ca5fcdd59cd539870b7c
+SHA256: e50abdc3afc4c1981b3302d6b68ffe8857058e2c5cc0d6d97c1f03ce65076f75
+Section: Tweaks
+Description: 点击状态栏时间显示更多。
+Author: 冰蓝
+Name: 时间详情
+
 Package: com.binglan.dynamicfx
 Version: 1.0.7
 Architecture: iphoneos-arm64
@@ -3831,6 +3847,25 @@ Size: 33970
 MD5sum: 951f24a3ac44135912c5704e9f45240a
 SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
 SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
+Section: Tweaks
+Priority: optional
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Author: Local Workspace
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Name: 支付宝身份验证兼容
+
+Package: com.local.alipay.identity-compat
+Version: 0.1.9
+Architecture: iphoneos-arm64e
+Maintainer: Local Workspace
+Installed-Size: 268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64e.deb
+Size: 29292
+MD5sum: 85b1ce8b98b7853686f9d7221a645637
+SHA1: 324dee5f361d144b06afd55f7a5a873e4d6c55ec
+SHA256: 803e3a963111ee5d41b138a71d82eb10111b1dac3e93f2a993dcabb815956596
 Section: Tweaks
 Priority: optional
 Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
