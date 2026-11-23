@@ -4105,6 +4105,57 @@ Description: 直播吧去广告/功能增强，长按底部栏呼出设置面板
 Author: M哥
 Name: 直播吧
 
+Package: com.mlgm.autovarclean
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 312
+Depends: firmware (>= 15.0), mobilesubstrate, launchctl, com.mlgm.actra
+Filename: debs/com.mlgm.autovarclean_1.0_iphoneos-arm64e.deb
+Size: 38924
+MD5sum: 79db2582e66ae50a9330669dbb623f84
+SHA1: b3db8738b04dc62e1ddb76807cafbbcb43831bbf
+SHA256: 39f89ca70f987faf0e3efcfe6e870c5c8461c76f7c95d02d3c43f2391c45acb5
+Section: Tweaks
+Description: 通过 Actra 执行 RootHide ManagerApp 的 Var 清理。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/AutoVarClean.png
+Name: Auto VarClean
+
+Package: com.mlgm.autovarclean
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 308
+Depends: firmware (>= 15.0), mobilesubstrate, launchctl, com.mlgm.actra
+Filename: debs/com.mlgm.autovarclean_1.1_iphoneos-arm64e.deb
+Size: 41604
+MD5sum: 9a546b6b08acac029be0dadc7fce7626
+SHA1: c9635fc67173a989c9d9a5f2446b7b2958db1d58
+SHA256: 670e976e506e3ad374f25405a47a19d31ae28890abce86b0b0416a3f27d1d555
+Section: Tweaks
+Description: 通过 Actra 执行 RootHide ManagerApp 的 Var 清理。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/AutoVarClean.png
+Name: Auto VarClean
+
+Package: com.mlgm.autovarclean
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 272
+Depends: firmware (>= 15.0), mobilesubstrate, launchctl, com.mlgm.actra
+Filename: debs/com.mlgm.autovarclean_1.1.1_iphoneos-arm64e.deb
+Size: 40546
+MD5sum: 596a9bb24c8122c162970189cf612b26
+SHA1: ee96d1103ac55c488371d68a2167ac16adb552d8
+SHA256: 0238185862358ca3e90ac4ee8834eced0aa77056d654f5a2f5ff82c3a3705fdd
+Section: Tweaks
+Description: 通过 Actra 执行 RootHide ManagerApp 的 Var 清理。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/AutoVarClean.png
+Name: Auto VarClean
+
 Package: com.mlgm.filzacrack
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -4136,6 +4187,40 @@ SHA1: 2620ea5b61d128a31d30b0b4b98e338d24ca5c83
 SHA256: 5300df2e4cc6865aed96996931c365ec118bb6348238ebbd9c824032dd02d7ab
 Section: Tweaks
 Description: 适用于 Filza 5.0.1-4，增加常用随机化路径收藏、调整 Documents 路径，并注册 filza:// 跳转。
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+Name: Filza Patch
+
+Package: com.mlgm.filzapatch
+Version: 1.1.4
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 178
+Depends: firmware (>= 15.0), mobilesubstrate, uikittools, com.tigisoftware.filza64bit (= 5.0.1-6)
+Conflicts: roothide.patches.filza
+Filename: debs/com.mlgm.filzapatch_1.1.4_iphoneos-arm64e.deb
+Size: 10820
+MD5sum: 02ee26bb1df6e903dbcb6c3030576633
+SHA1: b1f97dd231b8bd54dbd32a38660bf1e3244b5c82
+SHA256: cfa1041d754497c956269f51152335efef5f8dca057860addbc8e1fe3043d651
+Section: Tweaks
+Description: 适用于 Filza 5.0.1-6，增加常用随机化路径收藏、调整 Documents 路径，并注册 filza:// 跳转。
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+Name: Filza Patch
+
+Package: com.mlgm.filzapatch
+Version: 1.1.5
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 143
+Depends: firmware (>= 15.0), mobilesubstrate, uikittools, com.tigisoftware.filza64bit (>> 5.0.1-5)
+Conflicts: roothide.patches.filza
+Filename: debs/com.mlgm.filzapatch_1.1.5_iphoneos-arm64e.deb
+Size: 10886
+MD5sum: 00b0280175955d4cd6b4c47f8e925675
+SHA1: 40e99e09da29464872f31e32932a5a6bf98beb7b
+SHA256: 14b7a854bb38d812e71ef80c0471ce4ef54be2519f70313dfed0697d1c01f7b6
+Section: Tweaks
+Description: 为 RootHide 版 Filza 增加常用随机路径收藏，将原生 Applications 和 Documents 指向越狱根，并注册 filza:// 跳转。
 Icon: https://mlgm66.github.io/icon/FilzaPatch.png
 Name: Filza Patch
 
