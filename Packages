@@ -4010,6 +4010,36 @@ Author: Doubao
 Name: 123Pan AdBlock
 
 Package: com.mg.adskip
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate
+Filename: debs/com.mg.adskip_1.3.0_iphoneos-arm64.deb
+Size: 120200
+MD5sum: 97873fe05f84e00d964f35d608f2c42b
+SHA1: c167ecb878ff1e9a32a89db4856ed5b2b8aa4f2d
+SHA256: 686164bedd69707b59c7746c049aa16052c6fbcbad32cbbe33df827e873cfe66
+Section: Tweaks
+Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
+Author: M哥
+Name: 广告跳过
+
+Package: com.mg.adskip
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate
+Filename: debs/com.mg.adskip_1.3.1_iphoneos-arm64.deb
+Size: 122076
+MD5sum: 3e9de1b274a05591184a6b0fff43c21f
+SHA1: 414d9c4258b3493bcb288fefd4894fd32cd5d86a
+SHA256: 5489d33f75cd850b1f2f8046a0a2fc99358c09e9497f4aeb47245936e798fe99
+Section: Tweaks
+Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
+Author: M哥
+Name: 广告跳过
+
+Package: com.mg.adskip
 Version: 3.5.0
 Architecture: iphoneos-arm64
 Maintainer: M哥
