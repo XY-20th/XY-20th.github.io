@@ -2551,6 +2551,42 @@ Description: DD微信广告屏蔽（提取 dyilb 用巨魔注入器注入到微�
 Author: DD
 Name: DD广告助手
 
+Package: com.dengbai.tgassistant
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: DengBai
+Depends: firmware (>= 13.0)
+Conflicts: com.local.swiftgramcompat, com.local.telegramcompat, com.local.turritcompat, com.dengbai.swiftgram-startup-trace
+Replaces: com.local.swiftgramcompat, com.local.telegramcompat, com.local.turritcompat, com.dengbai.swiftgram-startup-trace
+Provides: com.local.swiftgramcompat, com.local.telegramcompat, com.local.turritcompat
+Filename: debs/com.dengbai.tgassistant_1.1.0_iphoneos-arm64.deb
+Size: 647132
+MD5sum: 371a9a930345b152784eeb7c0f618a68
+SHA1: dae3d57cb44bcaf85f5cc64a4766d159ffac1f4b
+SHA256: d3eb27825d92a3fea0f2a37b30329241135df84134d60b0a3f51bddb3a07a741
+Section: Tweaks
+Description: TG助手 for Telegram, Swiftgram and Turrit
+Author: DengBai
+Name: TG助手
+
+Package: com.dengbai.tgassistant
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: DengBai
+Depends: firmware (>= 13.0)
+Conflicts: com.local.swiftgramcompat, com.local.telegramcompat, com.local.turritcompat, com.dengbai.swiftgram-startup-trace
+Replaces: com.local.swiftgramcompat, com.local.telegramcompat, com.local.turritcompat, com.dengbai.swiftgram-startup-trace
+Provides: com.local.swiftgramcompat, com.local.telegramcompat, com.local.turritcompat
+Filename: debs/com.dengbai.tgassistant_1.1.2_iphoneos-arm64.deb
+Size: 647684
+MD5sum: fc771b6b90831b6d425f17d9c2b2cb20
+SHA1: 815f8b9f29e3b1090b1b1b4240a401c85c95a56b
+SHA256: 2dce5b53a782f5d4a9f22f707170f4388cb4a487d1a551e3824f81672421c52a
+Section: Tweaks
+Description: TG助手 for Telegram, Swiftgram and Turrit
+Author: DengBai
+Name: TG助手
+
 Package: com.duo.themelab
 Version: 1.6.1
 Architecture: iphoneos-arm64
@@ -8661,6 +8697,28 @@ Section: Tweaks
 Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
 Author: junhong
 Name: UU远控切屏 (Roothide)
+
+Package: im.mjh.wctabbarglass
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 1348
+Depends: firmware (>= 15.0)
+Conflicts: com.mjh.wctabbarglass
+Replaces: com.mjh.wctabbarglass
+Provides: com.mjh.wctabbarglass
+Filename: debs/im.mjh.wctabbarglass_1.0.1_iphoneos-arm64.deb
+Size: 667226
+MD5sum: ece459796d0fcf686f46cdfdc9143d77
+SHA1: ee82d2bc6bc444bbaff4be72edbf14d95433d2d4
+SHA256: 1c7c0bc30a8a21e9fea45939080b38a345aeaf7b76a14bbc9be2ef44ac47c51c
+Section: Tweaks
+Description: 为微信启用原生液态玻璃底栏，iOS26+启用原生液态玻璃
+ iOS26以下仿液态玻璃效果
+ .
+ 支持有根无根隐根巨魔自签
+Author: Junhong
+Name: 微信底栏玻璃
 
 Package: im.mjh.xianyuadblock
 Version: 3.2.4
