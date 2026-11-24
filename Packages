@@ -4174,24 +4174,24 @@ Description: 直播吧去广告/功能增强，长按底部栏呼出设置面板
 Author: M哥
 Name: 直播吧
 
-Package: com.mjh.wctabbarglass.roothide
+Package: com.mjh.wctabbarglass
 Version: 1.0.0
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: Junhong
-Installed-Size: 1348
+Installed-Size: 1380
 Depends: firmware (>= 15.0)
-Filename: debs/com.mjh.wctabbarglass.roothide_1.0.0_iphoneos-arm64e.deb
-Size: 664746
-MD5sum: a5e6c434e5c4199237400021c7036e02
-SHA1: 4342f7445240f7da0aeebc59465e08aebeb191fa
-SHA256: d6b0572ccfbc488f22cbf3c70a023f7b69c3f54bcd2b576da04ce7aa0e064e07
+Filename: debs/com.mjh.wctabbarglass_1.0.0_iphoneos-arm64.deb
+Size: 683128
+MD5sum: c2baea831f235fef6c05862eb29705fd
+SHA1: 18d8fd268abfea8a6f61791c848e9123883d977f
+SHA256: 71daae6bc8ac3d8cda84b60e1170548a9226722425a860c79b7acda9393cbbfb
 Section: Tweaks
 Description: 为微信启用原生液态玻璃底栏，iOS26+启用原生液态玻璃
  iOS26以下仿液态玻璃效果
  .
  支持有根无根隐根巨魔自签
 Author: Junhong
-Name: 微信底栏玻璃 (Roothide)
+Name: 微信底栏玻璃
 
 Package: com.mlgm.autovarclean
 Version: 1.0
