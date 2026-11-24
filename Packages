@@ -2384,6 +2384,25 @@ Description: 携程旅行去广告
 Author: M哥
 Name: 携程旅行去广告NoAd-rootless
 
+Package: com.custom.ctclient.donk
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: donk
+Filename: debs/com.custom.ctclient.donk_1.2_iphoneos-arm64.deb
+Size: 367876
+MD5sum: cabab63eade6ff6f46792fe40cb451ff
+SHA1: d8dda86bbfb050ae6fb64665bdcc04fc1f0f473c
+SHA256: 8990a10670a4313c706c0b97166dae0e8ac7a4ec6f5f4de834346a24ef302702
+Section: Tweaks
+Description: 中国电信整页重构：首页换成清爽盖层，只留话费、流量语音与常用入口，开屏广告与原底栏一并去掉。
+ - 话费账单：主卡大字显示，点按直达详细账单
+ - 流量语音：双半卡并排，实时数据自动抓取
+ - 常用入口：搜索、服务大厅、客服、充话费直达
+ - 原版切换：右上角一键互切，原版顶栏搜索旁带圆环的「新版」钮切回（PS：个别机型不显示切回新版按钮，点击搜索按钮旁空白处也可切回新版）
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 电信优化-Rootless
+
 Package: com.dao.appdata
 Version: 9.9.9
 Architecture: iphoneos-arm64
