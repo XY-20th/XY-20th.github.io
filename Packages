@@ -4158,6 +4158,40 @@ Description: 大师兄去广告弹窗
 Author: M哥
 Name: dsx
 
+Package: com.mg.islandnotice
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1179
+Depends: firmware (>= 16.0), preferenceloader, mobilesubstrate
+Filename: debs/com.mg.islandnotice_1.0.0_iphoneos-arm64.deb
+Size: 262802
+MD5sum: 86a316b699fb9037e4f0e586e96a7743
+SHA1: 066bf1cfbc837408712ca305ad4cebc8c8678da3
+SHA256: d60835cded3e0843a97573b66eebdd767ae304327209c34f1f9340600675fce4
+Section: Tweaks
+Description: 为刘海屏 iPhone 打造的系统通知横幅岛屿样式与本地预览；其他机型未验证，请自行测试后再使用。
+Author: M哥
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences.png
+Name: IslandNotice
+
+Package: com.mg.islandnotice
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1179
+Depends: firmware (>= 16.0), preferenceloader, mobilesubstrate
+Filename: debs/com.mg.islandnotice_1.0.1_iphoneos-arm64.deb
+Size: 262810
+MD5sum: 91d493d7cce9ce430c2d43297c116ddc
+SHA1: e226709e8a1c78d7e4d65cf9e0fa9eeb02255b09
+SHA256: add9c9564fab1eee132e5d2e0127152b742097d65becec77fbf6e477857ef101
+Section: Tweaks
+Description: 为刘海屏 iPhone 打造的系统通知横幅岛屿样式与本地预览；其他机型未验证，请自行测试后再使用。
+Author: M哥
+Icon: https://wwg151.github.io/images/islandnotice.png
+Name: IslandNotice
+
 Package: com.mg.qmfree
 Version: 1.7.4
 Architecture: iphoneos-arm64
@@ -4497,11 +4531,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
-Size: 342096
-MD5sum: 58459e3e0df3335e57c604238d910889
-SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
-SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
+Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
+Size: 360630
+MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
+SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
+SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
@@ -4513,11 +4547,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
-Size: 360630
-MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
-SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
-SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
+Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
+Size: 342096
+MD5sum: 58459e3e0df3335e57c604238d910889
+SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
+SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
