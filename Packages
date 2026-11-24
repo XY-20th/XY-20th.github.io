@@ -4122,6 +4122,23 @@ Description: 七猫小说去广告
 Author: M哥
 Name: QMFree
 
+Package: com.mg.shortlookt
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1148
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.mg.shortlookt_1.0.0_iphoneos-arm64.deb
+Size: 706172
+MD5sum: 5d8f59829ad3f4a80978354aa01d4f84
+SHA1: 53b30c05e026ab1e3b346332629fcdc1bdec39b8
+SHA256: 5d116068f3de1a40f1a7fd4a7017acadb96131f211080fc34e915c42125e4c0e
+Section: Tweaks
+Description: 在锁屏上居中呈现新通知。
+Author: M哥
+Icon: https://wwg151.github.io/images/shortlook-T.png
+Name: shortlook-T
+
 Package: com.mg.zbb
 Version: 0.8.5
 Architecture: iphoneos-arm64
@@ -7631,6 +7648,24 @@ Size: 6872392
 MD5sum: 9920d532468e9277a2c128d6aee8e406
 SHA1: 4678434074ac3a7163f404bd39de34cadc7cda6e
 SHA256: eb8b4da5341310cf0218627a693215c8d1a22c283ab0ee44d30f7f59d6e0a590
+Section: Tweaks
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Author: XUUᶻ
+Name: 抖音助手
+
+Package: com.xuuz.douyinhelper
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: XUUᶻ
+Installed-Size: 17808
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.xuuz.douyinhelper_2.3-0_iphoneos-arm64.deb
+Size: 6875944
+MD5sum: 6fc4e456f8130c1bea5e0da573bb6130
+SHA1: 2f400f8fec5ac477e8b4add030887aa166c8b313
+SHA256: 200daf25ece13ba27aecbc211802a541ad50a42ca655d6c139d3a86917c78723
 Section: Tweaks
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
