@@ -107,6 +107,9 @@ jobs:
           path: .
           name: repo-site-${{ github.run_id }}-${{ github.run_attempt }}
 
+      - name: Wait for artifact availability
+        run: sleep 30
+
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
