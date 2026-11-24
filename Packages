@@ -4174,6 +4174,25 @@ Description: 直播吧去广告/功能增强，长按底部栏呼出设置面板
 Author: M哥
 Name: 直播吧
 
+Package: com.mjh.wctabbarglass.roothide
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 1348
+Depends: firmware (>= 15.0)
+Filename: debs/com.mjh.wctabbarglass.roothide_1.0.0_iphoneos-arm64e.deb
+Size: 664746
+MD5sum: a5e6c434e5c4199237400021c7036e02
+SHA1: 4342f7445240f7da0aeebc59465e08aebeb191fa
+SHA256: d6b0572ccfbc488f22cbf3c70a023f7b69c3f54bcd2b576da04ce7aa0e064e07
+Section: Tweaks
+Description: 为微信启用原生液态玻璃底栏，iOS26+启用原生液态玻璃
+ iOS26以下仿液态玻璃效果
+ .
+ 支持有根无根隐根巨魔自签
+Author: Junhong
+Name: 微信底栏玻璃 (Roothide)
+
 Package: com.mlgm.autovarclean
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -7303,6 +7322,23 @@ Size: 418048
 MD5sum: 1ef648ba7ce58e2477aedacfb656af75
 SHA1: 97ad4319b9c2ce4d4040bd69283c850c68eaa036
 SHA256: 8c6776ed98afad12d28df5f5b314f34674a60b32b34ab4711307cd6926c755e6
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SystemX
+
+Package: com.wkk.systembox
+Version: 1.8-3
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 2160
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.wkk.systembox_1.8-3_iphoneos-arm64.deb
+Size: 419342
+MD5sum: f427da2806fbda97adfb4f3ed701079b
+SHA1: d6e0c46a35dbd79d91fea7f923e4c49aadb6bd7b
+SHA256: 57f16bcd0197071c4ec7a82d9c671349cf07473cbc33f0eaa4fd3b05339b4b23
 Section: Tweaks
 Description: cool
 Author: wkk
