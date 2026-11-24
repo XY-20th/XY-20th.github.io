@@ -4139,6 +4139,23 @@ Author: M哥
 Icon: https://wwg151.github.io/images/shortlook-T.png
 Name: shortlook-T
 
+Package: com.mg.shortlookt
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1198
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.mg.shortlookt_1.0.5_iphoneos-arm64.deb
+Size: 727010
+MD5sum: 5de7116dd7f4f69e2f3c92e0914efb9c
+SHA1: e652544ab0c63b65267277b4ffc095b03b112242
+SHA256: 42ad6e108be18183dfdde297637488810121a5b9f1a7c0edb91bff69ed98cb74
+Section: Tweaks
+Description: 在锁屏上居中呈现新通知。
+Author: M哥
+Icon: https://wwg151.github.io/images/shortlook-T.png
+Name: shortlook-T
+
 Package: com.mg.zbb
 Version: 0.8.5
 Architecture: iphoneos-arm64
@@ -4409,11 +4426,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
-Size: 342096
-MD5sum: 58459e3e0df3335e57c604238d910889
-SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
-SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
+Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
+Size: 360630
+MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
+SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
+SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
@@ -4425,11 +4442,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
-Size: 360630
-MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
-SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
-SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
+Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
+Size: 342096
+MD5sum: 58459e3e0df3335e57c604238d910889
+SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
+SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
