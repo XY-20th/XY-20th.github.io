@@ -85,6 +85,7 @@ jobs:
             git commit -m "Auto rebuild repo index"
 
             if git push origin HEAD:master; then
+              echo "索引已保存，继续发布"
               break
             fi
 
@@ -104,9 +105,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
+          name: repo-site-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          timeout: 1200000
+          artifact_name: repo-site-${{ github.run_id }}-${{ github.run_attempt }}
+          timeout: 600000
