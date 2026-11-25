@@ -4192,6 +4192,23 @@ Author: M哥
 Icon: https://wwg151.github.io/images/islandnotice.png
 Name: IslandNotice
 
+Package: com.mg.islandnotice
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1191
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate
+Filename: debs/com.mg.islandnotice_1.0.2_iphoneos-arm64.deb
+Size: 274390
+MD5sum: 040d940ecb0de18abdcd4883de6e1c15
+SHA1: 1131aec21c78b9d191cb8998b06a875ef609de6b
+SHA256: ac50f880200411e04e4ec927b18c615e79f3f6d621d585d776f7dd585c14ea45
+Section: Tweaks
+Description: 为刘海屏 iPhone 打造的系统通知横幅岛屿样式与本地预览；其他机型未验证，请自行测试后再使用。
+Author: M哥
+Icon: https://wwg151.github.io/images/islandnotice.png
+Name: IslandNotice
+
 Package: com.mg.qmfree
 Version: 1.7.4
 Architecture: iphoneos-arm64
@@ -4628,11 +4645,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
-Size: 360630
-MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
-SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
-SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
+Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
+Size: 342096
+MD5sum: 58459e3e0df3335e57c604238d910889
+SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
+SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
@@ -4644,11 +4661,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
-Size: 342096
-MD5sum: 58459e3e0df3335e57c604238d910889
-SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
-SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
+Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
+Size: 360630
+MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
+SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
+SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
@@ -8753,12 +8770,12 @@ Package: hongguofn
 Version: 2.2.8
 Architecture: iphoneos-arm64
 Maintainer: Junhong
-Installed-Size: 14792
+Installed-Size: 15004
 Filename: debs/hongguofn_2.2.8_iphoneos-arm64.deb
-Size: 7449160
-MD5sum: f13a8e66f0e51f06524abf8ce3bcac31
-SHA1: 2c06365d6f64f1ffc8eebefd9b2a9288783d112d
-SHA256: 93532d877f3b119080679bfe47afbe3d85aee8d569bad0653893cb9223d70370
+Size: 7556982
+MD5sum: 0fc03b3f152b0106b18226c4ea06d4b1
+SHA1: 5c91df0f1adda829a2f09bb62013eab7b7f3f0c5
+SHA256: fd5594c94a39c29c017ca97a3f9fd17b0755c471497915bcc55dcd2c8f137aaf
 Section: Tweaks
 Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
 Author: Junhong
