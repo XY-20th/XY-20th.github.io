@@ -1595,6 +1595,23 @@ Description: 优化了一下界面
 Author: tune
 Name: Modified ChargeLimiter
 
+Package: com.charlie.nativekeyboardskin
+Version: 1.3.5
+Architecture: iphoneos-arm64
+Maintainer: Charlie
+Installed-Size: 1600
+Conflicts: com.charlie.nativekeyboardskindebug
+Replaces: com.charlie.nativekeyboardskindebug
+Filename: debs/com.charlie.nativekeyboardskin_1.3.5_iphoneos-arm64.deb
+Size: 766050
+MD5sum: 6a1a248816ccf01b4c21cea8651e6250
+SHA1: 065ae748b4b3c814e486fddd10d7683a38b15cf7
+SHA256: 77066dd66281482454949160323bfd7b876866983fe2447524f480f077048e67
+Section: Tweaks
+Description: 原生键盘皮肤修改。
+Author: Charlie
+Name: NativeKeyboardSkin
+
 Package: com.charlieleung.keyboardeffecthider
 Version: 1.0.0
 Architecture: iphoneos-arm64
