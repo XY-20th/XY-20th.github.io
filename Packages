@@ -4279,6 +4279,63 @@ Description: 为微信启用原生液态玻璃底栏，iOS26+启用原生液态�
 Author: Junhong
 Name: 微信底栏玻璃
 
+Package: com.mlgm.appdata
+Version: 1.3.8
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 1188
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: debs/com.mlgm.appdata_1.3.8_iphoneos-arm64.deb
+Size: 214026
+MD5sum: 5a90c474e1f2f047bef95db46195e260
+SHA1: c0f1154be7d00affd4a4cbf323a5b47cf6faf8f5
+SHA256: 112d7be1033b43bb669d195c4537f7cd8d6287be42aca0f852f5f5b44115a6a5
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
+Package: com.mlgm.appdata
+Version: 1.3.9
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 1236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: debs/com.mlgm.appdata_1.3.9_iphoneos-arm64.deb
+Size: 214748
+MD5sum: c04a16538e11a0d9a8833db52f8481a3
+SHA1: 08dd8c0d51e5c013fc432abebfe0711f5e5a07d6
+SHA256: 973bc0459262de2c8ff2832c02bd177af043e110d56a5314b3fc8218f2d0bf1d
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
+Package: com.mlgm.appdata
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 1240
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: debs/com.mlgm.appdata_1.4.0_iphoneos-arm64.deb
+Size: 220552
+MD5sum: 99a466ea475a5fbdecdaef81fa880d50
+SHA1: c8457c63f95384302bcf33e16668b531aa6faba9
+SHA256: bd63913fb72967c1f829a7152f1da021ca471e605e31c71997c19bcde6154df8
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
 Package: com.mlgm.autovarclean
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -4571,11 +4628,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
-Size: 342096
-MD5sum: 58459e3e0df3335e57c604238d910889
-SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
-SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
+Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
+Size: 360630
+MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
+SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
+SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
@@ -4587,11 +4644,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
-Size: 360630
-MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
-SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
-SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
+Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
+Size: 342096
+MD5sum: 58459e3e0df3335e57c604238d910889
+SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
+SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
