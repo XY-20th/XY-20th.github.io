@@ -4209,6 +4209,23 @@ Author: M哥
 Icon: https://wwg151.github.io/images/islandnotice.png
 Name: IslandNotice
 
+Package: com.mg.islandnotice
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1179
+Depends: firmware (>= 16.0), preferenceloader, mobilesubstrate
+Filename: debs/com.mg.islandnotice_1.0.3_iphoneos-arm64.deb
+Size: 262780
+MD5sum: 8e1d9ae7d34775c54d35c510bd27aabf
+SHA1: 0946f43720e1bb3fe431d17b279c916f985eea76
+SHA256: 7cbb2f2f43f77abdf2cf8f98e007fa29215e3fcbfff4139d0c7590631074af55
+Section: Tweaks
+Description: 为刘海屏 iPhone 打造的系统通知横幅岛屿样式与本地预览；其他机型未验证，请自行测试后再使用。
+Author: M哥
+Icon: https://wwg151.github.io/images/islandnotice.png
+Name: IslandNotice
+
 Package: com.mg.qmfree
 Version: 1.7.4
 Architecture: iphoneos-arm64
