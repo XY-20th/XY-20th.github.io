@@ -458,6 +458,24 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
 Name: Hello 键盘侠（免授权）
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
 
+Package: cn.zqbb.hello.keyboardport
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 868
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/cn.zqbb.hello.keyboardport_1.1.0_iphoneos-arm64.deb
+Size: 238348
+MD5sum: cb3ab050e4e7bb919d9bdd989fed39a9
+SHA1: dfb08926b3a8a2cf9343ffcc4ec1a66c4178a2b5
+SHA256: 90ee3916322a1ff7439e1007f26982cfff7d33895a009126cf1c79dc4978a435
+Section: Tweaks
+Description: 独立下载可编辑雾凇词表，再与本机系统基础词库离线合并
+Author: zqbb
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.keyboardport.png
+Name: HelloKeyboardPort
+Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.hello.keyboardport
+
 Package: cn.zqbb.hello.memorystatus
 Version: 3.9.0-6
 Architecture: iphoneos-arm64e
