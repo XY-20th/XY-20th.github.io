@@ -4330,6 +4330,46 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/AutoVarClean.png
 Name: Auto VarClean
 
+Package: com.mlgm.fila
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 99832
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: debs/com.mlgm.fila_1.0.0_iphoneos-arm64.deb
+Size: 25215360
+MD5sum: 2a057b9a15dac7e7d6faf95e002dcc3a
+SHA1: e9f4a837e51ae364567b6bccc686577bb7d71b00
+SHA256: 6d1bcf04e99ae86b3bd1f9da88350769ab88567f0518746b0713ea9f37eb5ab6
+Section: Tweaks
+Priority: optional
+Description: Fila 文件管理器典藏版
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://mlgm66.github.io/icon/fila.png
+Name: Fila
+
+Package: com.mlgm.fila
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 100388
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: debs/com.mlgm.fila_1.1_iphoneos-arm64.deb
+Size: 25292226
+MD5sum: e82534b65cb3f34b26298da3ec2e0a49
+SHA1: 43ca36e51dfc8647f32789338e5a41ae6fac2519
+SHA256: 0b410e5781c33849b7406ce4e4f1e253880f5cd8d6e411a7a7d673f10e72d835
+Section: Tweaks
+Priority: optional
+Description: Fila 文件管理器典藏版
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://mlgm66.github.io/icon/fila.png
+Name: Fila
+
 Package: com.mlgm.filzacrack
 Version: 1.0
 Architecture: iphoneos-arm64
