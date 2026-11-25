@@ -2961,6 +2961,23 @@ Description: 抖音 UI 增强插件（模块化 hook 框架）
 Author: hierarch
 Name: DYKiller
 
+Package: com.hierarch.dykiller
+Version: 0.7.3
+Architecture: iphoneos-arm64
+Maintainer: hierarch
+Installed-Size: 4772
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.hierarch.dykiller_0.7.3_iphoneos-arm64.deb
+Size: 1168522
+MD5sum: 328763684232fd52f262b3529fdf24a5
+SHA1: 489a90362309e05d43763ca65dbbfadfb2f13ee4
+SHA256: 097be5216edc9893d96b2d256ff777e761fd8839586ffee1951b77a63e4179c0
+Section: Tweaks
+Priority: optional
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Author: hierarch
+Name: DYKiller
+
 Package: com.hitori.misaki
 Version: 2.2
 Architecture: iphoneos-arm64
