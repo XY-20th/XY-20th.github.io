@@ -3131,6 +3131,22 @@ Description: 为小红书提供悬浮液态玻璃底栏、顶栏、笔记与视�
 Author: huami1314
 Name: XHSNative
 
+Package: com.huamidev.xhsnative
+Version: 1.4+1-1
+Architecture: iphoneos-arm64
+Maintainer: huami1314
+Installed-Size: 504
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.huamidev.xhsnative_1.4+1-1_iphoneos-arm64.deb
+Size: 115554
+MD5sum: e26e3853e983af676cd4f0b8ac30bad2
+SHA1: 48f0fb9c5a3562304a2619e1502abce19511ab0d
+SHA256: 6ae96744a997c73dd7d9bbea496598223e6ee8f4b4acc973b51da0be9bd2a39b
+Section: Tweaks
+Description: 为小红书提供悬浮液态玻璃底栏、顶栏、笔记与视频控件玻璃效果，支持底栏标签排序、隐藏及玻璃不透明度调节。
+Author: huami1314
+Name: XHSNative
+
 Package: com.huayuarc.insulation
 Version: 1.0.22
 Architecture: iphoneos-arm64
