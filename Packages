@@ -476,6 +476,24 @@ Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.keyboardport.png
 Name: HelloKeyboardPort
 Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.hello.keyboardport
 
+Package: cn.zqbb.hello.keyboardport
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 908
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/cn.zqbb.hello.keyboardport_1.1.1_iphoneos-arm64.deb
+Size: 249034
+MD5sum: 93b56bb71205894e53de53b38560081e
+SHA1: 6614660a174d64dd7ac28b57239d9427c8b13fc2
+SHA256: 2869fcfb1cd0e6b6316b937b198031a96f16b1c275ee40a6a3825902159909d0
+Section: Tweaks
+Description: 独立下载可编辑雾凇词表，再与本机系统基础词库离线合并
+Author: zqbb
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.keyboardport.png
+Name: HelloKeyboardPort
+Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.hello.keyboardport
+
 Package: cn.zqbb.hello.memorystatus
 Version: 3.9.0-6
 Architecture: iphoneos-arm64e
