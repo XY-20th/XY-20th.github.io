@@ -4431,6 +4431,23 @@ Description: 为微信启用原生液态玻璃底栏，iOS26+启用原生液态�
 Author: Junhong
 Name: 微信底栏玻璃
 
+Package: com.mlgm.airdropx
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 292
+Depends: firmware (>= 16.2), mobilesubstrate
+Filename: debs/com.mlgm.airdropx_1.0.2_iphoneos-arm64.deb
+Size: 67858
+MD5sum: 3884ac7480362a31456cb74330b26df5
+SHA1: 1d33c9c3491a2eb7c514c36725a2738368701af3
+SHA256: 8179f467aea4263f1666219098985e21cb770ad44cee255e996023c470337090
+Section: Tweaks
+Description: 为控制中心「隔空投送」新增「所有人（无限制）」模式，并向 Actra 提供四种接收模式动作。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/airdropx.png
+Name: AirDropX
+
 Package: com.mlgm.appdata
 Version: 1.3.8
 Architecture: iphoneos-arm64
@@ -4572,6 +4589,26 @@ Size: 25292226
 MD5sum: e82534b65cb3f34b26298da3ec2e0a49
 SHA1: 43ca36e51dfc8647f32789338e5a41ae6fac2519
 SHA256: 0b410e5781c33849b7406ce4e4f1e253880f5cd8d6e411a7a7d673f10e72d835
+Section: Tweaks
+Priority: optional
+Description: Fila 文件管理器典藏版
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://mlgm66.github.io/icon/fila.png
+Name: Fila
+
+Package: com.mlgm.fila
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 100436
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: debs/com.mlgm.fila_1.1.2_iphoneos-arm64.deb
+Size: 25315094
+MD5sum: 831fef7d6813baab3101eaeb0d0dfedc
+SHA1: 7bd44c435dd9e6c3ba97151ea8578a3ee914f85a
+SHA256: 28b84a07b6ae36077bc1e63e554bb37b5b2e795d563af7c4d2523d1c505b1d36
 Section: Tweaks
 Priority: optional
 Description: Fila 文件管理器典藏版
