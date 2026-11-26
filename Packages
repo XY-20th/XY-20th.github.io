@@ -4394,6 +4394,23 @@ Author: M哥
 Icon: https://wwg151.github.io/images/shortlook-T.png
 Name: shortlook-T
 
+Package: com.mg.shortlookt
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1223
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.mg.shortlookt_1.2.0_iphoneos-arm64.deb
+Size: 742116
+MD5sum: 1a736768717380347cc52af6b4931272
+SHA1: 9729f16cdbcedaaca3dfb702e3d305cb5e90d05f
+SHA256: c4a4b8a611ba42cd84f010183d1961154f53db0c6e9d64731513e61d0ab34bc5
+Section: Tweaks
+Description: 在锁屏上居中呈现新通知。
+Author: M哥
+Icon: https://wwg151.github.io/images/shortlook-T.png
+Name: shortlook-T
+
 Package: com.mg.zbb
 Version: 0.8.5
 Architecture: iphoneos-arm64
