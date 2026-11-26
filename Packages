@@ -3237,6 +3237,22 @@ Description: 为小红书提供悬浮液态玻璃底栏、顶栏、笔记与视�
 Author: huami1314
 Name: XHSNative
 
+Package: com.huamidev.xhsnative
+Version: 1.5+1
+Architecture: iphoneos-arm64
+Maintainer: huami1314
+Installed-Size: 636
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.huamidev.xhsnative_1.5+1_iphoneos-arm64.deb
+Size: 145514
+MD5sum: 9f0c99e8b752815c9e1a73dd16d980e4
+SHA1: f4e4abfc51c13fdf311df9740c2775329f7c78f5
+SHA256: f6fd70270bf6011692a96cb0d5bbfad42e84405c2592d285851429a7e928f8a0
+Section: Tweaks
+Description: 为小红书提供悬浮液态玻璃底栏、顶栏、笔记与视频控件玻璃效果，支持底栏标签排序、隐藏及玻璃不透明度调节。
+Author: huami1314
+Name: XHSNative
+
 Package: com.huayuarc.insulation
 Version: 1.0.22
 Architecture: iphoneos-arm64
@@ -4921,11 +4937,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
-Size: 342096
-MD5sum: 58459e3e0df3335e57c604238d910889
-SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
-SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
+Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
+Size: 360630
+MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
+SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
+SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
@@ -4937,11 +4953,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
-Size: 360630
-MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
-SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
-SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
+Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
+Size: 342096
+MD5sum: 58459e3e0df3335e57c604238d910889
+SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
+SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
@@ -6062,6 +6078,22 @@ Section: Tweaks
 Description: 搜狗输入法去广告
 Author: M哥
 Name: 搜狗去广告-rootless
+
+Package: com.solhk.fanqiex
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: FanqieX
+Depends: firmware (>= 15.0.1), mobilesubstrate | ellekit
+Filename: debs/com.solhk.fanqiex_2.0_iphoneos-arm64.deb
+Size: 728076
+MD5sum: 9d01d8afa024b8e89fea7229dd60a7b8
+SHA1: bedcc03cc357bc60e5c7927819413cf3cd55f852
+SHA256: d3d1bfd111a1034fa00fe76e372c6e48065e2515f90d5d1debc42bc77247cd58
+Section: Tweaks
+Priority: optional
+Description: FanqieX 2.0 (rootless) enhancement plugin for Fanqie Novel.
+Author: FanqieX
+Name: FanqieX
 
 Package: com.spark.laetus
 Version: 3.5.1-rootless
@@ -8380,6 +8412,24 @@ Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出
 Author: XUUᶻ
 Name: 抖音助手
 
+Package: com.xuuz.douyinhelper
+Version: 2.3-3
+Architecture: iphoneos-arm64
+Maintainer: XUUᶻ
+Installed-Size: 17840
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.xuuz.douyinhelper_2.3-3_iphoneos-arm64.deb
+Size: 6885210
+MD5sum: 46c922d5e8a29a36fcadcc3fc88265c2
+SHA1: ca998a4bbcf8a880455aa362325196b150619313
+SHA256: c6ba2842a21c121c60c884f193d2ae6d428fbba7114a4508ddff8ec7e2850596
+Section: Tweaks
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Author: XUUᶻ
+Name: 抖音助手
+
 Package: com.xuuz.gdysvip
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -9232,6 +9282,21 @@ Section: Tweaks
 Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
 Author: Junhong
 Name: Alipay2NFC
+
+Package: im.mjh.bodianadkiller
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/im.mjh.bodianadkiller_1.0.1_iphoneos-arm64.deb
+Size: 5620
+MD5sum: 9e16988f1f8185400d3034fa1177006d
+SHA1: f813444534353f9b0b85557e8490bcdb7ec8efa8
+SHA256: 65e80830724fe1472d69876f4fe2a45bb3978cd05f10ff1c606c0e3e072f5455
+Section: Tweaks
+Description: 波点音乐开屏广告和首页横幅广告拦截。
+Author: Junhong
+Name: 波点音乐去广告
 
 Package: im.mjh.doleo
 Version: 1.0.4
