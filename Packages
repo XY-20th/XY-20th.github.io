@@ -1714,6 +1714,22 @@ Description: 按应用绕过 VPN 直连，提供应用内 VPN 检测兼容与独
 Author: Charlie Leung
 Name: VPN Direct
 
+Package: com.charlieleung.watchpairingcompat
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Charlie Leung
+Installed-Size: 3976
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.charlieleung.watchpairingcompat_0.1.0_iphoneos-arm64.deb
+Size: 774886
+MD5sum: 4817792cd6f752cf910c61b2d976b98e
+SHA1: 0e894914a39bbeab27f43ecad8eef4a6c6ca8a48
+SHA256: 5202e38da8ea19da75c21ce4e30c7fd197e66e86bb438d41a4763994ffec0fea
+Section: Tweaks
+Description: 仅在 iOS 17 上测试，并成功与watch OS 26.2、26.7和 27.2.1配对。安装插件后需要重启用户空间！
+Author: Charlie Leung
+Name: Watch Pairing Compat
+
 Package: com.chinamobile
 Version: 1.0
 Architecture: iphoneos-arm64
