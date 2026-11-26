@@ -1630,6 +1630,24 @@ Description: 原生键盘皮肤修改。
 Author: Charlie
 Name: NativeKeyboardSkin
 
+Package: com.charlie.nativekeyboardskin
+Version: 1.3.5-14
+Architecture: iphoneos-arm64e
+Maintainer: Minis
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Conflicts: com.charlie.nativekeyboardskindebug
+Replaces: com.charlie.nativekeyboardskindebug
+Filename: debs/com.charlie.nativekeyboardskin_1.3.5-14_iphoneos-arm64e.deb
+Size: 773672
+MD5sum: 1ce5b56b1af26267cc81bf9d6359cd3a
+SHA1: bca414afde6142bcc2d78c1ff910c0267f3f8910
+SHA256: f50ff20085ce264d823d5b50e79dcc86754144f5920ca5766c0e55d0eefdebc2
+Section: Tweaks
+Description: 原生键盘皮肤美化与布局修复，优化字母键对齐，隐藏数字符号页空格文字及字母页发送键动态标题。
+Author: Minis
+Icon: https://i.imgs.ovh/2026/10/02/963ba719becdec05da7b799067ea8bde.jpg
+Name: NativeKeyboardSkin Fixed
+
 Package: com.charlieleung.keyboardeffecthider
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -4061,24 +4079,6 @@ Name: 小叮当拍一拍全部
 
 Package: com.local.alipay.identity-compat
 Version: 0.1.9
-Architecture: iphoneos-arm64
-Maintainer: Local Workspace
-Installed-Size: 268
-Depends: mobilesubstrate
-Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64.deb
-Size: 33970
-MD5sum: 951f24a3ac44135912c5704e9f45240a
-SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
-SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
-Section: Tweaks
-Priority: optional
-Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
-Author: Local Workspace
-Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
-Name: 支付宝身份验证兼容
-
-Package: com.local.alipay.identity-compat
-Version: 0.1.9
 Architecture: iphoneos-arm64e
 Maintainer: Local Workspace
 Installed-Size: 268
@@ -4089,6 +4089,24 @@ Size: 29292
 MD5sum: 85b1ce8b98b7853686f9d7221a645637
 SHA1: 324dee5f361d144b06afd55f7a5a873e4d6c55ec
 SHA256: 803e3a963111ee5d41b138a71d82eb10111b1dac3e93f2a993dcabb815956596
+Section: Tweaks
+Priority: optional
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Author: Local Workspace
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Name: 支付宝身份验证兼容
+
+Package: com.local.alipay.identity-compat
+Version: 0.1.9
+Architecture: iphoneos-arm64
+Maintainer: Local Workspace
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64.deb
+Size: 33970
+MD5sum: 951f24a3ac44135912c5704e9f45240a
+SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
+SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
 Section: Tweaks
 Priority: optional
 Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
@@ -4867,11 +4885,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
-Size: 360630
-MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
-SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
-SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
+Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
+Size: 342096
+MD5sum: 58459e3e0df3335e57c604238d910889
+SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
+SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
@@ -4883,11 +4901,11 @@ Architecture: iphoneos-arm64
 Maintainer: colorBlack
 Installed-Size: 1200
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
-Size: 342096
-MD5sum: 58459e3e0df3335e57c604238d910889
-SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
-SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
+Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
+Size: 360630
+MD5sum: 6b55ff2dbd8dbdfbc4379e0cb440b152
+SHA1: 6ab3cec3d2c61c17c1cdcfd42852abe430f48ccb
+SHA256: 7c3ae6648d0807c5c4d8036c32326add8539718ca47b3832db425aaf2cbe2aa9
 Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
