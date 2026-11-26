@@ -3234,6 +3234,23 @@ Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY
 
+Package: com.huami.xhsnative
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 652
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.huami.xhsnative_1.7_iphoneos-arm64.deb
+Size: 145912
+MD5sum: b116a7c608d2ec556241b49610021eaf
+SHA1: 805a3c2ff5953c32a4c8696313451cc8c0d858fc
+SHA256: 22b053e662af9f1de434ca7a8ef56382a0ca4f84c70c2588eb64324b4ed841a8
+Section: Tweaks
+Homepage: https://github.com/huami1314/XHSNative
+Description: 小红书液态玻璃插件。iOS 26 及以上用系统的液态玻璃，更早的系统用仿玻璃。
+Author: huami
+Name: XHSNative
+
 Package: com.huami.xhstranslator
 Version: 1.1
 Architecture: iphoneos-arm64
