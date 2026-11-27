@@ -4228,24 +4228,6 @@ Name: 小叮当拍一拍全部
 
 Package: com.local.alipay.identity-compat
 Version: 0.1.9
-Architecture: iphoneos-arm64
-Maintainer: Local Workspace
-Installed-Size: 268
-Depends: mobilesubstrate
-Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64.deb
-Size: 33970
-MD5sum: 951f24a3ac44135912c5704e9f45240a
-SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
-SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
-Section: Tweaks
-Priority: optional
-Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
-Author: Local Workspace
-Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
-Name: 支付宝身份验证兼容
-
-Package: com.local.alipay.identity-compat
-Version: 0.1.9
 Architecture: iphoneos-arm64e
 Maintainer: Local Workspace
 Installed-Size: 268
@@ -4256,6 +4238,24 @@ Size: 29292
 MD5sum: 85b1ce8b98b7853686f9d7221a645637
 SHA1: 324dee5f361d144b06afd55f7a5a873e4d6c55ec
 SHA256: 803e3a963111ee5d41b138a71d82eb10111b1dac3e93f2a993dcabb815956596
+Section: Tweaks
+Priority: optional
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Author: Local Workspace
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Name: 支付宝身份验证兼容
+
+Package: com.local.alipay.identity-compat
+Version: 0.1.9
+Architecture: iphoneos-arm64
+Maintainer: Local Workspace
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64.deb
+Size: 33970
+MD5sum: 951f24a3ac44135912c5704e9f45240a
+SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
+SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
 Section: Tweaks
 Priority: optional
 Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
@@ -4590,6 +4590,23 @@ Size: 742116
 MD5sum: 1a736768717380347cc52af6b4931272
 SHA1: 9729f16cdbcedaaca3dfb702e3d305cb5e90d05f
 SHA256: c4a4b8a611ba42cd84f010183d1961154f53db0c6e9d64731513e61d0ab34bc5
+Section: Tweaks
+Description: 在锁屏上居中呈现新通知。
+Author: M哥
+Icon: https://wwg151.github.io/images/shortlook-T.png
+Name: shortlook-T
+
+Package: com.mg.shortlookt
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1258
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.mg.shortlookt_1.3.0_iphoneos-arm64.deb
+Size: 753598
+MD5sum: 92d803b0d48dedff133219dc08420dbc
+SHA1: 169f884d6e6263c39f4b409882322f161be7909d
+SHA256: 7d4121c406f502c39c71ee89368e9a63d469d62668fe95dd1768ed0cb20eb1eb
 Section: Tweaks
 Description: 在锁屏上居中呈现新通知。
 Author: M哥
@@ -5398,6 +5415,25 @@ Size: 1306386
 MD5sum: 6ca955c50c2f74f70b077082b93c3fa6
 SHA1: ea02e264b7890bb074276417e5403ea42cc09fa6
 SHA256: c9ce9af8cc8271e23cd01a2642b6be66a3d00a7cb9c01b553dc247ea1b448262
+Section: Tweaks
+Description: 独立管理应用图标、替换角标、替换遮罩、替换开关、挂载系统字体、注销动画、SF Symbols、资源替换与图标抓取。
+Author: OJBKClub
+Name: ThemeCore (OJBKClub)
+
+Package: com.ojbkclub.themecore
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: OJBKClub
+Installed-Size: 3428
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.susudear.themecore
+Replaces: com.susudear.themecore
+Filename: debs/com.ojbkclub.themecore_1.2_iphoneos-arm64e.deb
+Size: 613320
+MD5sum: fee3e6d2b33e1795509b07e2b8c84c59
+SHA1: ce0ca43e1d81dd35990c73ba693e65cf461b12ab
+SHA256: be72e784c8e01fd753fd21376abe0619e7852ccadbc86b9534f765188b8b1303
 Section: Tweaks
 Description: 独立管理应用图标、替换角标、替换遮罩、替换开关、挂载系统字体、注销动画、SF Symbols、资源替换与图标抓取。
 Author: OJBKClub
