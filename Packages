@@ -4228,6 +4228,24 @@ Name: 小叮当拍一拍全部
 
 Package: com.local.alipay.identity-compat
 Version: 0.1.9
+Architecture: iphoneos-arm64
+Maintainer: Local Workspace
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64.deb
+Size: 33970
+MD5sum: 951f24a3ac44135912c5704e9f45240a
+SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
+SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
+Section: Tweaks
+Priority: optional
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Author: Local Workspace
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Name: 支付宝身份验证兼容
+
+Package: com.local.alipay.identity-compat
+Version: 0.1.9
 Architecture: iphoneos-arm64e
 Maintainer: Local Workspace
 Installed-Size: 268
@@ -4238,24 +4256,6 @@ Size: 29292
 MD5sum: 85b1ce8b98b7853686f9d7221a645637
 SHA1: 324dee5f361d144b06afd55f7a5a873e4d6c55ec
 SHA256: 803e3a963111ee5d41b138a71d82eb10111b1dac3e93f2a993dcabb815956596
-Section: Tweaks
-Priority: optional
-Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
-Author: Local Workspace
-Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
-Name: 支付宝身份验证兼容
-
-Package: com.local.alipay.identity-compat
-Version: 0.1.9
-Architecture: iphoneos-arm64
-Maintainer: Local Workspace
-Installed-Size: 268
-Depends: mobilesubstrate
-Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64.deb
-Size: 33970
-MD5sum: 951f24a3ac44135912c5704e9f45240a
-SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
-SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
 Section: Tweaks
 Priority: optional
 Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
@@ -9849,6 +9849,23 @@ Section: Tweaks
 Description: 微信净化. 还原聊天本质, 干净的微信给你. 仅支持8.0.29及以上版本, 设置位于微信-设置
 Author: Netskao
 Name: 微信净化
+
+Package: org.coolstar.sileo
+Version: 2.5.1-18
+Architecture: iphoneos-arm64
+Maintainer: wwg151 <wwg151@users.noreply.github.com>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/org.coolstar.sileo_2.5.1-18_iphoneos-arm64.deb
+Size: 3490876
+MD5sum: 9a4dec89a598e38cf5c25cc59dac81ed
+SHA1: e8787abc406615ad97d557857fcabbe7d8478b6e
+SHA256: dda733befdff1079eafb6a760b270cad5d9a99696cc3e24c7c6b751e04d38362
+Section: Tweaks
+Description: A modern APT package manager frontend
+Author: wwg151 <wwg151@users.noreply.github.com>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: qqantirecall.x
 Version: 1.6.2
