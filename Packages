@@ -5742,6 +5742,24 @@ Name: 支付宝步数(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/zfbhook/js.json
 
 Package: com.sini921.appstoretroller
+Version: 0.1.2-10
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 1648
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.libsandy, com.opa334.ccsupport
+Filename: debs/com.sini921.appstoretroller_0.1.2-10_iphoneos-arm64.deb
+Size: 264818
+MD5sum: 0ce9c20082f52da0aa7345f23476a5fd
+SHA1: f001206d4116bd161dd8d9d6c8c2bc08f92fac1d
+SHA256: 56c8256ff2af0cb522fc04d0bc25ffb5158acfa9375c3e316f5be7c4f0ef054b
+Section: Tweaks
+Description: 在AppStore中安装应用程序时伪装系统版本以安装需要更高系统版本的应用程序
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Name: AppStoreTroller(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+
+Package: com.sini921.appstoretroller
 Version: 0.1.2-6
 Architecture: iphoneos-arm64
 Maintainer: SINI
