@@ -8525,6 +8525,24 @@ Description: Douyin external image themes, native settings entry and local accou
 Author: H7ang0
 Name: ThemeDuo
 
+Package: com.xiaotaozi.themeduo
+Version: 1.1.5
+Architecture: iphoneos-arm64
+Maintainer: H7ang0
+Installed-Size: 4492
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: local.awemex.ui.rebuild
+Replaces: local.awemex.ui.rebuild
+Filename: debs/com.xiaotaozi.themeduo_1.1.5_iphoneos-arm64.deb
+Size: 1840390
+MD5sum: b0de01de1c52afacc07970d378d41551
+SHA1: 6222dee17ff1857033617d0c922b221da8468fc3
+SHA256: 8c5ea28a1c4b627080819e7f0f13d185d124b8d89710425e00df09bc02979eae
+Section: Tweaks
+Description: Douyin external image themes, native settings entry and local account UID copy.
+Author: H7ang0
+Name: ThemeDuo
+
 Package: com.xlzs001.dystorage
 Version: 1.2.76
 Architecture: iphoneos-arm64
