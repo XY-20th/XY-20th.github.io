@@ -9554,6 +9554,22 @@ Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、�
 Author: Junhong
 Name: 红果净化
 
+Package: im.mjh.abcjailbreakbypass
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 236
+Filename: debs/im.mjh.abcjailbreakbypass_1.0.0_iphoneos-arm64.deb
+Size: 62500
+MD5sum: 84ba7099eade358eb957d72e691d2715
+SHA1: ee84f71c6f5369bcb71de3e53a824fa5fe23e768
+SHA256: acddbc760985ddd9a06dc3ac94eace01e9001d2af8d9caa758b391932bece86a
+Section: Tweaks
+Description: 中国农业银行 App 屏蔽越狱检测，阻止越狱风险提示与异常终止。
+Author: Junhong
+Icon: https://huayuarc.github.io/icon/nyyh.jpg
+Name: 农行越狱检测屏蔽
+
 Package: im.mjh.alipay2nfc
 Version: 3.5.0
 Architecture: iphoneos-arm64
@@ -9631,6 +9647,21 @@ Size: 23382
 MD5sum: b955878fe24a37284ac52d8de16b548f
 SHA1: 952133c36b5ea3256f6bf6bdcf031a02cf196e8f
 SHA256: 7c457235dc94fe2e2229328d305b520ac0e0d723113d353c2f00263277eff8fb
+Section: Tweaks
+Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
+Author: Junhong
+Name: 工商银行越狱检测屏蔽
+
+Package: im.mjh.icbcjailbreakbypass
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/im.mjh.icbcjailbreakbypass_1.0.0_iphoneos-arm64.deb
+Size: 22764
+MD5sum: 644f70b86d9c0c3eef6a594a83d7d0b4
+SHA1: 9036b5a45d774a2281dcad340d56775739ff7d4a
+SHA256: 350e35bd314a61afb33201f8a901ffa0f685f5fee7b3370b743f46dead4b2e1d
 Section: Tweaks
 Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
 Author: Junhong
