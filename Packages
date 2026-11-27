@@ -4228,24 +4228,6 @@ Name: 小叮当拍一拍全部
 
 Package: com.local.alipay.identity-compat
 Version: 0.1.9
-Architecture: iphoneos-arm64
-Maintainer: Local Workspace
-Installed-Size: 268
-Depends: mobilesubstrate
-Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64.deb
-Size: 33970
-MD5sum: 951f24a3ac44135912c5704e9f45240a
-SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
-SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
-Section: Tweaks
-Priority: optional
-Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
-Author: Local Workspace
-Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
-Name: 支付宝身份验证兼容
-
-Package: com.local.alipay.identity-compat
-Version: 0.1.9
 Architecture: iphoneos-arm64e
 Maintainer: Local Workspace
 Installed-Size: 268
@@ -4256,6 +4238,24 @@ Size: 29292
 MD5sum: 85b1ce8b98b7853686f9d7221a645637
 SHA1: 324dee5f361d144b06afd55f7a5a873e4d6c55ec
 SHA256: 803e3a963111ee5d41b138a71d82eb10111b1dac3e93f2a993dcabb815956596
+Section: Tweaks
+Priority: optional
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Author: Local Workspace
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Name: 支付宝身份验证兼容
+
+Package: com.local.alipay.identity-compat
+Version: 0.1.9
+Architecture: iphoneos-arm64
+Maintainer: Local Workspace
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64.deb
+Size: 33970
+MD5sum: 951f24a3ac44135912c5704e9f45240a
+SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
+SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
 Section: Tweaks
 Priority: optional
 Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
@@ -9532,6 +9532,39 @@ Author: Junhong
 Icon: file:///var/jb/usr/share/doleo/icon.png
 Name: Doleo
 
+Package: im.mjh.fakeperm
+Version: 9.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 6804
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/im.mjh.fakeperm_9.0.0_iphoneos-arm64.deb
+Size: 3040492
+MD5sum: 60e7ca4e9b67e37b7218955fad3022a9
+SHA1: 231b32bb18fb904aabcfa9fd8e12678d0f8bcd0b
+SHA256: 3ff1148512d8d821440f70ead42d7ea0dde7032f92e59366554d353fc0055729
+Section: Tweaks
+Description: 虚拟权限 · Fake Permission — 针对任意 App 单独配置虚拟权限，防止隐私被过度索取。
+ 支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(标识/地址/DNS/无线参数/一键随机/历史)、屏蔽代理检测、机型伪装、iOS版本伪装、地区伪装、语言伪装、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
+ Per-app fake permission control: notification, push, location (map picker/address search/altitude/history), photos, contacts, calendar, camera (force photo library/fake capture), microphone, bluetooth, clipboard, sensor (shake-ad blocking), WiFi spoofing (identity/addresses/DNS/radio parameters/random profiles/history), proxy detection blocking, device model spoofing, iOS version spoofing (built-in database), region spoofing (built-in picker), language spoofing (built-in picker), identifier spoofing (IDFV/IDFA), app version spoofing, screenshot/recording detection blocking, config import/export, app pause/resume.
+Author: Junhong
+Name: 虚拟权限 · Fake Permission
+
+Package: im.mjh.icbcjailbreakbypass
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Junhong
+Installed-Size: 184
+Filename: debs/im.mjh.icbcjailbreakbypass_1.0.0_iphoneos-arm.deb
+Size: 23382
+MD5sum: b955878fe24a37284ac52d8de16b548f
+SHA1: 952133c36b5ea3256f6bf6bdcf031a02cf196e8f
+SHA256: 7c457235dc94fe2e2229328d305b520ac0e0d723113d353c2f00263277eff8fb
+Section: Tweaks
+Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
+Author: Junhong
+Name: 工商银行越狱检测屏蔽
+
 Package: im.mjh.myeyeclean
 Version: 0.1.0
 Architecture: iphoneos-arm64
@@ -9546,6 +9579,20 @@ Section: Tweaks
 Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转app
 Author: Junhong
 Name: 喵眼精灵去广告
+
+Package: im.mjh.qqmusicadkiller
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Filename: debs/im.mjh.qqmusicadkiller_0.1.0_iphoneos-arm64.deb
+Size: 7776
+MD5sum: 4e7482aeba23c70755784088ed74c07b
+SHA1: 485f2c9844da3b9fd6b52088d60cd53e036827dd
+SHA256: 714b256ad532bdf09e4e7d7cf6cbab61d7e4c035ae2563e60908ae98a803a4fc
+Section: Tweaks
+Description: 屏蔽开屏广告与播放页封面广告。
+Author: Junhong
+Name: QQ 音乐去开屏广告
 
 Package: im.mjh.uuscreenswitch.roothide
 Version: 1.0.3
