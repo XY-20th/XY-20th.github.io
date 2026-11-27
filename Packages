@@ -5608,6 +5608,25 @@ Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
 Name: VPN热点共享
 Sileodepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
 
+Package: com.sharehotspotvpn.tweak
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: zhuifeng
+Installed-Size: 948
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/com.sharehotspotvpn.tweak_1.2.4_iphoneos-arm64.deb
+Size: 94380
+MD5sum: 826f527bdc2e13809e5de13652708549
+SHA1: 955f72197355e5e312ebd26f2106d14e3ccc3495
+SHA256: d3c70e0070dd5c4fc6b45a2d32e4d385d4d72e21581d0b40618ff896c6defa75
+Section: Tweaks
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Author: zhuifeng
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+Name: VPN热点共享
+Sileodepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+
 Package: com.simon.ccglow
 Version: 2.0.3
 Architecture: iphoneos-arm64
