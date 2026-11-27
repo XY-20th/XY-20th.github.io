@@ -9632,6 +9632,28 @@ Description: 为微信启用原生液态玻璃底栏，iOS26+启用原生液态�
 Author: Junhong
 Name: 微信底栏玻璃
 
+Package: im.mjh.wctabbarglass
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 2904
+Depends: firmware (>= 15.0)
+Conflicts: com.mjh.wctabbarglass
+Replaces: com.mjh.wctabbarglass
+Provides: com.mjh.wctabbarglass
+Filename: debs/im.mjh.wctabbarglass_1.0.2_iphoneos-arm64.deb
+Size: 1476150
+MD5sum: 2451f31cda74ee66a290eb1df402041d
+SHA1: da6d71fb4b04e4bb453a20feaa0e8a3d3213b06a
+SHA256: 0e91e7d195f97bbf9e00d3aad951e1816ade94b7aba8063a90f77e3cc00301ac
+Section: Tweaks
+Description: 为微信启用原生液态玻璃底栏，iOS26+启用原生液态玻璃
+ iOS26以下仿液态玻璃效果
+ .
+ 支持有根无根隐根巨魔自签
+Author: Junhong
+Name: 微信底栏玻璃
+
 Package: im.mjh.xianyuadblock
 Version: 3.2.4
 Architecture: iphoneos-arm64
