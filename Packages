@@ -2940,6 +2940,22 @@ Description: RootHide notification-list, app-icon and banner dust effects for iO
 Author: YUE
 Name: 通知消散
 
+Package: com.example.noticelisttweak
+Version: 1.0.21+h2l1
+Architecture: iphoneos-arm64
+Maintainer: YUE
+Installed-Size: 1613
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.example.noticelisttweak_1.0.21+h2l1_iphoneos-arm64.deb
+Size: 375264
+MD5sum: d0a87c6b9e417a1e9a5e32a41fb7d530
+SHA1: 6bf76dadc5e91b05f5bef488e9cad703543a4884
+SHA256: 7b6b308f02dda36bbb33c1277f1ed71f12611f5719f7d6851607b496cd2b9a16
+Section: Tweaks
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Author: YUE
+Name: 通知消散
+
 Package: com.example.wifileasekeeper
 Version: 1.0.12
 Architecture: iphoneos-arm64
