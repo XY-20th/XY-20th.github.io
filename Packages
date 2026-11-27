@@ -4228,6 +4228,24 @@ Name: 小叮当拍一拍全部
 
 Package: com.local.alipay.identity-compat
 Version: 0.1.9
+Architecture: iphoneos-arm64
+Maintainer: Local Workspace
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64.deb
+Size: 33970
+MD5sum: 951f24a3ac44135912c5704e9f45240a
+SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
+SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
+Section: Tweaks
+Priority: optional
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Author: Local Workspace
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Name: 支付宝身份验证兼容
+
+Package: com.local.alipay.identity-compat
+Version: 0.1.9
 Architecture: iphoneos-arm64e
 Maintainer: Local Workspace
 Installed-Size: 268
@@ -4238,24 +4256,6 @@ Size: 29292
 MD5sum: 85b1ce8b98b7853686f9d7221a645637
 SHA1: 324dee5f361d144b06afd55f7a5a873e4d6c55ec
 SHA256: 803e3a963111ee5d41b138a71d82eb10111b1dac3e93f2a993dcabb815956596
-Section: Tweaks
-Priority: optional
-Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
-Author: Local Workspace
-Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
-Name: 支付宝身份验证兼容
-
-Package: com.local.alipay.identity-compat
-Version: 0.1.9
-Architecture: iphoneos-arm64
-Maintainer: Local Workspace
-Installed-Size: 268
-Depends: mobilesubstrate
-Filename: debs/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64.deb
-Size: 33970
-MD5sum: 951f24a3ac44135912c5704e9f45240a
-SHA1: e055bb3d591fc4866521e721f777869e3b98efcf
-SHA256: 88ec6057a87c86fd4b7a436c23cd6e9386b52b1a01e3b45c15d3ce70ec982d11
 Section: Tweaks
 Priority: optional
 Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
@@ -8190,6 +8190,23 @@ Description: 微信界面上下添加毛玻璃效果。
 Author: 苏苏
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
 Name: SuWCFrostedGlass
+
+Package: com.wkk.wechatglassbridge
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 372
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.wkk.wechatglassbridge_1.0-1_iphoneos-arm64.deb
+Size: 59400
+MD5sum: 72319b3de842f87de4113dc0f1f7bc8b
+SHA1: b771462bbf94d39818f703c51e320364def4d286
+SHA256: 35bf0cb56b75fa8efd5d60920fbfe6edfb69d38c9be7364ef36aec10f2e443a9
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: WeChatGlassBridge
 
 Package: com.wkk.wechatmecorners
 Version: 1.0-2
