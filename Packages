@@ -5451,6 +5451,23 @@ Author: ojbkclub
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: SettingsGroupX
 
+Package: com.ojbkclub.settingsgroupx
+Version: 1.7
+Architecture: iphoneos-arm64e
+Maintainer: ojbkclub
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.ojbkclub.settingsgroupx_1.7_iphoneos-arm64e.deb
+Size: 204696
+MD5sum: 9cc93014e71fd9edb7746c1477b6c6b7
+SHA1: 535955077c751e4c9c5b2ad6152063049a6e9cf0
+SHA256: 059c9d50f9725ed8d62972c25c784adf6e9d2cd1bcca1a1a7512e04231a3e9a4
+Section: Tweaks
+Description: cool
+Author: ojbkclub
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SettingsGroupX
+
 Package: com.ojbkclub.themecore
 Version: 1.1-1
 Architecture: iphoneos-arm64e
@@ -9692,21 +9709,6 @@ Name: 虚拟权限 · Fake Permission
 
 Package: im.mjh.icbcjailbreakbypass
 Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: Junhong
-Installed-Size: 184
-Filename: debs/im.mjh.icbcjailbreakbypass_1.0.0_iphoneos-arm.deb
-Size: 23382
-MD5sum: b955878fe24a37284ac52d8de16b548f
-SHA1: 952133c36b5ea3256f6bf6bdcf031a02cf196e8f
-SHA256: 7c457235dc94fe2e2229328d305b520ac0e0d723113d353c2f00263277eff8fb
-Section: Tweaks
-Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
-Author: Junhong
-Name: 工商银行越狱检测屏蔽
-
-Package: im.mjh.icbcjailbreakbypass
-Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: Junhong
 Installed-Size: 168
@@ -9715,6 +9717,21 @@ Size: 22764
 MD5sum: 644f70b86d9c0c3eef6a594a83d7d0b4
 SHA1: 9036b5a45d774a2281dcad340d56775739ff7d4a
 SHA256: 350e35bd314a61afb33201f8a901ffa0f685f5fee7b3370b743f46dead4b2e1d
+Section: Tweaks
+Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
+Author: Junhong
+Name: 工商银行越狱检测屏蔽
+
+Package: im.mjh.icbcjailbreakbypass
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Junhong
+Installed-Size: 184
+Filename: debs/im.mjh.icbcjailbreakbypass_1.0.0_iphoneos-arm.deb
+Size: 23382
+MD5sum: b955878fe24a37284ac52d8de16b548f
+SHA1: 952133c36b5ea3256f6bf6bdcf031a02cf196e8f
+SHA256: 7c457235dc94fe2e2229328d305b520ac0e0d723113d353c2f00263277eff8fb
 Section: Tweaks
 Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
 Author: Junhong
