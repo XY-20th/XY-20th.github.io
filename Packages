@@ -4475,6 +4475,24 @@ Description: 跳过开屏广告，无黑名单·事件驱动秒跳·容器门控
 Author: M哥
 Name: 广告跳过
 
+Package: com.mg.adskips
+Version: 3.3.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 144
+Filename: debs/com.mg.adskips_3.3.0_iphoneos-arm64.deb
+Size: 24032
+MD5sum: 810441b1c82ee3cbe8abb069bfd73911
+SHA1: 5a4702759368625084dde77fc6c09e7f8346c602
+SHA256: cf933b9542a17c2dfbe6da41cfee857b42f30decba25c463b67aad1494a47ed2
+Section: Tweaks
+Description: 快速跳过开屏广告
+ * 适配大多数应用，具体自测
+ * 插件注入 com.apple.UIKit，有冲突自行禁用
+Author: M哥
+Icon: https://TrollStoreX.Github.io/sileodepiction/AdSkip/icon.png
+Name: AdSkip 跳过启动广告
+
 Package: com.mg.dsx
 Version: 0.5.8
 Architecture: iphoneos-arm64
@@ -9674,21 +9692,6 @@ Name: 虚拟权限 · Fake Permission
 
 Package: im.mjh.icbcjailbreakbypass
 Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 168
-Filename: debs/im.mjh.icbcjailbreakbypass_1.0.0_iphoneos-arm64.deb
-Size: 22764
-MD5sum: 644f70b86d9c0c3eef6a594a83d7d0b4
-SHA1: 9036b5a45d774a2281dcad340d56775739ff7d4a
-SHA256: 350e35bd314a61afb33201f8a901ffa0f685f5fee7b3370b743f46dead4b2e1d
-Section: Tweaks
-Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
-Author: Junhong
-Name: 工商银行越狱检测屏蔽
-
-Package: im.mjh.icbcjailbreakbypass
-Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: Junhong
 Installed-Size: 184
@@ -9697,6 +9700,21 @@ Size: 23382
 MD5sum: b955878fe24a37284ac52d8de16b548f
 SHA1: 952133c36b5ea3256f6bf6bdcf031a02cf196e8f
 SHA256: 7c457235dc94fe2e2229328d305b520ac0e0d723113d353c2f00263277eff8fb
+Section: Tweaks
+Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
+Author: Junhong
+Name: 工商银行越狱检测屏蔽
+
+Package: im.mjh.icbcjailbreakbypass
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/im.mjh.icbcjailbreakbypass_1.0.0_iphoneos-arm64.deb
+Size: 22764
+MD5sum: 644f70b86d9c0c3eef6a594a83d7d0b4
+SHA1: 9036b5a45d774a2281dcad340d56775739ff7d4a
+SHA256: 350e35bd314a61afb33201f8a901ffa0f685f5fee7b3370b743f46dead4b2e1d
 Section: Tweaks
 Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
 Author: Junhong
