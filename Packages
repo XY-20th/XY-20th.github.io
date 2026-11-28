@@ -3299,6 +3299,23 @@ Description: 小红书液态玻璃插件。iOS 26 及以上用系统的液态玻
 Author: huami
 Name: XHSNative
 
+Package: com.huami.xhsnative
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 688
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.huami.xhsnative_1.8_iphoneos-arm64.deb
+Size: 156014
+MD5sum: a9d80b6c379003798e3aea2ecbc158f2
+SHA1: ce3c500fdee9d63422f8f1c243b92f398d7cd483
+SHA256: 1b243b22fda4491e0f026e8fbcd7df3bfb77b66959680d4b218125f4a0693626
+Section: Tweaks
+Homepage: https://github.com/huami1314/XHSNative
+Description: 小红书液态玻璃插件。iOS 26 及以上用系统的液态玻璃，更早的系统用仿玻璃。
+Author: huami
+Name: XHSNative
+
 Package: com.huami.xhstranslator
 Version: 1.1
 Architecture: iphoneos-arm64
