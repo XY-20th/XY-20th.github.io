@@ -2956,6 +2956,22 @@ Description: RootHide notification-list, app-icon and banner dust effects for iO
 Author: YUE
 Name: 通知消散
 
+Package: com.example.noticelisttweak
+Version: 1.0.27+h2l1
+Architecture: iphoneos-arm64
+Maintainer: YUE
+Installed-Size: 1613
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.example.noticelisttweak_1.0.27+h2l1_iphoneos-arm64.deb
+Size: 375260
+MD5sum: 336d4ff974f7c02e30c4fbb8eaeef326
+SHA1: 54cc70c4b9d5b93762f87b8213da9d8a05705503
+SHA256: 52be36c64c9b135f363d179f671f96fa90b09bb321e5e3eeeca5fd007f508f34
+Section: Tweaks
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Author: YUE
+Name: 通知消散
+
 Package: com.example.wifileasekeeper
 Version: 1.0.12
 Architecture: iphoneos-arm64
@@ -5637,6 +5653,25 @@ SHA1: 955f72197355e5e312ebd26f2106d14e3ccc3495
 SHA256: d3c70e0070dd5c4fc6b45a2d32e4d385d4d72e21581d0b40618ff896c6defa75
 Section: Tweaks
 Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Author: zhuifeng
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+Name: VPN热点共享
+Sileodepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+
+Package: com.sharehotspotvpn.tweak
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: zhuifeng
+Installed-Size: 1116
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/com.sharehotspotvpn.tweak_1.3.1_iphoneos-arm64.deb
+Size: 99044
+MD5sum: 1709e2ae1ccb7ab385ec4dd1ac029cdf
+SHA1: 4caf6af75ed63f2028674486c59189ce32d08990
+SHA256: ee65bcc15725540ba53616472a562eb49545a1f9140d7b692d35a7cee28ccdc7
+Section: Tweaks
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持无卡/关蜂窝/飞行模式共享 Wi-Fi 与 Wi-Fi+VPN 叠加、状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
 Author: zhuifeng
 Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
 Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
@@ -9639,21 +9674,6 @@ Name: 虚拟权限 · Fake Permission
 
 Package: im.mjh.icbcjailbreakbypass
 Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 168
-Filename: debs/im.mjh.icbcjailbreakbypass_1.0.0_iphoneos-arm64.deb
-Size: 22764
-MD5sum: 644f70b86d9c0c3eef6a594a83d7d0b4
-SHA1: 9036b5a45d774a2281dcad340d56775739ff7d4a
-SHA256: 350e35bd314a61afb33201f8a901ffa0f685f5fee7b3370b743f46dead4b2e1d
-Section: Tweaks
-Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
-Author: Junhong
-Name: 工商银行越狱检测屏蔽
-
-Package: im.mjh.icbcjailbreakbypass
-Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: Junhong
 Installed-Size: 184
@@ -9662,6 +9682,21 @@ Size: 23382
 MD5sum: b955878fe24a37284ac52d8de16b548f
 SHA1: 952133c36b5ea3256f6bf6bdcf031a02cf196e8f
 SHA256: 7c457235dc94fe2e2229328d305b520ac0e0d723113d353c2f00263277eff8fb
+Section: Tweaks
+Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
+Author: Junhong
+Name: 工商银行越狱检测屏蔽
+
+Package: im.mjh.icbcjailbreakbypass
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/im.mjh.icbcjailbreakbypass_1.0.0_iphoneos-arm64.deb
+Size: 22764
+MD5sum: 644f70b86d9c0c3eef6a594a83d7d0b4
+SHA1: 9036b5a45d774a2281dcad340d56775739ff7d4a
+SHA256: 350e35bd314a61afb33201f8a901ffa0f685f5fee7b3370b743f46dead4b2e1d
 Section: Tweaks
 Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
 Author: Junhong
